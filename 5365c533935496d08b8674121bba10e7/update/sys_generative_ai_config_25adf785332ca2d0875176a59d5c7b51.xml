@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_generative_ai_config">
+    <sys_generative_ai_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <additional_configurations>{"skill_config_id":"dc2d25c933a862d0875176a59d5c7b33"}</additional_configurations>
+        <ai_suggested>false</ai_suggested>
+        <definition>4c2d25c933a862d0875176a59d5c7b03</definition>
+        <definition_table>sys_one_extend_capability_definition</definition_table>
+        <max_tokens>1000</max_tokens>
+        <min_word_count>-1</min_word_count>
+        <model>llm_generic</model>
+        <name>Prompt name</name>
+        <parent display_value="OneExtend Capability Definition: test skill of addition (Now LLM Generic - Now LLM Generic)">402d25c933a862d0875176a59d5c7b10</parent>
+        <prompt>You are a customer service representative. You are optionally given 
+location insights.
+
+
+ {{location_cat_perils.location_insights}} 
+
+
+
+
+Based on the given input only, summarize the provided information in two lines </prompt>
+        <prompt_template_role>user</prompt_template_role>
+        <request_tokens>15134</request_tokens>
+        <show_in_prompt_library>true</show_in_prompt_library>
+        <state>published</state>
+        <sys_class_name>sys_generative_ai_config</sys_class_name>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-03-26 14:23:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>25adf785332ca2d0875176a59d5c7b51</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>4c2d25c933a862d0875176a59d5c7b03</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_generative_ai_config_25adf785332ca2d0875176a59d5c7b51</sys_update_name>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-03-27 06:26:49</sys_updated_on>
+        <temperature>0.2</temperature>
+        <version>2</version>
+    </sys_generative_ai_config>
+</record_update>

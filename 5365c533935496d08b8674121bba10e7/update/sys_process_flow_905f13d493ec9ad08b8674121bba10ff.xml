@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_ltin2_uw_ai_fso_uw_case">stage=quote^EQ<item display_value="Quote" endquery="false" field="stage" goto="false" newquery="false" operator="=" or="false" value="quote"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Quote</label>
+        <name>quote</name>
+        <order>50</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>subham.agarwal</sys_created_by>
+        <sys_created_on>2024-09-06 08:04:24</sys_created_on>
+        <sys_id>905f13d493ec9ad08b8674121bba10ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>quote</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_process_flow_905f13d493ec9ad08b8674121bba10ff</sys_update_name>
+        <sys_updated_by>subham.agarwal</sys_updated_by>
+        <sys_updated_on>2024-09-06 08:04:24</sys_updated_on>
+        <table>x_ltin2_uw_ai_fso_uw_case</table>
+    </sys_process_flow>
+</record_update>

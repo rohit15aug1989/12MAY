@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="c0aa3e0093605ad08b8674121bba1042" sys_domain="global" table="x_ltin2_uw_ai_customer_details" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>customer_name</element>
+            <position>0</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-18 04:49:12</sys_created_on>
+            <sys_id>4dc6182433c9ae90875176a59d5c7b51</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_customer_details" sys_domain="global" view="Default view">c0aa3e0093605ad08b8674121bba1042</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-18 04:49:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>customer_id</element>
+            <position>1</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-18 04:49:12</sys_created_on>
+            <sys_id>45c6182433c9ae90875176a59d5c7b52</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_customer_details" sys_domain="global" view="Default view">c0aa3e0093605ad08b8674121bba1042</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-18 04:49:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>email_address</element>
+            <position>2</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-18 04:49:12</sys_created_on>
+            <sys_id>4dc6182433c9ae90875176a59d5c7b52</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_customer_details" sys_domain="global" view="Default view">c0aa3e0093605ad08b8674121bba1042</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-18 04:49:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>phone</element>
+            <position>3</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-18 04:49:12</sys_created_on>
+            <sys_id>45c6182433c9ae90875176a59d5c7b53</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_customer_details" sys_domain="global" view="Default view">c0aa3e0093605ad08b8674121bba1042</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-18 04:49:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fax_phone</element>
+            <position>4</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-18 04:49:12</sys_created_on>
+            <sys_id>4dc6182433c9ae90875176a59d5c7b53</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_customer_details" sys_domain="global" view="Default view">c0aa3e0093605ad08b8674121bba1042</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-18 04:49:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>address</element>
+            <position>5</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-18 04:49:12</sys_created_on>
+            <sys_id>45c6182433c9ae90875176a59d5c7b54</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_customer_details" sys_domain="global" view="Default view">c0aa3e0093605ad08b8674121bba1042</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-18 04:49:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>entity_type</element>
+            <position>6</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-18 04:49:12</sys_created_on>
+            <sys_id>4dc6182433c9ae90875176a59d5c7b54</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_customer_details" sys_domain="global" view="Default view">c0aa3e0093605ad08b8674121bba1042</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-18 04:49:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>street</element>
+            <position>7</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-18 04:49:12</sys_created_on>
+            <sys_id>45c6182433c9ae90875176a59d5c7b55</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_customer_details" sys_domain="global" view="Default view">c0aa3e0093605ad08b8674121bba1042</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-18 04:49:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>city</element>
+            <position>8</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-18 04:49:12</sys_created_on>
+            <sys_id>4dc6182433c9ae90875176a59d5c7b55</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_customer_details" sys_domain="global" view="Default view">c0aa3e0093605ad08b8674121bba1042</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-18 04:49:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>9</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-18 04:49:12</sys_created_on>
+            <sys_id>45c6182433c9ae90875176a59d5c7b56</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_customer_details" sys_domain="global" view="Default view">c0aa3e0093605ad08b8674121bba1042</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-18 04:49:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>zip</element>
+            <position>10</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-18 04:49:12</sys_created_on>
+            <sys_id>4dc6182433c9ae90875176a59d5c7b56</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_customer_details" sys_domain="global" view="Default view">c0aa3e0093605ad08b8674121bba1042</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-18 04:49:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>country</element>
+            <position>11</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-18 04:49:12</sys_created_on>
+            <sys_id>45c6182433c9ae90875176a59d5c7b57</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_customer_details" sys_domain="global" view="Default view">c0aa3e0093605ad08b8674121bba1042</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-18 04:49:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>no_of_employee</element>
+            <position>12</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-18 04:49:12</sys_created_on>
+            <sys_id>4dc6182433c9ae90875176a59d5c7b57</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_customer_details" sys_domain="global" view="Default view">c0aa3e0093605ad08b8674121bba1042</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-18 04:49:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>year_business_started</element>
+            <position>13</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-18 04:49:12</sys_created_on>
+            <sys_id>45c6182433c9ae90875176a59d5c7b58</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_customer_details" sys_domain="global" view="Default view">c0aa3e0093605ad08b8674121bba1042</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-18 04:49:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>website</element>
+            <position>14</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-18 04:49:12</sys_created_on>
+            <sys_id>05c6182433c9ae90875176a59d5c7b65</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_customer_details" sys_domain="global" view="Default view">c0aa3e0093605ad08b8674121bba1042</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-18 04:49:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>15</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-18 04:49:12</sys_created_on>
+            <sys_id>0dc6182433c9ae90875176a59d5c7b65</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_customer_details" sys_domain="global" view="Default view">c0aa3e0093605ad08b8674121bba1042</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-18 04:49:12</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>broker</element>
+            <position>16</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-18 04:49:12</sys_created_on>
+            <sys_id>05c6182433c9ae90875176a59d5c7b66</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_customer_details" sys_domain="global" view="Default view">c0aa3e0093605ad08b8674121bba1042</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-18 04:49:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>agency_name</element>
+            <position>17</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-18 04:49:12</sys_created_on>
+            <sys_id>0dc6182433c9ae90875176a59d5c7b66</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_customer_details" sys_domain="global" view="Default view">c0aa3e0093605ad08b8674121bba1042</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-18 04:49:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contact_name</element>
+            <position>18</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-18 04:49:12</sys_created_on>
+            <sys_id>05c6182433c9ae90875176a59d5c7b67</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_customer_details" sys_domain="global" view="Default view">c0aa3e0093605ad08b8674121bba1042</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-18 04:49:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>broker_street</element>
+            <position>19</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-18 04:49:12</sys_created_on>
+            <sys_id>0dc6182433c9ae90875176a59d5c7b67</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_customer_details" sys_domain="global" view="Default view">c0aa3e0093605ad08b8674121bba1042</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-18 04:49:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>broker_city</element>
+            <position>20</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-18 04:49:12</sys_created_on>
+            <sys_id>05c6182433c9ae90875176a59d5c7b68</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_customer_details" sys_domain="global" view="Default view">c0aa3e0093605ad08b8674121bba1042</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-18 04:49:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>broker_state</element>
+            <position>21</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-18 04:49:12</sys_created_on>
+            <sys_id>0dc6182433c9ae90875176a59d5c7b68</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_customer_details" sys_domain="global" view="Default view">c0aa3e0093605ad08b8674121bba1042</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-18 04:49:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>broker_phone</element>
+            <position>22</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-18 04:49:12</sys_created_on>
+            <sys_id>05c6182433c9ae90875176a59d5c7b69</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_customer_details" sys_domain="global" view="Default view">c0aa3e0093605ad08b8674121bba1042</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-18 04:49:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>d_b_number</element>
+            <position>23</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-18 04:49:12</sys_created_on>
+            <sys_id>0dc6182433c9ae90875176a59d5c7b69</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_customer_details" sys_domain="global" view="Default view">c0aa3e0093605ad08b8674121bba1042</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-18 04:49:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fein</element>
+            <position>24</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-18 04:49:12</sys_created_on>
+            <sys_id>05c6182433c9ae90875176a59d5c7b6a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_customer_details" sys_domain="global" view="Default view">c0aa3e0093605ad08b8674121bba1042</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-18 04:49:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>revenue</element>
+            <position>25</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-18 04:49:12</sys_created_on>
+            <sys_id>0dc6182433c9ae90875176a59d5c7b6a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_customer_details" sys_domain="global" view="Default view">c0aa3e0093605ad08b8674121bba1042</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-18 04:49:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>naics</element>
+            <position>26</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-18 04:49:12</sys_created_on>
+            <sys_id>05c6182433c9ae90875176a59d5c7b6b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_customer_details" sys_domain="global" view="Default view">c0aa3e0093605ad08b8674121bba1042</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-18 04:49:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sic</element>
+            <position>27</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-18 04:49:12</sys_created_on>
+            <sys_id>0dc6182433c9ae90875176a59d5c7b6b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_customer_details" sys_domain="global" view="Default view">c0aa3e0093605ad08b8674121bba1042</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-18 04:49:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>website_address</element>
+            <position>28</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-18 04:49:12</sys_created_on>
+            <sys_id>05c6182433c9ae90875176a59d5c7b6c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_customer_details" sys_domain="global" view="Default view">c0aa3e0093605ad08b8674121bba1042</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-18 04:49:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>broker_zip</element>
+            <position>29</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-18 04:49:12</sys_created_on>
+            <sys_id>0dc6182433c9ae90875176a59d5c7b6c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_customer_details" sys_domain="global" view="Default view">c0aa3e0093605ad08b8674121bba1042</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-18 04:49:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>broker_country</element>
+            <position>30</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-18 04:49:12</sys_created_on>
+            <sys_id>05c6182433c9ae90875176a59d5c7b6d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_customer_details" sys_domain="global" view="Default view">c0aa3e0093605ad08b8674121bba1042</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-18 04:49:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_ltin2_uw_ai_customer_details</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-05 10:45:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c0aa3e0093605ad08b8674121bba1042</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ltin2_uw_ai_customer_details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+            <sys_update_name>sys_ui_section_c0aa3e0093605ad08b8674121bba1042</sys_update_name>
+            <sys_updated_by>subham.agarwal</sys_updated_by>
+            <sys_updated_on>2024-09-05 10:45:36</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

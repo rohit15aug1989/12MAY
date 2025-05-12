@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="DELETE">
+        <choices/>
+        <description/>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.email.enabled</name>
+        <read_roles/>
+        <suffix>x_ltin2_uw_ai</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-04-19 14:43:15</sys_created_on>
+        <sys_id>6858eb303305a2d0875176a59d5c7ba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.email.enabled</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_properties_6858eb303305a2d0875176a59d5c7ba7</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-04-19 14:43:15</sys_updated_on>
+        <type>string</type>
+        <value>true</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="DELETE" query="documentkey=6858eb303305a2d0875176a59d5c7ba7"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</application>
+        <file_path/>
+        <instance_id>7838a3eddb96a7c049eac59705961973</instance_id>
+        <instance_name>ltidemo5</instance_name>
+        <name>sys_properties_6858eb303305a2d0875176a59d5c7ba7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description/><ignore_cache>false</ignore_cache><is_private>false</is_private><name>glide.email.enabled</name><read_roles/><suffix>x_ltin2_uw_ai</suffix><sys_class_name>sys_properties</sys_class_name><sys_created_by>rohit</sys_created_by><sys_created_on>2025-04-19 14:43:15</sys_created_on><sys_id>6858eb303305a2d0875176a59d5c7ba7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>glide.email.enabled</sys_name><sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package><sys_policy/><sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope><sys_update_name>sys_properties_6858eb303305a2d0875176a59d5c7ba7</sys_update_name><sys_updated_by>rohit</sys_updated_by><sys_updated_on>2025-04-19 14:43:15</sys_updated_on><type>string</type><value>true</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=6858eb303305a2d0875176a59d5c7ba7"/></record_update>]]></payload>
+        <payload_hash>-1359308610</payload_hash>
+        <record_name>glide.email.enabled</record_name>
+        <reverted_from/>
+        <source>53ea92d9338fda10875176a59d5c7bc9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-04-19 14:43:16</sys_created_on>
+        <sys_id>0958a3703305a2d0875176a59d5c7b28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1964e80f7000000001</sys_recorded_at>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-04-19 14:43:16</sys_updated_on>
+        <type>System Property</type>
+        <update_guid>c158a370fa05a2d06d2918f600e41c27</update_guid>
+        <update_guid_history>c158a370fa05a2d06d2918f600e41c27:-1359308610</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-04-19 14:48:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_properties">sys_properties</sys_db_object>
+        <sys_id>10f43ba02a214ac88209241a1aa7dc90</sys_id>
+        <sys_metadata>6858eb303305a2d0875176a59d5c7ba7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.email.enabled</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_scope_delete display_value="">7c8d9985394b49b688ab893eea2dbef1</sys_scope_delete>
+        <sys_update_name>sys_properties_6858eb303305a2d0875176a59d5c7ba7</sys_update_name>
+        <sys_update_version display_value="sys_properties_6858eb303305a2d0875176a59d5c7ba7">0958a3703305a2d0875176a59d5c7b28</sys_update_version>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-04-19 14:48:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

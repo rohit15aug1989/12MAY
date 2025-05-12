@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>customer_name</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Get email for customer detail table</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   var callermail = g_form.getReference('customer_name' , setemail);
+
+function setemail(callermail){
+
+g_form.setValue('email_address' , callermail.email);
+
+}
+
+    
+}
+
+
+   
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-02-03 09:37:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8b7290b8932392108b8674121bba10a0</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Get email for customer detail table</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_script_client_8b7290b8932392108b8674121bba10a0</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-02-03 09:45:14</sys_updated_on>
+        <table>x_ltin2_uw_ai_customer_details</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

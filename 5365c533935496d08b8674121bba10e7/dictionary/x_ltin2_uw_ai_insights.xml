@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6b2b5d0233846610875176a59d5c7b6d" label="Insights" max_length="40" name="x_ltin2_uw_ai_insights" type="collection">
+        <element label="Number" max_length="40" name="number" type="integer"/>
+        <element label="InsightsInfo" max_length="400" name="insifhtsinfo" type="string"/>
+    </element>
+</database>

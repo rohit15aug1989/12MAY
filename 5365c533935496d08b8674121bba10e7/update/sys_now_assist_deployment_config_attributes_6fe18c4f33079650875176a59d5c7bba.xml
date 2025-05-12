@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_now_assist_deployment_config_attributes">
+    <sys_now_assist_deployment_config_attributes action="INSERT_OR_UPDATE">
+        <deployment_config display_value="Now Assist in Virtual Agent - 1">83e18c4f33079650875176a59d5c7b10</deployment_config>
+        <name>topics_search_source_sys_id</name>
+        <sys_class_name>sys_now_assist_deployment_config_attributes</sys_class_name>
+        <sys_created_by>abhi</sys_created_by>
+        <sys_created_on>2025-01-16 11:37:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>6fe18c4f33079650875176a59d5c7bba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>topics_search_source_sys_id</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_now_assist_deployment_config_attributes_6fe18c4f33079650875176a59d5c7bba</sys_update_name>
+        <sys_updated_by>abhi</sys_updated_by>
+        <sys_updated_on>2025-01-16 11:37:25</sys_updated_on>
+        <value>37cf281a77fcb110569156391e5a994e</value>
+    </sys_now_assist_deployment_config_attributes>
+</record_update>

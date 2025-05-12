@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_ltin2_uw_ai_fso_uw_case</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Propensity to bind</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+    
+    // Initialize counters
+    var numberOfIssued = 0;
+    var numberOfQuote = 0;
+	// var customerGR2 = new GlideRecord('x_ltin2_uw_ai_structure_information');  // Use actual customer table
+    //     if (customerGR2.get(current.customer_id)) {
+    //         var sicValue2 = customerGR2.sic;
+	// 	}
+
+       var customerGR = new GlideRecord('x_ltin2_uw_ai_customer_details');  // Use actual customer table
+        if (customerGR.get(current.customer_id)) {
+            var broker = customerGR.name;
+			var sicValue2 = customerGR.sic;
+			var agency = customerGR.agency_name;
+			 gs.info('customer_id: ' + current.customer_id);
+			 gs.info('broker: ' + broker);
+		}
+	
+ 
+    // Logging current record details for debugging
+   // gs.info('Current Record - Broker Details: ' + current.broker_details + ', Customer SIC: ' + sicValue2);
+ 
+    // Query for 'Issued' stage
+    var gr = new GlideRecord('x_ltin2_uw_ai_fso_uw_case');
+    gr.addQuery('stage', 'issued');
+    gr.addQuery('customer_id.name', broker);
+    gr.addQuery('customer_id.sic', sicValue2);
+	//gr.addQuery('customer_id.agency_name', agency);
+	//gr.addQuery('sys_created_on<javascript:gs.beginningOfToday()');
+    gr.query();
+
+   // gs.info('Querying for Issued stage records...'); // Log before processing the query
+ 
+    while (gr.next()) {
+        numberOfIssued++;
+       // gs.info('Found Issued record: ' + gr.number); // Log each record found
+    }
+ 
+    //gs.info('Total Issued records: ' + numberOfIssued); // Log number of issued records
+ 
+    // Query for 'Quote' stage
+    var br = new GlideRecord('x_ltin2_uw_ai_fso_uw_case');
+    br.addQuery('stage', 'quote');
+    br.addQuery('customer_id.name', broker);
+    br.addQuery('customer_id.sic', sicValue2);
+	//br.addQuery('customer_id.agency_name', agency);
+	//br.addQuery('sys_created_on<javascript:gs.beginningOfToday()');
+    br.query();
+ 
+    //gs.info('Querying for Quote stage records...'); // Log before processing the query
+ 
+    while (br.next()) {
+        numberOfQuote++;
+       // gs.info('Found Quote record: ' + br.number); // Log each record found
+    }
+ 
+    //gs.info('Total Quote records: ' + numberOfQuote); // Log number of quote records
+ 
+    // Calculate total and propensity to bind
+    var total = numberOfIssued + numberOfQuote;
+     gs.info('Total records (Issued + Quote): ' + total);
+	 gs.info('numberOfIssued: ' + numberOfIssued);
+	 gs.info('umberOfQuote: ' + numberOfQuote);
+ 
+    if (total > 0) {
+        current.propensity_to_bind = ((numberOfIssued / total)*100); // Handle Propensity bind in percent 
+        gs.info('Propensity to Bind: ' + current.propensity_to_bind);
+    } else {
+        current.propensity_to_bind = 0; // Handle zero total case
+        gs.info('Total is zero, setting Propensity to Bind to 0.');
+    }
+ 
+    // Log to check before updating the record
+    //gs.info('Before updating the current record...');
+ 
+    // Avoid updating current inside a "before" business rule if unnecessary
+    current.update();
+    //gs.info('Record updated.');
+ 
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>barla.praveenkumar</sys_created_by>
+        <sys_created_on>2024-09-11 11:29:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dc0eb9ca9364d6108b8674121bba1078</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name>Propensity to bind</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_script_dc0eb9ca9364d6108b8674121bba1078</sys_update_name>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-03-12 18:41:21</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=dc0eb9ca9364d6108b8674121bba1078"/>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>dc0eb9ca9364d6108b8674121bba1078</id>
+        <sys_created_by>barla.praveenkumar</sys_created_by>
+        <sys_created_on>2024-09-11 11:29:28</sys_created_on>
+        <sys_id>b83efdca9364d6108b8674121bba10b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>barla.praveenkumar</sys_updated_by>
+        <sys_updated_on>2024-09-11 11:29:28</sys_updated_on>
+        <table>sys_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

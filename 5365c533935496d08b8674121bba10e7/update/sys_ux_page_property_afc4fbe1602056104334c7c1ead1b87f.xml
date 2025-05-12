@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>L1 Configuration	</description>
+        <name>chrome_toolbar</name>
+        <page display_value="Underwriter Workspace">63c4fbe159205610eff0ac16d24d109e</page>
+        <required_translations>[ {
+  "message" : "Analytics Center",
+  "comment" : ""
+}, {
+  "message" : "List",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix>chrome_toolbar</suffix>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>bapu</sys_created_by>
+        <sys_created_on>2024-09-10 06:50:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>afc4fbe1602056104334c7c1ead1b87f</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>chrome_toolbar</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_ux_page_property_afc4fbe1602056104334c7c1ead1b87f</sys_update_name>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-04-01 10:27:43</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_ltin2_uw_ai.63c4fbe159205610eff0ac16d24d109e.root.global.chrome_toolbar</unique_name>
+        <value>[
+    {
+        "id": "list",
+        "label": {
+            "translatable": true,
+            "message": "List"
+        },
+        "icon": "home-outline",
+        "routeInfo": {
+            "route": "list"
+        },
+        "group": "top",
+        "order": 0,
+        "badge": {},
+        "presence": {},
+        "availability": {},
+        "viewportInfo": {}
+    },
+    {
+        "id": "dashboards",
+        "label": {
+            "translatable": true,
+            "message": "Analytics Center"
+        },
+        "icon": "analytics-center-outline",
+        "routeInfo": {
+            "route": "analytics-center"
+        },
+        "group": "top",
+        "order": 100,
+        "badge": {},
+        "presence": {},
+        "availability": {},
+        "viewportInfo": {}
+    }
+]</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=afc4fbe1602056104334c7c1ead1b87f"/>
+</record_update>

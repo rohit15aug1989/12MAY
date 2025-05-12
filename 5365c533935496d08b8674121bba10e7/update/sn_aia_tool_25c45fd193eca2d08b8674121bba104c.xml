@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_tool">
+    <sn_aia_tool action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>gathefaso case details</description>
+        <input_schema>[]</input_schema>
+        <name>gather FSo case details</name>
+        <record_type>custom</record_type>
+        <script><![CDATA[undefined]]></script>
+        <sys_class_name>sn_aia_tool</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-27 06:03:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>25c45fd193eca2d08b8674121bba104c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>gather FSo case details</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sn_aia_tool_25c45fd193eca2d08b8674121bba104c</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-27 06:03:25</sys_updated_on>
+        <target_document>1ac947dd936ca2d08b8674121bba1074</target_document>
+        <target_document_table>sys_hub_action_type_definition</target_document_table>
+        <type>action</type>
+    </sn_aia_tool>
+</record_update>

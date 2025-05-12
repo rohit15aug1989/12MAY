@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content/>
+        <function_name>Get risk score via address</function_name>
+        <http_method>get</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>HazardHub Risk Assessment [ Get risk score via address ]</qualified_name>
+        <rest_endpoint>https://api.hazardhub.com/v1/risks?address=${address}&amp;city=${city}&amp;state=${state}&amp;zip=${zip}</rest_endpoint>
+        <rest_message display_value="HazardHub Risk Assessment">b2eef03533685610875176a59d5c7bf5</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>shubhasis</sys_created_by>
+        <sys_created_on>2024-09-19 08:21:48</sys_created_on>
+        <sys_id>fdcf16a033fc1a50875176a59d5c7bdb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Get risk score via address</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_rest_message_fn_fdcf16a033fc1a50875176a59d5c7bdb</sys_update_name>
+        <sys_updated_by>shubhasis</sys_updated_by>
+        <sys_updated_on>2024-09-19 08:39:32</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>

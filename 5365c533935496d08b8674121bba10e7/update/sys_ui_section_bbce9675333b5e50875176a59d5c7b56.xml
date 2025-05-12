@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Risk Parameters" section_id="bbce9675333b5e50875176a59d5c7b56" sys_domain="global" table="x_ltin2_uw_ai_location_cat_perils" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>uw_coverage</element>
+            <position>0</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4286234293d4aa508b8674121bba104c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>earthquake_details</element>
+            <position>1</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4a86234293d4aa508b8674121bba104c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hurricane_score</element>
+            <position>2</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4286234293d4aa508b8674121bba104d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>seismic_details</element>
+            <position>3</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4a86234293d4aa508b8674121bba104d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>terrorism_details</element>
+            <position>4</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4286234293d4aa508b8674121bba104e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>wild_fire_details</element>
+            <position>5</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4a86234293d4aa508b8674121bba104e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>windstorm_details</element>
+            <position>6</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4286234293d4aa508b8674121bba104f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sinkhole_score</element>
+            <position>7</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4a86234293d4aa508b8674121bba104f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hail</element>
+            <position>8</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4286234293d4aa508b8674121bba1050</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hail_details</element>
+            <position>9</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4a86234293d4aa508b8674121bba1050</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tornado</element>
+            <position>10</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4286234293d4aa508b8674121bba1051</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tornado_score</element>
+            <position>11</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4a86234293d4aa508b8674121bba1051</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tornado_details</element>
+            <position>12</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4286234293d4aa508b8674121bba1052</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ice_dam_index</element>
+            <position>13</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4a86234293d4aa508b8674121bba1052</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ice_dam_index_score</element>
+            <position>14</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4286234293d4aa508b8674121bba1053</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ice_dam_index_details</element>
+            <position>15</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4a86234293d4aa508b8674121bba1053</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hazardhub_flood</element>
+            <position>16</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4286234293d4aa508b8674121bba1054</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hazardhub_flood_score</element>
+            <position>17</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4a86234293d4aa508b8674121bba1054</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hazardhub_flood_details</element>
+            <position>18</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4286234293d4aa508b8674121bba1055</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>coast_distance</element>
+            <position>19</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4a86234293d4aa508b8674121bba1055</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>coast_distance_score</element>
+            <position>20</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4286234293d4aa508b8674121bba1056</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>coast_distance_details</element>
+            <position>21</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4a86234293d4aa508b8674121bba1056</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_ltin2_uw_ai_location_cat_perils</element>
+            <position>22</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4286234293d4aa508b8674121bba1057</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>burglary_score</element>
+            <position>23</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4a86234293d4aa508b8674121bba1057</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>burglary_details</element>
+            <position>24</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4286234293d4aa508b8674121bba1058</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>burglary</element>
+            <position>25</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4a86234293d4aa508b8674121bba1058</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>26</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4286234293d4aa508b8674121bba1059</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>earthquake_score</element>
+            <position>27</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4a86234293d4aa508b8674121bba1059</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hurricane_details</element>
+            <position>28</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4286234293d4aa508b8674121bba105a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>seismic_score</element>
+            <position>29</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4a86234293d4aa508b8674121bba105a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>terrorism_score</element>
+            <position>30</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4286234293d4aa508b8674121bba105b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>wild_fire_score</element>
+            <position>31</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4a86234293d4aa508b8674121bba105b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>windstorm_score</element>
+            <position>32</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4286234293d4aa508b8674121bba105c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sinkhole</element>
+            <position>33</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4a86234293d4aa508b8674121bba105c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sinkhole_details</element>
+            <position>34</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4286234293d4aa508b8674121bba105d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hail_score</element>
+            <position>35</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4a86234293d4aa508b8674121bba105d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>convection_storm</element>
+            <position>36</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4286234293d4aa508b8674121bba105e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>convection_storm_details</element>
+            <position>37</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4a86234293d4aa508b8674121bba105e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>convection_storm_score</element>
+            <position>38</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4286234293d4aa508b8674121bba105f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mold_index</element>
+            <position>39</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4a86234293d4aa508b8674121bba105f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mold_index_score</element>
+            <position>40</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4286234293d4aa508b8674121bba1060</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mold_index_details</element>
+            <position>41</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4a86234293d4aa508b8674121bba1060</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>frozen_pipe_index</element>
+            <position>42</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4286234293d4aa508b8674121bba1061</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>frozen_pipe_index_score</element>
+            <position>43</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4a86234293d4aa508b8674121bba1061</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>frozen_pipe_index_details</element>
+            <position>44</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4286234293d4aa508b8674121bba1062</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fema_flood</element>
+            <position>45</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4a86234293d4aa508b8674121bba1062</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fema_flood_score</element>
+            <position>46</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4286234293d4aa508b8674121bba1063</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fema_flood_details</element>
+            <position>47</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4a86234293d4aa508b8674121bba1063</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>forcible_robbery</element>
+            <position>48</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4286234293d4aa508b8674121bba1064</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>forcible_robbery_score</element>
+            <position>49</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4a86234293d4aa508b8674121bba1064</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>forcible_robbery_details</element>
+            <position>50</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-17 05:00:45</sys_created_on>
+            <sys_id>4286234293d4aa508b8674121bba1065</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Parameters" display_value="Risk Parameters" name="x_ltin2_uw_ai_location_cat_perils" sys_domain="global" view="Default view">bbce9675333b5e50875176a59d5c7b56</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-17 05:00:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Risk Parameters</caption>
+            <header>false</header>
+            <name>x_ltin2_uw_ai_location_cat_perils</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-02-19 08:37:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bbce9675333b5e50875176a59d5c7b56</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ltin2_uw_ai_location_cat_perils</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+            <sys_update_name>sys_ui_section_bbce9675333b5e50875176a59d5c7b56</sys_update_name>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-02-19 08:37:31</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

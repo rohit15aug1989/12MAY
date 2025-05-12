@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_ltin2_uw_ai.Underwrite</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>Underwrite</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var Underwrite = Class.create();
+Underwrite.prototype = {
+    initialize: function() {},
+
+    getAI: function(key) {
+        var text = {
+
+            "summarize the information across the buildings": "The property is a commercial service station with a significant building area and a relatively high market value. It has a poor building condition but good quality. The property is well-protected against fire hazards and has a very low risk of wildfire and flood damage. However, it faces high wind risk and moderate drought risk. The proximity to an underground storage tank facility and a nuclear site are notable environmental concerns. The replacement costs for the property vary based on the construction quality and type.",
+
+            "do we need to inspect the properties ?": "Yes, it is  advisable to inspect a property before accepting it for property insurance, especially for a commercial property. Here are a few reasons why an inspection is important: Risk Assessment:Building Condition: The property is noted to be in poor condition. An inspection can help assess the extent of any structural issues or necessary repairs.Environmental Concerns: Proximity to underground storage tanks and a nuclear site can pose significant risks. An inspection can identify any potential environmental hazards,Safety & Compliance:Fire Protection: Verifying the fire protection measures and ensuring compliance with local fire codes can reduce the risk of fire damage.Building Codes: Ensuring that the property complies with current building codes and regulations can prevent future liabilities",
+
+            "what loss prevention measures can be taken?": "Identify need for installation of additional safety measures, carry out repairs & replacements1. Fire Protection and Prevention:•	Install and Maintain Fire Suppression Systems: Ensure that the building is equipped with a modern fire suppression system, including sprinklers and fire extinguishers, and that these systems are regularly inspected and maintained.•	Fire Alarms and Detection Systems: Install smoke detectors and fire alarms throughout the property, ensuring they are connected to a central monitoring system for immediate response.•	Regular Fire Drills and Training: Conduct regular fire drills and provide fire safety training to all occupants and staff to ensure everyone knows how to respond in case of a fire.2. Wind and Storm Damage Mitigation:•	Reinforce Roofing and Windows: Strengthen the roof and windows to withstand high winds and storms. Consider installing storm shutters or impact-resistant windows.•	Secure Outdoor Items: Ensure that all outdoor items, such as signage and equipment, are securely anchored to prevent them from becoming projectiles during high winds.3. Flood Risk Management:•	Elevate Critical Systems: Elevate electrical panels, heating systems, and other critical infrastructure above potential flood levels.•	Install Flood Barriers: Use flood barriers or sandbags to protect the building from floodwaters. Ensure proper drainage around the property to prevent water accumulation.•	Flood Insurance: Ensure adequate flood insurance coverage is in place, considering the extremely low flood risk but potential for catastrophic events.4. Earthquake Preparedness:•	Seismic Retrofitting: Strengthen the building structure to withstand seismic activity. This includes reinforcing walls, foundations, and other structural elements.•	Secure Heavy Items: Secure heavy furniture, equipment, and other items to prevent them from falling during an earthquake.5. Vandalism and Theft Prevention:•	Security Systems: Install security cameras, alarms, and lighting around the property to deter vandalism and theft.•	Access Control: Implement access control measures, such as key card systems or security personnel, to restrict unauthorized entry.6. Environmental and Health Safety:•	Radon Mitigation: Given the high radon risk, install radon mitigation systems to reduce indoor radon levels.•	Asbestos Management: Ensure proper management and removal of asbestos-containing materials, especially given the proximity to known asbestos sources.7. Regular Maintenance and Inspections:•	Routine Inspections: Conduct regular inspections of the building’s structural integrity, electrical systems, plumbing, and HVAC systems to identify and address potential issues before they become major problems.•	Preventive Maintenance: Implement a preventive maintenance program to keep all systems and structures in good working order.8. Emergency Preparedness and Response Planning:•	Emergency Plans: Develop and regularly update emergency response plans for various scenarios, including fire, flood, earthquake, and severe weather.•	Training and Drills: Conduct regular training and drills for staff and occupants to ensure they are prepared to respond effectively in an emergency.",
+
+            "summarize cat information for the properties": "Hazard summarization - CAT perils (Flood, EQ, Wildfire)Wildfire:• Risk Level: Very Low• Proximity to Significant Wildfire Fuel Load: Moderate risk within 493.99 feet, Very High risk within 1065.72 feet• Fire Season Precipitation Risk: Score of 6 (monthly average precipitation during fire season is 3.906 inches)Drought:• Drought Risk: Moderate• Drought Frequency Index: Low (21% of weeks in drought over the past 21 years)Wind:• Hurricane Prone Wind Region: High risk• Max Recorded Wind Speed: 59 mph• Wind Events: 1662 damaging wind incidents within 25 miles since 1996, with 1362 in the last decadeEarthquake:• Proximity to Known Earthquake Fault: More than 20 miles• Earthquake Risk: Very Light Damage (MMI: V, Richter Scale: 2.8-4.1, Peak Ground Acceleration: 6)Flood:• Enhanced HazardHub Flood Risk: Extremely Low• FEMA Flood Zone: Minimal to No Risk of Flooding (Zone X)• Proximity to Significant Flood Source: 2133 feet from a perennial streamTornado:• Tornado Risk: Moderate (50% chance of damaging tornado occurrence in 10 years within a 3.86-mile radius)• Historical Tornado Events: 48 damaging tornado incidents within 25 miles since 1996Hail:• Hail Risk: Moderate (95% chance of damaging hail occurrence in 10 years within a 1.77-mile radius)• Historical Hail Events: 308 damaging hail incidents within 25 miles since 1996Lightning:• Lightning Risk: Moderate (95% chance of 7.171338 ground strikes per square mile in 1 year)• Historical Lightning Strikes: 2251 ground lightning strikes within 10 miles last yearOther Risks:• Sinkhole Risk: Minimal• Radon Risk: High (predicted average indoor radon screening levels greater than 4 pCi/L)• Crime Rate: Low (overall score of 71)"
+
+
+        };
+        return text[key];
+    },
+
+    getContent: function(comment) {
+        if (comment != '') {
+            var com = comment.toLowerCase();
+            if (com == 'summarize the information across the buildings' || com == 'do we need to inspect the properties ?' || com == 'what loss prevention measures can be taken?' || com == 'summarize cat information for the properties') {
+                var text = "Assume you an Underwritetr in a large commercial insurance. Rephrase the following, categorizing them into different sections that would be of interest to an underwriter. Rephrase in a professional language but not in simple bullets, add a brief narration, also don't exclude important numerical information. and always generate a response that is unique from previous one., also give a response including html tags to use for side headings new lines etc. and give only content, please don't mention anything about rephrasing or html word in first line and avoid using # and *" + this.getAI(comment.toLowerCase());
+                var restMessage = new sn_ws.RESTMessageV2('GPT4', 'Underwrite API');
+                restMessage.setStringParameter('content', JSON.stringify(text));
+                var response = restMessage.execute();
+                var res = JSON.parse(response.getBody());
+                return res.choices[0].message.content;
+            } else {
+                return "<strong>I'm sorry, I don't have the information you're looking for at the moment. Please feel free to ask another question and I'll do my best to assist you!</strong>";
+            }
+        } else
+            return "";
+    },
+    getMsg: function(stage) {
+        var msg = "<strong>Insights:</strong><br/>";
+        if (stage == 'new') {
+
+            msg += "<ul>" +
+                "<li>Insurance cases in New State are increasing due to natural disasters and economic shifts.</li>" + "<details>" +
+                "<summary>Show more...</summary>" +
+                "<li>Home and auto insurance claims have surged following recent storms and floods.</li>" + "<li>The growing demand is pushing for robust policies to better support both insurers and policyholders.</li>" +
+                "</details>" + "</ul>";
+        } else if (stage == 'initial_rate') {
+            msg += "<ul>" +
+                "<li>Insurers are facing higher claim volumes and are working to streamline processes to handle them efficiently.</li>" + "<details>" +
+                "<summary>Show more...</summary>" +
+                "<li>Regulatory authorities in Initial Rate State are emphasizing transparency, ensuring fair claim handling and reducing fraud.</li>" + "<li>Insurers are adopting innovative technologies to process claims faster and improve customer satisfaction.</li>" +
+                "</details>" + "</ul>";
+        }
+        return msg;
+    },
+
+    type: 'Underwrite'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2024-09-15 19:14:33</sys_created_on>
+        <sys_id>443e0ca733a05250875176a59d5c7b4e</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name>Underwrite</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_script_include_443e0ca733a05250875176a59d5c7b4e</sys_update_name>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2024-10-03 09:21:33</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>443e0ca733a05250875176a59d5c7b4e</id>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2024-09-15 19:14:32</sys_created_on>
+        <sys_id>380f44e733a05250875176a59d5c7bdd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2024-09-15 19:14:32</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

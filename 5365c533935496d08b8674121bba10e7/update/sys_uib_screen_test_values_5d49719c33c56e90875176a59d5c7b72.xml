@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{
+    "029f04e053610110ac9bddeeff7b1294": {
+        "activityLogs": null,
+        "detailsContext": null,
+        "fields": null,
+        "forcedViewName": null,
+        "inputExtraParams": null,
+        "inputQuery": null,
+        "inputSysId": null,
+        "inputTable": "x_ltin2_uw_ai_fso_uw_case",
+        "isMappedToAppShell": true,
+        "screen": null,
+        "shouldSuppressGlobalEvents": true,
+        "userPrefs": null,
+        "view": "workspace-underwriter-workspace-0"
+    },
+    "table": "x_ltin2_uw_ai_fso_uw_case",
+    "sysId": "a7c6a10d33d4a250875176a59d5c7b2c",
+    "selectedTabIndex": null,
+    "query": null,
+    "extraParams": null,
+    "views": null,
+    "selectedTab": null,
+    "b47c9480075111106670d9630ad300fe": {
+        "inputActivityView": "focused",
+        "inputParentSysId": null,
+        "inputParentTable": "x_ltin2_uw_ai_fso_uw_case"
+    },
+    "2b3abad077811110960ced43ba5a991e": {}
+}</macroponent_config>
+        <screen display_value="FSO Underwriting Case Record Page copy">9d49719c33c56e90875176a59d5c7b6e</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-04-17 17:21:05</sys_created_on>
+        <sys_id>5d49719c33c56e90875176a59d5c7b72</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_5d49719c33c56e90875176a59d5c7b72</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-04-17 17:44:15</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>

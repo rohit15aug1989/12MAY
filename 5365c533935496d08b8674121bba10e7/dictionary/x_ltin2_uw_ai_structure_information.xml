@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="hasLabels=true" db_object_id="d6708c4093acd6d08b8674121bba1073" extends="sn_bom_customer_property" label="Structure Information" max_length="40" name="x_ltin2_uw_ai_structure_information" text_index="true" type="collection">
+        <element label="Building square foot" max_length="15" name="building_square_foot" type="decimal"/>
+        <element label="Rear Exposure" max_length="100" name="rear_exposure" type="string"/>
+        <element label="Policy Effective Date" max_length="40" name="policy_effective_date" type="glide_date_time"/>
+        <element default="javascript:global.getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Building ID" max_length="50" name="building_id" type="string" use_dynamic_default="true"/>
+        <element choice="1" label="Claim Status" max_length="40" name="claim_status" type="choice">
+            <choice/>
+        </element>
+        <element label="Year Updated -Electrical" max_length="50" name="year_updated_electrical" type="string"/>
+        <element label="Property square foot" max_length="15" name="property_square_foot" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Exterior Walls" max_length="1000" name="exterior_walls" type="string"/>
+        <element label="Building Premium" max_length="20" name="building_premium" type="currency"/>
+        <element label="Replacement cost" max_length="15" name="replacement_cost" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Roof Shape type" max_length="1000" name="roof_shape_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Effective Built Year" max_length="40" name="effective_built_year" type="string"/>
+        <element label="Policy Expiration Date" max_length="40" name="policy_expiration_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Fire Alarm Manufacturer" max_length="40" name="fire_alarm_manufacturer" type="string"/>
+        <element label="Year Updated -Plumbing" max_length="50" name="year_updated_plumbing" type="string"/>
+        <element label="Year Built" max_length="50" name="year_built" type="string"/>
+        <element label="Total Loss Incurred" max_length="20" name="total_loss_incurred" type="currency"/>
+        <element label="FSO Case" max_length="32" name="fso_case" reference="x_ltin2_uw_ai_fso_uw_case" type="reference"/>
+        <element label="Sprinkler  percentage" max_length="15" name="sprinkler" type="percent_complete"/>
+        <element label="Occupancy Factor" max_length="15" name="occupancy_factor" type="percent_complete"/>
+        <element attributes="edge_encryption_enabled=true" label="Distance to Hydrant" max_length="40" name="distance_to_hydrant" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Right Exposure" max_length="40" name="right_exposure" type="string"/>
+        <element label="Clearance Decision" max_length="40" name="clearance_decision" type="boolean"/>
+        <element active="false" label="NAICS" max_length="50" name="naics" type="string"/>
+        <element label="Reason for Loss" max_length="50" name="reason_for_loss" type="string"/>
+        <element label="Square Footage" max_length="20" name="square_footage" type="decimal"/>
+        <element label="Building Description" max_length="4000" name="building_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Foundation" max_length="1000" name="foundation" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Appraised value" max_length="40" name="appraised_value" type="string"/>
+        <element active="false" label="FEIN" max_length="50" name="fein" type="string"/>
+        <element label="Building count" max_length="40" name="building_count" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Vacancy" max_length="100" name="vacancy" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Cooling type" max_length="1000" name="cooling_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Market value" max_length="40" name="market_value" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Roof frame type" max_length="1000" name="roof_frame_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Building condition" max_length="1000" name="building_condition" type="string"/>
+        <element label="Premises Fire protection" max_length="50" name="premises_fire_protection" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Construction" max_length="1000" name="construction" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Heating type" max_length="1000" name="heating_type" type="string"/>
+        <element label="Latitude" max_length="40" name="latitude" type="float"/>
+        <element label="Building unit number" max_length="40" name="building_unit_number" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Assessed Value(imp)" max_length="1000" name="assessed_value_imp" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Bedrooms" max_length="40" name="bedrooms" type="string"/>
+        <element active="false" label="Revenue" max_length="50" name="revenue" type="string"/>
+        <element active="false" label="SIC" max_length="50" name="sic" type="string"/>
+        <element label="Source" max_length="50" name="source" type="string"/>
+        <element label="Living square feet" max_length="15" name="living_square_feet" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Fire Alarm" max_length="40" name="fire_alarm" type="string"/>
+        <element display="true" label="Building Number" max_length="50" name="building_number" type="string"/>
+        <element label="Location ID" max_length="32" name="location_id" reference="x_ltin2_uw_ai_location_cat_perils" reference_floats="true" type="reference"/>
+        <element label="Stories" max_length="40" name="stories" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Assessed value" max_length="40" name="assessed_value" type="string"/>
+        <element label="Guards/Watchmen" max_length="40" name="guards_watchmen" type="integer"/>
+        <element label="Market Value(imp)" max_length="15" name="market_value_imp" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Building Type" max_length="100" name="building_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Limit and Deductible Suggestion" max_length="4000" name="limit_and_deductible_suggestion" type="string"/>
+        <element label="Decision Date" max_length="40" name="decision_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Last Updated" max_length="40" name="last_updated" type="glide_date"/>
+        <element label="Nature of Business" max_length="100" name="nature_of_business" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Market Value Year" max_length="40" name="marketvalueyear" type="string"/>
+        <element label="Rooms" max_length="40" name="rooms" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Roof cover type" max_length="100" name="roof_cover_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Building Quality" max_length="1000" name="building_quality" type="string"/>
+        <element label="Market Value Land" max_length="15" name="market_value_land" type="decimal"/>
+        <element label="Construction Type" max_length="50" name="construction_type" type="string"/>
+        <element choice="1" label="Entity Type" max_length="40" name="entity_type" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Front Exposure" max_length="40" name="front_exposure" type="string"/>
+        <element label="Customer ID" max_length="32" name="customer_id" reference="x_ltin2_uw_ai_customer_details" type="reference"/>
+        <element label="Number of Floors" max_length="40" name="number_of_floors" type="integer"/>
+        <element label="Burglar Alarm Type" max_length="50" name="burglar_alarm_type" type="string"/>
+        <element label="Fire Sprinkler" max_length="40" name="fire_sprinkler" type="boolean"/>
+        <element label="Grade" max_length="50" name="grade" type="string"/>
+        <element label="Pool" max_length="40" name="pool" type="boolean"/>
+        <element label="Protection class" max_length="50" name="protection_class" type="string"/>
+        <element label="Windclass" max_length="50" name="windclass" type="string"/>
+        <element label="Policy Number" max_length="32" name="policy_number" reference="sn_bom_ins_policy" type="reference"/>
+        <element choice="1" label="Roof Type" max_length="50" name="roof_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Metal aluminium" sequence="0" value="Metal aluminium"/>
+            </choice>
+        </element>
+        <element label="Distance to fire station" max_length="50" name="distance_to_fire_station" type="string"/>
+        <element label="Date of Loss" max_length="40" name="date_of_loss" type="glide_date_time"/>
+        <element label="Claim Number" max_length="50" name="claim_number" type="string"/>
+        <element label="Longitude" max_length="40" name="longitude" type="float"/>
+        <element label="Quote Version ID" max_length="50" name="quote_version_id" type="string"/>
+        <element label="No. Of stories" max_length="40" name="no_of_stories" type="integer"/>
+        <element label="Product ID" max_length="32" name="product_id" reference="cmdb_model" type="reference"/>
+        <element label="Clearance Process name" max_length="32" name="clearance_process_name" reference="sys_user" type="reference"/>
+        <element label="Year Updated -Heating" max_length="50" name="year_updated_heating" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Left Exposure" max_length="40" name="left_exposure" type="string"/>
+        <index name="index">
+            <element name="clearance_process_name"/>
+        </index>
+        <index name="index2">
+            <element name="customer_id"/>
+        </index>
+        <index name="index3">
+            <element name="fso_case"/>
+        </index>
+        <index name="index4">
+            <element name="location_id"/>
+        </index>
+        <index name="index5">
+            <element name="policy_number"/>
+        </index>
+        <index name="index6">
+            <element name="product_id"/>
+        </index>
+    </element>
+</database>

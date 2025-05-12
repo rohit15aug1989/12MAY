@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="DELETE">
+        <associated_types/>
+        <bundles/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition/>
+        <da_relay_models/>
+        <data/>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <dispatched_events/>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <form_factors>{
+    "custom_ff_1": {
+        "max-width": 640,
+        "reference": "macroponent"
+    }
+}</form_factors>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings/>
+        <layout>{
+    "default": {
+        "children": null,
+        "items": [],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "flex-direction": "column"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "flex"
+    },
+    "queries": [
+        {
+            "layout": {
+                "items": [],
+                "styles": {
+                    "flex-direction": "column",
+                    "height": "auto",
+                    "min-width": null
+                },
+                "type": "flex"
+            },
+            "queryId": "custom_ff_1"
+        }
+    ],
+    "version": "3.1.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>test321</name>
+        <output_prop_mapping/>
+        <props>[
+    {
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
+        "fieldType": "string",
+        "label": "table",
+        "mandatory": false,
+        "name": "table",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
+        "fieldType": "string",
+        "label": "sysId",
+        "mandatory": false,
+        "name": "sysId",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
+        "fieldType": "string",
+        "label": "experience",
+        "mandatory": false,
+        "name": "experience",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
+        "fieldType": "string",
+        "label": "selectedPlaybook",
+        "mandatory": false,
+        "name": "selectedPlaybook",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
+        "fieldType": "string",
+        "label": "selectedStage",
+        "mandatory": false,
+        "name": "selectedStage",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
+        "fieldType": "string",
+        "label": "selectedActivity",
+        "mandatory": false,
+        "name": "selectedActivity",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    }
+]</props>
+        <required_translations>[ ]</required_translations>
+        <root_component/>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_persistence_config/>
+        <state_properties/>
+        <style_config>{}</style_config>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-02-19 13:31:27</sys_created_on>
+        <sys_id>65122fb933ff5e50875176a59d5c7b07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test321</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_ux_macroponent_65122fb933ff5e50875176a59d5c7b07</sys_update_name>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-02-19 13:31:27</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="DELETE" query="documentkey=65122fb933ff5e50875176a59d5c7b07"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</application>
+        <file_path/>
+        <instance_id>7838a3eddb96a7c049eac59705961973</instance_id>
+        <instance_name>ltidemo5</instance_name>
+        <name>sys_ux_macroponent_65122fb933ff5e50875176a59d5c7b07</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent"><sys_ux_macroponent action="INSERT_OR_UPDATE"><associated_types/><bundles/><category>page</category><component_dependencies/><composition/><da_relay_models/><data/><description/><disable_auto_reflow>false</disable_auto_reflow><dispatched_events/><ext_controller_dep/><extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends><extension_point/><form_factors>{
+    "custom_ff_1": {
+        "max-width": 640,
+        "reference": "macroponent"
+    }
+}</form_factors><handled_events/><interactions/><interfaces/><internal_event_mappings/><layout>{
+    "default": {
+        "children": null,
+        "items": [],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "flex-direction": "column"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "flex"
+    },
+    "queries": [
+        {
+            "layout": {
+                "items": [],
+                "styles": {
+                    "flex-direction": "column",
+                    "height": "auto",
+                    "min-width": null
+                },
+                "type": "flex"
+            },
+            "queryId": "custom_ff_1"
+        }
+    ],
+    "version": "3.1.0"
+}</layout><macroponent_dependencies/><name>test321</name><output_prop_mapping/><props>[
+    {
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
+        "fieldType": "string",
+        "label": "table",
+        "mandatory": false,
+        "name": "table",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
+        "fieldType": "string",
+        "label": "sysId",
+        "mandatory": false,
+        "name": "sysId",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
+        "fieldType": "string",
+        "label": "experience",
+        "mandatory": false,
+        "name": "experience",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
+        "fieldType": "string",
+        "label": "selectedPlaybook",
+        "mandatory": false,
+        "name": "selectedPlaybook",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
+        "fieldType": "string",
+        "label": "selectedStage",
+        "mandatory": false,
+        "name": "selectedStage",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
+        "fieldType": "string",
+        "label": "selectedActivity",
+        "mandatory": false,
+        "name": "selectedActivity",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    }
+]</props><required_translations>[ ]</required_translations><root_component/><root_component_config/><root_component_definition/><schema_version>1.0.0</schema_version><state_persistence_config/><state_properties/><style_config>{}</style_config><sys_class_name>sys_ux_macroponent</sys_class_name><sys_created_by>sanket</sys_created_by><sys_created_on>2025-02-19 13:31:27</sys_created_on><sys_id>65122fb933ff5e50875176a59d5c7b07</sys_id><sys_mod_count>0</sys_mod_count><sys_name>test321</sys_name><sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package><sys_policy/><sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope><sys_update_name>sys_ux_macroponent_65122fb933ff5e50875176a59d5c7b07</sys_update_name><sys_updated_by>sanket</sys_updated_by><sys_updated_on>2025-02-19 13:31:27</sys_updated_on></sys_ux_macroponent><sys_translated_text action="delete_multiple" query="documentkey=65122fb933ff5e50875176a59d5c7b07"/></record_update>]]></payload>
+        <payload_hash>481279201</payload_hash>
+        <record_name>test321</record_name>
+        <reverted_from/>
+        <source>59cd0c8633279210875176a59d5c7b89</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-02-19 13:31:27</sys_created_on>
+        <sys_id>b1122fb933ff5e50875176a59d5c7b0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1951e6801fa0000001</sys_recorded_at>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-02-19 13:31:27</sys_updated_on>
+        <type>UX Macroponent Definition</type>
+        <update_guid>35122fb98bff5e5055faba11f336bd0c</update_guid>
+        <update_guid_history>35122fb98bff5e5055faba11f336bd0c:481279201</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-02-19 13:35:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_macroponent">sys_ux_macroponent</sys_db_object>
+        <sys_id>e2f72be7b8ba4fb98cd7bcc08a342761</sys_id>
+        <sys_metadata>65122fb933ff5e50875176a59d5c7b07</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test321</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_scope_delete display_value="">7c8d9985394b49b688ab893eea2dbef1</sys_scope_delete>
+        <sys_update_name>sys_ux_macroponent_65122fb933ff5e50875176a59d5c7b07</sys_update_name>
+        <sys_update_version display_value="sys_ux_macroponent_65122fb933ff5e50875176a59d5c7b07">b1122fb933ff5e50875176a59d5c7b0d</sys_update_version>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-02-19 13:35:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

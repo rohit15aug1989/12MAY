@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="x_ltin2_uw_ai_fso_uw_case" relationship="f055666f93a452508b8674121bba108a" sys_domain="global" table="x_ltin2_uw_ai_structure_information" version="2" view="workspace-underwriter-workspace-0">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="x_ltin2_uw_ai_structure_information" element="NULL" name="x_ltin2_uw_ai_structure_information" parent="x_ltin2_uw_ai_fso_uw_case" relationship="f055666f93a452508b8674121bba108a" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">4358d8cb33305a90875176a59d5c7b97</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>abhi</sys_created_by>
+            <sys_created_on>2024-09-26 16:54:07</sys_created_on>
+            <sys_id>cb58d8cb33305a90875176a59d5c7b98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abhi</sys_updated_by>
+            <sys_updated_on>2024-09-26 16:54:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>building_number</element>
+            <list_id display_value="x_ltin2_uw_ai_structure_information" element="NULL" name="x_ltin2_uw_ai_structure_information" parent="x_ltin2_uw_ai_fso_uw_case" relationship="f055666f93a452508b8674121bba108a" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">4358d8cb33305a90875176a59d5c7b97</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>abhi</sys_created_by>
+            <sys_created_on>2024-09-26 16:54:07</sys_created_on>
+            <sys_id>c358d8cb33305a90875176a59d5c7b99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abhi</sys_updated_by>
+            <sys_updated_on>2024-09-26 16:54:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>address_line_one</element>
+            <list_id display_value="x_ltin2_uw_ai_structure_information" element="NULL" name="x_ltin2_uw_ai_structure_information" parent="x_ltin2_uw_ai_fso_uw_case" relationship="f055666f93a452508b8674121bba108a" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">4358d8cb33305a90875176a59d5c7b97</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>abhi</sys_created_by>
+            <sys_created_on>2024-09-26 16:54:07</sys_created_on>
+            <sys_id>c758d8cb33305a90875176a59d5c7b99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abhi</sys_updated_by>
+            <sys_updated_on>2024-09-26 16:54:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>building_description</element>
+            <list_id display_value="x_ltin2_uw_ai_structure_information" element="NULL" name="x_ltin2_uw_ai_structure_information" parent="x_ltin2_uw_ai_fso_uw_case" relationship="f055666f93a452508b8674121bba108a" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">4358d8cb33305a90875176a59d5c7b97</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>abhi</sys_created_by>
+            <sys_created_on>2024-09-26 16:54:07</sys_created_on>
+            <sys_id>cb58d8cb33305a90875176a59d5c7b99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abhi</sys_updated_by>
+            <sys_updated_on>2024-09-26 16:54:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>construction_type</element>
+            <list_id display_value="x_ltin2_uw_ai_structure_information" element="NULL" name="x_ltin2_uw_ai_structure_information" parent="x_ltin2_uw_ai_fso_uw_case" relationship="f055666f93a452508b8674121bba108a" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">4358d8cb33305a90875176a59d5c7b97</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>abhi</sys_created_by>
+            <sys_created_on>2024-09-26 16:54:07</sys_created_on>
+            <sys_id>cf58d8cb33305a90875176a59d5c7b99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abhi</sys_updated_by>
+            <sys_updated_on>2024-09-26 16:54:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>property_square_foot</element>
+            <list_id display_value="x_ltin2_uw_ai_structure_information" element="NULL" name="x_ltin2_uw_ai_structure_information" parent="x_ltin2_uw_ai_fso_uw_case" relationship="f055666f93a452508b8674121bba108a" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">4358d8cb33305a90875176a59d5c7b97</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>abhi</sys_created_by>
+            <sys_created_on>2024-09-26 16:54:07</sys_created_on>
+            <sys_id>c358d8cb33305a90875176a59d5c7b9a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abhi</sys_updated_by>
+            <sys_updated_on>2024-09-26 16:54:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>building_square_foot</element>
+            <list_id display_value="x_ltin2_uw_ai_structure_information" element="NULL" name="x_ltin2_uw_ai_structure_information" parent="x_ltin2_uw_ai_fso_uw_case" relationship="f055666f93a452508b8674121bba108a" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">4358d8cb33305a90875176a59d5c7b97</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>abhi</sys_created_by>
+            <sys_created_on>2024-09-26 16:54:07</sys_created_on>
+            <sys_id>c758d8cb33305a90875176a59d5c7b9a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abhi</sys_updated_by>
+            <sys_updated_on>2024-09-26 16:54:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>year_built</element>
+            <list_id display_value="x_ltin2_uw_ai_structure_information" element="NULL" name="x_ltin2_uw_ai_structure_information" parent="x_ltin2_uw_ai_fso_uw_case" relationship="f055666f93a452508b8674121bba108a" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">4358d8cb33305a90875176a59d5c7b97</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>abhi</sys_created_by>
+            <sys_created_on>2024-09-26 16:54:07</sys_created_on>
+            <sys_id>cb58d8cb33305a90875176a59d5c7b9a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abhi</sys_updated_by>
+            <sys_updated_on>2024-09-26 16:54:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>vacancy</element>
+            <list_id display_value="x_ltin2_uw_ai_structure_information" element="NULL" name="x_ltin2_uw_ai_structure_information" parent="x_ltin2_uw_ai_fso_uw_case" relationship="f055666f93a452508b8674121bba108a" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">4358d8cb33305a90875176a59d5c7b97</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>abhi</sys_created_by>
+            <sys_created_on>2024-09-26 16:54:07</sys_created_on>
+            <sys_id>cf58d8cb33305a90875176a59d5c7b9a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abhi</sys_updated_by>
+            <sys_updated_on>2024-09-26 16:54:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>building_type</element>
+            <list_id display_value="x_ltin2_uw_ai_structure_information" element="NULL" name="x_ltin2_uw_ai_structure_information" parent="x_ltin2_uw_ai_fso_uw_case" relationship="f055666f93a452508b8674121bba108a" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">4358d8cb33305a90875176a59d5c7b97</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>abhi</sys_created_by>
+            <sys_created_on>2024-09-26 16:54:07</sys_created_on>
+            <sys_id>c358d8cb33305a90875176a59d5c7b9b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abhi</sys_updated_by>
+            <sys_updated_on>2024-09-26 16:54:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>total_loss_incurred</element>
+            <list_id display_value="x_ltin2_uw_ai_structure_information" element="NULL" name="x_ltin2_uw_ai_structure_information" parent="x_ltin2_uw_ai_fso_uw_case" relationship="f055666f93a452508b8674121bba108a" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">4358d8cb33305a90875176a59d5c7b97</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>10</position>
+            <sum>false</sum>
+            <sys_created_by>abhi</sys_created_by>
+            <sys_created_on>2024-09-26 16:54:07</sys_created_on>
+            <sys_id>c758d8cb33305a90875176a59d5c7b9b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abhi</sys_updated_by>
+            <sys_updated_on>2024-09-26 16:54:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>reason_for_loss</element>
+            <list_id display_value="x_ltin2_uw_ai_structure_information" element="NULL" name="x_ltin2_uw_ai_structure_information" parent="x_ltin2_uw_ai_fso_uw_case" relationship="f055666f93a452508b8674121bba108a" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">4358d8cb33305a90875176a59d5c7b97</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>11</position>
+            <sum>false</sum>
+            <sys_created_by>abhi</sys_created_by>
+            <sys_created_on>2024-09-26 16:54:07</sys_created_on>
+            <sys_id>cb58d8cb33305a90875176a59d5c7b9b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abhi</sys_updated_by>
+            <sys_updated_on>2024-09-26 16:54:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>date_of_loss</element>
+            <list_id display_value="x_ltin2_uw_ai_structure_information" element="NULL" name="x_ltin2_uw_ai_structure_information" parent="x_ltin2_uw_ai_fso_uw_case" relationship="f055666f93a452508b8674121bba108a" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">4358d8cb33305a90875176a59d5c7b97</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>12</position>
+            <sum>false</sum>
+            <sys_created_by>abhi</sys_created_by>
+            <sys_created_on>2024-09-26 16:54:07</sys_created_on>
+            <sys_id>cf58d8cb33305a90875176a59d5c7b9b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abhi</sys_updated_by>
+            <sys_updated_on>2024-09-26 16:54:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_ltin2_uw_ai_structure_information</name>
+            <parent>x_ltin2_uw_ai_fso_uw_case</parent>
+            <position/>
+            <relationship display_value="Building Info">f055666f93a452508b8674121bba108a</relationship>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>abhi</sys_created_by>
+            <sys_created_on>2024-09-26 16:54:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4358d8cb33305a90875176a59d5c7b97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ltin2_uw_ai_structure_information</sys_name>
+            <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+            <sys_update_name>sys_ui_list_x_ltin2_uw_ai_fso_uw_case_f055666f93a452508b8674121bba108a_workspace-underwriter-workspace-0</sys_update_name>
+            <sys_updated_by>abhi</sys_updated_by>
+            <sys_updated_on>2024-09-26 16:54:07</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace Underwriter Workspace 0" name="workspace-underwriter-workspace-0">e3c4fbe1522056106d67851c32a5f187</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

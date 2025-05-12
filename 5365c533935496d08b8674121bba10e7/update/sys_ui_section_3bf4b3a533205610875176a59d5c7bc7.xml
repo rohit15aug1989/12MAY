@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="3bf4b3a533205610875176a59d5c7bc7" sys_domain="global" table="x_ltin2_uw_ai_underwriting_coverage_audit" version="3" view="workspace-underwriter-workspace-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>bapu</sys_created_by>
+            <sys_created_on>2024-09-10 06:51:31</sys_created_on>
+            <sys_id>73f4b3a533205610875176a59d5c7bcd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_underwriting_coverage_audit" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">3bf4b3a533205610875176a59d5c7bc7</sys_ui_section>
+            <sys_updated_by>bapu</sys_updated_by>
+            <sys_updated_on>2024-09-10 06:51:31</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>version</element>
+            <position>1</position>
+            <sys_created_by>bapu</sys_created_by>
+            <sys_created_on>2024-09-10 06:51:31</sys_created_on>
+            <sys_id>b3f4b3a533205610875176a59d5c7bf6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_underwriting_coverage_audit" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">3bf4b3a533205610875176a59d5c7bc7</sys_ui_section>
+            <sys_updated_by>bapu</sys_updated_by>
+            <sys_updated_on>2024-09-10 06:51:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>attachment</element>
+            <position>2</position>
+            <sys_created_by>bapu</sys_created_by>
+            <sys_created_on>2024-09-10 06:51:31</sys_created_on>
+            <sys_id>73f4b3a533205610875176a59d5c7bca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_underwriting_coverage_audit" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">3bf4b3a533205610875176a59d5c7bc7</sys_ui_section>
+            <sys_updated_by>bapu</sys_updated_by>
+            <sys_updated_on>2024-09-10 06:51:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>building</element>
+            <position>3</position>
+            <sys_created_by>bapu</sys_created_by>
+            <sys_created_on>2024-09-10 06:51:31</sys_created_on>
+            <sys_id>fbf4b3a533205610875176a59d5c7bcf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_underwriting_coverage_audit" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">3bf4b3a533205610875176a59d5c7bc7</sys_ui_section>
+            <sys_updated_by>bapu</sys_updated_by>
+            <sys_updated_on>2024-09-10 06:51:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>co_insurance</element>
+            <position>4</position>
+            <sys_created_by>bapu</sys_created_by>
+            <sys_created_on>2024-09-10 06:51:31</sys_created_on>
+            <sys_id>fff4b3a533205610875176a59d5c7bc8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_underwriting_coverage_audit" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">3bf4b3a533205610875176a59d5c7bc7</sys_ui_section>
+            <sys_updated_by>bapu</sys_updated_by>
+            <sys_updated_on>2024-09-10 06:51:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>commerical_coverage_location</element>
+            <position>5</position>
+            <sys_created_by>bapu</sys_created_by>
+            <sys_created_on>2024-09-10 06:51:31</sys_created_on>
+            <sys_id>7bf4b3a533205610875176a59d5c7bce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_underwriting_coverage_audit" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">3bf4b3a533205610875176a59d5c7bc7</sys_ui_section>
+            <sys_updated_by>bapu</sys_updated_by>
+            <sys_updated_on>2024-09-10 06:51:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>coverage_application</element>
+            <position>6</position>
+            <sys_created_by>bapu</sys_created_by>
+            <sys_created_on>2024-09-10 06:51:31</sys_created_on>
+            <sys_id>fff4b3a533205610875176a59d5c7bcb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_underwriting_coverage_audit" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">3bf4b3a533205610875176a59d5c7bc7</sys_ui_section>
+            <sys_updated_by>bapu</sys_updated_by>
+            <sys_updated_on>2024-09-10 06:51:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>coverage_type</element>
+            <position>7</position>
+            <sys_created_by>bapu</sys_created_by>
+            <sys_created_on>2024-09-10 06:51:31</sys_created_on>
+            <sys_id>f7f4b3a533205610875176a59d5c7bcd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_underwriting_coverage_audit" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">3bf4b3a533205610875176a59d5c7bc7</sys_ui_section>
+            <sys_updated_by>bapu</sys_updated_by>
+            <sys_updated_on>2024-09-10 06:51:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>customer_id</element>
+            <position>8</position>
+            <sys_created_by>bapu</sys_created_by>
+            <sys_created_on>2024-09-10 06:51:31</sys_created_on>
+            <sys_id>f3f4b3a533205610875176a59d5c7bcb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_underwriting_coverage_audit" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">3bf4b3a533205610875176a59d5c7bc7</sys_ui_section>
+            <sys_updated_by>bapu</sys_updated_by>
+            <sys_updated_on>2024-09-10 06:51:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>deductible</element>
+            <position>9</position>
+            <sys_created_by>bapu</sys_created_by>
+            <sys_created_on>2024-09-10 06:51:31</sys_created_on>
+            <sys_id>3bf4b3a533205610875176a59d5c7bf6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_underwriting_coverage_audit" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">3bf4b3a533205610875176a59d5c7bc7</sys_ui_section>
+            <sys_updated_by>bapu</sys_updated_by>
+            <sys_updated_on>2024-09-10 06:51:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>limits</element>
+            <position>10</position>
+            <sys_created_by>bapu</sys_created_by>
+            <sys_created_on>2024-09-10 06:51:31</sys_created_on>
+            <sys_id>f7f4b3a533205610875176a59d5c7bca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_underwriting_coverage_audit" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">3bf4b3a533205610875176a59d5c7bc7</sys_ui_section>
+            <sys_updated_by>bapu</sys_updated_by>
+            <sys_updated_on>2024-09-10 06:51:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>product_id</element>
+            <position>11</position>
+            <sys_created_by>bapu</sys_created_by>
+            <sys_created_on>2024-09-10 06:51:31</sys_created_on>
+            <sys_id>73f4b3a533205610875176a59d5c7bd0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_underwriting_coverage_audit" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">3bf4b3a533205610875176a59d5c7bc7</sys_ui_section>
+            <sys_updated_by>bapu</sys_updated_by>
+            <sys_updated_on>2024-09-10 06:51:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>12</position>
+            <sys_created_by>bapu</sys_created_by>
+            <sys_created_on>2024-09-10 06:51:31</sys_created_on>
+            <sys_id>77f4b3a533205610875176a59d5c7bc9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_underwriting_coverage_audit" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">3bf4b3a533205610875176a59d5c7bc7</sys_ui_section>
+            <sys_updated_by>bapu</sys_updated_by>
+            <sys_updated_on>2024-09-10 06:51:31</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>quote_version_id</element>
+            <position>13</position>
+            <sys_created_by>bapu</sys_created_by>
+            <sys_created_on>2024-09-10 06:51:31</sys_created_on>
+            <sys_id>fff4b3a533205610875176a59d5c7bce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_underwriting_coverage_audit" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">3bf4b3a533205610875176a59d5c7bc7</sys_ui_section>
+            <sys_updated_by>bapu</sys_updated_by>
+            <sys_updated_on>2024-09-10 06:51:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>waiting_period</element>
+            <position>14</position>
+            <sys_created_by>bapu</sys_created_by>
+            <sys_created_on>2024-09-10 06:51:31</sys_created_on>
+            <sys_id>77f4b3a533205610875176a59d5c7bcc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_underwriting_coverage_audit" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">3bf4b3a533205610875176a59d5c7bc7</sys_ui_section>
+            <sys_updated_by>bapu</sys_updated_by>
+            <sys_updated_on>2024-09-10 06:51:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>adjusted_premium</element>
+            <position>15</position>
+            <sys_created_by>bapu</sys_created_by>
+            <sys_created_on>2024-09-10 06:51:31</sys_created_on>
+            <sys_id>7ff4b3a533205610875176a59d5c7bcd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_underwriting_coverage_audit" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">3bf4b3a533205610875176a59d5c7bc7</sys_ui_section>
+            <sys_updated_by>bapu</sys_updated_by>
+            <sys_updated_on>2024-09-10 06:51:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>coverage_premium</element>
+            <position>16</position>
+            <sys_created_by>bapu</sys_created_by>
+            <sys_created_on>2024-09-10 06:51:31</sys_created_on>
+            <sys_id>7bf4b3a533205610875176a59d5c7bcb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_underwriting_coverage_audit" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">3bf4b3a533205610875176a59d5c7bc7</sys_ui_section>
+            <sys_updated_by>bapu</sys_updated_by>
+            <sys_updated_on>2024-09-10 06:51:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_limits</element>
+            <position>17</position>
+            <sys_created_by>bapu</sys_created_by>
+            <sys_created_on>2024-09-10 06:51:31</sys_created_on>
+            <sys_id>bff4b3a533205610875176a59d5c7bf6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_underwriting_coverage_audit" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">3bf4b3a533205610875176a59d5c7bc7</sys_ui_section>
+            <sys_updated_by>bapu</sys_updated_by>
+            <sys_updated_on>2024-09-10 06:51:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>premium</element>
+            <position>18</position>
+            <sys_created_by>bapu</sys_created_by>
+            <sys_created_on>2024-09-10 06:51:31</sys_created_on>
+            <sys_id>7ff4b3a533205610875176a59d5c7bca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_underwriting_coverage_audit" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">3bf4b3a533205610875176a59d5c7bc7</sys_ui_section>
+            <sys_updated_by>bapu</sys_updated_by>
+            <sys_updated_on>2024-09-10 06:51:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>schedule_modifier</element>
+            <position>19</position>
+            <sys_created_by>bapu</sys_created_by>
+            <sys_created_on>2024-09-10 06:51:31</sys_created_on>
+            <sys_id>f7f4b3a533205610875176a59d5c7bd0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_underwriting_coverage_audit" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">3bf4b3a533205610875176a59d5c7bc7</sys_ui_section>
+            <sys_updated_by>bapu</sys_updated_by>
+            <sys_updated_on>2024-09-10 06:51:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>source</element>
+            <position>20</position>
+            <sys_created_by>bapu</sys_created_by>
+            <sys_created_on>2024-09-10 06:51:31</sys_created_on>
+            <sys_id>fbf4b3a533205610875176a59d5c7bc9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_underwriting_coverage_audit" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">3bf4b3a533205610875176a59d5c7bc7</sys_ui_section>
+            <sys_updated_by>bapu</sys_updated_by>
+            <sys_updated_on>2024-09-10 06:51:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>taxes_fees</element>
+            <position>21</position>
+            <sys_created_by>bapu</sys_created_by>
+            <sys_created_on>2024-09-10 06:51:31</sys_created_on>
+            <sys_id>77f4b3a533205610875176a59d5c7bcf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_underwriting_coverage_audit" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">3bf4b3a533205610875176a59d5c7bc7</sys_ui_section>
+            <sys_updated_by>bapu</sys_updated_by>
+            <sys_updated_on>2024-09-10 06:51:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_premium</element>
+            <position>22</position>
+            <sys_created_by>bapu</sys_created_by>
+            <sys_created_on>2024-09-10 06:51:31</sys_created_on>
+            <sys_id>fbf4b3a533205610875176a59d5c7bcc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_underwriting_coverage_audit" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">3bf4b3a533205610875176a59d5c7bc7</sys_ui_section>
+            <sys_updated_by>bapu</sys_updated_by>
+            <sys_updated_on>2024-09-10 06:51:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>23</position>
+            <sys_created_by>bapu</sys_created_by>
+            <sys_created_on>2024-09-10 06:51:31</sys_created_on>
+            <sys_id>f3f4b3a533205610875176a59d5c7bce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_underwriting_coverage_audit" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">3bf4b3a533205610875176a59d5c7bc7</sys_ui_section>
+            <sys_updated_by>bapu</sys_updated_by>
+            <sys_updated_on>2024-09-10 06:51:31</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_ltin2_uw_ai_underwriting_coverage_audit</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>bapu</sys_created_by>
+            <sys_created_on>2024-09-10 06:51:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3bf4b3a533205610875176a59d5c7bc7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ltin2_uw_ai_underwriting_coverage_audit</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+            <sys_update_name>sys_ui_section_3bf4b3a533205610875176a59d5c7bc7</sys_update_name>
+            <sys_updated_by>bapu</sys_updated_by>
+            <sys_updated_on>2024-09-10 06:51:31</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Workspace Underwriter Workspace 0" name="workspace-underwriter-workspace-0">e3c4fbe1522056106d67851c32a5f187</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

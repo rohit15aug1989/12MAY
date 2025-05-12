@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="1ef4bf6533205610875176a59d5c7b59" sys_domain="global" table="x_ltin2_uw_ai_fso_uw_case" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>bapu</sys_created_by>
+            <sys_created_on>2024-09-10 06:51:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1af4bf6533205610875176a59d5c7b60</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_ltin2_uw_ai_fso_uw_case" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">1ef4bf6533205610875176a59d5c7b59</sys_ui_form>
+            <sys_ui_section caption="Underwriting Case Details" display_value="Underwriting Case Details" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">12f4bf6533205610875176a59d5c7b5e</sys_ui_section>
+            <sys_updated_by>bapu</sys_updated_by>
+            <sys_updated_on>2024-09-10 06:51:25</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>bapu</sys_created_by>
+            <sys_created_on>2024-09-10 06:51:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5ef4bf6533205610875176a59d5c7b92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_ltin2_uw_ai_fso_uw_case" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">1ef4bf6533205610875176a59d5c7b59</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">96f4bf6533205610875176a59d5c7b91</sys_ui_section>
+            <sys_updated_by>bapu</sys_updated_by>
+            <sys_updated_on>2024-09-10 06:51:25</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>bapu</sys_created_by>
+            <sys_created_on>2024-09-10 06:51:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>52f4bf6533205610875176a59d5c7ba4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_ltin2_uw_ai_fso_uw_case" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">1ef4bf6533205610875176a59d5c7b59</sys_ui_form>
+            <sys_ui_section caption="Clearance Appetite Check" display_value="Clearance Appetite Check" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">16f4bf6533205610875176a59d5c7b96</sys_ui_section>
+            <sys_updated_by>bapu</sys_updated_by>
+            <sys_updated_on>2024-09-10 06:51:25</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>bapu</sys_created_by>
+            <sys_created_on>2024-09-10 06:51:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>92f4bf6533205610875176a59d5c7ba8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_ltin2_uw_ai_fso_uw_case" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">1ef4bf6533205610875176a59d5c7b59</sys_ui_form>
+            <sys_ui_section caption="Initial Rate" display_value="Initial Rate" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">1ef4bf6533205610875176a59d5c7ba6</sys_ui_section>
+            <sys_updated_by>bapu</sys_updated_by>
+            <sys_updated_on>2024-09-10 06:51:25</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>bapu</sys_created_by>
+            <sys_created_on>2024-09-10 06:51:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>52f4bf6533205610875176a59d5c7bc0</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_ltin2_uw_ai_fso_uw_case" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">1ef4bf6533205610875176a59d5c7b59</sys_ui_form>
+            <sys_ui_section caption="Policy Details" display_value="Policy Details" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">daf4bf6533205610875176a59d5c7bbe</sys_ui_section>
+            <sys_updated_by>abhi</sys_updated_by>
+            <sys_updated_on>2024-09-26 12:46:36</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_ltin2_uw_ai_fso_uw_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>bapu</sys_created_by>
+            <sys_created_on>2024-09-10 06:51:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1ef4bf6533205610875176a59d5c7b59</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ltin2_uw_ai_fso_uw_case</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+            <sys_update_name>sys_ui_form_sections_1ef4bf6533205610875176a59d5c7b59</sys_update_name>
+            <sys_updated_by>bapu</sys_updated_by>
+            <sys_updated_on>2024-09-10 06:51:24</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace Underwriter Workspace 0" name="workspace-underwriter-workspace-0">e3c4fbe1522056106d67851c32a5f187</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

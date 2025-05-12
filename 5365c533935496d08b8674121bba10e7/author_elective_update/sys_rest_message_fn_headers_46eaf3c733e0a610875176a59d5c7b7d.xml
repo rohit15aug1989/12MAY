@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers">
+    <sys_rest_message_fn_headers action="DELETE">
+        <name>Content-Type</name>
+        <rest_message_function display_value="">95eab7c733e0a610875176a59d5c7bcb</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_headers</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-04-01 19:20:24</sys_created_on>
+        <sys_id>46eaf3c733e0a610875176a59d5c7b7d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Content-Type</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_rest_message_fn_headers_46eaf3c733e0a610875176a59d5c7b7d</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-04-01 19:20:24</sys_updated_on>
+        <value>application/xml</value>
+    </sys_rest_message_fn_headers>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</application>
+        <file_path/>
+        <instance_id>7838a3eddb96a7c049eac59705961973</instance_id>
+        <instance_name>ltidemo5</instance_name>
+        <name>sys_rest_message_fn_headers_46eaf3c733e0a610875176a59d5c7b7d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers"><sys_rest_message_fn_headers action="INSERT_OR_UPDATE"><name>Content-Type</name><rest_message_function display_value="">95eab7c733e0a610875176a59d5c7bcb</rest_message_function><sys_class_name>sys_rest_message_fn_headers</sys_class_name><sys_created_by>rohit</sys_created_by><sys_created_on>2025-04-01 19:20:24</sys_created_on><sys_id>46eaf3c733e0a610875176a59d5c7b7d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Content-Type</sys_name><sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package><sys_policy/><sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope><sys_update_name>sys_rest_message_fn_headers_46eaf3c733e0a610875176a59d5c7b7d</sys_update_name><sys_updated_by>rohit</sys_updated_by><sys_updated_on>2025-04-01 19:20:24</sys_updated_on><value>application/xml</value></sys_rest_message_fn_headers></record_update>]]></payload>
+        <payload_hash>2010293643</payload_hash>
+        <record_name>Content-Type</record_name>
+        <reverted_from/>
+        <source>53ea92d9338fda10875176a59d5c7bc9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-04-01 19:20:24</sys_created_on>
+        <sys_id>b82bf7c733e0a610875176a59d5c7b6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195f2cc355c0000001</sys_recorded_at>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-04-01 19:20:24</sys_updated_on>
+        <type>HTTP Headers</type>
+        <update_guid>7c2bf7c73fe0a610306a99f9a16ef76d</update_guid>
+        <update_guid_history>7c2bf7c73fe0a610306a99f9a16ef76d:2010293643</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-04-02 06:59:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn_headers">sys_rest_message_fn_headers</sys_db_object>
+        <sys_id>5831a492f00847219fa234fbed440231</sys_id>
+        <sys_metadata>46eaf3c733e0a610875176a59d5c7b7d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Content-Type</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_parent display_value="POST">95eab7c733e0a610875176a59d5c7bcb</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_scope_delete display_value="">7c8d9985394b49b688ab893eea2dbef1</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_headers_46eaf3c733e0a610875176a59d5c7b7d</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_headers_46eaf3c733e0a610875176a59d5c7b7d">b82bf7c733e0a610875176a59d5c7b6e</sys_update_version>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-04-02 06:59:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

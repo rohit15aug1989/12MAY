@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="DELETE">
+        <can_read>true</can_read>
+        <can_share>true</can_share>
+        <can_write>true</can_write>
+        <dashboard display_value="Underwriter Workspace dashboard">11df31cf93e026108b8674121bba10ae</dashboard>
+        <group/>
+        <owner>true</owner>
+        <role/>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-04-01 10:21:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1ddf31cf93e026108b8674121bba10b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>11df31cf93e026108b8674121bba10ae</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>par_dashboard_permission_1ddf31cf93e026108b8674121bba10b1</sys_update_name>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-04-01 10:21:40</sys_updated_on>
+        <user display_value="Sanket Mohite">c815f0c5338b5a10875176a59d5c7b23</user>
+    </par_dashboard_permission>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</application>
+        <file_path/>
+        <instance_id>7838a3eddb96a7c049eac59705961973</instance_id>
+        <instance_name>ltidemo5</instance_name>
+        <name>par_dashboard_permission_1ddf31cf93e026108b8674121bba10b1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission"><par_dashboard_permission action="INSERT_OR_UPDATE"><can_read>true</can_read><can_share>true</can_share><can_write>true</can_write><dashboard display_value="Underwriter Workspace dashboard">11df31cf93e026108b8674121bba10ae</dashboard><group/><owner>true</owner><role/><sys_class_name>par_dashboard_permission</sys_class_name><sys_created_by>sanket</sys_created_by><sys_created_on>2025-04-01 10:21:40</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1ddf31cf93e026108b8674121bba10b1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>11df31cf93e026108b8674121bba10ae</sys_name><sys_overrides/><sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package><sys_policy/><sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope><sys_update_name>par_dashboard_permission_1ddf31cf93e026108b8674121bba10b1</sys_update_name><sys_updated_by>sanket</sys_updated_by><sys_updated_on>2025-04-01 10:21:40</sys_updated_on><user display_value="Sanket Mohite">c815f0c5338b5a10875176a59d5c7b23</user></par_dashboard_permission></record_update>]]></payload>
+        <payload_hash>625505246</payload_hash>
+        <record_name>11df31cf93e026108b8674121bba10ae</record_name>
+        <reverted_from/>
+        <source>e6c5ddab93f312d08b8674121bba10fd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-04-01 10:21:40</sys_created_on>
+        <sys_id>51df31cf93e026108b8674121bba10b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195f0defbd20000001</sys_recorded_at>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-04-01 10:21:40</sys_updated_on>
+        <type>PAR Dashboard Permission</type>
+        <update_guid>d1df31cf0ee0261080926827a23563b4</update_guid>
+        <update_guid_history>d1df31cf0ee0261080926827a23563b4:625505246</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">cc70c203932426108b8674121bba10c3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-04-01 10:24:19</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_permission">par_dashboard_permission</sys_db_object>
+        <sys_id>01efbe9ac76a473c9647284826fe1039</sys_id>
+        <sys_metadata>1ddf31cf93e026108b8674121bba10b1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>11df31cf93e026108b8674121bba10ae</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_scope_delete display_value="">7c8d9985394b49b688ab893eea2dbef1</sys_scope_delete>
+        <sys_update_name>par_dashboard_permission_1ddf31cf93e026108b8674121bba10b1</sys_update_name>
+        <sys_update_version display_value="par_dashboard_permission_1ddf31cf93e026108b8674121bba10b1">51df31cf93e026108b8674121bba10b5</sys_update_version>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-04-01 10:24:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

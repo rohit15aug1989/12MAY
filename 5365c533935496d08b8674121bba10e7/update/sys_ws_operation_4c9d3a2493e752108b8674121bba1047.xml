@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>POST</http_method>
+        <name>UW case creation from API</name>
+        <operation_script><![CDATA[(function processRequest(request, response) {
+    try {
+        var requestBody = request.body.data;
+        var caseNumber = ''; // Variable to store the created FSO case number
+        var sysusersysid = '';
+        var cxdetailsysid = '';
+        var casesysid = '';
+        var locationsysid = '';
+
+        gs.info(requestBody.extracted_data.Submission.Submission_id+JSON.stringify(requestBody));
+        
+        // Create sys_user record
+        if (requestBody.extracted_data.Client) {
+            var userGr = new GlideRecord('sys_user');
+            userGr.initialize();
+            userGr.name = requestBody.extracted_data.Client.ClientName;
+            userGr.email = requestBody.extracted_data.Client.Client_Email_Address;
+            userGr.mobile_phone = requestBody.extracted_data.Client.Client_Business_Phone_Number;
+            sysusersysid = userGr.insert();
+            userGr.user_name = userGr.first_name + '.' + userGr.last_name;
+
+        }
+
+        // Create customer details record
+        if (requestBody.extracted_data.Client) {
+            var customerGr = new GlideRecord('x_ltin2_uw_ai_customer_details');
+            customerGr.initialize();
+            customerGr.customer_name = sysusersysid;
+            customerGr.email_address = requestBody.extracted_data.Client.Client_Email_Address;
+            customerGr.phone = requestBody.extracted_data.Client.Client_Business_Phone_Number;
+            customerGr.state = requestBody.extracted_data.Client.Client_Billing_State;
+            customerGr.city = requestBody.extracted_data.Client.Client_Billing_City;
+            customerGr.street = requestBody.extracted_data.Client.Client_Billing_Street;
+            customerGr.zip = requestBody.extracted_data.Client.Client_Billing_Zip_Code;
+            //customerGr.customer_id = requestBody.Submission.customer.customerId;
+            customerGr.broker = 'true';
+            customerGr.address = requestBody.extracted_data.Client.Client_Billing_Street + ', ' + customerGr.city + ', ' + customerGr.state + ' ' + customerGr.zip;
+            //customerGr.broker_code = requestBody.Submission.customer.producer.producerCode;
+            customerGr.agency_name = requestBody.extracted_data.Broker.Broker_Agency_name;
+            customerGr.contact_name = requestBody.extracted_data.Broker.Broker_Producer_Contact_name;
+            customerGr.website_address = requestBody.extracted_data.Broker.Broker_Producer_Email_Address;
+            customerGr.broker_street = requestBody.extracted_data.Broker.Broker_Producer_Street;
+            customerGr.broker_city = requestBody.extracted_data.Broker.Broker_Producer_City;
+            customerGr.broker_state = requestBody.extracted_data.Broker.Broker_Producer_State;
+            customerGr.broker_phone = requestBody.extracted_data.Broker.Broker_Phone_number;
+            customerGr.broker_zip = requestBody.extracted_data.Broker.Broker_Producer_Zip;
+            customerGr.broker_country = requestBody.extracted_data.Broker.Broker_Producer_Country;
+            //customerGr.revenue = requestBody.Submission.customer.revenue;
+            customerGr.fein = requestBody.extracted_data.Client.Client_FEIN;
+            customerGr.sic = requestBody.extracted_data.Client.Client_SIC;
+            customerGr.naics = requestBody.extracted_data.Client.Client_NAICS;
+            cxdetailsysid = customerGr.insert();
+        }
+
+        // Create FSO UW Case record
+        if (requestBody.extracted_data.Submission) {
+            var caseGr = new GlideRecord('x_ltin2_uw_ai_fso_uw_case');
+            caseGr.initialize();
+            caseGr.submission_id = requestBody.extracted_data.Submission.Submission_id;
+            caseGr.clearance_decision = requestBody.extracted_data.Clearance_Result.status;
+            caseGr.appetite_decision = requestBody.extracted_data.Appetite_Result.status;
+            caseGr.expiration_date = requestBody.extracted_data.Policy.Policy_Expiration_Date;
+            caseGr.effective_date = requestBody.extracted_data.Policy.Policy_Effective_Date;
+            caseGr.customer_id = cxdetailsysid;
+            caseGr.u_customer_name = requestBody.extracted_data.Client.ClientName;
+            caseGr.effective_date = requestBody.extracted_data.Client.ClientName;
+			if(requestBody.extracted_data.Insights){
+            caseGr.propensity = requestBody.extracted_data.Insights.Propensity_to_Bind.Score;
+			caseGr.propensity_value = requestBody.extracted_data.Insights.Propensity_to_Bind.Score;
+			}
+            casesysid = caseGr.insert();
+
+            if (casesysid) {
+                caseGr.get(casesysid);
+                caseNumber = caseGr.getValue('number'); // Retrieve the case number
+            }
+        }
+
+        // Create FSO UW Task record
+        /*if (requestBody.task) {
+            var taskGr = new GlideRecord('x_ltin2_uw_ai_fso_uw_task');
+            taskGr.initialize();
+            taskGr.task_name = requestBody.task.taskName;
+            taskGr.description = requestBody.task.description;
+            taskGr.status = requestBody.task.status;
+            taskGr.case_id = requestBody.task.caseId;
+            taskGr.insert();
+        }*/
+
+
+
+        // Create Location Information record
+        if (requestBody.extracted_data.Submission.Locations) {
+            var locationCount = requestBody.extracted_data.Submission.Locations.length;
+
+            var locationGr = new GlideRecord('x_ltin2_uw_ai_location_cat_perils');
+
+            for (var i = 0; i < locationCount; i++) {
+                locationGr.initialize();
+                locationGr.fso_uw_case = casesysid;
+                locationGr.address_line_one = requestBody.extracted_data.Submission.Locations[i].Address.Street;
+                locationGr.city = requestBody.extracted_data.Submission.Locations[i].Address.City;
+                locationGr.state = requestBody.extracted_data.Submission.Locations[i].Address.State;
+                locationGr.zip = requestBody.extracted_data.Submission.Locations[i].Address.Zipcode;
+
+                locationGr.country = 'USA';
+                locationGr.location_name = 'Location' + ' ' + (i + 1);
+                locationGr.customer_id = cxdetailsysid;
+                locationsysid = locationGr.insert();
+                if (requestBody.extracted_data.Submission.Locations[i].Buildings) {
+                    var buildingGr = new GlideRecord('x_ltin2_uw_ai_structure_information');
+                    var buildingcount = requestBody.extracted_data.Submission.Locations[i].Buildings.length;
+                    for (var j = 0; j < buildingcount; j++) {
+                        buildingGr.initialize();
+                        buildingGr.fso_case = casesysid;
+                        buildingGr.customer_id = cxdetailsysid;
+                        buildingGr.location_id = locationsysid;
+                        buildingGr.building_number = 'Building Number' + ' ' + (j + 1);
+                        buildingGr.address_line_one = requestBody.extracted_data.Submission.Locations[i].Address.Street;
+                        buildingGr.property_square_foot = requestBody.extracted_data.Submission.Locations[i].Buildings[j].Total_Area;
+                        buildingGr.building_description = requestBody.extracted_data.Submission.Locations[i].Buildings[j].Description_Of_Property_Covered;
+                        buildingGr.no_of_stories = requestBody.extracted_data.Submission.Locations[i].Buildings[j].No_Of_Stories;
+                        buildingGr.square_footage = requestBody.extracted_data.Submission.Locations[i].Buildings[j].Total_Area;
+                        buildingGr.city = locationGr.city;
+                        buildingGr.distance_to_hydrant = requestBody.extracted_data.Submission.Locations[i].Buildings[j].Distance_To_Hydrant;
+                        buildingGr.distance_to_fire_station = requestBody.extracted_data.Submission.Locations[i].Buildings[j].Distance_To_Fire_Station;
+                        buildingGr.construction_type = requestBody.extracted_data.Submission.Locations[i].Buildings[j].Construction_Type;
+                        buildingGr.sprinkler = requestBody.extracted_data.Submission.Locations[i].Buildings[j].Percentage_Sprinkled;
+                        buildingGr.burglar_alarm_type = requestBody.extracted_data.Submission.Locations[i].Buildings[j].Burglar_Alarm_Type;
+                        buildingGr.fire_alarm_manufacturer = requestBody.extracted_data.Submission.Locations[i].Buildings[j].Fire_Alarm_Manufacturer;
+                        buildingGr.state = locationGr.state;
+                        buildingGr.year_built = requestBody.extracted_data.Submission.Locations[i].Buildings[j].Year_Built;
+                        //locationGr.location_insights = requestBody.extracted_data.Submission.Locations[i].Buildings[j].Building_Coverage_Limit_Prediction.Insights;
+                        var buildingsysid = buildingGr.insert();
+
+                        if (requestBody.extracted_data.Submission.Locations[i].Buildings[j].Coverages) {
+                            var coverageGr1 = new GlideRecord('x_ltin2_uw_ai_underwriting_coverage');
+                            var buildingcoveragecount = requestBody.extracted_data.Submission.Locations[i].Buildings[j].Coverages.length;
+                            for (var m = 0; m < buildingcoveragecount; m++) {
+                                coverageGr1.initialize();
+                                coverageGr1.fso_case = casesysid;
+                                coverageGr1.customer_id = cxdetailsysid;
+                                coverageGr1.attachment = 'Building Level Coverages';
+                                coverageGr1.commerical_coverage_location = locationsysid;
+                                coverageGr1.building = buildingsysid;
+                                if (requestBody.extracted_data.Submission.Locations[i].Buildings[j].Coverages[m].Subject_Of_Insurance == 'Business and Personal Property') {
+                                    coverageGr1.coverage_type = 'business_property';
+                                }
+                                if (requestBody.extracted_data.Submission.Locations[i].Buildings[j].Coverages[m].Subject_Of_Insurance == 'Business And Personal Property') {
+                                    coverageGr1.coverage_type = 'business_property';
+                                }
+                                if (requestBody.extracted_data.Submission.Locations[i].Buildings[j].Coverages[m].Subject_Of_Insurance == 'Business Personal Property') {
+                                    coverageGr1.coverage_type = 'business_property';
+                                }
+                                if (requestBody.extracted_data.Submission.Locations[i].Buildings[j].Coverages[m].Subject_Of_Insurance == 'Buildings') {
+                                    coverageGr1.coverage_type = 'building';
+                                }
+                                if (requestBody.extracted_data.Submission.Locations[i].Buildings[j].Coverages[m].Subject_Of_Insurance == 'Building') {
+                                    coverageGr1.coverage_type = 'building';
+                                }
+                                if (requestBody.extracted_data.Submission.Locations[i].Buildings[j].Coverages[m].Subject_Of_Insurance == 'Business Interruption') {
+                                    coverageGr1.coverage_type = 'business_interruption';
+                                }
+                                if (requestBody.extracted_data.Submission.Locations[i].Buildings[j].Coverages[m].Subject_Of_Insurance == 'Tenants Improvments') {
+                                    coverageGr1.coverage_type = 'Tenants Improvments';
+                                }
+                                if (requestBody.extracted_data.Submission.Locations[i].Buildings[j].Coverages[m].Subject_Of_Insurance == 'Furniture & Fixtures') {
+                                    coverageGr1.coverage_type = 'Furniture & Fixtures';
+                                }
+                                if (requestBody.extracted_data.Submission.Locations[i].Buildings[j].Coverages[m].Subject_Of_Insurance == 'Computer Hardware, Servers') {
+                                    coverageGr1.coverage_type = 'Computer Hardware, Servers';
+                                }
+
+                                if (requestBody.extracted_data.Submission.Locations[i].Buildings[j].Coverages[m].Subject_Of_Insurance == 'Mfg. or Lab Equipment') {
+                                    coverageGr1.coverage_type = 'Mfg. or Lab Equipment';
+                                }
+								if (requestBody.extracted_data.Submission.Locations[i].Buildings[j].Coverages[m].Subject_Of_Insurance == 'BPP') {
+                                    coverageGr1.coverage_type = 'BPP';
+                                }
+                                coverageGr1.limits = requestBody.extracted_data.Submission.Locations[i].Buildings[j].Coverages[m].Limit;
+                                coverageGr1.deductible = requestBody.extracted_data.Submission.Locations[i].Buildings[j].Coverages[m].Deductible;
+                                coverageGr1.insert();
+                            }
+
+                        }
+
+                    }
+                }
+                
+
+
+                if (requestBody.extracted_data.Submission.Locations[i].Coverages) {
+                    var coverageGr2 = new GlideRecord('x_ltin2_uw_ai_underwriting_coverage');
+                    var coveragecount = requestBody.extracted_data.Submission.Locations[i].Coverages.length;
+                    for (var k = 0; k < coveragecount; k++) {
+                        coverageGr2.initialize();
+                        coverageGr2.fso_case = casesysid;
+                        coverageGr2.customer_id = cxdetailsysid;
+                        coverageGr2.attachment = 'Location Level Coverages';
+                        coverageGr2.commerical_coverage_location = locationsysid;
+                        if (requestBody.extracted_data.Submission.Locations[i].Coverages[k].Subject_Of_Insurance == 'Accounts Receivables') {
+                            coverageGr2.coverage_type = 'Accounts';
+                        }
+                        if (requestBody.extracted_data.Submission.Locations[i].Coverages[k].Subject_Of_Insurance == 'Earthquake') {
+                            coverageGr2.coverage_type = 'Earthquake';
+                        }
+                        if (requestBody.extracted_data.Submission.Locations[i].Coverages[k].Subject_Of_Insurance == 'Flood') {
+                            coverageGr2.coverage_type = 'flood';
+                        }
+                        if (requestBody.extracted_data.Submission.Locations[i].Coverages[k].Subject_Of_Insurance == 'Hurricane') {
+                            coverageGr2.coverage_type = 'hurricane';
+                        }
+                        if (requestBody.extracted_data.Submission.Locations[i].Coverages[k].Subject_Of_Insurance == 'Windstorm') {
+                            coverageGr2.coverage_type = 'windstorm';
+                        }
+                        if (requestBody.extracted_data.Submission.Locations[i].Coverages[k].Subject_Of_Insurance == 'Non Owned detached trailer') {
+                            coverageGr2.coverage_type = 'non_owned';
+                        }
+                        if (requestBody.extracted_data.Submission.Locations[i].Coverages[k].Subject_Of_Insurance == 'Outdoor Signs') {
+                            coverageGr2.coverage_type = 'outdoor';
+                        }
+                        if (requestBody.extracted_data.Submission.Locations[i].Coverages[k].Subject_Of_Insurance == 'Outdoor Tree Shrubs') {
+                            coverageGr2.coverage_type = 'Outdoor Tree Shrubs';
+                        }
+						if (requestBody.extracted_data.Submission.Locations[i].Coverages[k].Subject_Of_Insurance == 'Plants or lawn') {
+                            coverageGr2.coverage_type = 'Plants or lawn';
+                        }
+
+                        coverageGr2.limits = requestBody.extracted_data.Submission.Locations[i].Coverages[k].Limit;
+                        coverageGr2.deductible = requestBody.extracted_data.Submission.Locations[i].Coverages[k].Deductible;
+                        coverageGr2.insert();
+                    }
+                }
+
+            }
+        }
+        if (requestBody.extracted_data.Policy.Coverages) {
+            var policycoverageCount = requestBody.extracted_data.Policy.Coverages.length;
+            var coverageGr3 = new GlideRecord('x_ltin2_uw_ai_underwriting_coverage');
+            for (var l = 0; l < policycoverageCount; l++) {
+                coverageGr3.initialize();
+                coverageGr3.fso_case = casesysid;
+                coverageGr3.customer_id = cxdetailsysid;
+                coverageGr3.attachment = 'Policy Level Coverages';
+                if (requestBody.extracted_data.Policy.Coverages[l].Subject_Of_Insurance == 'Hazardous Substance') {
+                    coverageGr3.coverage_type = 'hazardous';
+                }
+                if (requestBody.extracted_data.Policy.Coverages[l].Subject_Of_Insurance == 'Deferred payments') {
+                    coverageGr3.coverage_type = 'deferred';
+                }
+                if (requestBody.extracted_data.Policy.Coverages[l].Subject_Of_Insurance == 'Arson and Theft Reward') {
+                    coverageGr3.coverage_type = 'arson';
+                }
+                if (requestBody.extracted_data.Policy.Coverages[l].Subject_Of_Insurance == 'Deferred Payments') {
+                    coverageGr3.coverage_type = 'deferred';
+                }
+                if (requestBody.extracted_data.Policy.Coverages[l].Subject_Of_Insurance == 'Newly Acquired Building - EDP') {
+                    coverageGr3.coverage_type = 'newly_acquired';
+                }
+                if (requestBody.extracted_data.Policy.Coverages[l].Subject_Of_Insurance == 'Emergency tenant evacuation expenses') {
+                    coverageGr3.coverage_type = 'emergency';
+                }
+                if (requestBody.extracted_data.Policy.Coverages[l].Subject_Of_Insurance == 'Paved or Concrete Surfaces') {
+                    coverageGr3.coverage_type = 'paved';
+                }
+                coverageGr3.limits = requestBody.extracted_data.Policy.Coverages[l].Limit;
+                coverageGr3.deductible = requestBody.extracted_data.Policy.Coverages[l].Deductible;
+                coverageGr3.insert();
+
+            }
+        }
+		var updateSumCoverage = new UnderWriterCoverageUtils().sumcoveragePremium(casesysid);
+
+        // Success Response with Case Number
+        response.setStatus(201);
+        response.setBody({
+            message: "Records created successfully",
+            caseNumber: caseNumber,
+
+        });
+
+
+
+    } catch (error) {
+        response.setStatus(500);
+        response.setBody({
+            error: error.message
+        });
+    }
+
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_ltin2_uw_ai/fso_case_creation/new_case</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/new_case</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-02-03 04:28:04</sys_created_on>
+        <sys_id>4c9d3a2493e752108b8674121bba1047</sys_id>
+        <sys_mod_count>167</sys_mod_count>
+        <sys_name>UW case creation from API</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_ws_operation_4c9d3a2493e752108b8674121bba1047</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-05-06 05:40:19</sys_updated_on>
+        <web_service_definition display_value="FSO case creation">005dfee093e752108b8674121bba1076</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>4c9d3a2493e752108b8674121bba1047</id>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-02-03 04:28:04</sys_created_on>
+        <sys_id>c64ccfe8932b52108b8674121bba1015</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-02-03 04:28:04</sys_updated_on>
+        <table>sys_ws_operation</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config/>
+        <screen display_value="Test UI for second quote stage activity">f58acd79334d2ad0875176a59d5c7b88</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-04-22 05:47:46</sys_created_on>
+        <sys_id>3d8acd79334d2ad0875176a59d5c7b8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_3d8acd79334d2ad0875176a59d5c7b8d</sys_update_name>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-04-22 05:47:46</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>

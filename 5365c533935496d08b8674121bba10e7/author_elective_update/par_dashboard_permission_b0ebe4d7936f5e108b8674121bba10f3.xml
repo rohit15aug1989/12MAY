@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="DELETE">
+        <can_read>true</can_read>
+        <can_share>true</can_share>
+        <can_write>true</can_write>
+        <dashboard display_value="Underwriter Workspace - Copy">30ebe4d7936f5e108b8674121bba10ef</dashboard>
+        <group/>
+        <owner>true</owner>
+        <role/>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-02-11 05:50:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b0ebe4d7936f5e108b8674121bba10f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>30ebe4d7936f5e108b8674121bba10ef</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>par_dashboard_permission_b0ebe4d7936f5e108b8674121bba10f3</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-02-11 05:50:36</sys_updated_on>
+        <user display_value="Rohit G">14b47885338b5a10875176a59d5c7b5b</user>
+    </par_dashboard_permission>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</application>
+        <file_path/>
+        <instance_id>7838a3eddb96a7c049eac59705961973</instance_id>
+        <instance_name>ltidemo5</instance_name>
+        <name>par_dashboard_permission_b0ebe4d7936f5e108b8674121bba10f3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission"><par_dashboard_permission action="INSERT_OR_UPDATE"><can_read>true</can_read><can_share>true</can_share><can_write>true</can_write><dashboard display_value="Underwriter Workspace - Copy">30ebe4d7936f5e108b8674121bba10ef</dashboard><group/><owner>true</owner><role/><sys_class_name>par_dashboard_permission</sys_class_name><sys_created_by>rohit</sys_created_by><sys_created_on>2025-02-11 05:50:36</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b0ebe4d7936f5e108b8674121bba10f3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>30ebe4d7936f5e108b8674121bba10ef</sys_name><sys_overrides/><sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package><sys_policy/><sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope><sys_update_name>par_dashboard_permission_b0ebe4d7936f5e108b8674121bba10f3</sys_update_name><sys_updated_by>rohit</sys_updated_by><sys_updated_on>2025-02-11 05:50:36</sys_updated_on><user display_value="Rohit G">14b47885338b5a10875176a59d5c7b5b</user></par_dashboard_permission></record_update>]]></payload>
+        <payload_hash>-981102425</payload_hash>
+        <record_name>30ebe4d7936f5e108b8674121bba10ef</record_name>
+        <reverted_from/>
+        <source>53ea92d9338fda10875176a59d5c7bc9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-02-11 05:50:36</sys_created_on>
+        <sys_id>b0eb281b936f5e108b8674121bba1024</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194f38f36cf0000001</sys_recorded_at>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-02-11 05:50:36</sys_updated_on>
+        <type>PAR Dashboard Permission</type>
+        <update_guid>34eb281bf96f5e100d1d00e42a6a2423</update_guid>
+        <update_guid_history>34eb281bf96f5e100d1d00e42a6a2423:-981102425</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">6a8f601393af5e108b8674121bba103b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-02-11 06:06:34</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_permission">par_dashboard_permission</sys_db_object>
+        <sys_id>278b3c5ea33644c79eff0dc509aad831</sys_id>
+        <sys_metadata>b0ebe4d7936f5e108b8674121bba10f3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>30ebe4d7936f5e108b8674121bba10ef</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_scope_delete display_value="">7c8d9985394b49b688ab893eea2dbef1</sys_scope_delete>
+        <sys_update_name>par_dashboard_permission_b0ebe4d7936f5e108b8674121bba10f3</sys_update_name>
+        <sys_update_version display_value="par_dashboard_permission_b0ebe4d7936f5e108b8674121bba10f3">b0eb281b936f5e108b8674121bba1024</sys_update_version>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-02-11 06:06:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

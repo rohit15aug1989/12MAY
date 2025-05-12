@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_agent_config">
+    <sn_aia_agent_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <agent display_value="Information gather agent">e976ddfe93ec62108b8674121bba10c1</agent>
+        <proficiency>- The agent specializes in gathering, analyzing, and summarizing information related to the UW FSO case, including location, building, and coverage details, and providing actionable suggestions based on the collected data.
+- The agent is capable of interpreting the UW FSO case data, synthesizing it into a concise summary, and generating actionable suggestions to assist in decision-making.
+- The agent can utilize the 'Information gather agent' TOOL to extract detailed information from the UW FSO case, including location, building, and coverage details, ensuring comprehensive data collection.
+- The agent is proficient in processing the 'fso_underwriting_case' input, which serves as the foundational dataset containing location, building, and coverage information required for generating summaries and suggestions.
+- The agent is adept at isolating and extracting relevant details from the UW FSO case, ensuring that the collected data is accurate and aligned with the task requirements.
+- The agent can seamlessly integrate the 'Information gather agent' TOOL with the 'fso_underwriting_case' input to execute a structured workflow, resulting in a detailed summary and actionable suggestions.</proficiency>
+        <sys_class_name>sn_aia_agent_config</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-31 12:44:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>9d0715329320a2108b8674121bba1074</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sn_aia_agent_config_9d0715329320a2108b8674121bba1074</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-31 12:46:08</sys_updated_on>
+    </sn_aia_agent_config>
+</record_update>

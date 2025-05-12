@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_ltin2_uw_ai.UnderwriteAnnotation</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>UnderwriteAnnotation</name>
+        <sandbox_callable>true</sandbox_callable>
+        <script><![CDATA[var UnderwriteAnnotation = Class.create();
+UnderwriteAnnotation.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    getMsg: function() {
+        //  var stage = this.getParameter('sysparm_stage');
+        var customer = this.getParameter('sysparm_case');
+        if (customer == '367015649378d6508b8674121bba103e') {
+            var msg = "";
+            var insight1 = {
+                "1": "<h4>Insights:</h4><p>Decision: The submission is likely to bind.</p><p>Supporting Rationale:</p><ol><li>Account Revenue: Although the account revenue of $15,470,000 is significantly higher than the typical threshold of $2,000,000, other factors outweigh the benefits of high revenue. High revenue alone does not mitigate all risks associated with the submission.</li><li>Location: The submission is situated in Bellingham, WA, which is a moderately favorable location. The substantial revenue enhances the overall assessment. High-revenue accounts in moderately favorable locations like Bellingham are still likely to be approved due to the economic stability and business opportunities available.</li><li>Further Evaluation: Considering the favorable account revenue and the insured’s advantageous location, it shows a significant degree of confidence in the binding decision.</li></ol>",
+                "2": "<h4>Insights:</h4><h5 style='margin-bottom:0'>Non CAT Losses:</h5><p style='margin-top:0'>The loss ratio for commercial property is around 48% for 2023, incomparison the loss ratio for financial services company has hovered around 41%.<br>This better performance in the financial services segment is attributed to the fact that the average age of buildings is under 12 years, and fire protection measures cover about 79% of these buildings.</p><h5 style='margin-bottom:0'>CAT Losses:</h5><p style='margin-top:0'>For CAT Losses, loss ratio of this customer segment and overall commercial property is around 45% for 2023.</p>",
+                "3": "<h4>Insights:</h4>Submission for DocFin Mentors includes buildings from two locations:<h5 style='margin-bottom:0'>Location 1:</h5><p style='marging-top:0'>Address: 1910 Broadway, Bellingham, WA 98225<br>Number of Buildings: 1<br>Total Insured Value: $1,420,430</p><h5 style='margin-bottom:0'>Location 2:</h5><p style='margin-top:0'>Address: 1020 S Burlington Blvd, Burlington, WA 98233<br>Number of Buildings: 1<br>Total Insured Value: $3,200,000<p><h5 style='margin-bottom:0'>Loss History:</h5><p style='margin-top:0'>Period Reviewed: Since January 1, 2021<br>Claim made under policy number: URG7380 issued by Reliance Insurance<br>Claim Number: ERF787<br>Total Paid Losses: $80,023<br>Total Paid Expenses: $165<br>There are no open reserves.</p>"
+
+            };
+            var random1 = Math.floor(Math.random() * 3) + 1;
+            msg = insight1[random1];
+            return msg;
+        }
+    },
+    getMsgLocation: function() {
+        var location_id = this.getParameter('sysparm_id');
+        var customer_id = '';
+        var cs = new GlideRecord('x_ltin2_uw_ai_fso_uw_case');
+        cs.addQuery('sys_id', this.getParameter('sysparm_cus_id'));
+        cs.query();
+        if (cs.next())
+            customer_id = cs.customer_id;
+        var msg = "";
+        if (customer_id == '367015649378d6508b8674121bba103e') {
+            if (location_id == '1') {
+                var insight1 = {
+                    "1": "<h4>Insights:</h4>CAT Exposure Summary for Bellingham, WA (1910 Broadway)<h5>Wildfire Risk: Very low (Score: A)</h5><p>Features: Not in proximity to significant wildfire fuel loads.<br>PML Insight: Estimated PML is at 30% of TIV due to Low Wildfire risk.</p><h5>Hail Risk: Very low (Score: A)</h5><p>Features: No significant historical hail events within a 25-mile radius.<br>PML Insight: Estimated PML is at 10% of TIV due to Very Low Hail risk.</p><h5>Flood Risk: Extremely low (Score: A)</h5><p>Features: More than 20 miles from perennial water sources.<br>PML Insight: Estimated PML is at 10% of TIV due to Extremely Low Flood risk.</p><h5>Earthquake Risk: Moderate/Heavy Damage (Score: D)</h5><p>Features: Between 5 and 10 miles to known earthquake fault.<br>PML Insight: Estimated PML is at 60% of TIV due to Moderate/Heavy Earthquake risk.</p>",
+                    "2": "<h4>Insights:</h4>Based on the information, the average claim payout for Non-CAT Perils for this industry segment in Bellingham, WA is $80,188. Theft, vandalism, and other non-fire-related damages constitute 90% of the Non-CAT claims. Bellingham’s crime rate is high, scoring a ‘D’. This indicates a high level of risk for theft and vandalism.",
+                    "3": "<h4>Insights:</h4><p>For the Financial Services Facility in Bellingham, WA, here are coverages that should be considered in addition:<br>No Additional Coverages Required. The current risk assessment indicates that there are no significant additional risks that necessitate further coverage. The existing coverages are deemed sufficient based on the provided data. The estimated PML remains at a manageable level, and no further coverages are required to mitigate potential losses.</p>"
+
+                };
+                var random1 = Math.floor(Math.random() * 3) + 1;
+                msg = insight1[random1];
+
+            } else if (location_id == '2') {
+                var insight2 = {
+                    "1": "<h4>Insights:</h4>Here is the CAT Exposure Summary for Burlington, WA (1020 S Burlington Blvd)<h5 style='margin-bottom:0'>Wildfire Risk: Very low (Score: A)</h5><p style='margin-top:0'>Features: Not in proximity to significant wildfire fuel loads.<br>PML Insight: Estimated PML is at 30% of TIV due to Low Wildfire risk.</p><h5 style='margin-bottom:0'>Hail Risk: Very low (Score: A)</h5><p style='margin-top:0'>Features: No significant historical hail events within a 25-mile radius.<br>PML Insight: Estimated PML is at 10% of TIV due to Very Low Hail risk.</p><h5 style='margin-bottom:0'>Flood Risk: Extremely low (Score: A)</h5><p style='margin-top:0'>Features: More than 1,000 feet from perennial water sources.<br>PML Insight: Estimated PML is at 10% of TIV due to Extremely Low Flood risk.<p><h5 style='margin-bottom:0'>Earthquake Risk: Moderate/Heavy Damage (Score: D)</h5><p style='margin-top:0'>Features: Between 5 and 10 miles to known earthquake fault.<br>PML Insight: Estimated PML is at 60% of TIV due to Moderate/Heavy Earthquake risk.<p>",
+                    "2": "<h4>Insights:</h4>Based on the information, the average claim payout for Non-CAT Perils for this industry segment in Burlington, WA is $80,188. Theft, vandalism, and other non-fire-related damages constitute 90% of the Non-CAT claims. Bellingham’s crime rate is high, scoring a ‘D’. This indicates a high level of risk for theft and vandalism.",
+                    "3": "<h4>Insights:</h4>" + "<p>For the Financial Services Facility in Burlington, WA, your exposure modifier for CAT Coverages is:<br><br>Wildfire: Between 0.60 to 0.80<br>Hail: Between 0.70 to 1.00<br>Flood: Between 0.90 to 1.10</p>"
+
+                };
+                var random2 = Math.floor(Math.random() * 3) + 1;
+                msg = insight2[random2];
+
+            }
+            return msg;
+        }
+		else
+		return '';
+    },
+    getMsgBuilding: function() {
+        var building = this.getParameter('sysparm_building');
+        var location_id = '';
+        var loc = new GlideRecord('x_ltin2_uw_ai_location_cat_perils');
+        loc.addQuery('sys_id', this.getParameter('sysparm_location'));
+        loc.query();
+        if (loc.next())
+            location_id = loc.location_id;
+		var customer_id = '';
+        var cs = new GlideRecord('x_ltin2_uw_ai_fso_uw_case');
+        cs.addQuery('sys_id', this.getParameter('sysparm_case_id'));
+        cs.query();
+        if (cs.next())
+            customer_id = cs.customer_id;
+
+        var msg = '';
+        if (customer_id == '367015649378d6508b8674121bba103e') {
+            if (building == '1' && location_id == '1') {
+                var insight1 = {
+                    "1": "<h4>Insights:</h4>" + "Key COPE (Construction, Occupancy, Protection, and Exposure) Characteristics for DocFin Mentors in Bellingham, WA<h5 style='margin-bottom:0'>Construction</h5><p style='margin-top:0'>Type: Masonry Non-Combustible<br>Year Built: 2016<br>Total Area: 10,000 sq ft<br>Roof Type: Metal Aluminum Shake<br>Impact on PML: The masonry non-combustible construction type provides a higher level of fire resistance compared to frame construction, which can decrease the PML. The building’s construction year (2016) indicates adherence to modern building codes, offering significant protection.</p><h5 style='margin-bottom:0'>Occupancy</h5><p style='margin-top:0'>Primary Operations: Financial Services<br>Number of Stories: 3<br>Impact on PML: The nature of the business involves office operations, which generally have a lower risk of fire and other hazards compared to manufacturing operations. This can help in maintaining a lower PML.</p><h5 style='margin-bottom:0'>Protection</h5><p style='margin-top:0'>Fire Protection: Centrally monitored fire alarm, CO2/Chemical Systems, 80% sprinkler coverage<br>Distance to Hydrant: 300 feet<br>Distance to Fire Station: 1 mile<br>Impact on PML: The presence of a centrally monitored fire alarm and CO2/Chemical Systems, along with significant sprinkler coverage, greatly reduces the risk of extensive fire damage, thereby lowering the PML. The relatively close distance to the fire station can also help in quicker response times, further reducing the PML.</p><h5 style='margin-bottom:0'>Exposure</h5><p style='margin-top:0'>Right Exposure: Shopping Mall - 400 ft<br>Left Exposure: Retail - 75 ft<br>Front Exposure: Street<br>Rear Exposure: Manufacturing - 80 ft<br>Impact on PML: The surrounding exposures, such as retail and manufacturing areas, provide some buffer that can help in emergency response and evacuation, potentially lowering the PML. The presence of a street in front reduces the risk of fire spreading from adjacent properties.</p>",
+
+                    "2": "<h4>Insights:</h4><h5 style='margin-bottom:0'>Building:</h5><p style='margin-top:0'>Financial services facilities in the area typically maintain building coverage limits ranging from $1,000,000 to $3,500,000, reflecting replacement costs. The coverage limit of $1,220,430 for DocFin Mentors is within this range. Common deductibles range between $5,000 and $15,000. The deductible of $5,000 for DocFin Mentors is reasonable and aligns with industry standards.</p><h5 style='margin-bottom:0'>Business Personal Property (BPP): </h5><p style='margin-top:0'>Comparable financial services facilities often insure limits between $150,000 and $250,000. The coverage limit of $200,000 for DocFin Mentors is within the typical range and provides adequate protection.</p><h5 style='margin-bottom:0'>Business Interruption:</h5><p style='margin-top:0'>Many financial services facilities maintain business income coverage limits from $200,000 to $400,000, with a standard 24-hour waiting period.</p>"
+                };
+                var random1 = Math.floor(Math.random() * 2) + 1;
+                msg = insight1[random1];
+            } else if (building == '1' && location_id == '2') {
+                var insight2 = {
+                    "1": "<h4>Insights:</h4>" + "Key COPE (Construction, Occupancy, Protection, and Exposure) Characteristics for DocFin Mentors in Burlington, WA<h5 style='margin-bottom:0'>Construction</h5><p style='margin-top:0'>Type: Non-Combustible<br>Year Built: 2019<br>Total Area: 8,000 sq ft<br>Roof Type: Not Specified<br>Impact on PML: The non-combustible construction type provides a higher level of fire resistance compared to frame construction, which can decrease the PML. The building’s construction year (2019) indicates adherence to modern building codes, offering significant protection.</p><h5 style='margin-bottom:0'>Occupancy</h5><p style='margin-top:0'>Primary Operations: Financial Services<br>Number of Stories: 4<br>Impact on PML: The nature of the business involves office operations, which generally have a lower risk of fire and other hazards compared to manufacturing operations. This can help in maintaining a lower PML.</p><h5 style='margin-bottom:0'>Protection</h5><p style='margin-top:0'>Fire Protection: Centrally monitored fire alarm, CO2/Chemical Systems, 80% sprinkler coverage<br>Distance to Hydrant: 300 feet<br>Distance to Fire Station: 1 mile<br>Impact on PML: The presence of a centrally monitored fire alarm and CO2/Chemical Systems, along with significant sprinkler coverage, greatly reduces the risk of extensive fire damage, thereby lowering the PML. The relatively close distance to the fire station can also help in quicker response times, further reducing the PML.</p><h5 style='margin-bottom:0'>Exposure</h5><p style='margin-top:0'>Right Exposure: Shopping Mall - 400 ft<br>Left Exposure: Retail - 75 ft<br>Front Exposure: Street<br>Rear Exposure: Manufacturing - 80 ft<br>Impact on PML: The surrounding exposures, such as retail and manufacturing areas, provide some buffer that can help in emergency response and evacuation, potentially lowering the PML. The presence of a street in front reduces the risk of fire spreading from adjacent properties.</p>",
+
+                    "2": "<h4>Insights:</h4><h5 style='margin-bottom:0'>Building:</h5><p style='margin-top:0'>Financial services facilities in the area typically maintain building coverage limits ranging from $1,000,000 to $3,500,000, reflecting replacement costs. The coverage limit of $3,000,000 for DocFin Mentors is within this range. Common deductibles range between $5,000 and $15,000. The deductible of $5,000 for DocFin Mentors is reasonable and aligns with industry standards.</p><h5 style='margin-bottom:0'>Business Personal Property (BPP): </h5><p style='margin-top:0'>Comparable financial services facilities often insure limits between $150,000 and $250,000.</p><h5 style='margin-bottom:0'>Business Interruption:</h5><p style='margin-top:0'>Many financial services facilities maintain business income coverage limits from $200,000 to $400,000, with a standard 24-hour waiting period. The coverage limit of $200,000 for DocFin Mentors is within this range.</p>"
+                };
+                var random2 = Math.floor(Math.random() * 2) + 1;
+                msg = insight2[random2];
+
+            }
+            return msg;
+        }
+		else
+		return '';
+    },
+    getMsgCoverage: function() {
+		var customer_id = '';
+        var cs = new GlideRecord('x_ltin2_uw_ai_fso_uw_case');
+        cs.addQuery('sys_id', this.getParameter('sysparm_case_id'));
+        cs.query();
+        if (cs.next())
+            customer_id = cs.customer_id;
+        if (customer_id == '367015649378d6508b8674121bba103e') {
+
+        var msg = "<h4>Insights:</h4><h5 style='margin-bottom:0'>Scope of Coverage:</h5><p style='margin-top:0'>Protects a commercial or residential building against risks like fire, vandalism, and certain natural disasters.</p><h5 style='margin-bottom:0'>Coverage Limits:</h5><p style='margin-top:0'>Insures up to $500,000 for structural damage, including walls, floors, and roofing.</p><h5 style='margin-bottom:0'>Additional Protection:</h5><p style='margin-top:0'>Optional coverage for fixtures, outbuildings, and equipment may be added.</p><h5 style='margin-bottom:0'>Exclusions:</h5><p style='margin-top:0'>Does not cover flood, earthquake, or routine maintenance damage without additional endorsements.</p>";
+        return msg;
+		}
+		else
+		return '';
+
+    },
+
+    type: 'UnderwriteAnnotation'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2024-09-22 15:06:46</sys_created_on>
+        <sys_id>aff797e533301290875176a59d5c7b16</sys_id>
+        <sys_mod_count>33</sys_mod_count>
+        <sys_name>UnderwriteAnnotation</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_script_include_aff797e533301290875176a59d5c7b16</sys_update_name>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2024-09-29 13:06:35</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>aff797e533301290875176a59d5c7b16</id>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2024-09-22 15:06:45</sys_created_on>
+        <sys_id>97691f6933301290875176a59d5c7b76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2024-09-22 15:06:45</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

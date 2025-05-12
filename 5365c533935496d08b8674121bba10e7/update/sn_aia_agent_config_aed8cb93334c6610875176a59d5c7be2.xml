@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_agent_config">
+    <sn_aia_agent_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <agent display_value="Next Best Action Agent">3c56439f330c6610875176a59d5c7bc1</agent>
+        <proficiency>- The agent is proficient in resolving a wide range of issues, including incidents, cases, and problems, regardless of their nature. This involves understanding the problem, identifying potential solutions, and implementing effective resolution strategies.
+- The agent is capable of maintaining detailed records of issues and their resolution updates through journal entries. This involves tracking the progress of each task, ensuring that all relevant information is documented for future reference and analysis.
+- The agent is adept at analyzing incoming tasks to understand the underlying issues. They can conduct thorough searches for potential solutions and formulate comprehensive plans to address and resolve the issues presented in the tasks.</proficiency>
+        <sys_class_name>sn_aia_agent_config</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-08 13:47:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>aed8cb93334c6610875176a59d5c7be2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sn_aia_agent_config_aed8cb93334c6610875176a59d5c7be2</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-08 14:05:42</sys_updated_on>
+    </sn_aia_agent_config>
+</record_update>

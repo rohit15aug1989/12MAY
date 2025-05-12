@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e7d246fb33505ad0875176a59d5c7b21" extends="sn_bom_ins_policy" label="業主政策" max_length="40" name="sn_bom_bo_ins_policy" text_index="true" type="collection">
+        <element attributes="encode_utf8=false" label="Case No" max_length="32" name="x_ltin2_uw_ai_case_no" reference="x_ltin2_uw_ai_fso_uw_case" type="reference"/>
+        <element attributes="omit_sys_original=true" label="Gross Premium" max_length="20" name="x_ltin2_uw_ai_gross_premium" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Taxes Surcharges" max_length="20" name="x_ltin2_uw_ai_taxes_surcharges" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Customer Name" max_length="40" name="x_ltin2_uw_ai_customer_name" type="string"/>
+        <element attributes="omit_sys_original=true" label="Net Premium" max_length="20" name="x_ltin2_uw_ai_net_premium" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Issue date" max_length="40" name="x_ltin2_uw_ai_issue_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Selected Version" max_length="40" name="x_ltin2_uw_ai_selected_version" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="FSO Case Number" max_length="40" name="x_ltin2_uw_ai_fso_case_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Policy expiration date" max_length="40" name="x_ltin2_uw_ai_policy_expiration_date" type="glide_date"/>
+        <element label="Policy Numbers" max_length="40" name="x_ltin2_uw_ai_policy_numbers" type="integer"/>
+        <index name="index">
+            <element name="x_ltin2_uw_ai_case_no"/>
+        </index>
+    </element>
+</database>

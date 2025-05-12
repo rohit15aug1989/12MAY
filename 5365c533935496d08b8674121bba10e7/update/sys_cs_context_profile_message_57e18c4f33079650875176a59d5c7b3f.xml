@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_context_profile_message">
+    <sys_cs_context_profile_message action="INSERT_OR_UPDATE">
+        <context_profile display_value="Now Assist in Virtual Agent - 1">83e14c4f33079650875176a59d5c7be7</context_profile>
+        <message>Hi .&#13;
+&#13;
+I'm an AI-powered virtual agent and can answer questions, fulfill requests, and generally point you in the right direction. I'm still learning, so I might make mistakes sometimes. Check my answers for accuracy.</message>
+        <sys_class_name>sys_cs_context_profile_message</sys_class_name>
+        <sys_created_by>abhi</sys_created_by>
+        <sys_created_on>2025-01-16 11:37:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>57e18c4f33079650875176a59d5c7b3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hi .&#13;
+&#13;
+I'm an AI-powered virtual agent and can answer questions, fulfill requests, and generally point you in the right direction. I'm still learning, so I might make mistakes sometimes. Check my answers for accuracy.</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_cs_context_profile_message_57e18c4f33079650875176a59d5c7b3f</sys_update_name>
+        <sys_updated_by>abhi</sys_updated_by>
+        <sys_updated_on>2025-01-16 11:37:23</sys_updated_on>
+        <type>greeting_guest</type>
+    </sys_cs_context_profile_message>
+    <sys_translated_text action="delete_multiple" query="documentkey=57e18c4f33079650875176a59d5c7b3f"/>
+</record_update>

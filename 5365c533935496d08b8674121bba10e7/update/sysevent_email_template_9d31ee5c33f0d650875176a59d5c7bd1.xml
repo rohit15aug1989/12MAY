@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>x_ltin2_uw_ai_fso_uw_case</collection>
+        <email_layout display_value="Underwriter notification layout">1089da1033f0d650875176a59d5c7b55</email_layout>
+        <message/>
+        <message_html/>
+        <message_list/>
+        <message_text/>
+        <name>UnderWriter</name>
+        <sms_alternate/>
+        <subject/>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>abhi</sys_created_by>
+        <sys_created_on>2024-09-18 13:49:12</sys_created_on>
+        <sys_id>9d31ee5c33f0d650875176a59d5c7bd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UnderWriter</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sysevent_email_template_9d31ee5c33f0d650875176a59d5c7bd1</sys_update_name>
+        <sys_updated_by>abhi</sys_updated_by>
+        <sys_updated_on>2024-09-18 13:49:12</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

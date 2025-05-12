@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_generative_ai_prompt_config">
+    <sys_generative_ai_prompt_config action="INSERT_OR_UPDATE">
+        <ai_config display_value="OneExtend Capability Definition: PIR Report Generation_Clarios 10 sep">71368b2293335a908b8674121bba106c</ai_config>
+        <definition display_value="PIR Report Generation_Clarios 10 sep">f5368b2293335a908b8674121bba1047</definition>
+        <filter_properties>{}</filter_properties>
+        <filter_type>default</filter_type>
+        <is_default>false</is_default>
+        <order>0</order>
+        <sys_class_name>sys_generative_ai_prompt_config</sys_class_name>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2024-10-24 19:09:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b1368b2293335a908b8674121bba106d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>71368b2293335a908b8674121bba106c</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_generative_ai_prompt_config_b1368b2293335a908b8674121bba106d</sys_update_name>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2025-02-21 19:25:08</sys_updated_on>
+    </sys_generative_ai_prompt_config>
+</record_update>

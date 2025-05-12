@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_agent_tool_m2m">
+    <sn_aia_agent_tool_m2m action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <agent display_value="Incident">2c88bead33635a10875176a59d5c7be3</agent>
+        <description>Get all details of incident which is passed to this.</description>
+        <display_output>true</display_output>
+        <execution_mode>autopilot</execution_mode>
+        <inputs>[]</inputs>
+        <max_auto_executions>10</max_auto_executions>
+        <name>Get Details of Incident</name>
+        <output_transformation_strategy>paraphrase</output_transformation_strategy>
+        <run_as/>
+        <sys_class_name>sn_aia_agent_tool_m2m</sys_class_name>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2025-02-24 18:05:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>cba0d26793fb12d08b8674121bba1074</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get Details of Incident</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sn_aia_agent_tool_m2m_cba0d26793fb12d08b8674121bba1074</sys_update_name>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2025-02-24 18:05:07</sys_updated_on>
+        <tool display_value="Get Details of Incident">8fa0d26793fb12d08b8674121bba106f</tool>
+    </sn_aia_agent_tool_m2m>
+</record_update>

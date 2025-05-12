@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_email_layout">
+    <sys_email_layout action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <advanced_layout><![CDATA[<html lang="en">
+
+<head>
+	<meta charset="utf-8"></meta>
+	<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+	<style type="text/css">
+		* {
+			-webkit-text-size-adjust: none;
+		}
+
+		body {
+			margin: 0 !important;
+			padding: 0 !important;
+			font-family: Lato, Arial, sans-serif;
+			max-width: 600px;
+		}
+
+		p.footer {
+			margin: 0;
+			font-size: 14px;
+			line-height: 18px;
+			color: #ffffff;
+		}
+
+		#snc_notification_unsubscribe , #snc_notification_preference {
+			color: #3C59E7;
+			font-size: 16px;
+			line-height: 19px;
+		}
+
+		#snc_notification_unsubscribe {
+			padding-right: 8px;
+		}
+
+		#snc_notification_preference {
+			padding-left: 8px;
+		}
+
+		body,
+		table,
+		td,
+		p,
+		a {
+			-ms-text-size-adjust: 100% !important;
+			-webkit-text-size-adjust: 100% !important;
+		}
+
+		table,
+		tr,
+		td {
+			border-spacing: 0 !important;
+			mso-table-lspace: 0 !important;
+			mso-table-rspace: 0 !important;
+			border-collapse: collapse !important;
+			mso-line-height-rule: exactly !important;
+		}
+
+		.ExternalClass * {
+			line-height: 100%;
+		}
+
+		.mobile-link a,
+		.mobile-link span {
+			text-decoration: none !important;
+			color: inherit !important;
+			border: none !important;
+		}
+	</style>
+</head>
+
+<body style="margin: 0 auto !important;">
+	<table class="w100" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" bgcolor="#F7F7F9"
+		style="width:100%; max-width: 600px; background-color:#F7F7F9; margin: 0 auto; padding: 0px;">
+		<tbody>
+			<tr>
+				<td align="center"
+					style="background: #27284A;text-align:center;font-family:Arial, Tahoma, sans-serif;color:#425968;font-size:13px;line-height:14px;">
+					<table cellspacing="0" style="border-spacing: 0; width: 100%">
+						<tr style="background-color: #27284A;">
+							<td height="100" width="140">
+								<img src="email_template_header.png" height="100" width="140" />
+							</td>
+							<td valign="bottom" height="100" align="center" >
+								<table style="margin: 0 auto;">
+									<tr>
+										<td>
+											<img src="email_template_now_logo.png" height="35" />
+										</td>
+
+									</tr>
+									<tr><td height="18"></td></tr>
+								</table>
+							</td>
+							<td width="140"></td>
+						</tr>
+						<tr style="background-color: #27284A;" height="30">
+							<td></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+
+		</tbody>
+	</table>
+	<table width="100%" style="max-width: 600px; background-color:#F7F7F9;" cellspacing="0" cellpadding="0" border="0" align="center">
+		<tbody>
+			<tr>
+				<!-- Left-->
+				<td valign="top" width="16">
+					<table width="16">
+						<tr height="36" style="background: #27284A;">
+							<td></td>
+						</tr>
+					</table>
+				</td>
+				<!-- CONTAINER -->
+				<td width="100%">
+					<table class="w100" cellspacing="0" cellpadding="0" border="0" align="center" width="100%"
+						style="background-image: linear-gradient(to bottom , rgba(39,40,74,1), rgba(247,247,249,0));margin:0px; padding:0px; box-shadow: 0px 2px 10px rgba(23, 40, 52, 0.08);">
+						<tbody>
+							<!-- Main Container -->
+							<tr>
+								<td class="pad-sides-20" align="center"
+									style="border-radius:6px;text-align:left;padding-left:24px;padding-right:24px;padding-top:18px;padding-bottom:18px; background-color: #FFFFFF;">
+									${notification:body}
+								</td>
+							</tr>
+						</tbody>
+					</table>
+
+
+				</td>
+				<!-- END CONTAINER -->
+
+				<!-- Right-->
+				<td width="16" valign="top">
+					<table width="16">
+						<tr height="36" style="background: #27284A;">
+							<td></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+			</tr>
+		</tbody>
+	</table>
+	<table width="100%" style="max-width: 600px" cellspacing="0" cellpadding="0" border="0" align="center">
+		<tbody>
+			<tr>
+				<td align="center" height="60" style="background-color: #F7F7F9;">
+					${NOTIF_UNSUB} | ${NOTIF_PREFS}
+				</td>
+			</tr>
+			<tr>
+				<td height="36" style="background-color: #27284A;"></td>
+			</tr>
+			<tr>
+				<td valign="top" align="center" height="38" style="background-color: #27284A;">
+					<img src="email_template_now_logo.png" height="20" />
+				</td>
+			</tr>
+			<tr>
+				<td style="background-color: #27284A; color: #fff;">
+					<table width="100%" cellspacing="0" style="color: #fff;">
+						<tr align="center">
+							<td>
+								<p class="footer" style="color: white;">
+									2225 Lawson Lane, Santa Clara, CA 95054, United States
+								</p>
+							</td>
+
+						</tr>
+						<tr align="center">
+							<td>
+								<p class="footer" style="color: white;">
+									&#169; 2020 ServiceNow Inc. All rights reserved.
+								</p>
+							</td>
+						</tr>
+
+					</table>
+				</td>
+			</tr>
+			<tr cellspacing="0">
+				<td align="center" bgcolor="#27284A" height="102">
+					<img src="email_template_footer.png" width="100%" height="102" />
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>]]></advanced_layout>
+        <description>A layout for all user facing notifications that contains theme, header, footer, unsubscribe, and preferences for Underwriter solution</description>
+        <layout><![CDATA[<p></p>
+<style type="text/css">
+	* {
+		-webkit-text-size-adjust: none;
+	}
+
+	body {
+		margin: 0 auto !important;
+		padding: 0 !important;
+		font-family: Lato, Arial, sans-serif;
+	}
+
+	.btn a {
+		text-decoration: none;
+	}
+
+	.btn.inverse a {
+		color: #fff;
+	}
+
+	#requestapprove a {
+		color: #fff !important;
+	}
+
+	span.footer,
+	#templateAddress,
+	#templateCopyright,
+	#templateCopyright *,
+	#templateAddress * {
+		margin: 0;
+		font-size: 14px;
+		line-height: 18px;
+		color: #ffffff;
+	}
+
+	#snc_notification_unsubscribe,
+	#snc_notification_preference {
+		color: #3C59E7;
+		font-size: 16px;
+		line-height: 19px;
+	}
+
+	#snc_notification_unsubscribe {
+		padding-right: 8px;
+	}
+
+	#snc_notification_preference {
+		padding-left: 8px;
+	}
+
+	body,
+	table,
+	td,
+	p,
+	a {
+		-ms-text-size-adjust: 100% !important;
+		-webkit-text-size-adjust: 100% !important;
+	}
+
+	table,
+	tr,
+	td {
+		border-spacing: 0 !important;
+		mso-table-lspace: 0 !important;
+		mso-table-rspace: 0 !important;
+		border-collapse: collapse !important;
+		mso-line-height-rule: exactly !important;
+	}
+
+	.ExternalClass * {
+		line-height: 100%;
+	}
+
+	.mobile-link a,
+	.mobile-link span {
+		text-decoration: none !important;
+		color: inherit !important;
+		border: none !important;
+	}
+</style>
+<div style="margin: 0 auto !important;" align="center">
+<table class="w100" border="0" width="600" cellspacing="0" cellpadding="0" align="center" bgcolor="#F7F7F9" style="width: 585px; background-color: rgb(247, 247, 249); padding: 0px; height: 364px; margin: 0px auto !important;">
+<tbody>
+<tr style="height: 135.111px;">
+<td style="background: rgb(14, 23, 52); text-align: center; font-family: Arial, Tahoma, sans-serif; color: rgb(66, 89, 104); font-size: 13px; line-height: 14px; height: 135.111px; width: 600px;" align="center">
+<table border="0" width="600" cellspacing="0" cellpadding="0" height="277" style="border-spacing: 0px; width: 93.3049%; height: 266.333px;">
+<tbody>
+<tr style="background-color: rgb(14, 23, 52); height: 256.333px;">
+<td width="140" height="98" style="width: 97.3705%; height: 256.333px;"><img src="/sys_attachment.do?sys_id=d853ae103334d650875176a59d5c7b3f" width="579" height="253"></td>
+<td align="center" valign="bottom" height="98" style="width: 2.463%; height: 256.333px;">
+<table style="margin: 0px auto; width: 3.91078%;">
+<tbody>
+<tr>
+<td height="34" style="width: 100%;"></td>
+</tr>
+<tr>
+<td height="16" style="width: 100%;"></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td width="140" style="width: 0.1642%; height: 256.333px;"></td>
+</tr>
+<tr style="background-color: rgb(14, 23, 52); height: 10px;" height="32">
+<td style="width: 97.3705%; height: 10px;"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr style="height: 66.9444px;">
+<td style="height: 66.9444px; width: 600px;">
+<table border="0" width="600" cellspacing="0" cellpadding="0">
+<tbody>
+<tr><!-- Left-->
+<td valign="top" width="18">
+<table width="18" cellspacing="0">
+<tbody>
+<tr style="background: #0e1734;" height="48">
+<td></td>
+</tr>
+</tbody>
+</table>
+</td>
+<!-- CONTAINER -->
+<td width="564">
+<table class="w100" style="background-image: linear-gradient(to bottom , rgba(39,40,74,1), rgba(247,247,249,0)); margin: 0px; padding: 0px; box-shadow: 0px 2px 10px rgba(14, 23, 52, 0.08);" border="0" width="100%" cellspacing="0" cellpadding="0" align="center">
+<tbody><!-- Main Container -->
+<tr>
+<td class="pad-sides-20" style="border-radius: 6px; text-align: left; background-color: #ffffff; padding: 24px 24px 24px 24px;" align="center">${notification:body}</td>
+</tr>
+</tbody>
+</table>
+</td>
+<!-- END CONTAINER --> <!-- Right  -->
+<td valign="top" width="18">
+<table width="18" cellspacing="0">
+<tbody>
+<tr style="background: #0e1734;" height="48">
+<td></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr style="height: 61px;">
+<td style="background-color: rgb(247, 247, 249); height: 61px; width: 600px;" align="center" height="60">${NOTIF_UNSUB} | ${NOTIF_PREFS}</td>
+</tr>
+<!-- Footer started --> <!--
+<tr style="background-color: rgb(39, 40, 74); height: 369.833px;">
+<td style="height: 369.833px;">
+<table style="background-color: rgb(39, 40, 74); width: 100.166%; height: 365.389px;" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr style="height: 36px;">
+<td style="background-color: rgb(39, 40, 74); width: 99.7015%; height: 36px;" height="36"></td>
+</tr>
+<tr style="height: 38px;">
+<td style="background-color: rgb(39, 40, 74); width: 99.7015%; height: 38px;" align="center" valign="top" height="38"></td>
+</tr>
+<tr style="height: 38.6667px;">
+<td style="background-color: rgb(39, 40, 74); color: rgb(255, 255, 255); width: 99.7015%; height: 38.6667px;">
+<table style="color: rgb(255, 255, 255); height: 36px;" border="0" width="600" cellspacing="0" cellpadding="0">
+<tbody>
+<tr align="center" style="height: 18px;">
+<td style="height: 18px;"></td>
+</tr>
+<tr align="center" style="height: 18px;">
+<td style="height: 2px;"></td>
+</tr>
+--></tbody>
+</table>
+<img src="/sys_attachment.do?sys_id=8ab91e1033f0d650875176a59d5c7bd0" width="600" height="223"> <!-- Footer end--></div>]]></layout>
+        <name>Underwriter notification layout</name>
+        <sys_class_name>sys_email_layout</sys_class_name>
+        <sys_created_by>sushrut</sys_created_by>
+        <sys_created_on>2024-09-18 13:15:05</sys_created_on>
+        <sys_id>1089da1033f0d650875176a59d5c7b55</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Underwriter notification layout</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_email_layout_1089da1033f0d650875176a59d5c7b55</sys_update_name>
+        <sys_updated_by>sushrut</sys_updated_by>
+        <sys_updated_on>2024-09-18 14:09:39</sys_updated_on>
+    </sys_email_layout>
+</record_update>

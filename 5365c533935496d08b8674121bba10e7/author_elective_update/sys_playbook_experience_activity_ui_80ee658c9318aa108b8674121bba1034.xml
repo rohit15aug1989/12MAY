@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_playbook_experience_activity_ui">
+    <sys_playbook_experience_activity_ui action="DELETE">
+        <experience_type display_value="Test Activity Layout for Location and buildings">da3959049394aa108b8674121bba10d8</experience_type>
+        <macroponent/>
+        <name>test activity for location</name>
+        <playbook_experience display_value="Global Playbook Experience">98e09a560f2200102920c912d4767e1a</playbook_experience>
+        <screen/>
+        <sys_class_name>sys_playbook_experience_activity_ui</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-10 15:11:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>80ee658c9318aa108b8674121bba1034</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test activity for location</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_playbook_experience_activity_ui_80ee658c9318aa108b8674121bba1034</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-10 15:11:07</sys_updated_on>
+        <ui_template display_value="Test Ui for location and building ">3b39d1449394aa108b8674121bba1033</ui_template>
+    </sys_playbook_experience_activity_ui>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</application>
+        <file_path/>
+        <instance_id>7838a3eddb96a7c049eac59705961973</instance_id>
+        <instance_name>ltidemo5</instance_name>
+        <name>sys_playbook_experience_activity_ui_80ee658c9318aa108b8674121bba1034</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_playbook_experience_activity_ui"><sys_playbook_experience_activity_ui action="INSERT_OR_UPDATE"><experience_type display_value="Test Activity Layout for Location and buildings">da3959049394aa108b8674121bba10d8</experience_type><macroponent/><name>test activity for location</name><playbook_experience display_value="Global Playbook Experience">98e09a560f2200102920c912d4767e1a</playbook_experience><screen/><sys_class_name>sys_playbook_experience_activity_ui</sys_class_name><sys_created_by>rohit</sys_created_by><sys_created_on>2025-03-10 15:11:07</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>80ee658c9318aa108b8674121bba1034</sys_id><sys_mod_count>0</sys_mod_count><sys_name>test activity for location</sys_name><sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package><sys_policy/><sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope><sys_update_name>sys_playbook_experience_activity_ui_80ee658c9318aa108b8674121bba1034</sys_update_name><sys_updated_by>rohit</sys_updated_by><sys_updated_on>2025-03-10 15:11:07</sys_updated_on><ui_template display_value="Test Ui for location and building ">3b39d1449394aa108b8674121bba1033</ui_template></sys_playbook_experience_activity_ui></record_update>]]></payload>
+        <payload_hash>-1072404885</payload_hash>
+        <record_name>test activity for location</record_name>
+        <reverted_from/>
+        <source>53ea92d9338fda10875176a59d5c7bc9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-10 15:17:03</sys_created_on>
+        <sys_id>bd703d409358aa108b8674121bba10ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19580a184050000001</sys_recorded_at>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-10 15:17:03</sys_updated_on>
+        <type>Playbook Activity UI</type>
+        <update_guid>b61f2d8c4518aa10becefddaa2d52540</update_guid>
+        <update_guid_history>b61f2d8c4518aa10becefddaa2d52540:-296095196,b61f2d8c4518aa10becefddaa2d52540:-296095196,b61f2d8c4518aa10becefddaa2d52540:-296095196</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-10 15:17:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_playbook_experience_activity_ui">sys_playbook_experience_activity_ui</sys_db_object>
+        <sys_id>00002afc555c4114800001ee0073c6d9</sys_id>
+        <sys_metadata>80ee658c9318aa108b8674121bba1034</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test activity for location</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_scope_delete display_value="">7c8d9985394b49b688ab893eea2dbef1</sys_scope_delete>
+        <sys_update_name>sys_playbook_experience_activity_ui_80ee658c9318aa108b8674121bba1034</sys_update_name>
+        <sys_update_version display_value="sys_playbook_experience_activity_ui_80ee658c9318aa108b8674121bba1034">bd703d409358aa108b8674121bba10ae</sys_update_version>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-10 15:17:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

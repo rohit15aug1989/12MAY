@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>MODAL_SELECTED_RELAY_61528607932426108b8674121bba104a</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>Toggle modal relay</label>
+        <props>[
+    {
+        "fieldType": "string",
+        "interfaceApiName": "global.modal",
+        "label": "Modal",
+        "name": "modalId",
+        "valueType": "string"
+    },
+    {
+        "fieldType": "boolean",
+        "label": "Show Modal",
+        "name": "showModal",
+        "valueType": "string"
+    },
+    {
+        "fieldType": "json",
+        "label": "Modal display options",
+        "name": "displayOptions",
+        "valueType": "string"
+    }
+]</props>
+        <required_translations>[ {
+  "message" : "Modal",
+  "comment" : ""
+}, {
+  "message" : "Modal display options",
+  "comment" : ""
+}, {
+  "message" : "Show Modal",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-04-01 10:32:37</sys_created_on>
+        <sys_id>25528607932426108b8674121bba107f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Toggle modal relay</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_ux_event_25528607932426108b8674121bba107f</sys_update_name>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-04-01 10:32:37</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=25528607932426108b8674121bba107f"/>
+</record_update>

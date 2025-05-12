@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_generative_ai_config">
+    <sys_generative_ai_config action="DELETE">
+        <active>false</active>
+        <additional_configurations>{"skill_config_id":"58f92dc5932422d08b8674121bba107a"}</additional_configurations>
+        <ai_suggested>false</ai_suggested>
+        <definition>62a4c45593e462d08b8674121bba10c1</definition>
+        <definition_table>sys_one_extend_capability_definition</definition_table>
+        <max_tokens>500</max_tokens>
+        <min_word_count>-1</min_word_count>
+        <model>gpt-35-turbo-instruct</model>
+        <name>Version 4</name>
+        <parent display_value="OneExtend Capability Definition: FSO cas summarization test skill (Azure OpenAI - Completions)">d1deef5993a0e2d08b8674121bba1098</parent>
+        <prompt>
+## Role
+You are a case summary expert. Your task is to generate a case summary based on the FSO case record. You will need to extract the key points from the case record, including the customer's issue, any attempted solutions, and the final resolution.
+
+## Context
+The FSO case record that needs to be summarized: ' {{fso_underwriting_case}} '
+
+## Instructions
+1. Read through the entire FSO case record provided in the context.
+2. Identify the main problem or issue that the customer is facing, highlighting the main points discussed.
+3. Create a summary including the main issue or request, any relevant information or context provided by the customer or agent, and the resolution or outcome of the conversation.
+
+## Output
+The output should be a brief summary of the FSO case. The summary should be concise, typically no more than a few sentences long, and should focus on the most important information. It should not include unnecessary details or redundant information.
+</prompt>
+        <prompt_template_role>user</prompt_template_role>
+        <request_tokens>3347</request_tokens>
+        <show_in_prompt_library>false</show_in_prompt_library>
+        <state>draft</state>
+        <sys_class_name>sys_generative_ai_config</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-27 09:55:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a2f984ad9364e2d08b8674121bba1095</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>62a4c45593e462d08b8674121bba10c1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_generative_ai_config_a2f984ad9364e2d08b8674121bba1095</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-27 09:55:52</sys_updated_on>
+        <temperature>0.2</temperature>
+        <version>3</version>
+    </sys_generative_ai_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</application>
+        <file_path/>
+        <instance_id>7838a3eddb96a7c049eac59705961973</instance_id>
+        <instance_name>ltidemo5</instance_name>
+        <name>sys_generative_ai_config_a2f984ad9364e2d08b8674121bba1095</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_generative_ai_config"><sys_generative_ai_config action="INSERT_OR_UPDATE"><active>false</active><additional_configurations>{"skill_config_id":"58f92dc5932422d08b8674121bba107a"}</additional_configurations><ai_suggested>false</ai_suggested><definition>62a4c45593e462d08b8674121bba10c1</definition><definition_table>sys_one_extend_capability_definition</definition_table><max_tokens>500</max_tokens><min_word_count>-1</min_word_count><model>gpt-35-turbo-instruct</model><name>Version 4</name><parent display_value="OneExtend Capability Definition: FSO cas summarization test skill (Azure OpenAI - Completions)">d1deef5993a0e2d08b8674121bba1098</parent><prompt>
+## Role
+You are a case summary expert. Your task is to generate a case summary based on the FSO case record. You will need to extract the key points from the case record, including the customer's issue, any attempted solutions, and the final resolution.
+
+## Context
+The FSO case record that needs to be summarized: ' {{fso_underwriting_case}} '
+
+## Instructions
+1. Read through the entire FSO case record provided in the context.
+2. Identify the main problem or issue that the customer is facing, highlighting the main points discussed.
+3. Create a summary including the main issue or request, any relevant information or context provided by the customer or agent, and the resolution or outcome of the conversation.
+
+## Output
+The output should be a brief summary of the FSO case. The summary should be concise, typically no more than a few sentences long, and should focus on the most important information. It should not include unnecessary details or redundant information.
+</prompt><prompt_template_role>user</prompt_template_role><request_tokens>3347</request_tokens><show_in_prompt_library>false</show_in_prompt_library><state>draft</state><sys_class_name>sys_generative_ai_config</sys_class_name><sys_created_by>rohit</sys_created_by><sys_created_on>2025-03-27 09:55:52</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a2f984ad9364e2d08b8674121bba1095</sys_id><sys_mod_count>1</sys_mod_count><sys_name>62a4c45593e462d08b8674121bba10c1</sys_name><sys_overrides/><sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package><sys_policy/><sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope><sys_update_name>sys_generative_ai_config_a2f984ad9364e2d08b8674121bba1095</sys_update_name><sys_updated_by>rohit</sys_updated_by><sys_updated_on>2025-03-27 09:55:52</sys_updated_on><temperature>0.2</temperature><version>3</version></sys_generative_ai_config></record_update>]]></payload>
+        <payload_hash>718256129</payload_hash>
+        <record_name>62a4c45593e462d08b8674121bba10c1</record_name>
+        <reverted_from/>
+        <source>53ea92d9338fda10875176a59d5c7bc9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-27 09:55:53</sys_created_on>
+        <sys_id>baf908ad9364e2d08b8674121bba10ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195d70795e40000001</sys_recorded_at>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-27 09:55:53</sys_updated_on>
+        <type>Generative AI Configuration</type>
+        <update_guid>fef908add864e2d0b187610d8b5c7eed</update_guid>
+        <update_guid_history>fef908add864e2d0b187610d8b5c7eed:718256129,22f908ad6764e2d07a5de017574079e6:828852045</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-27 11:21:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_generative_ai_config">sys_generative_ai_config</sys_db_object>
+        <sys_id>13dcb06bd1e4432f95f33078bb158d41</sys_id>
+        <sys_metadata>a2f984ad9364e2d08b8674121bba1095</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Version 4</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_scope_delete display_value="">7c8d9985394b49b688ab893eea2dbef1</sys_scope_delete>
+        <sys_update_name>sys_generative_ai_config_a2f984ad9364e2d08b8674121bba1095</sys_update_name>
+        <sys_update_version display_value="sys_generative_ai_config_a2f984ad9364e2d08b8674121bba1095">baf908ad9364e2d08b8674121bba10ee</sys_update_version>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-27 11:21:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

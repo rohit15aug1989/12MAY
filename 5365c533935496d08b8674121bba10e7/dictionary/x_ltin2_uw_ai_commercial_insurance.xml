@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2d9e950493e41ad08b8674121bba1074" extends="sn_bom_cp_ins_policy" label="Commercial Insurance" max_length="40" name="x_ltin2_uw_ai_commercial_insurance" text_index="true" type="collection">
+        <element choice="1" label="Payment Method" max_length="40" name="payment_method" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Billing Method" max_length="40" name="billing_method" type="choice">
+            <choice/>
+        </element>
+        <element label="Source" max_length="50" name="source" type="string"/>
+        <element label="Policy Term" max_length="50" name="policy_term" type="string"/>
+        <element label="Broker Commission %" max_length="50" name="broker_commission" type="string"/>
+        <element label="Customer ID" max_length="32" name="customer_id" reference="sys_user" type="reference"/>
+        <element label="Quote Number" max_length="50" name="quote_number" type="string"/>
+        <element choice="1" label="Billing Type" max_length="40" name="billing_type" type="choice">
+            <choice/>
+        </element>
+        <element label="Coverages UW" max_length="32" name="coverages_uw" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="coverages_uw"/>
+        </index>
+        <index name="index2">
+            <element name="customer_id"/>
+        </index>
+    </element>
+</database>

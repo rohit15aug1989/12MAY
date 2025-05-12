@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="0ee6a02593cdd6d08b8674121bba1008" sys_domain="global" table="sn_ent_facility_asset" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>barla.praveenkumar</sys_created_by>
+            <sys_created_on>2024-10-04 12:22:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>12e6e02593cdd6d08b8674121bba10c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_ent_facility_asset" name="sn_ent_facility_asset" sys_domain="global" view="a1634f9c1b11021067a655361a4bcbf8">0ee6a02593cdd6d08b8674121bba1008</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="sn_ent_facility_asset" sys_domain="global" view="a1634f9c1b11021067a655361a4bcbf8">96e6e02593cdd6d08b8674121bba10bf</sys_ui_section>
+            <sys_updated_by>barla.praveenkumar</sys_updated_by>
+            <sys_updated_on>2024-10-04 12:22:30</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>barla.praveenkumar</sys_created_by>
+            <sys_created_on>2024-10-04 12:22:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5ae6e02593cdd6d08b8674121bba10d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_ent_facility_asset" name="sn_ent_facility_asset" sys_domain="global" view="a1634f9c1b11021067a655361a4bcbf8">0ee6a02593cdd6d08b8674121bba1008</sys_ui_form>
+            <sys_ui_section caption="General" display_value="General" name="sn_ent_facility_asset" sys_domain="global" view="a1634f9c1b11021067a655361a4bcbf8">5ee6e02593cdd6d08b8674121bba10c6</sys_ui_section>
+            <sys_updated_by>barla.praveenkumar</sys_updated_by>
+            <sys_updated_on>2024-10-04 12:22:31</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>barla.praveenkumar</sys_created_by>
+            <sys_created_on>2024-10-04 12:22:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dae6e02593cdd6d08b8674121bba10be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_ent_facility_asset" name="sn_ent_facility_asset" sys_domain="global" view="a1634f9c1b11021067a655361a4bcbf8">0ee6a02593cdd6d08b8674121bba1008</sys_ui_form>
+            <sys_ui_section caption="Financial" display_value="Financial" name="sn_ent_facility_asset" sys_domain="global" view="a1634f9c1b11021067a655361a4bcbf8">9ae6a02593cdd6d08b8674121bba100d</sys_ui_section>
+            <sys_updated_by>barla.praveenkumar</sys_updated_by>
+            <sys_updated_on>2024-10-04 12:22:30</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>barla.praveenkumar</sys_created_by>
+            <sys_created_on>2024-10-04 12:22:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dae6e02593cdd6d08b8674121bba10dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_ent_facility_asset" name="sn_ent_facility_asset" sys_domain="global" view="a1634f9c1b11021067a655361a4bcbf8">0ee6a02593cdd6d08b8674121bba1008</sys_ui_form>
+            <sys_ui_section caption="Contracts" display_value="Contracts" name="sn_ent_facility_asset" sys_domain="global" view="a1634f9c1b11021067a655361a4bcbf8">dee6e02593cdd6d08b8674121bba10d6</sys_ui_section>
+            <sys_updated_by>barla.praveenkumar</sys_updated_by>
+            <sys_updated_on>2024-10-04 12:22:31</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>barla.praveenkumar</sys_created_by>
+            <sys_created_on>2024-10-04 12:22:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d6e6e02593cdd6d08b8674121bba10c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_ent_facility_asset" name="sn_ent_facility_asset" sys_domain="global" view="a1634f9c1b11021067a655361a4bcbf8">0ee6a02593cdd6d08b8674121bba1008</sys_ui_form>
+            <sys_ui_section caption="Activities" display_value="Activities" name="sn_ent_facility_asset" sys_domain="global" view="a1634f9c1b11021067a655361a4bcbf8">96e6e02593cdd6d08b8674121bba10c2</sys_ui_section>
+            <sys_updated_by>barla.praveenkumar</sys_updated_by>
+            <sys_updated_on>2024-10-04 12:22:31</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>sn_ent_facility_asset</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>barla.praveenkumar</sys_created_by>
+            <sys_created_on>2024-10-04 12:22:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0ee6a02593cdd6d08b8674121bba1008</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sn_ent_facility_asset</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+            <sys_update_name>sys_ui_form_sections_0ee6a02593cdd6d08b8674121bba1008</sys_update_name>
+            <sys_updated_by>barla.praveenkumar</sys_updated_by>
+            <sys_updated_on>2024-10-04 12:22:30</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace" name="workspace">a1634f9c1b11021067a655361a4bcbf8</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

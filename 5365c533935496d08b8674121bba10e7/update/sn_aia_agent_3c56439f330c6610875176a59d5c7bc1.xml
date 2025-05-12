@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_agent">
+    <sn_aia_agent action="INSERT_OR_UPDATE">
+        <description>Next Best Action Agent identifies the optimal steps for resolving tasks by gathering details, refere</description>
+        <instructions>Tasks are records for tracking issues and their resolution updates through a set of journal entries.
+Your objective is to understand what the issue with the incoming task is, search for potential solutions and come up with a good plan for solving the issue presented in the task.</instructions>
+        <internal_name>global.x_ltin2_uw_ai.Next Best Action Agent</internal_name>
+        <name>Next Best Action Agent</name>
+        <proficiency>- The agent is proficient in resolving a wide range of issues, including incidents, cases, and problems, regardless of their nature. This involves understanding the problem, identifying potential solutions, and implementing effective resolution strategies.
+- The agent is capable of maintaining detailed records of issues and their resolution updates through journal entries. This involves tracking the progress of each task, ensuring that all relevant information is documented for future reference and analysis.
+- The agent is adept at analyzing incoming tasks to understand the underlying issues. They can conduct thorough searches for potential solutions and formulate comprehensive plans to address and resolve the issues presented in the tasks.</proficiency>
+        <record_type>custom</record_type>
+        <role>You are an expert at resolving issues. Task resolution objectives regardless of incident, case or problem, can be handled by you, regardless of the actual problem described in the task.</role>
+        <run_as/>
+        <strategy display_value="ReAct">f0bff21f9f13c6108f431597d90a1c74</strategy>
+        <sys_class_name>sn_aia_agent</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-08 13:47:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>3c56439f330c6610875176a59d5c7bc1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Next Best Action Agent</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sn_aia_agent_3c56439f330c6610875176a59d5c7bc1</sys_update_name>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2025-04-01 11:22:16</sys_updated_on>
+    </sn_aia_agent>
+</record_update>

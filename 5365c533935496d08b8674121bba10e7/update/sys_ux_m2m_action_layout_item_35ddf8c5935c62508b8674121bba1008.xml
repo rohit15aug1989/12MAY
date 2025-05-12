@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_m2m_action_layout_item">
+    <sys_ux_m2m_action_layout_item action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <display_type>1</display_type>
+        <icon/>
+        <order>100</order>
+        <sys_class_name>sys_ux_m2m_action_layout_item</sys_class_name>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-03-13 14:09:48</sys_created_on>
+        <sys_id>35ddf8c5935c62508b8674121bba1008</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_ux_m2m_action_layout_item_35ddf8c5935c62508b8674121bba1008</sys_update_name>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-03-13 14:09:48</sys_updated_on>
+        <table>global</table>
+        <ux_form_action_layout display_value="vehicles">cbbd38c5935c62508b8674121bba100b</ux_form_action_layout>
+        <ux_form_action_layout_item display_value="Compose Email">6de99dd477e24210d435a9077b5a9959</ux_form_action_layout_item>
+        <variant>secondary</variant>
+    </sys_ux_m2m_action_layout_item>
+</record_update>

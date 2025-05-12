@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile">
+    <ais_search_profile action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <exclude_from_evaluation>false</exclude_from_evaluation>
+        <genius_result_assembly/>
+        <label>Now Assist in Virtual Agent - 1</label>
+        <name>x_ltin2_uw_ai_now_assist_in_virtual_agent_172e1884f33079650875176a59d5c7bcc</name>
+        <publish_id>329ae9b5-7bea-451a-8610-8c561df959a2</publish_id>
+        <qna_model_id>bert-qa-model-1.1.6</qna_model_id>
+        <state>PUBLISHED</state>
+        <sys_class_name>ais_search_profile</sys_class_name>
+        <sys_created_by>abhi</sys_created_by>
+        <sys_created_on>2025-01-16 11:37:24</sys_created_on>
+        <sys_id>57e18c4f33079650875176a59d5c7b60</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Now Assist in Virtual Agent - 1</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>ais_search_profile_57e18c4f33079650875176a59d5c7b60</sys_update_name>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2025-04-28 20:15:56</sys_updated_on>
+    </ais_search_profile>
+</record_update>

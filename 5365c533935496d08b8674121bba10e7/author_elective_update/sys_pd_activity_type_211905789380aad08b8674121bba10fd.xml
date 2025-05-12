@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_activity_type">
+    <sys_pd_activity_type action="DELETE">
+        <color/>
+        <default_activity_ui display_value="Default">0f3d316cff313010667053ea793bf150</default_activity_ui>
+        <icon/>
+        <name>UI layout for Issue stage</name>
+        <sys_class_name>sys_pd_activity_type</sys_class_name>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-02-28 10:05:05</sys_created_on>
+        <sys_id>211905789380aad08b8674121bba10fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UI layout for Issue stage</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_pd_activity_type_211905789380aad08b8674121bba10fd</sys_update_name>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-02-28 10:05:05</sys_updated_on>
+    </sys_pd_activity_type>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</application>
+        <file_path/>
+        <instance_id>7838a3eddb96a7c049eac59705961973</instance_id>
+        <instance_name>ltidemo5</instance_name>
+        <name>sys_pd_activity_type_211905789380aad08b8674121bba10fd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_activity_type"><sys_pd_activity_type action="INSERT_OR_UPDATE"><color/><default_activity_ui display_value="Default">0f3d316cff313010667053ea793bf150</default_activity_ui><icon/><name>UI layout for Issue stage</name><sys_class_name>sys_pd_activity_type</sys_class_name><sys_created_by>sanket</sys_created_by><sys_created_on>2025-02-28 10:05:05</sys_created_on><sys_id>211905789380aad08b8674121bba10fd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>UI layout for Issue stage</sys_name><sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package><sys_policy/><sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope><sys_update_name>sys_pd_activity_type_211905789380aad08b8674121bba10fd</sys_update_name><sys_updated_by>sanket</sys_updated_by><sys_updated_on>2025-02-28 10:05:05</sys_updated_on></sys_pd_activity_type></record_update>]]></payload>
+        <payload_hash>-794602654</payload_hash>
+        <record_name>UI layout for Issue stage</record_name>
+        <reverted_from/>
+        <source>e6c5ddab93f312d08b8674121bba10fd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-02-28 10:05:05</sys_created_on>
+        <sys_id>ee2945789380aad08b8674121bba1074</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1954c0450170000001</sys_recorded_at>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-02-28 10:05:05</sys_updated_on>
+        <type>Activity UI Layout</type>
+        <update_guid>62294578a580aad0df995a9a64c95b74</update_guid>
+        <update_guid_history>62294578a580aad0df995a9a64c95b74:-794602654</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-02-28 10:05:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_pd_activity_type">sys_pd_activity_type</sys_db_object>
+        <sys_id>095e4d0edb4d485b825897a3d1b4b561</sys_id>
+        <sys_metadata>211905789380aad08b8674121bba10fd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UI layout for Issue stage</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_scope_delete display_value="">7c8d9985394b49b688ab893eea2dbef1</sys_scope_delete>
+        <sys_update_name>sys_pd_activity_type_211905789380aad08b8674121bba10fd</sys_update_name>
+        <sys_update_version display_value="sys_pd_activity_type_211905789380aad08b8674121bba10fd">ee2945789380aad08b8674121bba1074</sys_update_version>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-02-28 10:05:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

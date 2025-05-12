@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Underwriting case">7ee0ff77931cd6d08b8674121bba1000</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Commercial Insurances</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_ltin2_uw_ai_commercial_insurance</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_ltin2_uw_ai.commercial_insurance_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>raj</sys_created_by>
+        <sys_created_on>2024-09-05 04:10:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3140e9c493e41ad08b8674121bba108f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Commercial Insurances</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_app_module_3140e9c493e41ad08b8674121bba108f</sys_update_name>
+        <sys_updated_by>raj</sys_updated_by>
+        <sys_updated_on>2024-09-05 04:10:52</sys_updated_on>
+        <timeline_page/>
+        <title>Commercial Insurances</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

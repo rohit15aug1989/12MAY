@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_nowassist_skill_config_var_set">
+    <sn_nowassist_skill_config_var_set action="INSERT_OR_UPDATE">
+        <config_type display_value="Summary Card Labels Template">bf5b5a70a3320210c96bf3ed341e6176</config_type>
+        <description/>
+        <hide_step>true</hide_step>
+        <name>Claim label overrides</name>
+        <order>100</order>
+        <parent/>
+        <screen_id/>
+        <screen_table>sys_ux_macroponent</screen_table>
+        <skill_config display_value="FSO case summarization">94809cc533a71610875176a59d5c7b15</skill_config>
+        <step_completed>false</step_completed>
+        <sys_class_name>sn_nowassist_skill_config_var_set</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-02-04 04:04:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>90809cc533a71610875176a59d5c7b36</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Claim label overrides</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sn_nowassist_skill_config_var_set_90809cc533a71610875176a59d5c7b36</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-02-04 04:04:37</sys_updated_on>
+        <title/>
+        <vars/>
+    </sn_nowassist_skill_config_var_set>
+    <sys_translated_text action="delete_multiple" query="documentkey=90809cc533a71610875176a59d5c7b36"/>
+    <sys_variable_value action="delete_multiple" query="document_key=90809cc533a71610875176a59d5c7b36"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sn_nowassist_skill_config_var_set</document>
+        <document_key>90809cc533a71610875176a59d5c7b36</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-02-04 04:04:37</sys_created_on>
+        <sys_id>18809cc533a71610875176a59d5c7b36</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-02-04 04:04:37</sys_updated_on>
+        <value>{&#13;
+"disclaimer": "This summary is intended for informational purposes only and should not materially influence an outcome or decision. Be sure to check AI-generated summaries for accuracy and appropriateness."&#13;
+}</value>
+        <variable display_value="Card Labels Override">c091a638a3320210c96bf3ed341e6199</variable>
+    </sys_variable_value>
+</record_update>

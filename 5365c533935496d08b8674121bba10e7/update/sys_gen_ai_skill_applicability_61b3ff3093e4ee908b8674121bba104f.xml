@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_gen_ai_skill_applicability">
+    <sys_gen_ai_skill_applicability action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <condition/>
+        <condition_mode>simple</condition_mode>
+        <condition_script><![CDATA[(function executeCondition(/* glide record */ current) {   
+	// customize condition logic here, return true or false   
+	return false;
+})(current);]]></condition_script>
+        <roles>itil</roles>
+        <skill_id display_value="This skill aims to offer users a summary of task-based records such as cases, incidents, or HR related. Users can optionally provide a task number for summarization. The skill should deliver an executive summary highlighting key points and outlines in chronological order.">2fa9662a1bb83110f9ddb888cc4bcbab</skill_id>
+        <sys_class_name>sys_gen_ai_skill_applicability</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-25 19:01:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>61b3ff3093e4ee908b8674121bba104f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2fa9662a1bb83110f9ddb888cc4bcbab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_gen_ai_skill_applicability_61b3ff3093e4ee908b8674121bba104f</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-25 19:01:37</sys_updated_on>
+    </sys_gen_ai_skill_applicability>
+</record_update>

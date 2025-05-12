@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_auth_profile_basic">
+    <sys_auth_profile_basic action="INSERT_OR_UPDATE">
+        <name>Abhi</name>
+        <password>﷞﷟﷒b8dfbb14dbd1021083e1692b139619dd﷬﷔1﷬﷭Vmp0hjsHGHe5nv9NOwZ80g==HErG-PaeRI1vhm7Z1m6LwpBnuxogj7U68lWJuW4=﷮﷯</password>
+        <sys_class_name>sys_auth_profile_basic</sys_class_name>
+        <sys_created_by>Abhi</sys_created_by>
+        <sys_created_on>2025-03-11 04:08:48</sys_created_on>
+        <sys_id>0f01a014935cea108b8674121bba106d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Abhi</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_auth_profile_basic_0f01a014935cea108b8674121bba106d</sys_update_name>
+        <sys_updated_by>Abhi</sys_updated_by>
+        <sys_updated_on>2025-03-11 04:08:48</sys_updated_on>
+        <username>Abhishek</username>
+    </sys_auth_profile_basic>
+</record_update>

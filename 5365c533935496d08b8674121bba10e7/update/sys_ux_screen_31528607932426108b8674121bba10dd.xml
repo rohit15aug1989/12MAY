@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Underwriter Workspace App Config">e3c4fbe1d4205610068d50bff27be59d</app_config>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <event_mappings>[
+    {
+        "eventMappingId": "7c4b7a6d-da76-4cfb-9561-c14388a97faf",
+        "sourceEventApiName": "x_ltin2_uw_ai.NAV_ITEM_SELECTED_RELAY_61528607932426108b8674121bba104a",
+        "sourceEventSysId": null,
+        "targets": [
+            {
+                "broker": null,
+                "clientScript": null,
+                "declarativeAction": null,
+                "event": {
+                    "apiName": "sn_canvas_core.NAV_ITEM_SELECTED",
+                    "payload": {
+                        "container": {
+                            "external": {
+                                "binding": {
+                                    "address": [
+                                        "external"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "fields": {
+                                "binding": {
+                                    "address": [
+                                        "fields"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "multiInstField": {
+                                "binding": {
+                                    "address": [
+                                        "multiInstField"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "params": {
+                                "binding": {
+                                    "address": [
+                                        "params"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "passiveNavigation": {
+                                "binding": {
+                                    "address": [
+                                        "passiveNavigation"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "redirect": {
+                                "binding": {
+                                    "address": [
+                                        "redirect"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "route": {
+                                "binding": {
+                                    "address": [
+                                        "route"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "title": {
+                                "binding": {
+                                    "address": [
+                                        "title"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            }
+                        },
+                        "type": "MAP_CONTAINER"
+                    },
+                    "sysId": "8b82bf18e5276c8e423b6e4e0889b463"
+                },
+                "operation": null,
+                "targetId": "d119fc74-0541-4ad1-b58d-58329f7787fe",
+                "type": "EVENT"
+            }
+        ]
+    },
+    {
+        "eventMappingId": "0a1eecc8-902b-4713-921f-db4fff537b3d",
+        "sourceEventApiName": "x_ltin2_uw_ai.CONTENT_UPDATED_RELAY_61528607932426108b8674121bba104a",
+        "sourceEventSysId": null,
+        "targets": [
+            {
+                "broker": null,
+                "clientScript": null,
+                "declarativeAction": null,
+                "event": {
+                    "apiName": "sn_canvas_core.CONTENT_UPDATED",
+                    "payload": {
+                        "container": {
+                            "params": {
+                                "binding": {
+                                    "address": [
+                                        "params"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            }
+                        },
+                        "type": "MAP_CONTAINER"
+                    },
+                    "sysId": "75f3815fb0d9c38bb6df1626a0f284c4"
+                },
+                "operation": null,
+                "targetId": "0c83f019-e1f4-4fc6-9961-d66457b08e75",
+                "type": "EVENT"
+            }
+        ]
+    },
+    {
+        "eventMappingId": "4396d8ea-245b-4956-ad7b-06572cd3ba77",
+        "sourceEventApiName": "x_ltin2_uw_ai.MODAL_SELECTED_RELAY_61528607932426108b8674121bba104a",
+        "sourceEventSysId": null,
+        "targets": [
+            {
+                "broker": null,
+                "clientScript": null,
+                "declarativeAction": null,
+                "event": {
+                    "apiName": "sn_canvas_core.MODAL_SELECTED",
+                    "payload": {
+                        "container": {
+                            "displayOptions": {
+                                "binding": {
+                                    "address": [
+                                        "displayOptions"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "modalId": {
+                                "binding": {
+                                    "address": [
+                                        "modalId"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "showModal": {
+                                "binding": {
+                                    "address": [
+                                        "showModal"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            }
+                        },
+                        "type": "MAP_CONTAINER"
+                    },
+                    "sysId": "882eed4091382d3a41f1bb3f382ae089"
+                },
+                "operation": null,
+                "targetId": "b40e5e12-cb9a-4727-afda-cbc616bca1a0",
+                "type": "EVENT"
+            }
+        ]
+    }
+]</event_mappings>
+        <macroponent display_value="Simple List Default copy">61528607932426108b8674121bba104a</macroponent>
+        <macroponent_config>{
+    "bare": true,
+    "headerLevel": "1",
+    "interceptNotifications": false,
+    "label": "",
+    "propagateNotifications": false,
+    "scrollable": "y",
+    "title": ""
+}</macroponent_config>
+        <name>Simple List Default copy</name>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Simple List">efc4fbe14b205610ec52481e3bf53484</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-04-01 10:32:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>31528607932426108b8674121bba10dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Simple List Default copy</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_ux_screen_31528607932426108b8674121bba10dd</sys_update_name>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-04-01 10:32:38</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=31528607932426108b8674121bba10dd"/>
+</record_update>

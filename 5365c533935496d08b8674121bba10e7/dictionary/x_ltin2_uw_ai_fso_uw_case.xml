@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="c9a2f4d8936c5ad08b8674121bba1065" extends="sn_ins_policy_b2b_base" label="FSO Underwriting Case" max_length="40" name="x_ltin2_uw_ai_fso_uw_case" text_index="true" type="collection">
+        <element attributes="encode_utf8=false" label="locataion cat  perils" max_length="32" name="u_reference_1" reference="x_ltin2_uw_ai_location_cat_perils" type="reference"/>
+        <element label="Business Interruption" max_length="40" name="business_interruption" type="integer"/>
+        <element label="Task termination time" max_length="40" name="task_termination_time" type="glide_date_time"/>
+        <element label="propensity value" max_length="15" name="propensity_value" type="percent_complete"/>
+        <element label="cumulative building level" max_length="40" name="cumulative_building_level" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Propensity Insight" max_length="4000" name="propensity_insight" type="string"/>
+        <element label="cumulative Mfg. or Lab Equipment" max_length="40" name="cumulative_mfg_or_lab_equipment" type="integer"/>
+        <element attributes="omit_sys_original=true" label="Gross Premium" max_length="20" name="gross_premium" read_only="true" type="currency"/>
+        <element label="Transaction Type" max_length="50" name="transaction_type" type="string"/>
+        <element label="Duration" max_length="40" name="duration" type="glide_duration"/>
+        <element active="false" default="javascript: new global.UWGlobal().getMsg(current.stage);" label="Insights" max_length="65536" name="insights" read_only="true" type="html"/>
+        <element attributes="editor.height=250" label="NOW Response" max_length="65536" name="u_now_response" read_only="true" type="string"/>
+        <element attributes="omit_sys_original=true" label="price field" max_length="20" name="price_field" type="currency"/>
+        <element label="Propensity to bind (%)" max_length="40" name="propensity" type="integer"/>
+        <element label="Loss Info" max_length="32" name="loss_info" reference="x_ltin2_uw_ai_structure_information" type="reference"/>
+        <element attributes="omit_sys_original=true" label="Total building level coverages" max_length="20" name="u_currency_3" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Taxes &amp; Surcharges" max_length="20" name="taxes_surcharges" read_only="true" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Total location level coverages" max_length="20" name="u_currency_5" type="currency"/>
+        <element label="Customer ID" max_length="32" name="customer_id" reference="x_ltin2_uw_ai_customer_details" type="reference"/>
+        <element active="false" attributes="omit_sys_original=true" label="New Currency" max_length="20" name="u_currency_6" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Quote By Date" max_length="40" name="quote_by_date" type="glide_date"/>
+        <element label="Property Name" max_length="50" name="property_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Summary" max_length="4000" name="summary" type="string"/>
+        <element active="false" attributes="edge_encryption_enabled=true" label="Task duration" max_length="40" name="task_duration" type="glide_duration"/>
+        <element label="Clearance decision" max_length="50" name="clearance_decision" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Conversion Ratio Insight" max_length="4000" name="conversion_ratio_insight" type="string"/>
+        <element label="Clearance" max_length="40" name="clearance" read_only="true" type="boolean"/>
+        <element label="Days Submission to Quote" max_length="50" name="days_submission_to_quote" type="string"/>
+        <element label="Furniture  Fixtures" max_length="40" name="furniture_fixtures" type="integer"/>
+        <element label="Type" max_length="50" name="type" type="string"/>
+        <element label="cumulative Tenants Improvments" max_length="40" name="cumulative_tenants_improvments" type="integer"/>
+        <element attributes="omit_sys_original=true" label=" Net Premium" max_length="20" name="total_premium" read_only="true" type="currency"/>
+        <element label="Coverage" max_length="32" name="covegare" reference="x_ltin2_uw_ai_underwriting_coverage" type="reference"/>
+        <element label="cumulative Business Personal Property" max_length="40" name="cumulative_business_personal_property" type="integer"/>
+        <element attributes="omit_sys_original=true" label="Total policy level coverages" max_length="20" name="u_currency_2" type="currency"/>
+        <element label="Task creation start time" max_length="40" name="task_creation_start_time" type="glide_date_time"/>
+        <element attributes="omit_sys_original=true" label="Test" max_length="20" name="test" type="currency"/>
+        <element label="Property Location" max_length="32" name="property_location" reference="x_ltin2_uw_ai_location_cat_perils" type="reference"/>
+        <element attributes="omit_sys_original=true" label="New Currency" max_length="20" name="u_currency_4" type="currency"/>
+        <element label="Loss Ratio across IT industry 2" max_length="15" name="loss_ratio_across_it_industry_2" type="percent_complete"/>
+        <element attributes="edge_encryption_enabled=true" label="Case stage" max_length="40" name="case_stage" type="string"/>
+        <element label="Computer Hardware, Servers" max_length="40" name="computer_hardware_servers" type="integer"/>
+        <element label="Loss Ratio across IT industry" max_length="40" name="loss_ratio_across_it_industry" type="integer"/>
+        <element label="Aging" max_length="50" name="aging" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Submission ID" max_length="40" name="submission_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Expiration Date" max_length="40" name="expiration_date" type="glide_date"/>
+        <element label="Clearance Appertite Check" max_length="32" name="clearance_appertite_check" reference="x_ltin2_uw_ai_structure_information" type="reference"/>
+        <element active="false" attributes="omit_sys_original=true" label="New Currency" max_length="20" name="u_currency_1" type="currency"/>
+        <element label="Decision date" max_length="40" name="decision_date" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" label="Building Info" max_length="32" name="u_reference_2" reference="x_ltin2_uw_ai_structure_information" type="reference"/>
+        <element label="Insurance Policy" max_length="32" name="insurance_policy" reference="sn_bom_bo_ins_policy" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Question" max_length="40" name="u_question" type="string"/>
+        <element label="Source" max_length="50" name="source" type="string"/>
+        <element label="Appetite decision" max_length="50" name="appetite_decision" type="string"/>
+        <element label="Coverage Limit" max_length="50" name="coverage_limit" type="string"/>
+        <element label="Property Type" max_length="50" name="property_type" type="string"/>
+    </element>
+</database>

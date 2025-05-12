@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_ltin2_uw_ai_fso_uw_case</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>test rule</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+
+// 	 var globalUtils = new global.MyGlobalScopeUtils(); // I forgot "global." thanks to ryangarrett for the remark
+
+
+
+
+    // Add your code here
+    var cumulative_premiumtemp = 0;
+    var gr = new GlideRecord("x_ltin2_uw_ai_underwriting_coverage");
+    gr.addQuery("fso_case", current.sys_id);
+    gr.addEncodedQuery('coverage_type=building')
+    gr.query();
+    while (gr.next()) {
+
+
+        cumulative_premiumtemp = parseFloat(cumulative_premiumtemp) + parseFloat(gr.premium)
+        gs.addErrorMessage(cumulative_premiumtemp)
+
+    }
+
+
+    current.cumulative_building_level = cumulative_premiumtemp;
+
+    var cumulative_premiumtemp01 = 0;
+    var gr = new GlideRecord("x_ltin2_uw_ai_underwriting_coverage");
+    gr.addQuery("fso_case", current.sys_id);
+    gr.addEncodedQuery('coverage_type=business_property')
+    gr.query();
+    while (gr.next()) {
+
+
+        cumulative_premiumtemp01 = parseFloat(cumulative_premiumtemp01) + parseFloat(gr.premium)
+        
+
+    }
+
+    current.cumulative_business_personal_property = cumulative_premiumtemp01;
+
+
+
+    var cumulative_premiumtemp02 = 0;
+    var gr = new GlideRecord("x_ltin2_uw_ai_underwriting_coverage");
+    gr.addQuery("fso_case", current.sys_id);
+    gr.addEncodedQuery('coverage_type=Tenants Improvments')
+    gr.query();
+    while (gr.next()) {
+
+
+        cumulative_premiumtemp02 = parseFloat(cumulative_premiumtemp02) + parseFloat(gr.premium)
+        
+
+    }
+
+    current.cumulative_tenants_improvments = cumulative_premiumtemp02;
+
+
+
+    var cumulative_premiumtemp03 = 0;
+    var gr = new GlideRecord("x_ltin2_uw_ai_underwriting_coverage");
+    gr.addQuery("fso_case", current.sys_id);
+    gr.addEncodedQuery('coverage_type=Mfg. or Lab Equipment')
+    gr.query();
+    while (gr.next()) {
+
+
+        cumulative_premiumtemp03 = parseFloat(cumulative_premiumtemp03) + parseFloat(gr.premium)
+    
+
+    }
+
+    current.cumulative_mfg_or_lab_equipment = cumulative_premiumtemp03;
+
+
+    var cumulative_premiumtemp04 = 0;
+    var gr = new GlideRecord("x_ltin2_uw_ai_underwriting_coverage");
+    gr.addQuery("fso_case", current.sys_id);
+    gr.addEncodedQuery('coverage_type=Furniture & Fixtures')
+    gr.query();
+    while (gr.next()) {
+
+
+        cumulative_premiumtemp04 = parseFloat(cumulative_premiumtemp04) + parseFloat(gr.premium)
+        
+
+    }
+
+    current.furniture_fixtures = cumulative_premiumtemp04;
+	
+    current.short_description="record updated successfully"
+  
+    current.update()
+
+    // var cumulative_premiumtemp05 = 0;
+    // var gr = new GlideRecord("x_ltin2_uw_ai_underwriting_coverage");
+    // gr.addQuery("fso_case", current.sys_id);
+    // gr.addEncodedQuery('coverage_type=building')
+    // gr.query();
+    // while (gr.next()) {
+
+
+    //     cumulative_premiumtemp05 = parseFloat(cumulative_premiumtemp05) + parseFloat(gr.premium)
+       
+
+    // }
+
+    // // current.computer_hardware_servers= cumulative_premiumtemp05;
+
+
+   //  var cumulative_premiumtemp06 = 0;
+   // var gr = new GlideRecord("x_ltin2_uw_ai_underwriting_coverage");
+   // gr.addQuery("fso_case", current.sys_id);
+   // gr.addEncodedQuery('coverage_type=building')
+   // gr.query();
+   // while (gr.next()) {
+
+
+   //     cumulative_premiumtemp06 = parseFloat(cumulative_premiumtemp06) + parseFloat(gr.premium)
+
+
+   // }
+
+   // current.business_interruption= cumulative_premiumtemp06;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ })(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-03-12 14:21:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a4e5f3249354ee108b8674121bba1069</sys_id>
+        <sys_mod_count>60</sys_mod_count>
+        <sys_name>test rule</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_script_a4e5f3249354ee108b8674121bba1069</sys_update_name>
+        <sys_updated_by>abhi</sys_updated_by>
+        <sys_updated_on>2025-03-13 12:17:53</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=a4e5f3249354ee108b8674121bba1069"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</application>
+        <file_path/>
+        <instance_id>7838a3eddb96a7c049eac59705961973</instance_id>
+        <instance_name>ltidemo5</instance_name>
+        <name>sys_script_a4e5f3249354ee108b8674121bba1069</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_ltin2_uw_ai_fso_uw_case&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;test rule&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+
+// 	 var globalUtils = new global.MyGlobalScopeUtils(); // I forgot "global." thanks to ryangarrett for the remark
+
+
+
+
+    // Add your code here
+    var cumulative_premiumtemp = 0;
+    var gr = new GlideRecord("x_ltin2_uw_ai_underwriting_coverage");
+    gr.addQuery("fso_case", current.sys_id);
+    gr.addEncodedQuery('coverage_type=building')
+    gr.query();
+    while (gr.next()) {
+
+
+        cumulative_premiumtemp = parseFloat(cumulative_premiumtemp) + parseFloat(gr.premium)
+        gs.addErrorMessage(cumulative_premiumtemp)
+
+    }
+
+
+    current.cumulative_building_level = cumulative_premiumtemp;
+
+    var cumulative_premiumtemp01 = 0;
+    var gr = new GlideRecord("x_ltin2_uw_ai_underwriting_coverage");
+    gr.addQuery("fso_case", current.sys_id);
+    gr.addEncodedQuery('coverage_type=business_property')
+    gr.query();
+    while (gr.next()) {
+
+
+        cumulative_premiumtemp01 = parseFloat(cumulative_premiumtemp01) + parseFloat(gr.premium)
+        
+
+    }
+
+    current.cumulative_business_personal_property = cumulative_premiumtemp01;
+
+
+
+    var cumulative_premiumtemp02 = 0;
+    var gr = new GlideRecord("x_ltin2_uw_ai_underwriting_coverage");
+    gr.addQuery("fso_case", current.sys_id);
+    gr.addEncodedQuery('coverage_type=Tenants Improvments')
+    gr.query();
+    while (gr.next()) {
+
+
+        cumulative_premiumtemp02 = parseFloat(cumulative_premiumtemp02) + parseFloat(gr.premium)
+        
+
+    }
+
+    current.cumulative_tenants_improvments = cumulative_premiumtemp02;
+
+
+
+    var cumulative_premiumtemp03 = 0;
+    var gr = new GlideRecord("x_ltin2_uw_ai_underwriting_coverage");
+    gr.addQuery("fso_case", current.sys_id);
+    gr.addEncodedQuery('coverage_type=Mfg. or Lab Equipment')
+    gr.query();
+    while (gr.next()) {
+
+
+        cumulative_premiumtemp03 = parseFloat(cumulative_premiumtemp03) + parseFloat(gr.premium)
+    
+
+    }
+
+    current.cumulative_mfg_or_lab_equipment = cumulative_premiumtemp03;
+
+
+    var cumulative_premiumtemp04 = 0;
+    var gr = new GlideRecord("x_ltin2_uw_ai_underwriting_coverage");
+    gr.addQuery("fso_case", current.sys_id);
+    gr.addEncodedQuery('coverage_type=Furniture &amp; Fixtures')
+    gr.query();
+    while (gr.next()) {
+
+
+        cumulative_premiumtemp04 = parseFloat(cumulative_premiumtemp04) + parseFloat(gr.premium)
+        
+
+    }
+
+    current.furniture_fixtures = cumulative_premiumtemp04;
+	
+    current.short_description="record updated successfully"
+  
+    current.update()
+
+    // var cumulative_premiumtemp05 = 0;
+    // var gr = new GlideRecord("x_ltin2_uw_ai_underwriting_coverage");
+    // gr.addQuery("fso_case", current.sys_id);
+    // gr.addEncodedQuery('coverage_type=building')
+    // gr.query();
+    // while (gr.next()) {
+
+
+    //     cumulative_premiumtemp05 = parseFloat(cumulative_premiumtemp05) + parseFloat(gr.premium)
+       
+
+    // }
+
+    // // current.computer_hardware_servers= cumulative_premiumtemp05;
+
+
+   //  var cumulative_premiumtemp06 = 0;
+   // var gr = new GlideRecord("x_ltin2_uw_ai_underwriting_coverage");
+   // gr.addQuery("fso_case", current.sys_id);
+   // gr.addEncodedQuery('coverage_type=building')
+   // gr.query();
+   // while (gr.next()) {
+
+
+   //     cumulative_premiumtemp06 = parseFloat(cumulative_premiumtemp06) + parseFloat(gr.premium)
+
+
+   // }
+
+   // current.business_interruption= cumulative_premiumtemp06;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ })(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;sanket&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-12 14:21:39&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;a4e5f3249354ee108b8674121bba1069&lt;/sys_id&gt;&lt;sys_mod_count&gt;60&lt;/sys_mod_count&gt;&lt;sys_name&gt;test rule&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai"&gt;5365c533935496d08b8674121bba10e7&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="underwriter.ai"&gt;5365c533935496d08b8674121bba10e7&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_a4e5f3249354ee108b8674121bba1069&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;abhi&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-13 12:17:53&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=a4e5f3249354ee108b8674121bba1069"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1639724269</payload_hash>
+        <record_name>test rule</record_name>
+        <reverted_from/>
+        <source>53ea92d9338fda10875176a59d5c7bc9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>abhi</sys_created_by>
+        <sys_created_on>2025-03-13 12:17:53</sys_created_on>
+        <sys_id>9e342081939862508b8674121bba101e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1958f708f450000001</sys_recorded_at>
+        <sys_updated_by>abhi</sys_updated_by>
+        <sys_updated_on>2025-03-13 12:17:53</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>d2342081e3986250aa20b62fdfeec01e</update_guid>
+        <update_guid_history>d2342081e3986250aa20b62fdfeec01e:1639724269,ba75eb7cff506250b7a0dbd4ed0ed4dd:-1737781120,550d537c1d1062501405dadf7b562f4a:481443711,e57c1ff829106250a3c57e7a7d4f7e83:-1048064495,c24a8374299c2250dc3cefcc5cf935bb:892722498,a0e9c3348b9c22502e74d913d79706cf:64870742,04164b3cb45c2250c87d69ecfde02885:2077704700,92c58ff87f5c2250d2322786c4e75e8d:12844508,8785c7f8b45c22502aa58b1c9621655a:1175759952,1845c7b8785c225097502c64c476359b:1576873617,d7f483b8895c22503f5f4f1c2d438762:1041604649,4eb44378235c22509fec30a2003c9068:1642300279,9e444338445c225033301b1d4d82f6a9:-107654905,381447f43d5c2250cf0a9c8e1cc4cd1f:-474792689,29a30bb4b95c2250a187d72a73b2abbc:736241419,26f2c3742c5c22507bb712fb75020b74:-328417364,2dc28f34185c2250747b3169adc743ba:-115376901,cd9e32b8e81c22504c0a4ab5b965d74a:-1898352283,e7fd3e78b81c22508d9e52d927deb883:-61333245,a42d72385a1c2250b2ff1ff310279cff:-909262941,a1d772bcb1d8225035f642f9db600e6e:-333555740,d8dde23c32982250947f4e6ff099de8b:1717556871,ed6daab828982250f1602cf7dd08fc53:-1177777592,6b3aea74599822504f52b4eb6d2a8dbb:1717556871,a9fb1af8a518225053b6359f9dc6bbab:391147492,d3b616b0011822500bda62487ceec42f:2095291620,b0469670fa182250869b21cbf064d237:399050488,64d456fcb3d42250eb3a4c8d0e52d0a0:-1281273992,5c74d2bc65d42250e73d7bc8410b379e:-917323112,38f3567cebd422504f23876ee43db919:1525096376,ce839e3cadd42250deafea0a3ab4239a:-1683571697,8c135af8f7d422503a92f67b5c3c9701:-142815016,018212f888d422506721d12e3a05ba41:1641226559,27121e7801d4225086b877561c262007:1553730651,4ce05af411d42250a0e10991eb846de9:-704503820,fe705eb4afd42250a32bcb428eea056c:-125650681,5d567c70f95cee10bc867cd0bb52642e:-1594138299,c9553030195cee101b13445305ddee58:340888937,d9547c7c3e1cee10458719b51e459496:-1704142613,d2c3b07cc11cee1040789ff33e952f23:-1844982708,bf33fcf8341cee10673b3de5b1a2f683:-1704142613,fff13878de1cee101fad07b6569a2579:-1344616289,70a13438511cee1086fc2f1413d7d57c:-1824134666,aa313038281cee1025f4070fa6d64c53:907088894,c6cda470e71cee1075b31984a56ff717:-1775542972,07c7283403d8ee105724dff88f04ea7d:-1132453648,b99668f045d8ee1046f4d5588660a522:103637649,5c7464302ed8ee10b66c4932c671c2cb:-1248615915,084320bc3098ee101d70dc5cc1ce9664:1303759479,7af2ec3ca098ee102f2e61e6f0a32f41:2013349424,1582a43c1198ee10b74c3db7ae4e8d83:1189153308,eb6120b8e998ee10a90cacb04d5eb3ed:116318724,9a21e8783d98ee10a8c918bcb0d117be:-762839310,8d51d4785318ee10dbfa09eba433131f:1980625302,9bb090387318ee1000bb4e87b4ca85a9:-1729073622,364058f40a18ee10ddbd79cdca80c365:1418414041,367fc874ff18ee1032b4cfa6c7682439:611541049,b41f8074d318ee104425e2ab314e4968:-807573663,cabec4345e18ee10cd19c0fbac0bcd78:1916521345,acca3bac9854ee10e86d66bec9d8bb9a:-1006577218,edf6f7a46254ee10f58e3398d06988cc:-254086913</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>abhi</sys_created_by>
+        <sys_created_on>2025-04-03 04:51:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>56f9bd34cf334f7ca95bff7ce6e17c29</sys_id>
+        <sys_metadata>a4e5f3249354ee108b8674121bba1069</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test rule</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_parent display_value="FSO Underwriting Case">c9a2f4d8936c5ad08b8674121bba1065</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_scope_delete display_value="">7c8d9985394b49b688ab893eea2dbef1</sys_scope_delete>
+        <sys_update_name>sys_script_a4e5f3249354ee108b8674121bba1069</sys_update_name>
+        <sys_update_version display_value="sys_script_a4e5f3249354ee108b8674121bba1069">9e342081939862508b8674121bba101e</sys_update_version>
+        <sys_updated_by>abhi</sys_updated_by>
+        <sys_updated_on>2025-04-03 04:51:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

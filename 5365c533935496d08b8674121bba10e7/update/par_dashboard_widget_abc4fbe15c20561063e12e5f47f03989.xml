@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">6fc4fbe1fa205610411b0433f8bafc89</canvas>
+        <component display_value="List - Simple">2b1c080881e05dc63b917044290b233f</component>
+        <component_props>{"table":"x_ltin2_uw_ai_fso_uw_case","fixedQuery":"","listTitle":"My Work","columns":"number,customer_id,stage,propensity_to_bind,priority,short_description,aging","query":"active=true^assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe","groupByField":"","hideViewAll":false,"hideHighlightedValues":false,"highlightedValueConfigId":"","hideHighlightContent":false,"highlightContent":{"patterns":[],"color":""},"hideLinks":false,"wordWrap":false,"overrideWordWrapUserPref":false,"maxCharLimit":4000,"hideEmptyStateImage":false,"hidePersonalization":true,"hideDotwalk":true,"hideColumnReorder":false,"hideRowSelector":false,"hideColumnGrouping":true,"hideColumnResizing":true,"hideColumnFiltering":false,"hideColumnSorting":false,"hideHeader":false,"hideTitle":false,"hideTitleRowCount":false,"hideLastRefreshedText":false,"hideRefreshButton":false,"hideInlineEditing":true,"noDebounce":true,"id":"hideColumnReorder","value":false,"propLabel":"Hide option to drag-and-drop columns"}</component_props>
+        <h>19</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>bapu</sys_created_by>
+        <sys_created_on>2024-09-10 06:50:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>abc4fbe15c20561063e12e5f47f03989</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>par_dashboard_widget_abc4fbe15c20561063e12e5f47f03989</sys_update_name>
+        <sys_updated_by>sushrut</sys_updated_by>
+        <sys_updated_on>2024-09-25 12:51:47</sys_updated_on>
+        <visualization/>
+        <w>30</w>
+        <widget_props/>
+        <x>0</x>
+        <y>22</y>
+    </par_dashboard_widget>
+</record_update>

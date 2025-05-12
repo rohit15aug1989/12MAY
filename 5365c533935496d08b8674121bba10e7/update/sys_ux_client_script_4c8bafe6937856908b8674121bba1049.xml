@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="SRP Record copy">fb7bebe6937856908b8674121bba1072</macroponent>
+        <name>Set Tab Icon for Interaction</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    const output = api.data.interaction_query.output;
+    if (output === undefined || output.data.GlideRecord_Query.interaction._results[0] === undefined)
+        return;
+
+    const {
+        type: {
+            value: type
+        },
+        active: {
+            value: active
+        }
+    } = output.data.GlideRecord_Query.interaction._results[0];
+
+    const ICON_CHAT_FILL = 'chat-fill';
+    const ICON_CHAT_OUTLINE = 'chat-outline';
+    const ICON_PHONE_FILL = 'phone-fill';
+    const ICON_PHONE_OUTLINE = 'phone-outline';
+    const ICON_GROUP_FILL = 'user-fill';
+    const ICON_GROUP_OUTLINE = 'user-outline';
+    const ICON_ONGOING_FILL = 'ongoing-fill';
+    const ICON_ONGOING_OUTLINE = 'ongoing-outline';
+    const ICON_VIDEO_FILL = 'video-chat-fill';
+    const ICON_VIDEO_OUTLINE = 'video-chat-outline';
+    const ICON_MICROSOFT_FILL = 'microsoft-teams-fill';
+    const ICON_MICROSOFT_OUTLINE = 'microsoft-teams-outline';
+    const ICON_ZOOM_FILL = 'zoom-fill';
+    const ICON_ZOOM_OUTLINE = 'zoom-outline';
+
+    const iconConfig = {
+        phone: {
+            active: ICON_PHONE_FILL,
+            inactive: ICON_PHONE_OUTLINE
+        },
+        chat: {
+            active: ICON_CHAT_FILL,
+            inactive: ICON_CHAT_OUTLINE
+        },
+        walkup: {
+            active: ICON_GROUP_FILL,
+            inactive: ICON_GROUP_OUTLINE
+        },
+        messaging: {
+            active: ICON_ONGOING_FILL,
+            inactive: ICON_ONGOING_OUTLINE
+        },
+        video: {
+            active: ICON_VIDEO_FILL,
+            inactive: ICON_VIDEO_OUTLINE
+        },
+        microsoft_teams_chat: {
+            active: ICON_MICROSOFT_FILL,
+            inactive: ICON_MICROSOFT_OUTLINE
+        },
+        teams_call: {
+            active: ICON_MICROSOFT_FILL,
+            inactive: ICON_MICROSOFT_OUTLINE
+        },
+        zoom_chat: {
+            active: ICON_ZOOM_FILL,
+            inactive: ICON_ZOOM_OUTLINE
+        }
+    };
+
+    const status = active ? "active" : "inactive";
+    const getIndicatorIcon = ({
+        type,
+        status
+    }) => {
+        const iconType = iconConfig[type];
+        return iconType ? iconType[status] : iconConfig['chat'][status];
+    };
+
+    const updateStatus = (iconName, status) => {
+        helpers.timing.setTimeout(() => {
+            helpers.screen.updateStatus({
+                icon: {
+                    name: iconName,
+                    status: status
+                }
+            });
+        }, 100);
+    };
+    const iconName = getIndicatorIcon({
+        type,
+        status
+    });
+    updateStatus(iconName, status);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2024-09-25 18:59:39</sys_created_on>
+        <sys_id>4c8bafe6937856908b8674121bba1049</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Set Tab Icon for Interaction</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_ux_client_script_4c8bafe6937856908b8674121bba1049</sys_update_name>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2024-09-25 18:59:39</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

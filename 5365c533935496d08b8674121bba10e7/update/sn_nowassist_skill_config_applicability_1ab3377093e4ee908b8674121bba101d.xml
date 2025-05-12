@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_nowassist_skill_config_applicability">
+    <sn_nowassist_skill_config_applicability action="INSERT_OR_UPDATE">
+        <filter_parameters>{"table":"incident"}</filter_parameters>
+        <order>100</order>
+        <skill_config display_value="FSO case summarization 2">35b3f37093e4ee908b8674121bba10b5</skill_config>
+        <sys_class_name>sn_nowassist_skill_config_applicability</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-25 19:01:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>1ab3377093e4ee908b8674121bba101d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sn_nowassist_skill_config_applicability_1ab3377093e4ee908b8674121bba101d</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-25 19:01:40</sys_updated_on>
+    </sn_nowassist_skill_config_applicability>
+</record_update>

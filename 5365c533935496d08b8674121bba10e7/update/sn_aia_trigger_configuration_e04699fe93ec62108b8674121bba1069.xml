@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_trigger_configuration">
+    <sn_aia_trigger_configuration action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_rule display_value="FSO Underwriting Case - UW case summary">3876d9fe93ec62108b8674121bba1052</business_rule>
+        <channel display_value="Now Assist Panel">b023fcb3537321106167ddeeff7b12a8</channel>
+        <condition table="x_ltin2_uw_ai_fso_uw_case">assigned_toISNOTEMPTY^EQ<item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <internal_name/>
+        <name>UW case summary - Create or Update on FSO Underwriting Case</name>
+        <objective_template><![CDATA[Help me resolve ${number}]]></objective_template>
+        <run_as>assigned_to</run_as>
+        <run_dayofmonth/>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start/>
+        <run_time/>
+        <show_notifications>false</show_notifications>
+        <sys_class_name>sn_aia_trigger_configuration</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-31 12:42:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>e04699fe93ec62108b8674121bba1069</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>UW case summary - Create or Update on FSO Underwriting Case</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sn_aia_trigger_configuration_e04699fe93ec62108b8674121bba1069</sys_update_name>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2025-04-01 11:22:13</sys_updated_on>
+        <target_table>x_ltin2_uw_ai_fso_uw_case</target_table>
+        <trigger_flow display_value="FSO Underwriting Case - UW case summary - 7bad4acf33246610875176a59d5c7b9c">3fad4acf33246610875176a59d5c7bac</trigger_flow>
+        <trigger_flow_definition_type>record_create_or_update</trigger_flow_definition_type>
+        <usecase display_value="UW case summary">faa5d5be93ec62108b8674121bba10c2</usecase>
+        <usecase_discovery>false</usecase_discovery>
+    </sn_aia_trigger_configuration>
+</record_update>

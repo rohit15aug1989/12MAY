@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="94ed0a44932c1ad08b8674121bba1043" sys_domain="global" table="customer_contact" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-05 07:30:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a8ed0a44932c1ad08b8674121bba1096</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="customer_contact" name="customer_contact" sys_domain="global" view="3e5370019f22120047a2d126c42e705b">94ed0a44932c1ad08b8674121bba1043</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="customer_contact" sys_domain="global" view="3e5370019f22120047a2d126c42e705b">eced0a44932c1ad08b8674121bba104e</sys_ui_section>
+            <sys_updated_by>subham.agarwal</sys_updated_by>
+            <sys_updated_on>2024-09-05 07:30:08</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-05 07:30:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>64ed0a44932c1ad08b8674121bba104e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="customer_contact" name="customer_contact" sys_domain="global" view="3e5370019f22120047a2d126c42e705b">94ed0a44932c1ad08b8674121bba1043</sys_ui_form>
+            <sys_ui_section caption="Job Role" display_value="Job Role" name="customer_contact" sys_domain="global" view="3e5370019f22120047a2d126c42e705b">28ed0a44932c1ad08b8674121bba1046</sys_ui_section>
+            <sys_updated_by>subham.agarwal</sys_updated_by>
+            <sys_updated_on>2024-09-05 07:30:07</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-05 07:30:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e8ed0a44932c1ad08b8674121bba10a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="customer_contact" name="customer_contact" sys_domain="global" view="3e5370019f22120047a2d126c42e705b">94ed0a44932c1ad08b8674121bba1043</sys_ui_form>
+            <sys_ui_section caption="Contact Details" display_value="Contact Details" name="customer_contact" sys_domain="global" view="3e5370019f22120047a2d126c42e705b">20ed0a44932c1ad08b8674121bba1097</sys_ui_section>
+            <sys_updated_by>subham.agarwal</sys_updated_by>
+            <sys_updated_on>2024-09-05 07:30:08</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>customer_contact</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-05 07:30:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>94ed0a44932c1ad08b8674121bba1043</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>customer_contact</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+            <sys_update_name>sys_ui_form_sections_94ed0a44932c1ad08b8674121bba1043</sys_update_name>
+            <sys_updated_by>subham.agarwal</sys_updated_by>
+            <sys_updated_on>2024-09-05 07:30:07</sys_updated_on>
+            <sys_user/>
+            <view display_value="Human Resources" name="human_resources">3e5370019f22120047a2d126c42e705b</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

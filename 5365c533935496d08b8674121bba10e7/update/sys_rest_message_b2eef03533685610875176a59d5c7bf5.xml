@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message">
+    <sys_rest_message action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <authentication_type>basic</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile display_value="Vivek Isukapalli">612f387533685610875176a59d5c7be6</basic_auth_profile>
+        <basic_auth_user/>
+        <description>Integration call for HazardHub api for risk assessment</description>
+        <name>HazardHub Risk Assessment</name>
+        <oauth2_profile/>
+        <protocol_name/>
+        <rest_endpoint>https://api.hazardhub.com</rest_endpoint>
+        <sys_class_name>sys_rest_message</sys_class_name>
+        <sys_created_by>shubhasis</sys_created_by>
+        <sys_created_on>2024-09-10 12:16:31</sys_created_on>
+        <sys_id>b2eef03533685610875176a59d5c7bf5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HazardHub Risk Assessment</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_rest_message_b2eef03533685610875176a59d5c7bf5</sys_update_name>
+        <sys_updated_by>shubhasis</sys_updated_by>
+        <sys_updated_on>2024-09-10 12:16:31</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message>
+</record_update>

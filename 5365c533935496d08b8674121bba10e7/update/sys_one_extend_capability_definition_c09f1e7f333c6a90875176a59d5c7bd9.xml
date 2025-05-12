@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_one_extend_capability_definition">
+    <sys_one_extend_capability_definition action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <api>a55c1c6f530221106b38ddeeff7b12b1</api>
+        <api_type>sys_hub_flow</api_type>
+        <capability display_value="UW case summary">3f8f5a7f333c6a90875176a59d5c7b72</capability>
+        <category display_value="Other">04c489f3532121106b38ddeeff7b1215</category>
+        <connection display_value="sn_azure_openai.Azure_OpenAI">3db85268a3b1211011fa67de36fcda69</connection>
+        <description/>
+        <filter_properties>{"provider":"Azure OpenAIChat Completions"}</filter_properties>
+        <metadata/>
+        <name>UW case summary (Azure OpenAI - Chat Completions)</name>
+        <order>0</order>
+        <postprocessor><![CDATA[(function(outputs) {     	/* write code here to transform definition output to capability output.*/     	     	outputs = JSON.parse(outputs);     	     	return outputs;     })(outputs);]]></postprocessor>
+        <preprocessor><![CDATA[(function(inputs) {     	/* write code here to transform capability input to definition input.*/     	     	inputs = JSON.parse(inputs);     	     	return inputs;     })(inputs);]]></preprocessor>
+        <sys_class_name>sys_one_extend_capability_definition</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-04-16 06:51:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c09f1e7f333c6a90875176a59d5c7bd9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UW case summary (Azure OpenAI - Chat Completions)</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_one_extend_capability_definition_c09f1e7f333c6a90875176a59d5c7bd9</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-04-16 06:51:26</sys_updated_on>
+        <truncate_strategy display_value="Default Truncation Strategy">2b99e1137fb20210f465c3b76d86650d</truncate_strategy>
+    </sys_one_extend_capability_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=c09f1e7f333c6a90875176a59d5c7bd9"/>
+</record_update>

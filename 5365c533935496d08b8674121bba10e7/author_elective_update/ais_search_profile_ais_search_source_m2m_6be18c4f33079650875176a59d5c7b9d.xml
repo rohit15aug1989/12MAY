@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_search_source_m2m">
+    <ais_search_profile_ais_search_source_m2m action="DELETE">
+        <exclude_attachments_in_now_assist_genius_results>false</exclude_attachments_in_now_assist_genius_results>
+        <exclude_in_now_assist_genius_results>false</exclude_in_now_assist_genius_results>
+        <exclude_in_regular_search>false</exclude_in_regular_search>
+        <profile display_value="Now Assist in Virtual Agent - 172e1884f33079650875176a59d5c7bcc">57e18c4f33079650875176a59d5c7b60</profile>
+        <search_source display_value="Now Assist Q&amp;A Genius Results">63e18c4f33079650875176a59d5c7b95</search_source>
+        <sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name>
+        <sys_created_by>abhi</sys_created_by>
+        <sys_created_on>2025-01-16 11:37:24</sys_created_on>
+        <sys_id>6be18c4f33079650875176a59d5c7b9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Now Assist in Virtual Agent - 172e1884f33079650875176a59d5c7bcc.Now Assist Q&amp;A Genius Results</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>ais_search_profile_ais_search_source_m2m_6be18c4f33079650875176a59d5c7b9d</sys_update_name>
+        <sys_updated_by>abhi</sys_updated_by>
+        <sys_updated_on>2025-01-16 11:37:24</sys_updated_on>
+    </ais_search_profile_ais_search_source_m2m>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</application>
+        <file_path/>
+        <instance_id>7838a3eddb96a7c049eac59705961973</instance_id>
+        <instance_name>ltidemo5</instance_name>
+        <name>ais_search_profile_ais_search_source_m2m_6be18c4f33079650875176a59d5c7b9d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_search_source_m2m"><ais_search_profile_ais_search_source_m2m action="INSERT_OR_UPDATE"><exclude_attachments_in_now_assist_genius_results>false</exclude_attachments_in_now_assist_genius_results><exclude_in_now_assist_genius_results>false</exclude_in_now_assist_genius_results><exclude_in_regular_search>false</exclude_in_regular_search><profile display_value="Now Assist in Virtual Agent - 172e1884f33079650875176a59d5c7bcc">57e18c4f33079650875176a59d5c7b60</profile><search_source display_value="Now Assist Q&amp;A Genius Results">63e18c4f33079650875176a59d5c7b95</search_source><sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name><sys_created_by>abhi</sys_created_by><sys_created_on>2025-01-16 11:37:24</sys_created_on><sys_id>6be18c4f33079650875176a59d5c7b9d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Now Assist in Virtual Agent - 172e1884f33079650875176a59d5c7bcc.Now Assist Q&amp;A Genius Results</sys_name><sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package><sys_policy/><sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope><sys_update_name>ais_search_profile_ais_search_source_m2m_6be18c4f33079650875176a59d5c7b9d</sys_update_name><sys_updated_by>abhi</sys_updated_by><sys_updated_on>2025-01-16 11:37:24</sys_updated_on></ais_search_profile_ais_search_source_m2m></record_update>]]></payload>
+        <payload_hash>494601055</payload_hash>
+        <record_name>Now Assist in Virtual Agent - 172e1884f33079650875176a59d5c7bcc.Now Assist Q&amp;A Genius Results</record_name>
+        <reverted_from/>
+        <source>97b8a15233439250875176a59d5c7ba3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>abhi</sys_created_by>
+        <sys_created_on>2025-01-16 11:37:25</sys_created_on>
+        <sys_id>63e18c4f33079650875176a59d5c7baa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1946ee761b70000001</sys_recorded_at>
+        <sys_updated_by>abhi</sys_updated_by>
+        <sys_updated_on>2025-01-16 11:37:25</sys_updated_on>
+        <type>AI Search Search Profile Search Source M</type>
+        <update_guid>e3e18c4f33079650d2b696ffab7478a9</update_guid>
+        <update_guid_history>e3e18c4f33079650d2b696ffab7478a9:494601055</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Now Assist in Virtual Agent - 172e1884f33079650875176a59d5c7bcc.Now Assist Q&amp;A G">10ca037333892610875176a59d5c7b1c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>abhi</sys_created_by>
+        <sys_created_on>2025-04-28 20:15:50</sys_created_on>
+        <sys_db_object display_value="" name="ais_search_profile_ais_search_source_m2m">ais_search_profile_ais_search_source_m2m</sys_db_object>
+        <sys_id>2f31518bee5544b7b0d935033dd80909</sys_id>
+        <sys_metadata>6be18c4f33079650875176a59d5c7b9d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Now Assist in Virtual Agent - 172e1884f33079650875176a59d5c7bcc.Now Assist Q&amp;A Genius Results</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_scope_delete display_value="">7c8d9985394b49b688ab893eea2dbef1</sys_scope_delete>
+        <sys_update_name>ais_search_profile_ais_search_source_m2m_6be18c4f33079650875176a59d5c7b9d</sys_update_name>
+        <sys_update_version display_value="ais_search_profile_ais_search_source_m2m_6be18c4f33079650875176a59d5c7b9d">63e18c4f33079650875176a59d5c7baa</sys_update_version>
+        <sys_updated_by>abhi</sys_updated_by>
+        <sys_updated_on>2025-04-28 20:15:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

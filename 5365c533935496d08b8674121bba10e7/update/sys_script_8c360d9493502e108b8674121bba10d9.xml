@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_ltin2_uw_ai_fso_uw_case</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>cumulative premium calculations</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    // Add your code here
+
+	gs.sleep(5000)
+gs.info("Abhishek Test");
+    var cumulative_premiumtemp = 0;
+
+    var gr = new GlideRecord("x_ltin2_uw_ai_underwriting_coverage");
+	gr.addQuery("fso_case", current.sys_id);
+	gs.sleep(5000)
+    gr.addEncodedQuery('coverage_type=building');
+    
+
+    gr.query();
+    while (gr.next()) {
+        cumulative_premiumtemp = parseFloat(cumulative_premiumtemp) + parseFloat(gr.premium);
+    }
+
+	 
+	 current.cumulative_building_level = cumulative_premiumtemp;
+
+    if (current.cumulative_building_level >0) {
+		
+        
+
+        var grr = new GlideRecord('x_ltin2_uw_ai_building_cumulative_premium');
+        grr.initialize();
+        grr.cumulative_premium = cumulative_premiumtemp;
+        grr.coverage_type = "building";
+        grr.fso_underwriting_case = current.sys_id;
+        grr.insert();
+    }
+
+
+
+
+// 	  var cumulative_premiumtemp01 = 0;
+
+//     var gr = new GlideRecord("x_ltin2_uw_ai_underwriting_coverage");
+//     gr.addEncodedQuery('coverage_type=business_property');
+//   //  gr.addQuery("fso_case", current.sys_id);
+
+//     gr.query();
+//     while (gr.next()) {
+//         cumulative_premiumtemp01 = parseFloat(cumulative_premiumtemp01) + parseFloat(gr.premium);
+// 		gs.addErrorMessage(cumulative_premiumtemp01 )
+//     }
+//      current.cumulative_business_personal_property = cumulative_premiumtemp01;
+//     if (cumulative_premiumtemp01 > 0) {
+// 		gs.info("Abhishek Test :"+ cumulative_premiumtemp);
+        
+
+//         var grr = new GlideRecord('x_ltin2_uw_ai_building_cumulative_premium');
+//         grr.initialize();
+//         grr.cumulative_premium = cumulative_premiumtemp01;
+//         grr.coverage_type = "building";
+//         grr.fso_underwriting_case = current.sys_id;
+//         grr.insert();
+//     }
+  
+
+
+// 	  var cumulative_premiumtemp02 = 0;
+
+//     var gr = new GlideRecord("x_ltin2_uw_ai_underwriting_coverage");
+//     gr.addEncodedQuery('coverage_type=business_interruption');
+//     gr.addQuery("fso_case", current.sys_id);
+
+//     gr.query();
+//     while (gr.next()) {
+//         cumulative_premiumtemp02 = parseFloat(cumulative_premiumtemp02) + parseFloat(gr.premium);
+//     }
+
+//     if (cumulative_premiumtemp02 > 0) {
+// 		gs.info("Abhishek Test :"+ cumulative_premiumtemp);
+//         current.cumulative_building_level = cumulative_premiumtemp02;
+
+//         var grr = new GlideRecord('x_ltin2_uw_ai_building_cumulative_premium');
+//         grr.initialize();
+//         grr.cumulative_premium = cumulative_premiumtemp02;
+//         grr.coverage_type = "building";
+//         grr.fso_underwriting_case = current.sys_id;
+//         grr.insert();
+//     }
+
+
+
+// 	  var cumulative_premiumtemp03 = 0;
+
+//     var gr = new GlideRecord("x_ltin2_uw_ai_underwriting_coverage");
+//     gr.addEncodedQuery('coverage_type=Tenants Improvments');
+//     gr.addQuery("fso_case", current.sys_id);
+
+//     gr.query();
+//     while (gr.next()) {
+//         cumulative_premiumtemp03 = parseFloat(cumulative_premiumtemp03) + parseFloat(gr.premium);
+//     }
+
+//     if (cumulative_premiumtemp03 > 0) {
+// 		gs.info("Abhishek Test :"+ cumulative_premiumtemp);
+//         current.cumulative_building_level = cumulative_premiumtemp03;
+
+//         var grr = new GlideRecord('x_ltin2_uw_ai_building_cumulative_premium');
+//         grr.initialize();
+//         grr.cumulative_premium = cumulative_premiumtemp03;
+//         grr.coverage_type = "building";
+//         grr.fso_underwriting_case = current.sys_id;
+//         grr.insert();
+//     }
+
+
+
+// 	  var cumulative_premiumtemp04 = 0;
+
+//     var gr = new GlideRecord("x_ltin2_uw_ai_underwriting_coverage");
+//     gr.addEncodedQuery('coverage_type=Mfg. or Lab Equipment');
+//     gr.addQuery("fso_case", current.sys_id);
+
+//     gr.query();
+//     while (gr.next()) {
+//         cumulative_premiumtemp04 = parseFloat(cumulative_premiumtemp04) + parseFloat(gr.premium);
+//     }
+
+//     if (cumulative_premiumtemp04 > 0) {
+// 		gs.info("Abhishek Test :"+ cumulative_premiumtemp);
+//         current.cumulative_building_level = cumulative_premiumtemp04;
+
+//         var grr = new GlideRecord('x_ltin2_uw_ai_building_cumulative_premium');
+//         grr.initialize();
+//         grr.cumulative_premium = cumulative_premiumtemp04;
+//         grr.coverage_type = "building";
+//         grr.fso_underwriting_case = current.sys_id;
+//         grr.insert();
+//     }
+
+
+
+// 	  var cumulative_premiumtemp05 = 0;
+
+//     var gr = new GlideRecord("x_ltin2_uw_ai_underwriting_coverage");
+//     gr.addEncodedQuery('coverage_type=Furniture & Fixtures');
+//     gr.addQuery("fso_case", current.sys_id);
+
+//     gr.query();
+//     while (gr.next()) {
+//         cumulative_premiumtemp05 = parseFloat(cumulative_premiumtemp05) + parseFloat(gr.premium);
+//     }
+
+//     if (cumulative_premiumtemp05 > 0) {
+// 		gs.info("Abhishek Test :"+ cumulative_premiumtemp);
+//         current.cumulative_building_level = cumulative_premiumtemp05;
+
+//         var grr = new GlideRecord('x_ltin2_uw_ai_building_cumulative_premium');
+//         grr.initialize();
+//         grr.cumulative_premium = cumulative_premiumtemp05;
+//         grr.coverage_type = "building";
+//         grr.fso_underwriting_case = current.sys_id;
+//         grr.insert();
+//     }
+
+
+
+// 	  var cumulative_premiumtemp06 = 0;
+
+//     var gr = new GlideRecord("x_ltin2_uw_ai_underwriting_coverage");
+//     gr.addEncodedQuery('coverage_type=Computer Hardware, Servers');
+//     gr.addQuery("fso_case", current.sys_id);
+
+//     gr.query();
+//     while (gr.next()) {
+//         cumulative_premiumtemp06 = parseFloat(cumulative_premiumtemp06) + parseFloat(gr.premium);
+//     }
+
+//     if (cumulative_premiumtemp06 > 0) {
+// 		gs.info("Abhishek Test :"+ cumulative_premiumtemp);
+//         current.cumulative_building_level = cumulative_premiumtemp06;
+
+//         var grr = new GlideRecord('x_ltin2_uw_ai_building_cumulative_premium');
+//         grr.initialize();
+//         grr.cumulative_premium = cumulative_premiumtemp06;
+//         grr.coverage_type = "building";
+//         grr.fso_underwriting_case = current.sys_id;
+//         grr.insert();
+//     }
+
+
+
+ })(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-03-11 10:27:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8c360d9493502e108b8674121bba10d9</sys_id>
+        <sys_mod_count>55</sys_mod_count>
+        <sys_name>cumulative premium calculations</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_script_8c360d9493502e108b8674121bba10d9</sys_update_name>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-03-12 15:58:58</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=8c360d9493502e108b8674121bba10d9"/>
+</record_update>

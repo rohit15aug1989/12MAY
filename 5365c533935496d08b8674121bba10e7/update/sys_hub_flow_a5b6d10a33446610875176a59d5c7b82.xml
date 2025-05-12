@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>labelCacheCleanUpExecuted=true</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>fso_data_record</internal_name>
+        <label_cache>null</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>FSO Data Record</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-03-04 08:16:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a5b6d10a33446610875176a59d5c7b82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FSO Data Record</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_hub_flow_a5b6d10a33446610875176a59d5c7b82</sys_update_name>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-03-04 08:16:41</sys_updated_on>
+        <type>subflow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=a5b6d10a33446610875176a59d5c7b82"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a5b6d10a33446610875176a59d5c7b82"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=a5b6d10a33446610875176a59d5c7b82"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=a5b6d10a33446610875176a59d5c7b82^sys_idNOT IN21b6d10a33446610875176a59d5c7b86"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>a5b6d10a33446610875176a59d5c7b82</id>
+        <name>FSO Data Record</name>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-03-04 08:16:41</sys_created_on>
+        <sys_id>21b6d10a33446610875176a59d5c7b86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-03-04 08:16:41</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=21b6d10a33446610875176a59d5c7b86"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=a5b6d10a33446610875176a59d5c7b82"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=a5b6d10a33446610875176a59d5c7b82"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a5b6d10a33446610875176a59d5c7b82"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=a5b6d10a33446610875176a59d5c7b82"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=a5b6d10a33446610875176a59d5c7b82"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=a5b6d10a33446610875176a59d5c7b82"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=a5b6d10a33446610875176a59d5c7b82"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=a5b6d10a33446610875176a59d5c7b82"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=a5b6d10a33446610875176a59d5c7b82"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_a5b6d10a33446610875176a59d5c7b82"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_a5b6d10a33446610875176a59d5c7b82"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=a5b6d10a33446610875176a59d5c7b82"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=a5b6d10a33446610875176a59d5c7b82"/>
+</record_update>

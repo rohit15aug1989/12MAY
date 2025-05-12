@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5b06ad2093d0ae108b8674121bba108b" label="Building cumulative premium" max_length="40" name="x_ltin2_uw_ai_building_cumulative_premium" type="collection">
+        <element label="cumulative Mfg. or Lab Equipment04" max_length="40" name="cumulative_mfg_or_lab_equipment04" type="integer"/>
+        <element choice="1" label="Coverage Type" max_length="40" name="coverage_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Building" value="Building"/>
+                <element inactive_on_update="false" label="Business Personal Property" value="business_and_personal_property"/>
+                <element inactive_on_update="false" label="Computer Hardware, Servers" value="Computer Hardware, Servers"/>
+                <element inactive_on_update="false" label="Tenants Improvments" value="Tenants Improvments"/>
+                <element inactive_on_update="false" label="Mfg. or Lab Equipment" value="Mfg. or Lab Equipment"/>
+                <element inactive_on_update="false" label="Business Interruption" value="business_interruption"/>
+                <element inactive_on_update="false" label="Furniture &amp; Fixtures" value="Furniture &amp; Fixtures"/>
+                <element inactive_on_update="false" label="Business and Personal Property" value="business_personal_property"/>
+            </choice>
+        </element>
+        <element label="Computer Hardware, Servers07" max_length="40" name="computer_hardware_servers07" type="integer"/>
+        <element label="Premium" max_length="40" name="cumulative_premium" read_only="true" type="integer"/>
+        <element label="Furniture Fixtures05" max_length="40" name="furniture_fixtures05" type="integer"/>
+        <element label="Computer Hardware, Servers06" max_length="40" name="computer_hardware_servers06" type="integer"/>
+        <element label="cumulative building level01" max_length="40" name="cumulative_building_level01" type="integer"/>
+        <element choice="1" label="Attachment" max_length="40" name="attachment" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="building" sequence="0" value="building"/>
+            </choice>
+        </element>
+        <element label="cumulative Business Interruption08" max_length="40" name="cumulative_business_interruption08" type="integer"/>
+        <element attributes="omit_sys_original=true" label="Premium" max_length="20" name="premium" type="currency"/>
+        <element attributes="encode_utf8=false" label="FSO underwriting case" max_length="32" name="fso_underwriting_case" reference="x_ltin2_uw_ai_fso_uw_case" type="reference"/>
+        <element label="cumulative Business Personal Property02" max_length="40" name="cumulative_business_personal_property02" type="integer"/>
+        <element label="cumulative Tenants Improvments03" max_length="40" name="cumulative_tenants_improvments03" type="integer"/>
+        <index name="index">
+            <element name="fso_underwriting_case"/>
+        </index>
+    </element>
+</database>

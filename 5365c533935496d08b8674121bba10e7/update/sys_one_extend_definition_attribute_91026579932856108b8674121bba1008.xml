@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_one_extend_definition_attribute">
+    <sys_one_extend_definition_attribute action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <apply_filter>false</apply_filter>
+        <attribute_label/>
+        <capability display_value="Clarios 10 sep">3977993993e456108b8674121bba1070</capability>
+        <choice_list/>
+        <contains_large_input>false</contains_large_input>
+        <data_type>glide_record</data_type>
+        <default_value/>
+        <definition/>
+        <description/>
+        <group/>
+        <hidden>false</hidden>
+        <info/>
+        <label>Incident</label>
+        <mandatory>false</mandatory>
+        <name>incident</name>
+        <order/>
+        <schema>{"tableName":"incident","sysId":"34d9dfa893d112108b8674121bba10a7"}</schema>
+        <sys_class_name>sys_one_extend_definition_attribute</sys_class_name>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2024-09-10 14:47:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>91026579932856108b8674121bba1008</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>incident</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_one_extend_definition_attribute_91026579932856108b8674121bba1008</sys_update_name>
+        <sys_updated_by>Koushal.Sagar</sys_updated_by>
+        <sys_updated_on>2024-12-10 13:52:42</sys_updated_on>
+        <translate>false</translate>
+        <truncate>false</truncate>
+        <type>input</type>
+        <user_query>false</user_query>
+    </sys_one_extend_definition_attribute>
+    <sys_translated_text action="delete_multiple" query="documentkey=91026579932856108b8674121bba1008"/>
+</record_update>

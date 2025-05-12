@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content>{&#13;
+	"XACTConnect.RatingApi": {&#13;
+		"CommercialPropertyInsuranceRateRequest": {&#13;
+			"Submission": {&#13;
+				"SubmissionID": "1234"&#13;
+			},&#13;
+			"Client": {&#13;
+				"Name": "AGXN Semiconductors",&#13;
+				"Address": {&#13;
+					"Street": "123 Main Street",&#13;
+					"City": "Powai",&#13;
+					"State": "WB",&#13;
+					"ZipCode": "700076",&#13;
+					"Country": "IN",&#13;
+					"Email": "johndoe@example.com"&#13;
+				},&#13;
+				"SIC": "6512",&#13;
+				"NAICS": "531120",&#13;
+				"FEIN": "XX-XXXXXXX",&#13;
+				"Revenue": "100000000.00"&#13;
+			},&#13;
+			"Broker": {&#13;
+				"Name": "Marsh",&#13;
+				"ContactName": "Issac Sirko",&#13;
+				"ProducerCode": "BRK-0012"&#13;
+			},&#13;
+			"LocationDetails": {&#13;
+				"Location": [&#13;
+					{&#13;
+						"Description": "Corporate Office",&#13;
+						"Address": {&#13;
+							"Street": "123 Main Street",&#13;
+							"City": "Powai",&#13;
+							"State": "WB",&#13;
+							"ZipCode": "700076",&#13;
+							"Country": "IN"&#13;
+						},&#13;
+						"LocationCoverages": {&#13;
+							"Coverage": [&#13;
+								{&#13;
+									"CoverageName": "Earth Quake",&#13;
+									"Limit": "100000",&#13;
+									"Deductible": "0",&#13;
+									"WaitingPeriod": "60",&#13;
+									"CoInsurance": "90",&#13;
+									"LossCause": "EarthQuake",&#13;
+									"ScheduleModifier": "1",&#13;
+									"_ID": "1"&#13;
+								},&#13;
+								{&#13;
+									"CoverageName": "Flood",&#13;
+									"Limit": "510000",&#13;
+									"Deductible": "0",&#13;
+									"WaitingPeriod": "60",&#13;
+									"CoInsurance": "90",&#13;
+									"LossCause": "Flood",&#13;
+									"ScheduleModifier": "1",&#13;
+									"_ID": "2"&#13;
+								}&#13;
+							]&#13;
+						},&#13;
+						"Buildings": {&#13;
+							"Building": [&#13;
+								{&#13;
+									"Description": "Main Building",&#13;
+									"ConstructionType": "Concrete",&#13;
+									"ProtectionClass": "1",&#13;
+									"OccupancyFactor": "50%",&#13;
+									"YearBuilt": "2009",&#13;
+									"NoOfStories": "3",&#13;
+									"FireSprinkler": "Y",&#13;
+									"SquareFootage": "5000",&#13;
+									"BuildingCoverages": {&#13;
+										"Coverage": [&#13;
+											{&#13;
+												"CoverageName": "Fire",&#13;
+												"Limit": "51000",&#13;
+												"Deductible": "600",&#13;
+												"WaitingPeriod": "60",&#13;
+												"CoInsurance": "90",&#13;
+												"LossCause": "Fire",&#13;
+												"ScheduleModifier": "1",&#13;
+												"_ID": "1"&#13;
+											},&#13;
+											{&#13;
+												"CoverageName": "Cycle",&#13;
+												"Limit": "51000",&#13;
+												"Deductible": "600",&#13;
+												"WaitingPeriod": "60",&#13;
+												"CoInsurance": "90",&#13;
+												"LossCause": "Cyclone",&#13;
+												"ScheduleModifier": "1",&#13;
+												"_ID": "1"&#13;
+											}&#13;
+										]&#13;
+									},&#13;
+									"_ID": "1"&#13;
+								},&#13;
+								{&#13;
+									"Description": "Second Building",&#13;
+									"ConstructionType": "Concrete",&#13;
+									"ProtectionClass": "1",&#13;
+									"OccupancyFactor": "50%",&#13;
+									"YearBuilt": "2009",&#13;
+									"NoOfStories": "3",&#13;
+									"FireSprinkler": "Y",&#13;
+									"SquareFootage": "5000",&#13;
+									"BuildingCoverages": {&#13;
+										"Coverage": [&#13;
+											{&#13;
+												"CoverageName": "Fire",&#13;
+												"Limit": "51000",&#13;
+												"Deductible": "600",&#13;
+												"WaitingPeriod": "60",&#13;
+												"CoInsurance": "90",&#13;
+												"LossCause": "Fire",&#13;
+												"ScheduleModifier": "1",&#13;
+												"_ID": "1"&#13;
+											},&#13;
+											{&#13;
+												"CoverageName": "Cycle",&#13;
+												"Limit": "51000",&#13;
+												"Deductible": "600",&#13;
+												"WaitingPeriod": "60",&#13;
+												"CoInsurance": "90",&#13;
+												"LossCause": "Cyclone",&#13;
+												"ScheduleModifier": "1",&#13;
+												"_ID": "1"&#13;
+											}&#13;
+										]&#13;
+									},&#13;
+									"_ID": "2"&#13;
+								}&#13;
+							]&#13;
+						},&#13;
+						"_ID": "1"&#13;
+					},&#13;
+					{&#13;
+						"Description": "Training Center",&#13;
+						"Address": {&#13;
+							"Street": "123 Main Street",&#13;
+							"City": "Bangalore",&#13;
+							"State": "Karnataka",&#13;
+							"ZipCode": "700046",&#13;
+							"Country": "IN"&#13;
+						},&#13;
+						"LocationCoverages": {&#13;
+							"Coverage": [&#13;
+								{&#13;
+									"CoverageName": "Earth Quake",&#13;
+									"Limit": "100000",&#13;
+									"Deductible": "0",&#13;
+									"WaitingPeriod": "60",&#13;
+									"CoInsurance": "90",&#13;
+									"LossCause": "EarthQuake",&#13;
+									"ScheduleModifier": "1",&#13;
+									"_ID": "1"&#13;
+								},&#13;
+								{&#13;
+									"CoverageName": "Flood",&#13;
+									"Limit": "510000",&#13;
+									"Deductible": "0",&#13;
+									"WaitingPeriod": "60",&#13;
+									"CoInsurance": "90",&#13;
+									"LossCause": "Flood",&#13;
+									"ScheduleModifier": "1",&#13;
+									"_ID": "2"&#13;
+								}&#13;
+							]&#13;
+						},&#13;
+						"Buildings": {&#13;
+							"Building": [&#13;
+								{&#13;
+									"Description": "Main Building",&#13;
+									"ConstructionType": "Concrete",&#13;
+									"ProtectionClass": "1",&#13;
+									"OccupancyFactor": "50%",&#13;
+									"YearBuilt": "2009",&#13;
+									"NoOfStories": "3",&#13;
+									"FireSprinkler": "Y",&#13;
+									"SquareFootage": "5000",&#13;
+									"BuildingCoverages": {&#13;
+										"Coverage": [&#13;
+											{&#13;
+												"CoverageName": "Fire",&#13;
+												"Limit": "51000",&#13;
+												"Deductible": "600",&#13;
+												"WaitingPeriod": "60",&#13;
+												"CoInsurance": "90",&#13;
+												"LossCause": "Fire",&#13;
+												"ScheduleModifier": "1",&#13;
+												"_ID": "1"&#13;
+											},&#13;
+											{&#13;
+												"CoverageName": "Cycle",&#13;
+												"Limit": "51000",&#13;
+												"Deductible": "600",&#13;
+												"WaitingPeriod": "60",&#13;
+												"CoInsurance": "90",&#13;
+												"LossCause": "Cyclone",&#13;
+												"ScheduleModifier": "1",&#13;
+												"_ID": "1"&#13;
+											}&#13;
+										]&#13;
+									},&#13;
+									"_ID": "1"&#13;
+								},&#13;
+								{&#13;
+									"Description": "Annexe Building",&#13;
+									"ConstructionType": "Concrete",&#13;
+									"ProtectionClass": "1",&#13;
+									"OccupancyFactor": "50%",&#13;
+									"YearBuilt": "2009",&#13;
+									"NoOfStories": "3",&#13;
+									"FireSprinkler": "Y",&#13;
+									"SquareFootage": "5000",&#13;
+									"BuildingCoverages": {&#13;
+										"Coverage": [&#13;
+											{&#13;
+												"CoverageName": "Fire",&#13;
+												"Limit": "51000",&#13;
+												"Deductible": "600",&#13;
+												"WaitingPeriod": "60",&#13;
+												"CoInsurance": "90",&#13;
+												"LossCause": "Fire",&#13;
+												"ScheduleModifier": "1",&#13;
+												"_ID": "1"&#13;
+											},&#13;
+											{&#13;
+												"CoverageName": "Cycle",&#13;
+												"Limit": "51000",&#13;
+												"Deductible": "600",&#13;
+												"WaitingPeriod": "60",&#13;
+												"CoInsurance": "90",&#13;
+												"LossCause": "Cyclone",&#13;
+												"ScheduleModifier": "1",&#13;
+												"_ID": "1"&#13;
+											}&#13;
+										]&#13;
+									},&#13;
+									"_ID": "2"&#13;
+								}&#13;
+							]&#13;
+						},&#13;
+						"_ID": "2"&#13;
+					}&#13;
+				]&#13;
+			},&#13;
+			"PolicyDetails": {&#13;
+				"LineofBusiness": "Commercial Property",&#13;
+				"EffectiveDate": "2025-02-20",&#13;
+				"ExpirationDate": "2026-02-19",&#13;
+				"PolicyCoverages": {&#13;
+					"Coverage": [&#13;
+						{&#13;
+							"CoverageName": "HazardousSubstance",&#13;
+							"Limit": "340000",&#13;
+							"Deductible": "3000",&#13;
+							"WaitingPeriod": "30",&#13;
+							"CoInsurance": "90",&#13;
+							"LossCause": "HazardousSubstance",&#13;
+							"ScheduleModifier": "1",&#13;
+							"_ID": "1"&#13;
+						},&#13;
+						{&#13;
+							"CoverageName": "EmergencyEvacuation",&#13;
+							"Limit": "340000",&#13;
+							"Deductible": "3000",&#13;
+							"WaitingPeriod": "30",&#13;
+							"CoInsurance": "90",&#13;
+							"LossCause": "EmergencyEvacuation",&#13;
+							"ScheduleModifier": "1",&#13;
+							"_ID": "2"&#13;
+						}&#13;
+					]&#13;
+				}&#13;
+			}&#13;
+		}&#13;
+	}&#13;
+}</content>
+        <function_name>POST</function_name>
+        <http_method>post</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>Duckcreek integration [ POST ]</qualified_name>
+        <rest_endpoint>https://api-clearnace-e8d6gbcxfee4azd6.westus2-01.azurewebsites.net/Service/APIConnectJsonService</rest_endpoint>
+        <rest_message display_value="Duckcreek integration">ca9a3f8733e0a610875176a59d5c7bf8</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-04-01 19:20:24</sys_created_on>
+        <sys_id>95eab7c733e0a610875176a59d5c7bcb</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>POST</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_rest_message_fn_95eab7c733e0a610875176a59d5c7bcb</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-04-07 08:25:24</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>

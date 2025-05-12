@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_nowassist_skill_config_var_set">
+    <sn_nowassist_skill_config_var_set action="INSERT_OR_UPDATE">
+        <config_type display_value="General details">38372887436882106b5f90cfd7b8f25d</config_type>
+        <description/>
+        <hide_step>false</hide_step>
+        <name>General details</name>
+        <order>100</order>
+        <parent/>
+        <screen_id/>
+        <screen_table>sys_ux_macroponent</screen_table>
+        <skill_config display_value="FSO case summarization">94809cc533a71610875176a59d5c7b15</skill_config>
+        <step_completed>false</step_completed>
+        <sys_class_name>sn_nowassist_skill_config_var_set</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-02-04 04:04:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>18809cc533a71610875176a59d5c7b39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>General details</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sn_nowassist_skill_config_var_set_18809cc533a71610875176a59d5c7b39</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-02-04 04:04:37</sys_updated_on>
+        <title/>
+        <vars/>
+    </sn_nowassist_skill_config_var_set>
+    <sys_translated_text action="delete_multiple" query="documentkey=18809cc533a71610875176a59d5c7b39"/>
+    <sys_variable_value action="delete_multiple" query="document_key=18809cc533a71610875176a59d5c7b39"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sn_nowassist_skill_config_var_set</document>
+        <document_key>18809cc533a71610875176a59d5c7b39</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-02-04 04:04:37</sys_created_on>
+        <sys_id>9c809cc533a71610875176a59d5c7b39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-02-04 04:04:37</sys_updated_on>
+        <value>short_description</value>
+        <variable display_value="Fields">09d5ad7d779012103f075cea5b5a99f2</variable>
+    </sys_variable_value>
+</record_update>

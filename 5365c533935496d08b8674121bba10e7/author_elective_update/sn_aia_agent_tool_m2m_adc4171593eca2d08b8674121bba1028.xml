@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_agent_tool_m2m">
+    <sn_aia_agent_tool_m2m action="DELETE">
+        <active>true</active>
+        <agent display_value="Next Best Action Agent for UW">e99f72db9f13c6108f431597d90a1c0b</agent>
+        <description>gathefaso case details</description>
+        <display_output>true</display_output>
+        <execution_mode>autopilot</execution_mode>
+        <inputs>[]</inputs>
+        <max_auto_executions>10</max_auto_executions>
+        <name>gather FSo case details</name>
+        <output_transformation_strategy>paraphrase</output_transformation_strategy>
+        <run_as/>
+        <sys_class_name>sn_aia_agent_tool_m2m</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-27 06:03:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>adc4171593eca2d08b8674121bba1028</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>gather FSo case details</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sn_aia_agent_tool_m2m_adc4171593eca2d08b8674121bba1028</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-27 06:03:25</sys_updated_on>
+        <tool display_value="gather FSo case details">25c45fd193eca2d08b8674121bba104c</tool>
+    </sn_aia_agent_tool_m2m>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</application>
+        <file_path/>
+        <instance_id>7838a3eddb96a7c049eac59705961973</instance_id>
+        <instance_name>ltidemo5</instance_name>
+        <name>sn_aia_agent_tool_m2m_adc4171593eca2d08b8674121bba1028</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_agent_tool_m2m"><sn_aia_agent_tool_m2m action="INSERT_OR_UPDATE"><active>true</active><agent display_value="Next Best Action Agent for UW">e99f72db9f13c6108f431597d90a1c0b</agent><description>gathefaso case details</description><display_output>true</display_output><execution_mode>autopilot</execution_mode><inputs>[]</inputs><max_auto_executions>10</max_auto_executions><name>gather FSo case details</name><output_transformation_strategy>paraphrase</output_transformation_strategy><run_as/><sys_class_name>sn_aia_agent_tool_m2m</sys_class_name><sys_created_by>rohit</sys_created_by><sys_created_on>2025-03-27 06:03:25</sys_created_on><sys_domain>global</sys_domain><sys_id>adc4171593eca2d08b8674121bba1028</sys_id><sys_mod_count>0</sys_mod_count><sys_name>gather FSo case details</sys_name><sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package><sys_policy/><sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope><sys_update_name>sn_aia_agent_tool_m2m_adc4171593eca2d08b8674121bba1028</sys_update_name><sys_updated_by>rohit</sys_updated_by><sys_updated_on>2025-03-27 06:03:25</sys_updated_on><tool display_value="gather FSo case details">25c45fd193eca2d08b8674121bba104c</tool></sn_aia_agent_tool_m2m></record_update>]]></payload>
+        <payload_hash>1861181445</payload_hash>
+        <record_name>gather FSo case details</record_name>
+        <reverted_from/>
+        <source>53ea92d9338fda10875176a59d5c7bc9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-27 06:03:25</sys_created_on>
+        <sys_id>61c4171593eca2d08b8674121bba102d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195d632c0e60000001</sys_recorded_at>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-27 06:03:25</sys_updated_on>
+        <type>Agent Tool</type>
+        <update_guid>e1c417153beca2d079eb64dbab2bf82c</update_guid>
+        <update_guid_history>e1c417153beca2d079eb64dbab2bf82c:1861181445</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="gather FSo case details">6252b0353320e6d0875176a59d5c7b44</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-28 07:30:44</sys_created_on>
+        <sys_db_object display_value="" name="sn_aia_agent_tool_m2m">sn_aia_agent_tool_m2m</sys_db_object>
+        <sys_id>0642aacd3e654a0c8d3c9eb6eaf5d9b9</sys_id>
+        <sys_metadata>adc4171593eca2d08b8674121bba1028</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>gather FSo case details</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_scope_delete display_value="">7c8d9985394b49b688ab893eea2dbef1</sys_scope_delete>
+        <sys_update_name>sn_aia_agent_tool_m2m_adc4171593eca2d08b8674121bba1028</sys_update_name>
+        <sys_update_version display_value="sn_aia_agent_tool_m2m_adc4171593eca2d08b8674121bba1028">61c4171593eca2d08b8674121bba102d</sys_update_version>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-28 07:30:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

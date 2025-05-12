@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_one_extend_capability_definition">
+    <sys_one_extend_capability_definition action="DELETE">
+        <advanced>false</advanced>
+        <api>936e514a53b3b110f028ddeeff7b128c</api>
+        <api_type>sys_hub_flow</api_type>
+        <capability display_value="FSO cas summarization test skill">40f92dc5932422d08b8674121bba1040</capability>
+        <category display_value="Other">04c489f3532121106b38ddeeff7b1215</category>
+        <connection display_value="sn_generative_ai.Now_LLM">4e85d828777721105de60f207b5a9906</connection>
+        <description/>
+        <filter_properties>{"provider":"Now LLM GenericNow LLM Generic"}</filter_properties>
+        <metadata/>
+        <name>FSO cas summarization test skill (Now LLM Generic - Now LLM Generic)</name>
+        <order>0</order>
+        <postprocessor><![CDATA[(function(outputs) {     	/* write code here to transform definition output to capability output.*/     	     	outputs = JSON.parse(outputs);     	     	return outputs;     })(outputs);]]></postprocessor>
+        <preprocessor><![CDATA[(function(inputs) {     	/* write code here to transform capability input to definition input.*/     	     	inputs = JSON.parse(inputs);     	     	return inputs;     })(inputs);]]></preprocessor>
+        <sys_class_name>sys_one_extend_capability_definition</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-26 03:38:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>44f92dc5932422d08b8674121bba104a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FSO cas summarization test skill (Now LLM Generic - Now LLM Generic)</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_one_extend_capability_definition_44f92dc5932422d08b8674121bba104a</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-26 03:38:09</sys_updated_on>
+        <truncate_strategy display_value="Default Truncation Strategy">2b99e1137fb20210f465c3b76d86650d</truncate_strategy>
+    </sys_one_extend_capability_definition>
+    <sys_translated_text action="DELETE" query="documentkey=44f92dc5932422d08b8674121bba104a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</application>
+        <file_path/>
+        <instance_id>7838a3eddb96a7c049eac59705961973</instance_id>
+        <instance_name>ltidemo5</instance_name>
+        <name>sys_one_extend_capability_definition_44f92dc5932422d08b8674121bba104a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_one_extend_capability_definition"&gt;&lt;sys_one_extend_capability_definition action="INSERT_OR_UPDATE"&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;api&gt;936e514a53b3b110f028ddeeff7b128c&lt;/api&gt;&lt;api_type&gt;sys_hub_flow&lt;/api_type&gt;&lt;capability display_value="FSO cas summarization test skill"&gt;40f92dc5932422d08b8674121bba1040&lt;/capability&gt;&lt;category display_value="Other"&gt;04c489f3532121106b38ddeeff7b1215&lt;/category&gt;&lt;connection display_value="sn_generative_ai.Now_LLM"&gt;4e85d828777721105de60f207b5a9906&lt;/connection&gt;&lt;description/&gt;&lt;filter_properties&gt;{"provider":"Now LLM GenericNow LLM Generic"}&lt;/filter_properties&gt;&lt;metadata/&gt;&lt;name&gt;FSO cas summarization test skill (Now LLM Generic - Now LLM Generic)&lt;/name&gt;&lt;order&gt;0&lt;/order&gt;&lt;postprocessor&gt;&lt;![CDATA[(function(outputs) {     	/* write code here to transform definition output to capability output.*/     	     	outputs = JSON.parse(outputs);     	     	return outputs;     })(outputs);]]&gt;&lt;/postprocessor&gt;&lt;preprocessor&gt;&lt;![CDATA[(function(inputs) {     	/* write code here to transform capability input to definition input.*/     	     	inputs = JSON.parse(inputs);     	     	return inputs;     })(inputs);]]&gt;&lt;/preprocessor&gt;&lt;sys_class_name&gt;sys_one_extend_capability_definition&lt;/sys_class_name&gt;&lt;sys_created_by&gt;rohit&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-26 03:38:09&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;44f92dc5932422d08b8674121bba104a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;FSO cas summarization test skill (Now LLM Generic - Now LLM Generic)&lt;/sys_name&gt;&lt;sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai"&gt;5365c533935496d08b8674121bba10e7&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="underwriter.ai"&gt;5365c533935496d08b8674121bba10e7&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_one_extend_capability_definition_44f92dc5932422d08b8674121bba104a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;rohit&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-26 03:38:09&lt;/sys_updated_on&gt;&lt;truncate_strategy display_value="Default Truncation Strategy"&gt;2b99e1137fb20210f465c3b76d86650d&lt;/truncate_strategy&gt;&lt;/sys_one_extend_capability_definition&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=44f92dc5932422d08b8674121bba104a"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-253079918</payload_hash>
+        <record_name>FSO cas summarization test skill (Now LLM Generic - Now LLM Generic)</record_name>
+        <reverted_from/>
+        <source>53ea92d9338fda10875176a59d5c7bc9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-26 03:38:10</sys_created_on>
+        <sys_id>c8f92dc5932422d08b8674121bba105e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195d0876b140000001</sys_recorded_at>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-26 03:38:10</sys_updated_on>
+        <type>OneExtend Capability Definition</type>
+        <update_guid>4cf92dc51f2422d0f7978475ac32bb5d</update_guid>
+        <update_guid_history>4cf92dc51f2422d0f7978475ac32bb5d:-253079918</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-28 07:08:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_one_extend_capability_definition">sys_one_extend_capability_definition</sys_db_object>
+        <sys_id>72bc8c9f4fef4b8087f0ac9b93f067f9</sys_id>
+        <sys_metadata>44f92dc5932422d08b8674121bba104a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FSO cas summarization test skill (Now LLM Generic - Now LLM Generic)</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_scope_delete display_value="">7c8d9985394b49b688ab893eea2dbef1</sys_scope_delete>
+        <sys_update_name>sys_one_extend_capability_definition_44f92dc5932422d08b8674121bba104a</sys_update_name>
+        <sys_update_version display_value="sys_one_extend_capability_definition_44f92dc5932422d08b8674121bba104a">c8f92dc5932422d08b8674121bba105e</sys_update_version>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-28 07:08:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

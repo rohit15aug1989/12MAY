@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_one_extend_capability">
+    <sys_one_extend_capability action="DELETE">
+        <active>true</active>
+        <description>Develop a case summarisation for the FSO underwiter case</description>
+        <external>true</external>
+        <name>Demo Skill for FSO case</name>
+        <short_description/>
+        <sys_class_name>sys_one_extend_capability</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-01-31 14:01:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>77c2fd3b335b96d0875176a59d5c7bf8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Demo Skill for FSO case</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_one_extend_capability_77c2fd3b335b96d0875176a59d5c7bf8</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-01-31 14:01:44</sys_updated_on>
+        <type>skill</type>
+    </sys_one_extend_capability>
+    <sys_translated_text action="DELETE" query="documentkey=77c2fd3b335b96d0875176a59d5c7bf8"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</application>
+        <file_path/>
+        <instance_id>7838a3eddb96a7c049eac59705961973</instance_id>
+        <instance_name>ltidemo5</instance_name>
+        <name>sys_one_extend_capability_77c2fd3b335b96d0875176a59d5c7bf8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_one_extend_capability"><sys_one_extend_capability action="INSERT_OR_UPDATE"><active>true</active><description>Develop a case summarisation for the FSO underwiter case</description><external>true</external><name>Demo Skill for FSO case</name><short_description/><sys_class_name>sys_one_extend_capability</sys_class_name><sys_created_by>rohit</sys_created_by><sys_created_on>2025-01-31 14:01:44</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>77c2fd3b335b96d0875176a59d5c7bf8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Demo Skill for FSO case</sys_name><sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package><sys_policy/><sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope><sys_update_name>sys_one_extend_capability_77c2fd3b335b96d0875176a59d5c7bf8</sys_update_name><sys_updated_by>rohit</sys_updated_by><sys_updated_on>2025-01-31 14:01:44</sys_updated_on><type>skill</type></sys_one_extend_capability><sys_translated_text action="delete_multiple" query="documentkey=77c2fd3b335b96d0875176a59d5c7bf8"/></record_update>]]></payload>
+        <payload_hash>-1444058067</payload_hash>
+        <record_name>Demo Skill for FSO case</record_name>
+        <reverted_from/>
+        <source>53ea92d9338fda10875176a59d5c7bc9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-01-31 14:01:44</sys_created_on>
+        <sys_id>0cd2fd7b335b96d0875176a59d5c7bf7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194bcaae7cc0000001</sys_recorded_at>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-01-31 14:01:44</sys_updated_on>
+        <type>OneExtend Capability</type>
+        <update_guid>ffc2fd3bf05b96d0612f619c46b0edfa</update_guid>
+        <update_guid_history>ffc2fd3bf05b96d0612f619c46b0edfa:-1444058067</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-28 07:05:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_one_extend_capability">sys_one_extend_capability</sys_db_object>
+        <sys_id>a8f48f654a6f474889bf80a3b113d1c4</sys_id>
+        <sys_metadata>77c2fd3b335b96d0875176a59d5c7bf8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Demo Skill for FSO case</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_scope_delete display_value="">7c8d9985394b49b688ab893eea2dbef1</sys_scope_delete>
+        <sys_update_name>sys_one_extend_capability_77c2fd3b335b96d0875176a59d5c7bf8</sys_update_name>
+        <sys_update_version display_value="sys_one_extend_capability_77c2fd3b335b96d0875176a59d5c7bf8">0cd2fd7b335b96d0875176a59d5c7bf7</sys_update_version>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-28 07:05:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

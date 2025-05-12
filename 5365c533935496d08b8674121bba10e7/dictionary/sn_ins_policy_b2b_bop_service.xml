@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="email_client=true" audit="true" db_object_id="69564eff935c96d08b8674121bba108a" extends="sn_ins_policy_b2b_base" label="業主政策案例" max_length="40" name="sn_ins_policy_b2b_bop_service" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Versions" max_length="40" name="x_ltin2_uw_ai_versions" type="string"/>
+    </element>
+</database>

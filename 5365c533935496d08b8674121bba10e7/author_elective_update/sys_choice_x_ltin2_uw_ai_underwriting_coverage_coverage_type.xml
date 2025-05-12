@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="coverage_type" table="x_ltin2_uw_ai_underwriting_coverage" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>coverage_type</element>
+            <name>x_ltin2_uw_ai_underwriting_coverage</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-09 09:20:08</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>coverage_type</sys_name>
+            <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+            <sys_update_name>sys_choice_x_ltin2_uw_ai_underwriting_coverage_coverage_type</sys_update_name>
+            <sys_updated_by>subham.agarwal</sys_updated_by>
+            <sys_updated_on>2024-09-09 09:20:08</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Building Level Coverages</dependent_value>
+            <element>coverage_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Computer Hardware, Servers</label>
+            <language>en</language>
+            <name>x_ltin2_uw_ai_underwriting_coverage</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-11 10:10:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-05-05 04:30:32</sys_updated_on>
+            <value>Computer Hardware, Servers</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Building Level Coverages</dependent_value>
+            <element>coverage_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Furniture &amp; Fixtures</label>
+            <language>en</language>
+            <name>x_ltin2_uw_ai_underwriting_coverage</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-11 10:07:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-05-05 04:30:19</sys_updated_on>
+            <value>Furniture &amp; Fixtures</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Building Level Coverages</dependent_value>
+            <element>coverage_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Building</label>
+            <language>en</language>
+            <name>x_ltin2_uw_ai_underwriting_coverage</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-09 09:25:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-19 04:12:46</sys_updated_on>
+            <value>building</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Policy Level Coverages</dependent_value>
+            <element>coverage_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Arson and Theft Reward</label>
+            <language>en</language>
+            <name>x_ltin2_uw_ai_underwriting_coverage</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-09 09:20:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-19 04:13:02</sys_updated_on>
+            <value>arson</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Building Level Coverages</dependent_value>
+            <element>coverage_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Business and Personal Property</label>
+            <language>en</language>
+            <name>x_ltin2_uw_ai_underwriting_coverage</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-09 09:25:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-19 04:13:30</sys_updated_on>
+            <value>business_property</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Policy Level Coverages</dependent_value>
+            <element>coverage_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Deferred payments</label>
+            <language>en</language>
+            <name>x_ltin2_uw_ai_underwriting_coverage</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-09 09:20:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-19 04:12:55</sys_updated_on>
+            <value>deferred</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Policy Level Coverages</dependent_value>
+            <element>coverage_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Emergency tenant evacuation expenses</label>
+            <language>en</language>
+            <name>x_ltin2_uw_ai_underwriting_coverage</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-09 09:21:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-19 04:13:21</sys_updated_on>
+            <value>emergency</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Policy Level Coverages</dependent_value>
+            <element>coverage_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hazardous Substance</label>
+            <language>en</language>
+            <name>x_ltin2_uw_ai_underwriting_coverage</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-09 09:20:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-19 04:13:10</sys_updated_on>
+            <value>hazardous</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Policy Level Coverages</dependent_value>
+            <element>coverage_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Newly Acquired Building - EDP</label>
+            <language>en</language>
+            <name>x_ltin2_uw_ai_underwriting_coverage</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>barla.praveenkumar</sys_created_by>
+            <sys_created_on>2024-09-20 14:56:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-05-05 04:03:19</sys_updated_on>
+            <value>newly_acquired</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Policy Level Coverages</dependent_value>
+            <element>coverage_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Paved or Concrete Surfaces</label>
+            <language>en</language>
+            <name>x_ltin2_uw_ai_underwriting_coverage</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>barla.praveenkumar</sys_created_by>
+            <sys_created_on>2024-09-20 14:57:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-05-05 04:03:22</sys_updated_on>
+            <value>paved</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Building Level Coverages</dependent_value>
+            <element>coverage_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Business Interruption</label>
+            <language>en</language>
+            <name>x_ltin2_uw_ai_underwriting_coverage</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-09 09:26:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-19 04:13:38</sys_updated_on>
+            <value>business_interruption</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Building Level Coverages</dependent_value>
+            <element>coverage_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Business Personal Property</label>
+            <language>en</language>
+            <name>x_ltin2_uw_ai_underwriting_coverage</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-11 06:35:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-11 06:35:35</sys_updated_on>
+            <value>Business Personal Property</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Building Level Coverages</dependent_value>
+            <element>coverage_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Tenants Improvments</label>
+            <language>en</language>
+            <name>x_ltin2_uw_ai_underwriting_coverage</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-11 06:35:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-11 06:35:35</sys_updated_on>
+            <value>Tenants Improvments</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Location Level Coverages</dependent_value>
+            <element>coverage_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Accounts Receivables</label>
+            <language>en</language>
+            <name>x_ltin2_uw_ai_underwriting_coverage</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-09 09:21:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-19 04:13:54</sys_updated_on>
+            <value>Accounts</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Building Level Coverages</dependent_value>
+            <element>coverage_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mfg. or Lab Equipment</label>
+            <language>en</language>
+            <name>x_ltin2_uw_ai_underwriting_coverage</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-11 06:35:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-11 06:35:35</sys_updated_on>
+            <value>Mfg. or Lab Equipment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Building Level Coverages</dependent_value>
+            <element>coverage_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Computer Hardware, Servers</label>
+            <language>en</language>
+            <name>x_ltin2_uw_ai_underwriting_coverage</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-11 10:11:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-11 10:11:12</sys_updated_on>
+            <value>Computer Hardware, Servers</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Location Level Coverages</dependent_value>
+            <element>coverage_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Outdoor Signs</label>
+            <language>en</language>
+            <name>x_ltin2_uw_ai_underwriting_coverage</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-09 09:22:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-19 04:14:00</sys_updated_on>
+            <value>outdoor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Building Level Coverages</dependent_value>
+            <element>coverage_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Furniture &amp; Fixtures</label>
+            <language>en</language>
+            <name>x_ltin2_uw_ai_underwriting_coverage</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-11 10:11:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-11 10:11:12</sys_updated_on>
+            <value>Furniture &amp; Fixtures</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Location Level Coverages</dependent_value>
+            <element>coverage_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Plants or lawn</label>
+            <language>en</language>
+            <name>x_ltin2_uw_ai_underwriting_coverage</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-09 09:22:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-05-05 04:00:08</sys_updated_on>
+            <value>Plants or lawn</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Building Level Coverages</dependent_value>
+            <element>coverage_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>BPP</label>
+            <language>en</language>
+            <name>x_ltin2_uw_ai_underwriting_coverage</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-05-05 03:42:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-05-05 03:43:09</sys_updated_on>
+            <value>BPP</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Location Level Coverages</dependent_value>
+            <element>coverage_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Non Owned detached trailer</label>
+            <language>en</language>
+            <name>x_ltin2_uw_ai_underwriting_coverage</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-09 09:23:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-19 04:14:17</sys_updated_on>
+            <value>non_owned</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Location Level Coverages</dependent_value>
+            <element>coverage_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Earthquake</label>
+            <language>en</language>
+            <name>x_ltin2_uw_ai_underwriting_coverage</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-09 09:23:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-19 04:14:24</sys_updated_on>
+            <value>Earthquake</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Location Level Coverages</dependent_value>
+            <element>coverage_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Flood</label>
+            <language>en</language>
+            <name>x_ltin2_uw_ai_underwriting_coverage</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-09 09:24:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-19 04:14:30</sys_updated_on>
+            <value>flood</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Location Level Coverages</dependent_value>
+            <element>coverage_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hurricane</label>
+            <language>en</language>
+            <name>x_ltin2_uw_ai_underwriting_coverage</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-09 09:24:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-19 04:14:37</sys_updated_on>
+            <value>hurricane</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Location Level Coverages</dependent_value>
+            <element>coverage_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Windstorm</label>
+            <language>en</language>
+            <name>x_ltin2_uw_ai_underwriting_coverage</name>
+            <sequence>12</sequence>
+            <synonyms/>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-09 09:24:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-19 04:14:44</sys_updated_on>
+            <value>windstorm</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Location Level Coverages</dependent_value>
+            <element>coverage_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Outdoor Tree Shrubs</label>
+            <language>en</language>
+            <name>x_ltin2_uw_ai_underwriting_coverage</name>
+            <sequence>13</sequence>
+            <synonyms/>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-05-05 03:58:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-05-05 04:00:40</sys_updated_on>
+            <value>Outdoor Tree Shrubs</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

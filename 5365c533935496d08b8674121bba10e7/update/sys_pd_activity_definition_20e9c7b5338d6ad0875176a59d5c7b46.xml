@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_activity_definition">
+    <sys_pd_activity_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <activity_type display_value="Activity_UW_ Summary ">2afb4fb9338d6ad0875176a59d5c7b8f</activity_type>
+        <badge/>
+        <category/>
+        <description/>
+        <experience_display_preferences>associated_table=advanced;associated_record=advanced;experience_status_table=advanced;experience_status_record=advanced;tagline=advanced;icon=advanced;title=advanced;description=advanced;pending_title=advanced;pending_description=advanced;record_fields=advanced;footer=advanced;form_view=advanced;form_fields=advanced;attachment_source=advanced;attachments_read_only=advanced;show_sla=advanced;show_checklist=advanced;is_automated=advanced;</experience_display_preferences>
+        <input_display_preferences>assigned_to=standard;assignment_group=standard;</input_display_preferences>
+        <inputs/>
+        <label>Activity defination for summary</label>
+        <name>activity_defination_for_summary</name>
+        <outputs/>
+        <required_roles/>
+        <source>cb18ceef1b230010affd0e55cc4bcbf2</source>
+        <source_type>sys_hub_flow</source_type>
+        <sys_class_name>sys_pd_activity_definition</sys_class_name>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-04-22 15:06:22</sys_created_on>
+        <sys_id>20e9c7b5338d6ad0875176a59d5c7b46</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Activity defination for summary</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_pd_activity_definition_20e9c7b5338d6ad0875176a59d5c7b46</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-04-24 17:20:42</sys_updated_on>
+        <system_level>false</system_level>
+        <table>x_ltin2_uw_ai_fso_uw_case</table>
+        <type_vals/>
+        <type_vals/>
+        <wait_for_completion>true</wait_for_completion>
+    </sys_pd_activity_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=20e9c7b5338d6ad0875176a59d5c7b46"/>
+    <sys_variable_value action="delete_multiple" query="document_key=20e9c7b5338d6ad0875176a59d5c7b46"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity_definition</document>
+        <document_key>20e9c7b5338d6ad0875176a59d5c7b46</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-04-24 17:20:42</sys_created_on>
+        <sys_id>f74cb56293c12ed08b8674121bba10c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-04-24 17:20:42</sys_updated_on>
+        <value>x_ltin2_uw_ai_fso_uw_case</value>
+        <variable display_value="Associated table">4ffb0bf9338d6ad0875176a59d5c7bf2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_input_cb18ceef1b230010affd0e55cc4bcbf2^id=20e9c7b5338d6ad0875176a59d5c7b46"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_cb18ceef1b230010affd0e55cc4bcbf2^id=20e9c7b5338d6ad0875176a59d5c7b46"/>
+    <sys_element_mapping action="delete_multiple" query="id=20e9c7b5338d6ad0875176a59d5c7b46"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>associated_record</field>
+        <id>20e9c7b5338d6ad0875176a59d5c7b46</id>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-04-22 15:31:26</sys_created_on>
+        <sys_id>b310577533cd6ad0875176a59d5c7b3f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-04-24 17:20:42</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_2afb4fb9338d6ad0875176a59d5c7b8f</table>
+        <value>{{pd.inputRecord}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>associated_record</field>
+        <id>20e9c7b5338d6ad0875176a59d5c7b46</id>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-04-22 15:19:40</sys_created_on>
+        <sys_id>236dcfbd338d6ad0875176a59d5c7b2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-04-22 15:19:40</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_57ebdfee93c022108b8674121bba1028</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>associated_table</field>
+        <id>20e9c7b5338d6ad0875176a59d5c7b46</id>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-04-24 17:20:42</sys_created_on>
+        <sys_id>3b4cb56293c12ed08b8674121bba10c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-04-24 17:20:42</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_2afb4fb9338d6ad0875176a59d5c7b8f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>experience_status_record</field>
+        <id>20e9c7b5338d6ad0875176a59d5c7b46</id>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-04-22 15:31:26</sys_created_on>
+        <sys_id>ff10577533cd6ad0875176a59d5c7b3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-04-22 15:31:26</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_2afb4fb9338d6ad0875176a59d5c7b8f</table>
+        <value>{{vl.Manual Activity./end.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>experience_status_record</field>
+        <id>20e9c7b5338d6ad0875176a59d5c7b46</id>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-04-22 15:19:40</sys_created_on>
+        <sys_id>6b6dcfbd338d6ad0875176a59d5c7b29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-04-22 15:19:40</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_57ebdfee93c022108b8674121bba1028</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

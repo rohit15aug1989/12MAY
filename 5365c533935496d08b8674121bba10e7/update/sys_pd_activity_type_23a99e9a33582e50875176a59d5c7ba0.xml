@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_activity_type">
+    <sys_pd_activity_type action="INSERT_OR_UPDATE">
+        <color>#F1F6DB</color>
+        <default_activity_ui display_value="test ui">d4b956da33582e50875176a59d5c7b48</default_activity_ui>
+        <icon display_value="news-outline">news_outline</icon>
+        <name>test layout</name>
+        <sys_class_name>sys_pd_activity_type</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-17 18:03:27</sys_created_on>
+        <sys_id>23a99e9a33582e50875176a59d5c7ba0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>test layout</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_pd_activity_type_23a99e9a33582e50875176a59d5c7ba0</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-17 18:03:51</sys_updated_on>
+    </sys_pd_activity_type>
+</record_update>

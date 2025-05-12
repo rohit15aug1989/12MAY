@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>deductible</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-02-27 16:14:22</sys_created_on>
+        <sys_id>061411a093042ad08b8674121bba10c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>deductible</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_ui_policy_action_061411a093042ad08b8674121bba10c7</sys_update_name>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-02-27 16:14:22</sys_updated_on>
+        <table>x_ltin2_uw_ai_underwriting_coverage</table>
+        <ui_policy display_value="Make the fields read only">4a14dd6093042ad08b8674121bba10b0</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=061411a093042ad08b8674121bba10c7"/>
+</record_update>

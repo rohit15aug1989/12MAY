@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" db_object_id="3f841fd993ac92108b8674121bba1007" extends="dl_matcher" label="UW Premium Data Lookup" max_length="40" name="x_ltin2_uw_ai_uw_premium_data_lookup" type="collection">
+        <element choice="1" choice_field="attachment" choice_table="x_ltin2_uw_ai_underwriting_coverage" label="Attachment Type" max_length="40" name="attachment_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Policy Level Coverages" sequence="0" value="policyLevelCoverages"/>
+                <element inactive_on_update="false" label="Building Level Coverages" sequence="2" value="buildingLevelCoverages"/>
+                <element inactive_on_update="false" label="Location Level Coverages" sequence="1" value="locationLevelCoverages"/>
+            </choice>
+        </element>
+        <element choice="1" choice_field="coverage_type" choice_table="x_ltin2_uw_ai_underwriting_coverage" dependent="attachment_type" dependent_on_field="attachment_type" label="Coverage Type" max_length="40" name="coverage_type" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Policy Level Coverages" inactive_on_update="false" label="Arson and Theft Reward" sequence="1" value="Arson and Theft Reward"/>
+                <element dependent_value="Policy Level Coverages" inactive_on_update="false" label="Emergency tenant evacuation expenses" sequence="7" value="Emergency tenant evacuation expenses"/>
+                <element dependent_value="Location Level Coverages" inactive="true" inactive_on_update="true" label="outdoor tree shrubs, plants or lawn" sequence="0" value="outdoor tree shrubs, plants or lawn"/>
+                <element dependent_value="Location Level Coverages" inactive_on_update="false" label="Hurricane" sequence="10" value="Hurricane"/>
+                <element dependent_value="Building Level Coverages" inactive_on_update="false" label="Business Interruption" sequence="3" value="BI"/>
+                <element dependent_value="Policy Level Coverages" inactive_on_update="false" label="Deferred payments" sequence="5" value="Deferred payments"/>
+                <element dependent_value="Location Level Coverages" inactive_on_update="false" label="outdoor signs" sequence="12" value="outdoor signs"/>
+                <element dependent_value="Location Level Coverages" inactive_on_update="false" label="Flood" sequence="8" value="Flood"/>
+                <element dependent_value="Building Level Coverages" inactive_on_update="false" label="Business and Personal Property" sequence="4" value="BPP"/>
+                <element dependent_value="Location Level Coverages" inactive_on_update="false" label="Accounts Receivables" sequence="0" value="Accounts Receivables"/>
+                <element dependent_value="Location Level Coverages" inactive_on_update="false" label="Earthquake" sequence="6" value="Earthquake"/>
+                <element dependent_value="Building Level Coverages" inactive_on_update="false" label="Building" sequence="2" value="Building"/>
+                <element dependent_value="Policy Level Coverages" inactive_on_update="false" label="Hazardous Substance" sequence="9" value="Hazardous Substance"/>
+                <element dependent_value="Location Level Coverages" inactive_on_update="false" label="Non Owned detached trailer" sequence="11" value="Non Owned detached trailer"/>
+                <element dependent_value="Location Level Coverages" inactive_on_update="false" label="Windstorm" sequence="15" value="Windstorm"/>
+            </choice>
+        </element>
+        <element label="Premium Rate" max_length="40" name="premium_rate" type="string"/>
+    </element>
+</database>

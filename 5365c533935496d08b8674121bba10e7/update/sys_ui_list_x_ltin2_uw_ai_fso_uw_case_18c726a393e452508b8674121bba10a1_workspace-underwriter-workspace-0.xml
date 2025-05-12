@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="x_ltin2_uw_ai_fso_uw_case" relationship="18c726a393e452508b8674121bba10a1" sys_domain="global" table="x_ltin2_uw_ai_underwriting_coverage" version="2" view="workspace-underwriter-workspace-0">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>attachment</element>
+            <list_id display_value="x_ltin2_uw_ai_underwriting_coverage" element="NULL" name="x_ltin2_uw_ai_underwriting_coverage" parent="x_ltin2_uw_ai_fso_uw_case" relationship="18c726a393e452508b8674121bba10a1" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">a1b0ac0f33705a90875176a59d5c7b43</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>abhi</sys_created_by>
+            <sys_created_on>2024-09-26 17:30:36</sys_created_on>
+            <sys_id>2db0ac0f33705a90875176a59d5c7b43</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abhi</sys_updated_by>
+            <sys_updated_on>2024-09-26 17:30:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>coverage_type</element>
+            <list_id display_value="x_ltin2_uw_ai_underwriting_coverage" element="NULL" name="x_ltin2_uw_ai_underwriting_coverage" parent="x_ltin2_uw_ai_fso_uw_case" relationship="18c726a393e452508b8674121bba10a1" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">a1b0ac0f33705a90875176a59d5c7b43</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>abhi</sys_created_by>
+            <sys_created_on>2024-09-26 17:30:36</sys_created_on>
+            <sys_id>21b0ac0f33705a90875176a59d5c7b44</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abhi</sys_updated_by>
+            <sys_updated_on>2024-09-26 17:30:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>commerical_coverage_location</element>
+            <list_id display_value="x_ltin2_uw_ai_underwriting_coverage" element="NULL" name="x_ltin2_uw_ai_underwriting_coverage" parent="x_ltin2_uw_ai_fso_uw_case" relationship="18c726a393e452508b8674121bba10a1" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">a1b0ac0f33705a90875176a59d5c7b43</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>abhi</sys_created_by>
+            <sys_created_on>2024-09-26 17:30:36</sys_created_on>
+            <sys_id>25b0ac0f33705a90875176a59d5c7b44</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abhi</sys_updated_by>
+            <sys_updated_on>2024-09-26 17:30:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>building</element>
+            <list_id display_value="x_ltin2_uw_ai_underwriting_coverage" element="NULL" name="x_ltin2_uw_ai_underwriting_coverage" parent="x_ltin2_uw_ai_fso_uw_case" relationship="18c726a393e452508b8674121bba10a1" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">a1b0ac0f33705a90875176a59d5c7b43</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>abhi</sys_created_by>
+            <sys_created_on>2024-09-26 17:30:36</sys_created_on>
+            <sys_id>29b0ac0f33705a90875176a59d5c7b44</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abhi</sys_updated_by>
+            <sys_updated_on>2024-09-26 17:30:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>limits</element>
+            <list_id display_value="x_ltin2_uw_ai_underwriting_coverage" element="NULL" name="x_ltin2_uw_ai_underwriting_coverage" parent="x_ltin2_uw_ai_fso_uw_case" relationship="18c726a393e452508b8674121bba10a1" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">a1b0ac0f33705a90875176a59d5c7b43</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>abhi</sys_created_by>
+            <sys_created_on>2024-09-26 17:30:36</sys_created_on>
+            <sys_id>2db0ac0f33705a90875176a59d5c7b44</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abhi</sys_updated_by>
+            <sys_updated_on>2024-09-26 17:30:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>deductible</element>
+            <list_id display_value="x_ltin2_uw_ai_underwriting_coverage" element="NULL" name="x_ltin2_uw_ai_underwriting_coverage" parent="x_ltin2_uw_ai_fso_uw_case" relationship="18c726a393e452508b8674121bba10a1" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">a1b0ac0f33705a90875176a59d5c7b43</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>abhi</sys_created_by>
+            <sys_created_on>2024-09-26 17:30:36</sys_created_on>
+            <sys_id>21b0ac0f33705a90875176a59d5c7b45</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abhi</sys_updated_by>
+            <sys_updated_on>2024-09-26 17:30:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>premium_rate</element>
+            <list_id display_value="x_ltin2_uw_ai_underwriting_coverage" element="NULL" name="x_ltin2_uw_ai_underwriting_coverage" parent="x_ltin2_uw_ai_fso_uw_case" relationship="18c726a393e452508b8674121bba10a1" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">a1b0ac0f33705a90875176a59d5c7b43</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>abhi</sys_created_by>
+            <sys_created_on>2024-09-26 17:30:36</sys_created_on>
+            <sys_id>25b0ac0f33705a90875176a59d5c7b45</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abhi</sys_updated_by>
+            <sys_updated_on>2024-09-26 17:30:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>schedule_modifier</element>
+            <list_id display_value="x_ltin2_uw_ai_underwriting_coverage" element="NULL" name="x_ltin2_uw_ai_underwriting_coverage" parent="x_ltin2_uw_ai_fso_uw_case" relationship="18c726a393e452508b8674121bba10a1" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">a1b0ac0f33705a90875176a59d5c7b43</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>abhi</sys_created_by>
+            <sys_created_on>2024-09-26 17:30:36</sys_created_on>
+            <sys_id>29b0ac0f33705a90875176a59d5c7b45</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abhi</sys_updated_by>
+            <sys_updated_on>2024-09-26 17:30:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>premium</element>
+            <list_id display_value="x_ltin2_uw_ai_underwriting_coverage" element="NULL" name="x_ltin2_uw_ai_underwriting_coverage" parent="x_ltin2_uw_ai_fso_uw_case" relationship="18c726a393e452508b8674121bba10a1" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">a1b0ac0f33705a90875176a59d5c7b43</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>abhi</sys_created_by>
+            <sys_created_on>2024-09-26 17:30:36</sys_created_on>
+            <sys_id>2db0ac0f33705a90875176a59d5c7b45</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abhi</sys_updated_by>
+            <sys_updated_on>2024-09-26 17:30:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="x_ltin2_uw_ai_underwriting_coverage" element="NULL" name="x_ltin2_uw_ai_underwriting_coverage" parent="x_ltin2_uw_ai_fso_uw_case" relationship="18c726a393e452508b8674121bba10a1" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">a1b0ac0f33705a90875176a59d5c7b43</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>abhi</sys_created_by>
+            <sys_created_on>2024-09-26 17:30:36</sys_created_on>
+            <sys_id>21b0ac0f33705a90875176a59d5c7b46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abhi</sys_updated_by>
+            <sys_updated_on>2024-09-26 17:30:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_ltin2_uw_ai_underwriting_coverage</name>
+            <parent>x_ltin2_uw_ai_fso_uw_case</parent>
+            <position/>
+            <relationship display_value="Coverage Info">18c726a393e452508b8674121bba10a1</relationship>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>abhi</sys_created_by>
+            <sys_created_on>2024-09-26 17:30:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a1b0ac0f33705a90875176a59d5c7b43</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ltin2_uw_ai_underwriting_coverage</sys_name>
+            <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+            <sys_update_name>sys_ui_list_x_ltin2_uw_ai_fso_uw_case_18c726a393e452508b8674121bba10a1_workspace-underwriter-workspace-0</sys_update_name>
+            <sys_updated_by>abhi</sys_updated_by>
+            <sys_updated_on>2024-09-26 17:30:36</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace Underwriter Workspace 0" name="workspace-underwriter-workspace-0">e3c4fbe1522056106d67851c32a5f187</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Policy Details" section_id="daf4bf6533205610875176a59d5c7bbe" sys_domain="global" table="x_ltin2_uw_ai_fso_uw_case" version="3" view="workspace-underwriter-workspace-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>insurance_policy.policy_number</element>
+            <position>0</position>
+            <sys_created_by>raj</sys_created_by>
+            <sys_created_on>2024-09-24 10:24:46</sys_created_on>
+            <sys_id>c41ce0d633fcd290875176a59d5c7b38</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Policy Details" display_value="Policy Details" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">daf4bf6533205610875176a59d5c7bbe</sys_ui_section>
+            <sys_updated_by>raj</sys_updated_by>
+            <sys_updated_on>2024-09-24 10:24:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>insurance_policy.effective_date</element>
+            <position>1</position>
+            <sys_created_by>raj</sys_created_by>
+            <sys_created_on>2024-09-24 10:24:46</sys_created_on>
+            <sys_id>041ce0d633fcd290875176a59d5c7b39</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Policy Details" display_value="Policy Details" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">daf4bf6533205610875176a59d5c7bbe</sys_ui_section>
+            <sys_updated_by>raj</sys_updated_by>
+            <sys_updated_on>2024-09-24 10:24:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>insurance_policy.expiration_date</element>
+            <position>2</position>
+            <sys_created_by>raj</sys_created_by>
+            <sys_created_on>2024-09-24 10:24:46</sys_created_on>
+            <sys_id>0c1ce0d633fcd290875176a59d5c7b39</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Policy Details" display_value="Policy Details" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">daf4bf6533205610875176a59d5c7bbe</sys_ui_section>
+            <sys_updated_by>raj</sys_updated_by>
+            <sys_updated_on>2024-09-24 10:24:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>raj</sys_created_by>
+            <sys_created_on>2024-09-24 10:24:46</sys_created_on>
+            <sys_id>041ce0d633fcd290875176a59d5c7b3a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Policy Details" display_value="Policy Details" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">daf4bf6533205610875176a59d5c7bbe</sys_ui_section>
+            <sys_updated_by>raj</sys_updated_by>
+            <sys_updated_on>2024-09-24 10:24:46</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>insurance_policy.premium_frequency</element>
+            <position>4</position>
+            <sys_created_by>raj</sys_created_by>
+            <sys_created_on>2024-09-24 10:24:46</sys_created_on>
+            <sys_id>0c1ce0d633fcd290875176a59d5c7b3a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Policy Details" display_value="Policy Details" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">daf4bf6533205610875176a59d5c7bbe</sys_ui_section>
+            <sys_updated_by>raj</sys_updated_by>
+            <sys_updated_on>2024-09-24 10:24:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>adjusted_premium</element>
+            <position>5</position>
+            <sys_created_by>raj</sys_created_by>
+            <sys_created_on>2024-09-24 10:24:46</sys_created_on>
+            <sys_id>041ce0d633fcd290875176a59d5c7b3b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Policy Details" display_value="Policy Details" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">daf4bf6533205610875176a59d5c7bbe</sys_ui_section>
+            <sys_updated_by>raj</sys_updated_by>
+            <sys_updated_on>2024-09-24 10:24:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>insurance_policy.premium_due_date</element>
+            <position>6</position>
+            <sys_created_by>raj</sys_created_by>
+            <sys_created_on>2024-09-24 10:24:46</sys_created_on>
+            <sys_id>0c1ce0d633fcd290875176a59d5c7b3b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Policy Details" display_value="Policy Details" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">daf4bf6533205610875176a59d5c7bbe</sys_ui_section>
+            <sys_updated_by>raj</sys_updated_by>
+            <sys_updated_on>2024-09-24 10:24:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Policy Details</caption>
+            <header>false</header>
+            <name>x_ltin2_uw_ai_fso_uw_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>bapu</sys_created_by>
+            <sys_created_on>2024-09-10 06:51:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>daf4bf6533205610875176a59d5c7bbe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ltin2_uw_ai_fso_uw_case</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+            <sys_update_name>sys_ui_section_daf4bf6533205610875176a59d5c7bbe</sys_update_name>
+            <sys_updated_by>bapu</sys_updated_by>
+            <sys_updated_on>2024-09-10 06:51:25</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace Underwriter Workspace 0" name="workspace-underwriter-workspace-0">e3c4fbe1522056106d67851c32a5f187</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

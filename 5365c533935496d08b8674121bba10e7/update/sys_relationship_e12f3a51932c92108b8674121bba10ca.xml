@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_ltin2_uw_ai_fso_uw_case</basic_apply_to>
+        <basic_query_from>x_ltin2_uw_ai_underwriting_coverage</basic_query_from>
+        <insert_callback/>
+        <name>UW Building Coverage</name>
+        <query_from/>
+        <query_with><![CDATA[current.addQuery('fso_case', parent.sys_id);]]></query_with>
+        <reference_field>fso_case</reference_field>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>subham.agarwal</sys_created_by>
+        <sys_created_on>2024-09-09 08:18:47</sys_created_on>
+        <sys_id>e12f3a51932c92108b8674121bba10ca</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>UW Building Coverage</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_relationship_e12f3a51932c92108b8674121bba10ca</sys_update_name>
+        <sys_updated_by>raj</sys_updated_by>
+        <sys_updated_on>2024-09-16 05:25:35</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=e12f3a51932c92108b8674121bba10ca"/>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>e12f3a51932c92108b8674121bba10ca</id>
+        <sys_created_by>subham.agarwal</sys_created_by>
+        <sys_created_on>2024-09-09 08:18:45</sys_created_on>
+        <sys_id>7f5fbe51932c92108b8674121bba1090</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subham.agarwal</sys_updated_by>
+        <sys_updated_on>2024-09-09 08:18:45</sys_updated_on>
+        <table>sys_relationship</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="2ae6242593cdd6d08b8674121bba1039" sys_domain="global" table="sn_ent_facility_asset" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>barla.praveenkumar</sys_created_by>
+            <sys_created_on>2024-10-04 12:22:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>62e6242593cdd6d08b8674121bba106f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_ent_facility_asset" name="sn_ent_facility_asset" sys_domain="global" view="Default view">2ae6242593cdd6d08b8674121bba1039</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="sn_ent_facility_asset" sys_domain="global" view="Default view">e2e6242593cdd6d08b8674121bba1067</sys_ui_section>
+            <sys_updated_by>barla.praveenkumar</sys_updated_by>
+            <sys_updated_on>2024-10-04 12:22:32</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>barla.praveenkumar</sys_created_by>
+            <sys_created_on>2024-10-04 12:22:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3ee6242593cdd6d08b8674121bba107f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_ent_facility_asset" name="sn_ent_facility_asset" sys_domain="global" view="Default view">2ae6242593cdd6d08b8674121bba1039</sys_ui_form>
+            <sys_ui_section caption="General" display_value="General" name="sn_ent_facility_asset" sys_domain="global" view="Default view">e6e6242593cdd6d08b8674121bba106f</sys_ui_section>
+            <sys_updated_by>barla.praveenkumar</sys_updated_by>
+            <sys_updated_on>2024-10-04 12:22:32</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>barla.praveenkumar</sys_created_by>
+            <sys_created_on>2024-10-04 12:22:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a2e6242593cdd6d08b8674121bba105f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_ent_facility_asset" name="sn_ent_facility_asset" sys_domain="global" view="Default view">2ae6242593cdd6d08b8674121bba1039</sys_ui_form>
+            <sys_ui_section caption="Financial" display_value="Financial" name="sn_ent_facility_asset" sys_domain="global" view="Default view">26e6242593cdd6d08b8674121bba1057</sys_ui_section>
+            <sys_updated_by>barla.praveenkumar</sys_updated_by>
+            <sys_updated_on>2024-10-04 12:22:32</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>barla.praveenkumar</sys_created_by>
+            <sys_created_on>2024-10-04 12:22:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6ee6242593cdd6d08b8674121bba1066</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_ent_facility_asset" name="sn_ent_facility_asset" sys_domain="global" view="Default view">2ae6242593cdd6d08b8674121bba1039</sys_ui_form>
+            <sys_ui_section caption="Contracts" display_value="Contracts" name="sn_ent_facility_asset" sys_domain="global" view="Default view">2ae6242593cdd6d08b8674121bba105f</sys_ui_section>
+            <sys_updated_by>barla.praveenkumar</sys_updated_by>
+            <sys_updated_on>2024-10-04 12:22:32</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>barla.praveenkumar</sys_created_by>
+            <sys_created_on>2024-10-04 12:22:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b6e6242593cdd6d08b8674121bba109e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_ent_facility_asset" name="sn_ent_facility_asset" sys_domain="global" view="Default view">2ae6242593cdd6d08b8674121bba1039</sys_ui_form>
+            <sys_ui_section caption="Activities" display_value="Activities" name="sn_ent_facility_asset" sys_domain="global" view="Default view">f6e6242593cdd6d08b8674121bba109a</sys_ui_section>
+            <sys_updated_by>barla.praveenkumar</sys_updated_by>
+            <sys_updated_on>2024-10-04 12:22:33</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>barla.praveenkumar</sys_created_by>
+            <sys_created_on>2024-10-04 12:22:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aee6242593cdd6d08b8674121bba1056</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_ent_facility_asset" name="sn_ent_facility_asset" sys_domain="global" view="Default view">2ae6242593cdd6d08b8674121bba1039</sys_ui_form>
+            <sys_ui_section caption="Audit" display_value="Audit" name="sn_ent_facility_asset" sys_domain="global" view="Default view">26e6242593cdd6d08b8674121bba1044</sys_ui_section>
+            <sys_updated_by>barla.praveenkumar</sys_updated_by>
+            <sys_updated_on>2024-10-04 12:22:32</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>barla.praveenkumar</sys_created_by>
+            <sys_created_on>2024-10-04 12:22:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aee6242593cdd6d08b8674121bba1043</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_ent_facility_asset" name="sn_ent_facility_asset" sys_domain="global" view="Default view">2ae6242593cdd6d08b8674121bba1039</sys_ui_form>
+            <sys_ui_section caption="Depreciation" display_value="Depreciation" name="sn_ent_facility_asset" sys_domain="global" view="Default view">22e6242593cdd6d08b8674121bba103c</sys_ui_section>
+            <sys_updated_by>barla.praveenkumar</sys_updated_by>
+            <sys_updated_on>2024-10-04 12:22:32</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>7</position>
+            <sys_created_by>barla.praveenkumar</sys_created_by>
+            <sys_created_on>2024-10-04 12:22:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>72e6242593cdd6d08b8674121bba109a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_ent_facility_asset" name="sn_ent_facility_asset" sys_domain="global" view="Default view">2ae6242593cdd6d08b8674121bba1039</sys_ui_form>
+            <sys_ui_section caption="RFID" display_value="RFID" name="sn_ent_facility_asset" sys_domain="global" view="Default view">b2e6242593cdd6d08b8674121bba1080</sys_ui_section>
+            <sys_updated_by>barla.praveenkumar</sys_updated_by>
+            <sys_updated_on>2024-10-04 12:22:33</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>sn_ent_facility_asset</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>barla.praveenkumar</sys_created_by>
+            <sys_created_on>2024-10-04 12:22:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2ae6242593cdd6d08b8674121bba1039</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sn_ent_facility_asset</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+            <sys_update_name>sys_ui_form_sections_2ae6242593cdd6d08b8674121bba1039</sys_update_name>
+            <sys_updated_by>barla.praveenkumar</sys_updated_by>
+            <sys_updated_on>2024-10-04 12:22:32</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

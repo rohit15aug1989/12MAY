@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="13892d233350a690875176a59d5c7b4a" label="VersionID" max_length="40" name="x_ltin2_uw_ai_versionid" type="collection">
+        <element label="Version" max_length="40" name="version" type="string"/>
+        <element label="FSO underwriting case" max_length="32" name="fso_underwriting_case" reference="x_ltin2_uw_ai_fso_uw_case" type="reference"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="number" type="string" use_dynamic_default="true"/>
+        <index name="index">
+            <element name="fso_underwriting_case"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

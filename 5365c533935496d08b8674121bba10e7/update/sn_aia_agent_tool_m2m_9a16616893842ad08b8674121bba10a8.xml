@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_agent_tool_m2m">
+    <sn_aia_agent_tool_m2m action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <agent display_value="Incident Analyzer">e358fc2493002ad08b8674121bba1033</agent>
+        <description>Fetch knowledge articles which contain similar and relevant information to search query. This is not a general search engine for getting any piece of information. It provides access to specific, standard documentation on preset organizational or IT procedures. It should be used only to fetch relevant articles based on the problem description. This tool is not designed for reviewing knowledge article roles or restrictions. This tool is to be run ONLY ONE TIME to find any relevant knowledge articles related to the issue in the incident.</description>
+        <display_output>false</display_output>
+        <execution_mode>autopilot</execution_mode>
+        <inputs>[{"name":"search_type","description":"Search type","value":"hybrid"},{"name":"query","description":"search query for retrieving relevant information from Knowledge Table"},{"name":"search_profile","value":"quick_action_kb_search_profile","label":"Quick Action - KB Search Profile","description":"Search profile"},{"name":"sources","label":["Knowledge Table"],"value":["kb_knowledge"],"description":"Search sources"},{"name":"fields","label":["Number [kb_knowledge]","Description [kb_knowledge]","Short description [kb_knowledge]","Article body [kb_knowledge]"],"value":["kb_knowledge.number","kb_knowledge.description","kb_knowledge.short_description","kb_knowledge.text"],"description":"Fields to be returned"},{"name":"document_match_count","value":"10","description":"Document match count"},{"name":"semantic_index_names","label":["kb_knowledge.body","kb_knowledge.title"],"value":["kb_knowledge.body","kb_knowledge.title"],"description":"Semantic indexed fields"}]</inputs>
+        <max_auto_executions>10</max_auto_executions>
+        <name>Get Similar Knowledge Articles</name>
+        <output_transformation_strategy>paraphrase</output_transformation_strategy>
+        <run_as/>
+        <sys_class_name>sn_aia_agent_tool_m2m</sys_class_name>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2025-02-27 17:33:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>9a16616893842ad08b8674121bba10a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get Similar Knowledge Articles</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sn_aia_agent_tool_m2m_9a16616893842ad08b8674121bba10a8</sys_update_name>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2025-02-27 17:33:02</sys_updated_on>
+        <tool display_value="AIA RAG Retriever">8021ddea2b0d52101d72fb466e91bfd1</tool>
+    </sn_aia_agent_tool_m2m>
+</record_update>

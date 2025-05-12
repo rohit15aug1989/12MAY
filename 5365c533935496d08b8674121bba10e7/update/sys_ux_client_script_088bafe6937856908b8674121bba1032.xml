@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="SRP Record copy">fb7bebe6937856908b8674121bba1072</macroponent>
+        <name>Tab Switch Handler</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    const eventName = event.name;
+    const _getRecordPageTabsMap = () => (api.data.associated_record_page_tabs.output || {});
+    const _getInlineTabs = () => ({
+        "details": {
+            "condition": true
+        },
+        "related-lists": {
+            "condition": !(api.context.app.relatedListLayout !== "horizontal")
+        },
+        "related-records": {
+            "condition": !(!(!(api.context.app.relatedListLayout) || (api.context.app.relatedListLayout === "vertical")) || (api.context.props.sysId === "-1"))
+        },
+        "record-history": {
+            "condition": false
+        },
+    });
+
+    const _getHorizontalTabIndex = (routeType, isRL) => {
+        const availableTabs = (api.viewports.record_page_tabs.routeDefinitions) || {};
+        const recordPageTabsMap = _getRecordPageTabsMap();
+        const recordPageInlineTabs = _getInlineTabs();
+        const outputMap = {};
+        let tabsInOrder = [];
+        for (const [position, tabList] of Object.entries(recordPageTabsMap)) {
+            outputMap[position] = {};
+            for (const routeType of tabList)
+                if (availableTabs.hasOwnProperty(routeType))
+                    outputMap[position][routeType] = availableTabs[routeType];
+        }
+        tabsInOrder = tabsInOrder.concat(Object.keys(outputMap["left"]));
+
+        if (recordPageInlineTabs["details"].condition)
+            tabsInOrder.push("details");
+
+        tabsInOrder = tabsInOrder.concat(Object.keys(outputMap["middle"]));
+
+        if (recordPageInlineTabs["related-lists"].condition) {
+            if (isRL) {
+                const rlIndex = api.data.record.relatedLists.findIndex((rlItem) => rlItem.value === routeType)
+                return {
+                    recordTabIndex: (tabsInOrder.length + rlIndex)
+                };
+            } else
+                api.data.record.relatedLists.forEach((rl) => tabsInOrder.push(rl.id));
+        }
+
+        if (recordPageInlineTabs["related-records"].condition) {
+            let rlTabs = api.state.RelatedRecordTabs;
+            if (isRL) {
+                let rlIndex = -1,
+                    index = 0;
+                for (index = 0; index < rlTabs.length; index++) {
+                    tabsInOrder.push(rlTabs[index].id);
+                    rlIndex = rlTabs[index].relatedListsData.findIndex((relatedObj) => relatedObj.value === routeType);
+                    if (rlIndex != -1)
+                        break;
+                }
+                return {
+                    recordTabIndex: tabsInOrder.length - 1,
+                    recordSubTabIndex: rlIndex,
+                    relatedListIndex: index
+                };
+            } else
+                rlTabs.forEach((rlTab) => tabsInOrder.push(rlTab.id));
+        }
+
+        if (recordPageInlineTabs["record-history"].condition)
+            tabsInOrder.push("record-history");
+
+        tabsInOrder = tabsInOrder.concat(Object.keys(outputMap["right"]));
+        return {
+            recordTabIndex: tabsInOrder.indexOf(routeType)
+        };
+    };
+
+    const _getSidepanelTabIndex = (routeType) => {
+        const sidePanelTabs = api.viewports.viewport_gph.routeDefinitions || {};
+        const sortedData = Object.fromEntries(Object.entries(sidePanelTabs).sort((a, b) => a[1].order - b[1].order));
+        return Object.keys(sortedData).indexOf(routeType);
+    };
+
+    // TODO - DEF0430927 - Remove String Type conversion once the PRB is fixed.
+    const _emitContentUpdatedEvent = (selectedTabIndex) => {
+        if (api.context.props.selectedTabIndex == selectedTabIndex)
+            return;
+        api.emit('CONTENT_UPDATED', {
+            params: {
+                selectedTabIndex: String(selectedTabIndex),
+                query: api.context.props.inputQuery,
+                views: api.context.props.forcedViewName,
+                extraParams: api.context.props.inputExtraParams
+            }
+        });
+    }
+
+    const switchTab = () => {
+        const routeType = event.payload.route;
+        const type = event.payload.type;
+
+        if (!routeType || !type)
+            return;
+        else {
+            if (type === 'record-tab') {
+                const {
+                    recordTabIndex
+                } = _getHorizontalTabIndex(routeType);
+                if (recordTabIndex !== -1)
+                    _emitContentUpdatedEvent(recordTabIndex);
+            } else if (type === 'contextual-sidebar') {
+                const sidebarIndex = _getSidepanelTabIndex(routeType);
+                if (sidebarIndex !== -1)
+                    api.setState("sidebarSelectedTabIndex", sidebarIndex);
+            } else if (type == "related-list") {
+                const {
+                    recordTabIndex,
+                    recordSubTabIndex,
+                    relatedListIndex
+                } = _getHorizontalTabIndex(routeType, true);
+                _emitContentUpdatedEvent(recordTabIndex);
+                if (recordSubTabIndex) {
+                    let rlTabs = api.state.RelatedRecordTabs;
+                    rlTabs[relatedListIndex].subTabIndex = recordSubTabIndex;
+                    // Make a shallow clone update to 'RelatedRecordTabs' to trigger the state change
+                    api.setState("RelatedRecordTabs", [...rlTabs]);
+                }
+            }
+        }
+    };
+
+    switch (eventName) {
+        case 'UXF_TAB_SET#TAB_SELECTED':
+            if (event.elementId == "viewport_gph" && !event.payload.isInitialPageLoad)
+                api.setState("sidebarSelectedTabIndex", event.payload.selectedTabIndex);
+            break;
+        case 'SOW_RECORD#ROUTE_REQUESTED':
+            switchTab();
+            break;
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2024-09-25 18:59:39</sys_created_on>
+        <sys_id>088bafe6937856908b8674121bba1032</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Tab Switch Handler</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_ux_client_script_088bafe6937856908b8674121bba1032</sys_update_name>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2024-09-25 18:59:39</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

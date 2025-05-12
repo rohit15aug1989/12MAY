@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_activity_type">
+    <sys_pd_activity_type action="DELETE">
+        <color>#D9F4F9</color>
+        <default_activity_ui display_value="Copy of Default 6">337786ac335cae10875176a59d5c7b90</default_activity_ui>
+        <icon display_value="document-outline">document_outline</icon>
+        <name>Test UI Layout for initial rate location</name>
+        <sys_class_name>sys_pd_activity_type</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-12 06:14:32</sys_created_on>
+        <sys_id>9e7702ac335cae10875176a59d5c7b2e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Test UI Layout for initial rate location</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_pd_activity_type_9e7702ac335cae10875176a59d5c7b2e</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-12 06:15:01</sys_updated_on>
+    </sys_pd_activity_type>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</application>
+        <file_path/>
+        <instance_id>7838a3eddb96a7c049eac59705961973</instance_id>
+        <instance_name>ltidemo5</instance_name>
+        <name>sys_pd_activity_type_9e7702ac335cae10875176a59d5c7b2e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_activity_type"><sys_pd_activity_type action="INSERT_OR_UPDATE"><color>#D9F4F9</color><default_activity_ui display_value="Copy of Default 6">337786ac335cae10875176a59d5c7b90</default_activity_ui><icon display_value="document-outline">document_outline</icon><name>Test UI Layout for initial rate location</name><sys_class_name>sys_pd_activity_type</sys_class_name><sys_created_by>rohit</sys_created_by><sys_created_on>2025-03-12 06:14:32</sys_created_on><sys_id>9e7702ac335cae10875176a59d5c7b2e</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Test UI Layout for initial rate location</sys_name><sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package><sys_policy/><sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope><sys_update_name>sys_pd_activity_type_9e7702ac335cae10875176a59d5c7b2e</sys_update_name><sys_updated_by>rohit</sys_updated_by><sys_updated_on>2025-03-12 06:15:01</sys_updated_on></sys_pd_activity_type></record_update>]]></payload>
+        <payload_hash>1313496520</payload_hash>
+        <record_name>Test UI Layout for initial rate location</record_name>
+        <reverted_from/>
+        <source>53ea92d9338fda10875176a59d5c7bc9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-12 06:15:01</sys_created_on>
+        <sys_id>d197c6ac335cae10875176a59d5c7be6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19588fdfbe80000001</sys_recorded_at>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-12 06:15:01</sys_updated_on>
+        <type>Activity UI Layout</type>
+        <update_guid>1997c6ac2c5cae10ec5cf85ac35d79e5</update_guid>
+        <update_guid_history>1997c6ac2c5cae10ec5cf85ac35d79e5:1313496520,3b7786aca55cae10103b834a0f3c28a3:1685422230,267706acdd5cae10534a9f900199ca90:-1893798703</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-15 08:12:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_pd_activity_type">sys_pd_activity_type</sys_db_object>
+        <sys_id>2a06337235e84d00af0486db51795100</sys_id>
+        <sys_metadata>9e7702ac335cae10875176a59d5c7b2e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test UI Layout for initial rate location</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_scope_delete display_value="">7c8d9985394b49b688ab893eea2dbef1</sys_scope_delete>
+        <sys_update_name>sys_pd_activity_type_9e7702ac335cae10875176a59d5c7b2e</sys_update_name>
+        <sys_update_version display_value="sys_pd_activity_type_9e7702ac335cae10875176a59d5c7b2e">d197c6ac335cae10875176a59d5c7be6</sys_update_version>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-15 08:12:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

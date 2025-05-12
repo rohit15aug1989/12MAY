@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="coverage_type" table="x_ltin2_uw_ai_building_cumulative_premium" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>coverage_type</element>
+            <name>x_ltin2_uw_ai_building_cumulative_premium</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-17 13:22:41</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>coverage_type</sys_name>
+            <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+            <sys_update_name>sys_choice_x_ltin2_uw_ai_building_cumulative_premium_coverage_type</sys_update_name>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-17 13:22:41</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>coverage_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Building</label>
+            <language>en</language>
+            <name>x_ltin2_uw_ai_building_cumulative_premium</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-17 13:22:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-17 13:22:41</sys_updated_on>
+            <value>Building</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>coverage_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Business Personal Property</label>
+            <language>en</language>
+            <name>x_ltin2_uw_ai_building_cumulative_premium</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-24 14:18:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-24 14:18:24</sys_updated_on>
+            <value>business_and_personal_property</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>coverage_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Business Interruption</label>
+            <language>en</language>
+            <name>x_ltin2_uw_ai_building_cumulative_premium</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-21 09:15:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-21 09:15:03</sys_updated_on>
+            <value>business_interruption</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>coverage_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Business and Personal Property</label>
+            <language>en</language>
+            <name>x_ltin2_uw_ai_building_cumulative_premium</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-21 09:15:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-21 09:15:56</sys_updated_on>
+            <value>business_personal_property</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>coverage_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Computer Hardware, Servers</label>
+            <language>en</language>
+            <name>x_ltin2_uw_ai_building_cumulative_premium</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-24 14:21:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-24 14:21:08</sys_updated_on>
+            <value>Computer Hardware, Servers</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>coverage_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Furniture &amp; Fixtures</label>
+            <language>en</language>
+            <name>x_ltin2_uw_ai_building_cumulative_premium</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-24 14:21:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-24 14:21:43</sys_updated_on>
+            <value>Furniture &amp; Fixtures</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>coverage_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mfg. or Lab Equipment</label>
+            <language>en</language>
+            <name>x_ltin2_uw_ai_building_cumulative_premium</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-24 14:19:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-24 14:19:27</sys_updated_on>
+            <value>Mfg. or Lab Equipment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>coverage_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Tenants Improvments</label>
+            <language>en</language>
+            <name>x_ltin2_uw_ai_building_cumulative_premium</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-24 14:20:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-24 14:20:29</sys_updated_on>
+            <value>Tenants Improvments</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

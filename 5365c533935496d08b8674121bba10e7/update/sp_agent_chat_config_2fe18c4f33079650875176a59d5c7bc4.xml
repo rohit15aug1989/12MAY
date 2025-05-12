@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_agent_chat_config">
+    <sp_agent_chat_config action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <name>Now Assist in Virtual Agent - 1 Chat Config</name>
+        <order>0</order>
+        <portal/>
+        <public>false</public>
+        <roles/>
+        <server_script><![CDATA[(function($sp) {	return {		live_agent_queue: $sp.getDisplayValue('sp_chat_queue')		};})($sp);]]></server_script>
+        <sys_class_name>sp_agent_chat_config</sys_class_name>
+        <sys_created_by>abhi</sys_created_by>
+        <sys_created_on>2025-01-16 11:37:25</sys_created_on>
+        <sys_id>2fe18c4f33079650875176a59d5c7bc4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Now Assist in Virtual Agent - 1 Chat Config</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sp_agent_chat_config_2fe18c4f33079650875176a59d5c7bc4</sys_update_name>
+        <sys_updated_by>abhi</sys_updated_by>
+        <sys_updated_on>2025-01-16 11:37:25</sys_updated_on>
+    </sp_agent_chat_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=2fe18c4f33079650875176a59d5c7bc4"/>
+</record_update>

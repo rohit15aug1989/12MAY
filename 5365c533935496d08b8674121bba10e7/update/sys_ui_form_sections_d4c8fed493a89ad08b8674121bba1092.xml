@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="d4c8fed493a89ad08b8674121bba1092" sys_domain="global" table="x_ltin2_uw_ai_fso_uw_case" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-06 05:15:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>28c8f6d893a89ad08b8674121bba100d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_ltin2_uw_ai_fso_uw_case" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="a1634f9c1b11021067a655361a4bcbf8">d4c8fed493a89ad08b8674121bba1092</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="a1634f9c1b11021067a655361a4bcbf8">28c8b6d893a89ad08b8674121bba10fa</sys_ui_section>
+            <sys_updated_by>subham.agarwal</sys_updated_by>
+            <sys_updated_on>2024-09-06 05:15:56</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-06 05:15:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>60c8f6d893a89ad08b8674121bba1026</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_ltin2_uw_ai_fso_uw_case" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="a1634f9c1b11021067a655361a4bcbf8">d4c8fed493a89ad08b8674121bba1092</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="a1634f9c1b11021067a655361a4bcbf8">e8c8f6d893a89ad08b8674121bba101e</sys_ui_section>
+            <sys_updated_by>subham.agarwal</sys_updated_by>
+            <sys_updated_on>2024-09-06 05:15:56</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-06 05:15:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>64c8f6d893a89ad08b8674121bba101e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_ltin2_uw_ai_fso_uw_case" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="a1634f9c1b11021067a655361a4bcbf8">d4c8fed493a89ad08b8674121bba1092</sys_ui_form>
+            <sys_ui_section caption="Closure Information" display_value="Closure Information" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="a1634f9c1b11021067a655361a4bcbf8">e4c8f6d893a89ad08b8674121bba1016</sys_ui_section>
+            <sys_updated_by>subham.agarwal</sys_updated_by>
+            <sys_updated_on>2024-09-06 05:15:56</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-06 05:15:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>60c8f6d893a89ad08b8674121bba1016</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_ltin2_uw_ai_fso_uw_case" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="a1634f9c1b11021067a655361a4bcbf8">d4c8fed493a89ad08b8674121bba1092</sys_ui_form>
+            <sys_ui_section caption="Related Records" display_value="Related Records" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="a1634f9c1b11021067a655361a4bcbf8">a0c8f6d893a89ad08b8674121bba100e</sys_ui_section>
+            <sys_updated_by>subham.agarwal</sys_updated_by>
+            <sys_updated_on>2024-09-06 05:15:56</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_ltin2_uw_ai_fso_uw_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-06 05:15:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d4c8fed493a89ad08b8674121bba1092</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ltin2_uw_ai_fso_uw_case</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+            <sys_update_name>sys_ui_form_sections_d4c8fed493a89ad08b8674121bba1092</sys_update_name>
+            <sys_updated_by>subham.agarwal</sys_updated_by>
+            <sys_updated_on>2024-09-06 05:15:55</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace" name="workspace">a1634f9c1b11021067a655361a4bcbf8</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

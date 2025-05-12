@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2317f373935cd6d08b8674121bba107b" extends="sn_bom_customer_property" label="Location CAT Perils" max_length="40" name="x_ltin2_uw_ai_location_cat_perils" text_index="true" type="collection">
+        <element label="Burglary Details" max_length="5000" name="burglary_details" type="string"/>
+        <element label="Location Name" max_length="50" name="location_name" type="string"/>
+        <element label="Forcible Robbery Score" max_length="50" name="forcible_robbery_score" type="string"/>
+        <element label="Forcible Robbery Details" max_length="5000" name="forcible_robbery_details" type="string"/>
+        <element label="Hurricane Zone" max_length="50" name="hurricane_zone" type="string"/>
+        <element label="Fema Flood Details" max_length="5000" name="fema_flood_details" type="string"/>
+        <element label="Hurricane Score" max_length="50" name="hurricane_score" type="string"/>
+        <element label="Burglary Score" max_length="50" name="burglary_score" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Nearest Shoreline" max_length="40" name="nearest_shoreline" type="string"/>
+        <element label="Wild Fire Zone" max_length="50" name="wild_fire_zone" type="string"/>
+        <element label="Windstorm score" max_length="50" name="windstorm_score" type="string"/>
+        <element label="Mold Index Score" max_length="50" name="mold_index_score" type="string"/>
+        <element label="Exclusion clauses" max_length="50" name="exclusion_clauses" type="string"/>
+        <element label="Toxic Release Facilities Score" max_length="50" name="toxic_release_facilities_score" type="string"/>
+        <element label="Terrorism Details" max_length="5000" name="terrorism_details" type="string"/>
+        <element label="Tornado Details" max_length="5000" name="tornado_details" type="string"/>
+        <element label="Hail" max_length="50" name="hail" type="boolean"/>
+        <element label="Intensity (MMI Scale)" max_length="40" name="intensity_mmi_scale" type="integer"/>
+        <element label="Uw ai location cat perils" max_length="40" name="x_ltin2_uw_ai_location_cat_perils" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Rating insight" max_length="4000" name="rating_insight" type="string"/>
+        <element label="Seismic Details" max_length="5000" name="seismic_details" type="string"/>
+        <element label="Wind Zone" max_length="50" name="wind_zone" type="string"/>
+        <element label="Hail score" max_length="50" name="hail_score" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Coverage suggestions" max_length="4000" name="coverage_suggestions" type="string"/>
+        <element label="Earthquake Risk" max_length="50" name="earthquake_score" type="string"/>
+        <element label="Hail Details" max_length="5000" name="hail_details" type="string"/>
+        <element label="Seismic zone" max_length="50" name="seismic_zone" type="string"/>
+        <element label="Flood zone" max_length="50" name="flood_zone" type="string"/>
+        <element default="javascript:global.getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Location ID" max_length="50" name="location_id" type="string" use_dynamic_default="true"/>
+        <element label="Seismic Score" max_length="50" name="seismic_score" type="string"/>
+        <element label="Mold Index Details" max_length="5000" name="mold_index_details" type="string"/>
+        <element label="Terrorism" max_length="40" name="terrorism" type="boolean"/>
+        <element label="Latitude" max_length="40" name="latitude" type="float"/>
+        <element label="Wild Fire" max_length="50" name="wild_fire" type="string"/>
+        <element label="Frozen Pipe Index Details" max_length="5000" name="frozen_pipe_index_details" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Street" max_length="1000" name="street" type="string"/>
+        <element label="Flood" max_length="40" name="flood" type="boolean"/>
+        <element label="Hurricane Details" max_length="5000" name="hurricane_details" type="string"/>
+        <element label="Toxic Release Facilities Details" max_length="5000" name="toxic_release_facilities_details" type="string"/>
+        <element label="Wild Fire Details" max_length="5000" name="wild_fire_details" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Earthquake count in last ten yrs" max_length="40" name="earthquake_count_in_last_ten_yrs" type="string"/>
+        <element label="Convection Storm Details" max_length="5000" name="convection_storm_details" type="string"/>
+        <element label="Exposure Insight- Cat Exposure" max_length="4000" name="exposure_insight_cat_exposure" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Windstorm count in last ten yrs" max_length="40" name="windstorm_count_in_last_ten_yrs" type="string"/>
+        <element label="Source" max_length="50" name="source" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="First Floor Height" max_length="40" name="first_floor_height" type="string"/>
+        <element label="Magnitude (MW Scale)" max_length="40" name="magnitude_mw_scale" type="integer"/>
+        <element label="Earthquake" max_length="40" name="earthquake" type="boolean"/>
+        <element label="Fema Flood" max_length="50" name="fema_flood" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Limits and Deductible suggestions" max_length="4000" name="limits_and_deductible_suggestions" type="string"/>
+        <element label="Experience Insight" max_length="4000" name="experience_insight" type="string"/>
+        <element label="Tornado Score" max_length="50" name="tornado_score" type="string"/>
+        <element label="Sinkhole" max_length="40" name="sinkhole" type="boolean"/>
+        <element label="Windstorm Details" max_length="5000" name="windstorm_details" type="string"/>
+        <element label="Coast Distance Details" max_length="5000" name="coast_distance_details" type="string"/>
+        <element label="Crime Score" max_length="50" name="crime_score" type="string"/>
+        <element label="Police Stations" max_length="40" name="police_stations" type="boolean"/>
+        <element label="Windstrom" max_length="40" name="windstrom" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="location insights" max_length="4000" name="location_insights" type="string"/>
+        <element label="Commerical Building" max_length="32" name="commerical_building" reference="sys_user" type="reference"/>
+        <element label="Quote Number" max_length="50" name="quote_number" type="string"/>
+        <element label="Wild Fire score" max_length="50" name="wild_fire_score" type="string"/>
+        <element label="Building retrofitting" max_length="50" name="building_retrofitting" type="string"/>
+        <element label="Coast Distance Score" max_length="50" name="coast_distance_score" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Distance to Epi center" max_length="100" name="distance_to_epi_center" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Distance to Ocea" max_length="40" name="distance_to_ocea" type="string"/>
+        <element label="Crime" max_length="40" name="crime" type="boolean"/>
+        <element label="Crime Details" max_length="5000" name="crime_details" type="string"/>
+        <element label="Fema Flood Score" max_length="50" name="fema_flood_score" type="string"/>
+        <element audit="true" label="FSO UW Case" max_length="32" name="fso_uw_case" reference="x_ltin2_uw_ai_fso_uw_case" text_index="true" type="reference"/>
+        <element label="Convection Storm Score" max_length="50" name="convection_storm_score" type="string"/>
+        <element label="Hurricane" max_length="40" name="hurricane" type="boolean"/>
+        <element label="Sinkhole Details" max_length="5000" name="sinkhole_details" type="string"/>
+        <element label="HazardHub Flood" max_length="40" name="hazardhub_flood" type="boolean"/>
+        <element label="Police Stations Details" max_length="5000" name="police_stations_details" type="string"/>
+        <element label="Ice Dam Index Score" max_length="50" name="ice_dam_index_score" type="string"/>
+        <element label="HazardHub Flood Details" max_length="5000" name="hazardhub_flood_details" type="string"/>
+        <element label="Policy territory" max_length="50" name="policy_territory" type="string"/>
+        <element label="UW Coverage" max_length="32" name="uw_coverage" reference="sys_user" type="reference"/>
+        <element label="Burglary" max_length="40" name="burglary" type="boolean"/>
+        <element label="Terrorism Score" max_length="50" name="terrorism_score" type="string"/>
+        <element label="Earthquake details" max_length="5000" name="earthquake_details" type="string"/>
+        <element label="Building elevation" max_length="50" name="building_elevation" type="string"/>
+        <element label="Tornado" max_length="40" name="tornado" type="boolean"/>
+        <element label="Sinkhole score" max_length="50" name="sinkhole_score" type="string"/>
+        <element label="Toxic Release Facilities" max_length="40" name="toxic_release_facilities" type="boolean"/>
+        <element label="Longitude" max_length="40" name="longitude" type="float"/>
+        <element label="Convection Storm" max_length="40" name="convection_storm" type="boolean"/>
+        <element label="Location premium" max_length="20" name="location_premium" type="currency"/>
+        <element label="Zone" max_length="50" name="zone" type="string"/>
+        <element label="Coast Distance" max_length="40" name="coast_distance" type="boolean"/>
+        <element label="Frozen Pipe Index" max_length="40" name="frozen_pipe_index" type="boolean"/>
+        <element label="Frozen Pipe Index Score" max_length="50" name="frozen_pipe_index_score" type="string"/>
+        <element label="Customer ID" max_length="32" name="customer_id" reference="x_ltin2_uw_ai_customer_details" type="reference"/>
+        <element label="Mold Index" max_length="40" name="mold_index" type="boolean"/>
+        <element label="HazardHub Flood Score" max_length="50" name="hazardhub_flood_score" type="string"/>
+        <element label="Forcible Robbery" max_length="40" name="forcible_robbery" type="boolean"/>
+        <element label="Ice Dam Index" max_length="40" name="ice_dam_index" type="boolean"/>
+        <element label="Ice Dam Index Details" max_length="5000" name="ice_dam_index_details" type="string"/>
+        <index name="index">
+            <element name="commerical_building"/>
+        </index>
+        <index name="index2">
+            <element name="customer_id"/>
+        </index>
+        <index name="index3">
+            <element name="fso_uw_case"/>
+        </index>
+        <index name="index4">
+            <element name="uw_coverage"/>
+        </index>
+    </element>
+</database>

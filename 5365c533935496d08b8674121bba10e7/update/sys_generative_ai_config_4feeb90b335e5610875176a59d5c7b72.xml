@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_generative_ai_config">
+    <sys_generative_ai_config action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <additional_configurations>{}</additional_configurations>
+        <ai_suggested>false</ai_suggested>
+        <definition>7aeeb90b335e5610875176a59d5c7b67</definition>
+        <definition_table>sys_one_extend_capability_definition</definition_table>
+        <max_tokens>1000</max_tokens>
+        <min_word_count>-1</min_word_count>
+        <model>llm_generic</model>
+        <name>Prompt name</name>
+        <parent/>
+        <prompt>Note to user: This is a sample prompt. Before running this prompt, please add a skill input of type "Record" and choose Incident table.
+
+You are a customer service representative. Summarize the below incident in no more than 250 words.
+The summary should only contain two sections "Issue" and "Priority".
+
+You are optionally given the following details from the incident:
+Incident SHORT_DESCRIPTION: {{incident.short_description}}
+Incident DESCRIPTION: {{incident.description}}
+Incident PRIORITY: {{incident.priority}}</prompt>
+        <prompt_template_role>user</prompt_template_role>
+        <request_tokens>15134</request_tokens>
+        <show_in_prompt_library>false</show_in_prompt_library>
+        <state>draft</state>
+        <sys_class_name>sys_generative_ai_config</sys_class_name>
+        <sys_created_by>Koushal.Sagar</sys_created_by>
+        <sys_created_on>2024-12-10 13:56:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4feeb90b335e5610875176a59d5c7b72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>7aeeb90b335e5610875176a59d5c7b67</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_generative_ai_config_4feeb90b335e5610875176a59d5c7b72</sys_update_name>
+        <sys_updated_by>Koushal.Sagar</sys_updated_by>
+        <sys_updated_on>2024-12-10 13:56:25</sys_updated_on>
+        <temperature>0.2</temperature>
+        <version>1</version>
+    </sys_generative_ai_config>
+</record_update>

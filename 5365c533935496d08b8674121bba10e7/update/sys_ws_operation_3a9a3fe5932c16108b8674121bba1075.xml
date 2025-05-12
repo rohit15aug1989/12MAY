@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri>/api/x_ltin2_uw_ai/ai_enrichment/enrichCase</default_operation_uri>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>POST</http_method>
+        <name>enrichCase</name>
+        <operation_script><![CDATA[(function process( /*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    try {
+        const requestPayload = request.body.data;
+        // gs.info('Ashish' + JSON.stringify(requestPayload, null, 4));
+        let responseBody = new x_ltin2_uw_ai.UnderwriterAIUtils(requestPayload).process();
+		response.setBody(responseBody);
+		response.setStatus(responseBody.status);
+    } catch (err) {
+        gs.info('Error' + '3a9a3fe5932c16108b8674121bba1075' +err);
+    }
+
+
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_ltin2_uw_ai/v1/ai_enrichment/enrichCase</operation_uri>
+        <produces>application/json</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/enrichCase</relative_path>
+        <request_example/>
+        <requires_acl_authorization>false</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>false</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>ashish.sharma</sys_created_by>
+        <sys_created_on>2024-09-10 07:17:24</sys_created_on>
+        <sys_id>3a9a3fe5932c16108b8674121bba1075</sys_id>
+        <sys_mod_count>66</sys_mod_count>
+        <sys_name>enrichCase</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_ws_operation_3a9a3fe5932c16108b8674121bba1075</sys_update_name>
+        <sys_updated_by>ashish.sharma</sys_updated_by>
+        <sys_updated_on>2024-09-27 07:15:47</sys_updated_on>
+        <web_service_definition display_value="aiCaseEnrichment">ad5af3e5932c16108b8674121bba10ab</web_service_definition>
+        <web_service_version display_value="v1">e88af7e5932c16108b8674121bba1000</web_service_version>
+    </sys_ws_operation>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>3a9a3fe5932c16108b8674121bba1075</id>
+        <sys_created_by>ashish.sharma</sys_created_by>
+        <sys_created_on>2024-09-10 07:17:23</sys_created_on>
+        <sys_id>7aea3fe5932c16108b8674121bba10d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ashish.sharma</sys_updated_by>
+        <sys_updated_on>2024-09-10 07:17:23</sys_updated_on>
+        <table>sys_ws_operation</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="x_ltin2_uw_ai_fso_case_number" label="FSO Case Number" language="en" table="sn_bom_bo_ins_policy">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>x_ltin2_uw_ai_fso_case_number</element>
+            <help/>
+            <hint/>
+            <label>FSO Case Number</label>
+            <language>en</language>
+            <name>sn_bom_bo_ins_policy</name>
+            <plural>FSO Case Numbers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-04-23 04:21:28</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>FSO Case Number</sys_name>
+            <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+            <sys_update_name>sys_documentation_sn_bom_bo_ins_policy_x_ltin2_uw_ai_fso_case_number_en</sys_update_name>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-04-23 04:21:28</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

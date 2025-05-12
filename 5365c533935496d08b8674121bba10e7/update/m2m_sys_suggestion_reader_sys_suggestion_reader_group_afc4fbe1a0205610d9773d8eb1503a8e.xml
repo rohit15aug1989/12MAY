@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_suggestion_reader_sys_suggestion_reader_group">
+    <m2m_sys_suggestion_reader_sys_suggestion_reader_group action="INSERT_OR_UPDATE">
+        <order>200</order>
+        <reader_requested_fields/>
+        <reader_searchable_fields/>
+        <sys_class_name>m2m_sys_suggestion_reader_sys_suggestion_reader_group</sys_class_name>
+        <sys_created_by>bapu</sys_created_by>
+        <sys_created_on>2024-09-10 06:50:42</sys_created_on>
+        <sys_id>afc4fbe1a0205610d9773d8eb1503a8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_suggestion_reader_group_id display_value="User History Reader Group for Starter Workspace - Workspace Search">ebc4fbe10b205610c4bb9ae0a8f4da9b</sys_suggestion_reader_group_id>
+        <sys_suggestion_reader_id display_value="User History and Click Reader">f8495b9077210110be280d892c5a9986</sys_suggestion_reader_id>
+        <sys_update_name>m2m_sys_suggestion_reader_sys_suggestion_reader_group_afc4fbe1a0205610d9773d8eb1503a8e</sys_update_name>
+        <sys_updated_by>bapu</sys_updated_by>
+        <sys_updated_on>2024-09-10 06:50:42</sys_updated_on>
+    </m2m_sys_suggestion_reader_sys_suggestion_reader_group>
+</record_update>

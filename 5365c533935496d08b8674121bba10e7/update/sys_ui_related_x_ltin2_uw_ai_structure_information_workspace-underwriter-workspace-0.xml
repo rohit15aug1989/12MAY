@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_ltin2_uw_ai_structure_information" version="2" view="workspace-underwriter-workspace-0">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Structure Information - Workspace Underwriter Workspace 0" name="x_ltin2_uw_ai_structure_information" related_list="NULL" sys_domain="global" view="e3c4fbe1522056106d67851c32a5f187">36f433a533205610875176a59d5c7b5e</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>REL:e12f3a51932c92108b8674121bba10ca</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>bapu</sys_created_by>
+            <sys_created_on>2024-09-10 06:51:27</sys_created_on>
+            <sys_id>fef433a533205610875176a59d5c7b5e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bapu</sys_updated_by>
+            <sys_updated_on>2024-09-10 06:51:27</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Structure Information - Workspace Underwriter Workspace 0</calculated_name>
+            <filter/>
+            <name>x_ltin2_uw_ai_structure_information</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>bapu</sys_created_by>
+            <sys_created_on>2024-09-10 06:51:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>36f433a533205610875176a59d5c7b5e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Structure Information - Workspace Underwriter Workspace 0</sys_name>
+            <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+            <sys_update_name>sys_ui_related_x_ltin2_uw_ai_structure_information_workspace-underwriter-workspace-0</sys_update_name>
+            <sys_updated_by>bapu</sys_updated_by>
+            <sys_updated_on>2024-09-10 06:51:27</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace Underwriter Workspace 0" name="workspace-underwriter-workspace-0">e3c4fbe1522056106d67851c32a5f187</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

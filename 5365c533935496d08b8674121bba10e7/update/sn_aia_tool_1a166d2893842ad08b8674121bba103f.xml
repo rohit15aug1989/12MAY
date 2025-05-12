@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_tool">
+    <sn_aia_tool action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>An Incident is an unplanned interruption or reduction in the quality of service, i.e. something is broken or not working as expected. This tool fetch the details of the incident given like short description, description, caller and state.</description>
+        <input_schema>[]</input_schema>
+        <name>Get Incident Details</name>
+        <record_type>custom</record_type>
+        <script><![CDATA[undefined]]></script>
+        <sys_class_name>sn_aia_tool</sys_class_name>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2025-02-27 17:33:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>1a166d2893842ad08b8674121bba103f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get Incident Details</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sn_aia_tool_1a166d2893842ad08b8674121bba103f</sys_update_name>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2025-02-27 17:33:02</sys_updated_on>
+        <target_document>c582f5ce9f5302108f431597d90a1c4c</target_document>
+        <target_document_table>sys_hub_action_type_definition</target_document_table>
+        <type>action</type>
+    </sn_aia_tool>
+</record_update>

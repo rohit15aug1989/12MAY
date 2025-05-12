@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
+    <sys_ux_screen_type action="INSERT_OR_UPDATE">
+        <description/>
+        <name>NOW Intelligence</name>
+        <sys_class_name>sys_ux_screen_type</sys_class_name>
+        <sys_created_by>abhi</sys_created_by>
+        <sys_created_on>2024-09-25 10:59:37</sys_created_on>
+        <sys_id>14adb5a633b09690875176a59d5c7bd9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NOW Intelligence</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_ux_screen_type_14adb5a633b09690875176a59d5c7bd9</sys_update_name>
+        <sys_updated_by>abhi</sys_updated_by>
+        <sys_updated_on>2024-09-25 10:59:37</sys_updated_on>
+    </sys_ux_screen_type>
+    <sys_translated_text action="delete_multiple" query="documentkey=14adb5a633b09690875176a59d5c7bd9"/>
+</record_update>

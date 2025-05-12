@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="INSERT_OR_UPDATE">
+        <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>x_ltin2_uw_ai_location_cat_perils</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition/>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>raj</sys_created_by>
+        <sys_created_on>2024-09-04 20:40:02</sys_created_on>
+        <sys_id>bd197b37935cd6d08b8674121bba104e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_ltin2_uw_ai_location_cat_perils</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>ua_table_licensing_config_bd197b37935cd6d08b8674121bba104e</sys_update_name>
+        <sys_updated_by>raj</sys_updated_by>
+        <sys_updated_on>2024-09-04 20:40:02</sys_updated_on>
+    </ua_table_licensing_config>
+</record_update>

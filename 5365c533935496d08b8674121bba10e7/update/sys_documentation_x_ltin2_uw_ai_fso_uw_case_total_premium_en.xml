@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="total_premium" label=" Net Premium" language="en" table="x_ltin2_uw_ai_fso_uw_case">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>total_premium</element>
+            <help/>
+            <hint/>
+            <label> Net Premium</label>
+            <language>en</language>
+            <name>x_ltin2_uw_ai_fso_uw_case</name>
+            <plural> Net Premiums</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>barla.praveenkumar</sys_created_by>
+            <sys_created_on>2024-09-14 12:12:03</sys_created_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name> Net Premium</sys_name>
+            <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+            <sys_update_name>sys_documentation_x_ltin2_uw_ai_fso_uw_case_total_premium_en</sys_update_name>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-15 14:20:49</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

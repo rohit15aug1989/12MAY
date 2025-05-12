@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_playbook_experience_action_assignment_map">
+    <sys_playbook_experience_action_assignment_map action="DELETE">
+        <activity_definition display_value="Activity Definition for UW Coverage Review">4d4f377133946a50875176a59d5c7b37</activity_definition>
+        <declarative_action_assignment display_value="get_quote">58a1fe3b9354e6908b8674121bba10b8</declarative_action_assignment>
+        <playbook_experience display_value="Underwriter New Submission">bd553d26937c16908b8674121bba10ec</playbook_experience>
+        <sys_class_name>sys_playbook_experience_action_assignment_map</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-04-25 12:51:01</sys_created_on>
+        <sys_id>ce184ab633816214875176a59d5c7b50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_playbook_experience_action_assignment_map_ce184ab633816214875176a59d5c7b50</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-04-25 12:51:01</sys_updated_on>
+    </sys_playbook_experience_action_assignment_map>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</application>
+        <file_path/>
+        <instance_id>7838a3eddb96a7c049eac59705961973</instance_id>
+        <instance_name>ltidemo5</instance_name>
+        <name>sys_playbook_experience_action_assignment_map_ce184ab633816214875176a59d5c7b50</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_playbook_experience_action_assignment_map"><sys_playbook_experience_action_assignment_map action="INSERT_OR_UPDATE"><activity_definition display_value="Activity Definition for UW Coverage Review">4d4f377133946a50875176a59d5c7b37</activity_definition><declarative_action_assignment display_value="get_quote">58a1fe3b9354e6908b8674121bba10b8</declarative_action_assignment><playbook_experience display_value="Underwriter New Submission">bd553d26937c16908b8674121bba10ec</playbook_experience><sys_class_name>sys_playbook_experience_action_assignment_map</sys_class_name><sys_created_by>rohit</sys_created_by><sys_created_on>2025-04-25 12:51:01</sys_created_on><sys_id>ce184ab633816214875176a59d5c7b50</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package><sys_policy/><sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope><sys_update_name>sys_playbook_experience_action_assignment_map_ce184ab633816214875176a59d5c7b50</sys_update_name><sys_updated_by>rohit</sys_updated_by><sys_updated_on>2025-04-25 12:51:01</sys_updated_on></sys_playbook_experience_action_assignment_map></record_update>]]></payload>
+        <payload_hash>-2084157640</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>53ea92d9338fda10875176a59d5c7bc9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-04-25 12:51:02</sys_created_on>
+        <sys_id>1b280eb633816214875176a59d5c7b3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1966d005b440000001</sys_recorded_at>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-04-25 12:51:02</sys_updated_on>
+        <type>Playbook Experience Action Assignment Ma</type>
+        <update_guid>db280eb658816214852d90739431bd3a</update_guid>
+        <update_guid_history>db280eb658816214852d90739431bd3a:-2084157640</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-04-25 12:52:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_playbook_experience_action_assignment_map">sys_playbook_experience_action_assignment_map</sys_db_object>
+        <sys_id>6762b91589064d94aa5929a08cc0fba9</sys_id>
+        <sys_metadata>ce184ab633816214875176a59d5c7b50</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_scope_delete display_value="">7c8d9985394b49b688ab893eea2dbef1</sys_scope_delete>
+        <sys_update_name>sys_playbook_experience_action_assignment_map_ce184ab633816214875176a59d5c7b50</sys_update_name>
+        <sys_update_version display_value="sys_playbook_experience_action_assignment_map_ce184ab633816214875176a59d5c7b50">1b280eb633816214875176a59d5c7b3b</sys_update_version>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-04-25 12:52:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

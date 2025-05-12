@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_ltin2_uw_ai_underwriting_coverage</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_ltin2_uw_ai_underwriting_coverage">co_insuranceVALCHANGES^ORlimitsVALCHANGES^ORdeductibleVALCHANGES^ORwaiting_periodVALCHANGES^ORschedule_modifierVALCHANGES^EQ<item endquery="false" field="co_insurance" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="false" field="limits" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="deductible" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="waiting_period" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="schedule_modifier" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Coverage Version</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+    if (current.isNewRecord()) {
+        return;
+    }
+
+    // Create a new record in a custom table to save the previous state 
+    var newRecord = new GlideRecord('x_ltin2_uw_ai_underwriting_coverage_audit'); // Your custom table to store old records
+    newRecord.attachment = previous.attachment;
+    newRecord.building = previous.building;
+    newRecord.co_insurance = previous.co_insurance;
+    newRecord.commercial_coverage_location = previous.commercial_coverage_location;
+    newRecord.coverage_application = previous.coverage_application;
+    newRecord.coverage_type = previous.coverage_type;
+    newRecord.customer_id = previous.customer_id;
+    newRecord.deductible = previous.deductible;
+    newRecord.limits = previous.limits;
+    newRecord.product_id = previous.product_id;
+    newRecord.waiting_period = previous.waiting_period;
+    newRecord.adjusted_premium = previous.adjusted_premium;
+    newRecord.coverage_premium = previous.coverage_premium;
+    newRecord.total_limits = previous.total_limits;
+    newRecord.premium = previous.premium;
+    newRecord.schedule_modifier = previous.schedule_modifier;
+    newRecord.taxes_fees = previous.taxes_fees;
+    newRecord.total_premium = previous.total_premium;
+    newRecord.source = previous.source;
+    newRecord.coverage_reference_number = previous.number;
+    var user_name = gs.getUserName()
+
+    //current.name=user_name;
+
+	newRecord.name =user_name;
+
+
+	 // Query the latest version 
+
+    // Set the new version number
+    newRecord.version = checkcurrentVersionUW(current.number); // Insert the new record 
+    newRecord.insert();
+
+
+    function checkcurrentVersionUW(uwNumber) {
+        var currentVersion = 'v0';
+        var newVersion = '';
+
+        var gr = new GlideRecord('x_ltin2_uw_ai_underwriting_coverage_audit');
+        gr.addEncodedQuery('coverage_reference_number=' + uwNumber);
+        gr.orderByDesc('sys_updated_on'); // Sort records in descending order based on version
+        gr.setLimit(1);
+        gr.query();
+        if (gr.next()) {
+            currentVersion = gr.getValue('version');
+
+        }
+        var versionNumber = 0;
+        if (currentVersion.startsWith('v')) {
+            versionNumber = parseInt(currentVersion.substring(1), 10) || 0;
+        }
+        newVersion = 'v' + (versionNumber + 1);
+        return newVersion;
+
+    }
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>barla.praveenkumar</sys_created_by>
+        <sys_created_on>2024-09-09 15:05:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3feb582533a8d210875176a59d5c7bec</sys_id>
+        <sys_mod_count>43</sys_mod_count>
+        <sys_name>Coverage Version</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_script_3feb582533a8d210875176a59d5c7bec</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-04-19 06:54:45</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=3feb582533a8d210875176a59d5c7bec"/>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>3feb582533a8d210875176a59d5c7bec</id>
+        <sys_created_by>barla.praveenkumar</sys_created_by>
+        <sys_created_on>2024-09-09 15:05:33</sys_created_on>
+        <sys_id>327cd46533a8d210875176a59d5c7be2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>barla.praveenkumar</sys_updated_by>
+        <sys_updated_on>2024-09-09 15:05:33</sys_updated_on>
+        <table>sys_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping">
+    <sys_ux_addon_event_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <controller/>
+        <description/>
+        <name>New model modal overview</name>
+        <parent_macroponent display_value="Simple List Default copy">61528607932426108b8674121bba104a</parent_macroponent>
+        <source_component/>
+        <source_da display_value="create-new-uxf-eam-model">ee12e3a173d3b0105c042978caf6a7ea</source_da>
+        <source_element_id>list_1</source_element_id>
+        <sys_class_name>sys_ux_addon_event_mapping</sys_class_name>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-04-01 10:32:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2d528607932426108b8674121bba109b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New model modal overview</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_ux_addon_event_mapping_2d528607932426108b8674121bba109b</sys_update_name>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-04-01 10:32:37</sys_updated_on>
+        <target_event display_value="SIMPLE_LIST#OPEN_MODAL">31a6f26db3163010bf6680bd26a8dcf1</target_event>
+        <target_payload_mapping>{
+    "container": {
+        "fields": {
+            "binding": {
+                "address": [
+                    "fields"
+                ]
+            },
+            "type": "EVENT_PAYLOAD_BINDING"
+        },
+        "params": {
+            "binding": {
+                "address": [
+                    "params"
+                ]
+            },
+            "type": "EVENT_PAYLOAD_BINDING"
+        },
+        "route": {
+            "binding": {
+                "address": [
+                    "route"
+                ]
+            },
+            "type": "EVENT_PAYLOAD_BINDING"
+        }
+    },
+    "type": "MAP_CONTAINER"
+}</target_payload_mapping>
+    </sys_ux_addon_event_mapping>
+</record_update>

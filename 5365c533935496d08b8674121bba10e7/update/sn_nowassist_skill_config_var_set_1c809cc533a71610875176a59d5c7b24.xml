@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_nowassist_skill_config_var_set">
+    <sn_nowassist_skill_config_var_set action="INSERT_OR_UPDATE">
+        <config_type display_value="Related Lists Metadata Template">c0d340e3c3690210a028f32a05013199</config_type>
+        <description/>
+        <hide_step>true</hide_step>
+        <name>Related Lists Metadata</name>
+        <order>100</order>
+        <parent/>
+        <screen_id/>
+        <screen_table>sys_ux_macroponent</screen_table>
+        <skill_config display_value="FSO case summarization">94809cc533a71610875176a59d5c7b15</skill_config>
+        <step_completed>false</step_completed>
+        <sys_class_name>sn_nowassist_skill_config_var_set</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-02-04 04:04:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>1c809cc533a71610875176a59d5c7b24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Related Lists Metadata</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sn_nowassist_skill_config_var_set_1c809cc533a71610875176a59d5c7b24</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-02-04 04:04:37</sys_updated_on>
+        <title/>
+        <vars/>
+    </sn_nowassist_skill_config_var_set>
+    <sys_translated_text action="delete_multiple" query="documentkey=1c809cc533a71610875176a59d5c7b24"/>
+    <sys_variable_value action="delete_multiple" query="document_key=1c809cc533a71610875176a59d5c7b24"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sn_nowassist_skill_config_var_set</document>
+        <document_key>1c809cc533a71610875176a59d5c7b24</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-02-04 04:04:37</sys_created_on>
+        <sys_id>dc809cc533a71610875176a59d5c7b25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-02-04 04:04:37</sys_updated_on>
+        <value>{"sn_ins_claim_profile.case":"{\"start_tag\": \"\\n&lt;PARTICIPANTS_START&gt;\", \"end_tag\": \"&lt;PARTICIPANTS_END&gt;\\n\", \"record_tag\":{\"type\": \"static\", \"value\": \"PARTICIPANT\"},\"allow_empty\": true}","sn_ins_claim_property.case":"{\"start_tag\": \"\\n&lt;CLAIM_INCIDENTS_START&gt;\", \"end_tag\": \"&lt;CLAIM_INCIDENTS_END&gt;\\n\", \"record_tag\":{\"type\": \"static\", \"value\": \"CLAIM_INCIDENT\"},\"allow_empty\": true}","sn_ins_claim_participant.case_record":"{\"start_tag\": \"\\n&lt;PARTICIPANT_ROLES_START&gt;\", \"end_tag\": \"&lt;PARTICIPANT_ROLES_END&gt;\\n\", \"record_tag\":{\"type\": \"static\", \"value\": \"PARTICIPANT_ROLE\"},\"allow_empty\": true}"}</value>
+        <variable display_value="Metadata">54f344e3c3690210a028f32a05013145</variable>
+    </sys_variable_value>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_gen_ai_skill">
+    <sys_gen_ai_skill action="INSERT_OR_UPDATE">
+        <enable_followup>false</enable_followup>
+        <skill_description/>
+        <skill_document>082d61c933a862d0875176a59d5c7bbc</skill_document>
+        <skill_name>Location summary</skill_name>
+        <skill_table>sys_one_extend_capability</skill_table>
+        <sys_class_name>sys_gen_ai_skill</sys_class_name>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-03-26 13:22:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>839fe38933a8a2d0875176a59d5c7b4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_gen_ai_skill_839fe38933a8a2d0875176a59d5c7b4e</sys_update_name>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-03-26 13:22:11</sys_updated_on>
+    </sys_gen_ai_skill>
+    <sys_translated_text action="delete_multiple" query="documentkey=839fe38933a8a2d0875176a59d5c7b4e"/>
+</record_update>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_activity_definition">
+    <sys_pd_activity_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <activity_type display_value="Copy of UW_Underwriting_Coverage_Review 1">003cd3b6330d6214875176a59d5c7bac</activity_type>
+        <badge/>
+        <category/>
+        <description/>
+        <experience_display_preferences>associated_table=advanced;associated_record=advanced;experience_status_table=advanced;experience_status_record=advanced;tagline=advanced;icon=advanced;title=advanced;description=advanced;pending_title=advanced;pending_description=advanced;record_fields=advanced;footer=advanced;form_view=advanced;form_fields=advanced;attachment_source=advanced;attachments_read_only=advanced;show_sla=advanced;show_checklist=advanced;is_automated=advanced;</experience_display_preferences>
+        <input_display_preferences>assigned_to=standard;assignment_group=standard;</input_display_preferences>
+        <inputs/>
+        <label>Activity Definition for UW Coverage Review</label>
+        <name>test_activity_definition_for_uw_coverage_review</name>
+        <outputs/>
+        <required_roles/>
+        <source>cb18ceef1b230010affd0e55cc4bcbf2</source>
+        <source_type>sys_hub_flow</source_type>
+        <sys_class_name>sys_pd_activity_definition</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-16 12:11:27</sys_created_on>
+        <sys_id>4d4f377133946a50875176a59d5c7b37</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Activity Definition for UW Coverage Review</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_pd_activity_definition_4d4f377133946a50875176a59d5c7b37</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-05-08 10:11:23</sys_updated_on>
+        <system_level>false</system_level>
+        <table>global</table>
+        <type_vals/>
+        <type_vals/>
+        <wait_for_completion>true</wait_for_completion>
+    </sys_pd_activity_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=4d4f377133946a50875176a59d5c7b37"/>
+    <sys_variable_value action="delete_multiple" query="document_key=4d4f377133946a50875176a59d5c7b37"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity_definition</document>
+        <document_key>4d4f377133946a50875176a59d5c7b37</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-04-24 19:50:02</sys_created_on>
+        <sys_id>9b7e162a3345eed0875176a59d5c7bb7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-04-25 12:45:44</sys_updated_on>
+        <value/>
+        <variable display_value="Associated table">38d13e71331c2a50875176a59d5c7b0a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity_definition</document>
+        <document_key>4d4f377133946a50875176a59d5c7b37</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-05-08 10:05:39</sys_created_on>
+        <sys_id>dbfe508333d1ea10875176a59d5c7ba1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-05-08 10:11:23</sys_updated_on>
+        <value/>
+        <variable display_value="Associated table">5c3cdfb6330d6214875176a59d5c7bd8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_input_cb18ceef1b230010affd0e55cc4bcbf2^id=4d4f377133946a50875176a59d5c7b37"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_cb18ceef1b230010affd0e55cc4bcbf2^id=4d4f377133946a50875176a59d5c7b37"/>
+    <sys_element_mapping action="delete_multiple" query="id=4d4f377133946a50875176a59d5c7b37"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>associated_record</field>
+        <id>4d4f377133946a50875176a59d5c7b37</id>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-04-29 04:29:37</sys_created_on>
+        <sys_id>ddcb7c8c9319e6108b8674121bba104a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-05-08 10:11:23</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_003cd3b6330d6214875176a59d5c7bac</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>associated_record</field>
+        <id>4d4f377133946a50875176a59d5c7b37</id>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-03-17 04:39:33</sys_created_on>
+        <sys_id>afa16fc69394aa508b8674121bba1099</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-04-25 12:45:44</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_6cd1f671331c2a50875176a59d5c7be5</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>associated_table</field>
+        <id>4d4f377133946a50875176a59d5c7b37</id>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-05-08 10:05:39</sys_created_on>
+        <sys_id>1ffe508333d1ea10875176a59d5c7ba0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-05-08 10:05:39</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_003cd3b6330d6214875176a59d5c7bac</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>associated_table</field>
+        <id>4d4f377133946a50875176a59d5c7b37</id>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-04-24 19:50:02</sys_created_on>
+        <sys_id>577e162a3345eed0875176a59d5c7bb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-04-24 19:50:02</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_6cd1f671331c2a50875176a59d5c7be5</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>experience_status_record</field>
+        <id>4d4f377133946a50875176a59d5c7b37</id>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-04-29 04:29:37</sys_created_on>
+        <sys_id>19cb7c8c9319e6108b8674121bba104a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-04-29 04:29:37</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_003cd3b6330d6214875176a59d5c7bac</table>
+        <value>{{vl.Manual Activity./end.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>experience_status_record</field>
+        <id>4d4f377133946a50875176a59d5c7b37</id>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-03-17 04:39:33</sys_created_on>
+        <sys_id>eba16fc69394aa508b8674121bba1099</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-03-17 13:52:26</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_6cd1f671331c2a50875176a59d5c7be5</table>
+        <value>{{vl.Manual Activity./end.record}}</value>
+    </sys_element_mapping>
+</record_update>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_one_extend_definition_attribute">
+    <sys_one_extend_definition_attribute action="DELETE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <apply_filter>false</apply_filter>
+        <attribute_label/>
+        <capability display_value="test skill of addition">082d61c933a862d0875176a59d5c7bbc</capability>
+        <choice_list/>
+        <contains_large_input>false</contains_large_input>
+        <data_type>numeric</data_type>
+        <default_value/>
+        <definition/>
+        <description/>
+        <group/>
+        <hidden>false</hidden>
+        <info/>
+        <label>test2</label>
+        <mandatory>false</mandatory>
+        <name>test2</name>
+        <order/>
+        <schema>{}</schema>
+        <sys_class_name>sys_one_extend_definition_attribute</sys_class_name>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-03-26 03:52:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e45d65c933a862d0875176a59d5c7be2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test2</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_one_extend_definition_attribute_e45d65c933a862d0875176a59d5c7be2</sys_update_name>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-03-26 03:52:56</sys_updated_on>
+        <translate>false</translate>
+        <truncate>false</truncate>
+        <type>input</type>
+        <user_query>false</user_query>
+    </sys_one_extend_definition_attribute>
+    <sys_translated_text action="DELETE" query="documentkey=e45d65c933a862d0875176a59d5c7be2"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</application>
+        <file_path/>
+        <instance_id>7838a3eddb96a7c049eac59705961973</instance_id>
+        <instance_name>ltidemo5</instance_name>
+        <name>sys_one_extend_definition_attribute_e45d65c933a862d0875176a59d5c7be2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_one_extend_definition_attribute"><sys_one_extend_definition_attribute action="INSERT_OR_UPDATE"><active>true</active><advanced>false</advanced><apply_filter>false</apply_filter><attribute_label/><capability display_value="test skill of addition">082d61c933a862d0875176a59d5c7bbc</capability><choice_list/><contains_large_input>false</contains_large_input><data_type>numeric</data_type><default_value/><definition/><description/><group/><hidden>false</hidden><info/><label>test2</label><mandatory>false</mandatory><name>test2</name><order/><schema>{}</schema><sys_class_name>sys_one_extend_definition_attribute</sys_class_name><sys_created_by>sanket</sys_created_by><sys_created_on>2025-03-26 03:52:56</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e45d65c933a862d0875176a59d5c7be2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>test2</sys_name><sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package><sys_policy/><sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope><sys_update_name>sys_one_extend_definition_attribute_e45d65c933a862d0875176a59d5c7be2</sys_update_name><sys_updated_by>sanket</sys_updated_by><sys_updated_on>2025-03-26 03:52:56</sys_updated_on><translate>false</translate><truncate>false</truncate><type>input</type><user_query>false</user_query></sys_one_extend_definition_attribute><sys_translated_text action="delete_multiple" query="documentkey=e45d65c933a862d0875176a59d5c7be2"/></record_update>]]></payload>
+        <payload_hash>-2015187842</payload_hash>
+        <record_name>test2</record_name>
+        <reverted_from/>
+        <source>e6c5ddab93f312d08b8674121bba10fd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-03-26 03:52:56</sys_created_on>
+        <sys_id>2c5d65c933a862d0875176a59d5c7be4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195d094ee130000001</sys_recorded_at>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-03-26 03:52:56</sys_updated_on>
+        <type>OneExtend Capability Attribute</type>
+        <update_guid>ec5d65c9f4a862d04017d2e476e157e3</update_guid>
+        <update_guid_history>ec5d65c9f4a862d04017d2e476e157e3:-2015187842</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-03-26 07:00:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_one_extend_definition_attribute">sys_one_extend_definition_attribute</sys_db_object>
+        <sys_id>12a5ce30228f4c88b4ac6f3c3be89979</sys_id>
+        <sys_metadata>e45d65c933a862d0875176a59d5c7be2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test2</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_scope_delete display_value="">7c8d9985394b49b688ab893eea2dbef1</sys_scope_delete>
+        <sys_update_name>sys_one_extend_definition_attribute_e45d65c933a862d0875176a59d5c7be2</sys_update_name>
+        <sys_update_version display_value="sys_one_extend_definition_attribute_e45d65c933a862d0875176a59d5c7be2">2c5d65c933a862d0875176a59d5c7be4</sys_update_version>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-03-26 07:00:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

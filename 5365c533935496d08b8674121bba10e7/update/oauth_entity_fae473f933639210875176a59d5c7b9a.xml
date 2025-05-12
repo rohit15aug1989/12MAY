@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity">
+    <oauth_entity action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <access_token_lifespan>1800</access_token_lifespan>
+        <active>true</active>
+        <auth_code_lifespan>60</auth_code_lifespan>
+        <auth_url/>
+        <certificate_url/>
+        <client_id>9d5b6f179ab34e22bcbcaa2ac110ed22</client_id>
+        <client_secret>﷞﷟﷒85dffb14dbd1021083e1692b13961938﷬﷔1﷬﷭rQturQzn12rYSxgfhydmJg==rtZP0_FI0jlAKmY50mbU4HW2CHyyyVBIgDI=﷮﷯</client_secret>
+        <client_type/>
+        <client_uuid>bae473f933639210875176a59d5c7b9a</client_uuid>
+        <code_challenge_method>S256</code_challenge_method>
+        <comments/>
+        <default_grant_type>password</default_grant_type>
+        <extend_refresh_token_expiry>false</extend_refresh_token_expiry>
+        <id_token_lifespan>86400</id_token_lifespan>
+        <jwt_provider/>
+        <login_url/>
+        <logo_url/>
+        <message_signature_lifespan>60</message_signature_lifespan>
+        <mobile_client>false</mobile_client>
+        <name>UW_Case_creation</name>
+        <oauth_api_script/>
+        <protocol_name/>
+        <public_client>false</public_client>
+        <redirect_url/>
+        <refresh_token_lifespan>8640000</refresh_token_lifespan>
+        <refresh_token_url/>
+        <restricted_binding>false</restricted_binding>
+        <revoke_token_url/>
+        <salt/>
+        <send_client_credentials_as>request_body_parameter</send_client_credentials_as>
+        <skip_authorize>false</skip_authorize>
+        <sys_class_name>oauth_entity</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-02-07 04:38:45</sys_created_on>
+        <sys_id>fae473f933639210875176a59d5c7b9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UW_Case_creation</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>oauth_entity_fae473f933639210875176a59d5c7b9a</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-02-07 04:38:45</sys_updated_on>
+        <token_url/>
+        <type>client</type>
+        <use_mutual_auth>false</use_mutual_auth>
+        <user/>
+    </oauth_entity>
+</record_update>

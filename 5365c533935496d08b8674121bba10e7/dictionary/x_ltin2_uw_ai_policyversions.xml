@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f64ddd6593d866508b8674121bba104c" label="Policy versions" max_length="40" name="x_ltin2_uw_ai_policyversions" type="collection">
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element label="VersionID" max_length="40" name="vessionid" type="integer"/>
+        <element attributes="encode_utf8=false" label="Locations" max_length="32" name="locations" reference="x_ltin2_uw_ai_location_cat_perils" type="reference"/>
+        <element label="Total Premium" max_length="40" name="total_premium" type="integer"/>
+        <element attributes="encode_utf8=false" label="Buildings" max_length="32" name="buildings" reference="x_ltin2_uw_ai_structure_information" type="reference"/>
+        <element label="Number" max_length="40" name="number" type="integer"/>
+        <element label="Deductible" max_length="20" name="deductible" type="currency"/>
+        <element label="FSO underwriting case" max_length="32" name="fso_underwriting_case" reference="x_ltin2_uw_ai_fso_uw_case" type="reference"/>
+        <element label="Limit" max_length="20" name="limit" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Versions" max_length="40" name="versions" type="string"/>
+        <element choice="1" label="Coverage Type" max_length="40" name="coverage_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Deferred payments" sequence="13" value="Deferred payments Premium"/>
+                <element inactive_on_update="false" label="Business Interruption" sequence="21" value="business_interruption"/>
+                <element inactive_on_update="false" label="Windstorm" sequence="11" value="windstorm"/>
+                <element inactive_on_update="false" label="Business and Personal Property" sequence="19" value="business_property"/>
+                <element inactive_on_update="false" label="Earthquake" sequence="17" value="Earthquake"/>
+                <element inactive_on_update="false" label="Furniture &amp; Fixtures" sequence="25" value="Furniture &amp; Fixtures"/>
+                <element inactive_on_update="false" label="Non Owned detached trailer" sequence="15" value="non_owned"/>
+                <element inactive_on_update="false" label="Business Personal Property" sequence="23" value="Business Personal Property"/>
+                <element inactive_on_update="false" label="Paved or Concreate Surface" sequence="1" value="paved"/>
+                <element inactive_on_update="false" label="Hurricane" sequence="9" value="hurricane"/>
+                <element inactive_on_update="false" label="Outdoor Signs" sequence="7" value="outdoor"/>
+                <element inactive_on_update="false" label="Hazardous Substance" sequence="5" value="hazardous"/>
+                <element inactive_on_update="false" label="Deferred  Payment" sequence="3" value="deferred"/>
+                <element inactive_on_update="false" label="Accounts Receivables" sequence="12" value="Accounts Receivables Premium"/>
+                <element inactive_on_update="false" label="Tenants Improvments" sequence="20" value="Tenants Improvments"/>
+                <element inactive_on_update="false" label="Newly  Acquired Building - EDP Premium" sequence="0" value="newly_acquired"/>
+                <element inactive_on_update="false" label="Building" sequence="18" value="building"/>
+                <element inactive_on_update="false" label="Paved or Concrete Surfaces" sequence="16" value="Paved or Concrete Surfaces Premium"/>
+                <element inactive_on_update="false" label="Computer Hardware, Servers" sequence="24" value="Computer Hardware, Servers"/>
+                <element inactive_on_update="false" label="Emergency tenant evacuation expenses Pre..." sequence="14" value="emergency"/>
+                <element inactive_on_update="false" label="Mfg. or Lab Equipment" sequence="22" value="Mfg. or Lab Equipment"/>
+                <element inactive_on_update="false" label="Outdoor  tree shrubs, Plats or  lawn Premium" sequence="8" value="outdoor_tree"/>
+                <element inactive_on_update="false" label="Account Receivable" sequence="6" value="Accounts"/>
+                <element inactive_on_update="false" label="Emergency tenant evacuation Premium premium" sequence="4" value="Emergency tenant evacuation Premium premium"/>
+                <element inactive_on_update="false" label="Arson and Theft Reward" sequence="2" value="arson"/>
+                <element inactive_on_update="false" label="Flood" sequence="10" value="flood"/>
+            </choice>
+        </element>
+        <element choice="1" label="Attachment" max_length="40" name="attachment" type="choice">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Policy level Coverage" sequence="0" value="Policy level Coverage"/>
+                <element inactive_on_update="false" label="Policy Level Coverages" sequence="0" value="Policy Level Coverages"/>
+                <element inactive="true" inactive_on_update="true" label="Building level Coverage" sequence="1" value="Building level Coverage"/>
+                <element inactive_on_update="false" label="Location Level Coverages" sequence="1" value="Location Level Coverages"/>
+                <element inactive="true" inactive_on_update="true" label="Location level Coverage" sequence="2" value="Location level Coverage"/>
+                <element inactive_on_update="false" label="Building Level Coverages" sequence="2" value="Building Level Coverages"/>
+            </choice>
+        </element>
+        <element label="Premium" max_length="20" name="premium" type="currency"/>
+        <index name="index">
+            <element name="buildings"/>
+        </index>
+        <index name="index2">
+            <element name="fso_underwriting_case"/>
+        </index>
+        <index name="index3">
+            <element name="locations"/>
+        </index>
+        <index name="index4">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

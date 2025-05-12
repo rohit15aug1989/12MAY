@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_search_source_m2m">
+    <ais_search_profile_ais_search_source_m2m action="INSERT_OR_UPDATE">
+        <exclude_attachments_in_now_assist_genius_results>false</exclude_attachments_in_now_assist_genius_results>
+        <exclude_in_now_assist_genius_results>false</exclude_in_now_assist_genius_results>
+        <exclude_in_regular_search>false</exclude_in_regular_search>
+        <profile display_value="underwriter-workspace Search Profile">afc4fbe17a205610ca9e6b91e22f319d</profile>
+        <search_source display_value="Commercial Insurance">5df43f6533205610875176a59d5c7be9</search_source>
+        <sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name>
+        <sys_created_by>bapu</sys_created_by>
+        <sys_created_on>2024-09-10 06:51:20</sys_created_on>
+        <sys_id>9df43f6533205610875176a59d5c7bec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>underwriter-workspace Search Profile.Commercial Insurance</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>ais_search_profile_ais_search_source_m2m_9df43f6533205610875176a59d5c7bec</sys_update_name>
+        <sys_updated_by>bapu</sys_updated_by>
+        <sys_updated_on>2024-09-10 06:51:20</sys_updated_on>
+    </ais_search_profile_ais_search_source_m2m>
+</record_update>

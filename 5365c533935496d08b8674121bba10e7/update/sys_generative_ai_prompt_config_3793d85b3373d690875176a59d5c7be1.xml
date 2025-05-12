@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_generative_ai_prompt_config">
+    <sys_generative_ai_prompt_config action="INSERT_OR_UPDATE">
+        <ai_config display_value="OneExtend Capability Definition: Clarios 10 sep">ab93d85b3373d690875176a59d5c7bdd</ai_config>
+        <definition display_value="Clarios 10 sep">b9775d3993e456108b8674121bba101a</definition>
+        <filter_properties>{}</filter_properties>
+        <filter_type>default</filter_type>
+        <is_default>false</is_default>
+        <order>0</order>
+        <sys_class_name>sys_generative_ai_prompt_config</sys_class_name>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2025-02-23 14:20:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3793d85b3373d690875176a59d5c7be1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>ab93d85b3373d690875176a59d5c7bdd</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_generative_ai_prompt_config_3793d85b3373d690875176a59d5c7be1</sys_update_name>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2025-02-26 10:00:34</sys_updated_on>
+    </sys_generative_ai_prompt_config>
+</record_update>

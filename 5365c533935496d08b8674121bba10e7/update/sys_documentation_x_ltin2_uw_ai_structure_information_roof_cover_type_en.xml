@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="roof_cover_type" label="Roof cover type" language="en" table="x_ltin2_uw_ai_structure_information">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>roof_cover_type</element>
+            <help/>
+            <hint/>
+            <label>Roof cover type</label>
+            <language>en</language>
+            <name>x_ltin2_uw_ai_structure_information</name>
+            <plural>Roof cover types</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>shubhasis</sys_created_by>
+            <sys_created_on>2024-09-12 10:20:53</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Roof cover type</sys_name>
+            <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+            <sys_update_name>sys_documentation_x_ltin2_uw_ai_structure_information_roof_cover_type_en</sys_update_name>
+            <sys_updated_by>shubhasis</sys_updated_by>
+            <sys_updated_on>2024-09-12 10:20:53</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

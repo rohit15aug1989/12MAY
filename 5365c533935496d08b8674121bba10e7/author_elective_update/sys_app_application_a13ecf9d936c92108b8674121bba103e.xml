@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Under</name>
+        <order>100</order>
+        <roles>x_ltin2_uw_ai.underwriting_coverage_audit_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>raj</sys_created_by>
+        <sys_created_on>2024-09-09 09:23:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a13ecf9d936c92108b8674121bba103e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Under</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_app_application_a13ecf9d936c92108b8674121bba103e</sys_update_name>
+        <sys_updated_by>raj</sys_updated_by>
+        <sys_updated_on>2024-09-09 09:23:35</sys_updated_on>
+        <title>Under</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</application>
+        <file_path/>
+        <instance_id>7838a3eddb96a7c049eac59705961973</instance_id>
+        <instance_name>ltidemo5</instance_name>
+        <name>sys_app_application_a13ecf9d936c92108b8674121bba103e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Under</name><order>100</order><roles>x_ltin2_uw_ai.underwriting_coverage_audit_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>raj</sys_created_by><sys_created_on>2024-09-09 09:23:35</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a13ecf9d936c92108b8674121bba103e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Under</sys_name><sys_overrides/><sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package><sys_policy/><sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope><sys_update_name>sys_app_application_a13ecf9d936c92108b8674121bba103e</sys_update_name><sys_updated_by>raj</sys_updated_by><sys_updated_on>2024-09-09 09:23:35</sys_updated_on><title>Under</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>1943874189</payload_hash>
+        <record_name>Under</record_name>
+        <reverted_from/>
+        <source>ad1efe1493e89ad08b8674121bba10b8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>raj</sys_created_by>
+        <sys_created_on>2024-09-09 09:23:35</sys_created_on>
+        <sys_id>253ecf9d936c92108b8674121bba1042</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191d6187f300000001</sys_recorded_at>
+        <sys_updated_by>raj</sys_updated_by>
+        <sys_updated_on>2024-09-09 09:23:35</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>e53ecf9da96c9210c7533c8de4613041</update_guid>
+        <update_guid_history>e53ecf9da96c9210c7533c8de4613041:1943874189</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Under">f2247cc693f0aa508b8674121bba1021</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>raj</sys_created_by>
+        <sys_created_on>2025-04-10 12:32:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>38ee7e00882d47909b40ef29cd418944</sys_id>
+        <sys_metadata>a13ecf9d936c92108b8674121bba103e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Under</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_scope_delete display_value="">7c8d9985394b49b688ab893eea2dbef1</sys_scope_delete>
+        <sys_update_name>sys_app_application_a13ecf9d936c92108b8674121bba103e</sys_update_name>
+        <sys_update_version display_value="sys_app_application_a13ecf9d936c92108b8674121bba103e">253ecf9d936c92108b8674121bba1042</sys_update_version>
+        <sys_updated_by>raj</sys_updated_by>
+        <sys_updated_on>2025-04-10 12:32:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

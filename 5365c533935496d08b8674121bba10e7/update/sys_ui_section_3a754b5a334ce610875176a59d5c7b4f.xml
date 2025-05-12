@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="3a754b5a334ce610875176a59d5c7b4f" sys_domain="global" table="x_ltin2_uw_ai_structure_information" version="3" view="test">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fso_case</element>
+            <position>0</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-04 06:52:11</sys_created_on>
+            <sys_id>4aac2c4433342e10875176a59d5c7b79</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_structure_information" sys_domain="global" view="4eb41793c32221009a08d27af3d3ae2b">3a754b5a334ce610875176a59d5c7b4f</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-04 06:52:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>building_number</element>
+            <position>1</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-04 06:52:11</sys_created_on>
+            <sys_id>42ac2c4433342e10875176a59d5c7b7a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_structure_information" sys_domain="global" view="4eb41793c32221009a08d27af3d3ae2b">3a754b5a334ce610875176a59d5c7b4f</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-04 06:52:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>building_id</element>
+            <position>2</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-04 06:52:11</sys_created_on>
+            <sys_id>4aac2c4433342e10875176a59d5c7b7a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_structure_information" sys_domain="global" view="4eb41793c32221009a08d27af3d3ae2b">3a754b5a334ce610875176a59d5c7b4f</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-04 06:52:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>3</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-04 06:52:11</sys_created_on>
+            <sys_id>42ac2c4433342e10875176a59d5c7b7b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_structure_information" sys_domain="global" view="4eb41793c32221009a08d27af3d3ae2b">3a754b5a334ce610875176a59d5c7b4f</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-04 06:52:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>protection_class</element>
+            <position>4</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-04 06:52:11</sys_created_on>
+            <sys_id>4aac2c4433342e10875176a59d5c7b7b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_structure_information" sys_domain="global" view="4eb41793c32221009a08d27af3d3ae2b">3a754b5a334ce610875176a59d5c7b4f</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-04 06:52:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>occupancy_factor</element>
+            <position>5</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-04 06:52:11</sys_created_on>
+            <sys_id>42ac2c4433342e10875176a59d5c7b7c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_structure_information" sys_domain="global" view="4eb41793c32221009a08d27af3d3ae2b">3a754b5a334ce610875176a59d5c7b4f</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-04 06:52:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>building_description</element>
+            <position>6</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-04 06:52:11</sys_created_on>
+            <sys_id>4aac2c4433342e10875176a59d5c7b7c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_structure_information" sys_domain="global" view="4eb41793c32221009a08d27af3d3ae2b">3a754b5a334ce610875176a59d5c7b4f</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-04 06:52:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>year_built</element>
+            <position>7</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-04 06:52:11</sys_created_on>
+            <sys_id>42ac2c4433342e10875176a59d5c7b7d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_structure_information" sys_domain="global" view="4eb41793c32221009a08d27af3d3ae2b">3a754b5a334ce610875176a59d5c7b4f</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-04 06:52:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fire_sprinkler</element>
+            <position>8</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-04 06:52:11</sys_created_on>
+            <sys_id>4aac2c4433342e10875176a59d5c7b7d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_structure_information" sys_domain="global" view="4eb41793c32221009a08d27af3d3ae2b">3a754b5a334ce610875176a59d5c7b4f</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-04 06:52:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>no_of_stories</element>
+            <position>9</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-04 06:52:11</sys_created_on>
+            <sys_id>42ac2c4433342e10875176a59d5c7b7e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_structure_information" sys_domain="global" view="4eb41793c32221009a08d27af3d3ae2b">3a754b5a334ce610875176a59d5c7b4f</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-04 06:52:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>address_line_one</element>
+            <position>10</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-04 06:52:11</sys_created_on>
+            <sys_id>4aac2c4433342e10875176a59d5c7b7e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_structure_information" sys_domain="global" view="4eb41793c32221009a08d27af3d3ae2b">3a754b5a334ce610875176a59d5c7b4f</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-04 06:52:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>11</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-04 06:52:11</sys_created_on>
+            <sys_id>42ac2c4433342e10875176a59d5c7b7f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_structure_information" sys_domain="global" view="4eb41793c32221009a08d27af3d3ae2b">3a754b5a334ce610875176a59d5c7b4f</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-04 06:52:11</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>customer_id</element>
+            <position>12</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-04 06:52:11</sys_created_on>
+            <sys_id>4aac2c4433342e10875176a59d5c7b7f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_structure_information" sys_domain="global" view="4eb41793c32221009a08d27af3d3ae2b">3a754b5a334ce610875176a59d5c7b4f</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-04 06:52:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>location_id</element>
+            <position>13</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-04 06:52:11</sys_created_on>
+            <sys_id>42ac2c4433342e10875176a59d5c7b80</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_structure_information" sys_domain="global" view="4eb41793c32221009a08d27af3d3ae2b">3a754b5a334ce610875176a59d5c7b4f</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-04 06:52:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>construction_type</element>
+            <position>14</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-04 06:52:11</sys_created_on>
+            <sys_id>4aac2c4433342e10875176a59d5c7b80</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_structure_information" sys_domain="global" view="4eb41793c32221009a08d27af3d3ae2b">3a754b5a334ce610875176a59d5c7b4f</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-04 06:52:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>property_square_foot</element>
+            <position>15</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-04 06:52:11</sys_created_on>
+            <sys_id>42ac2c4433342e10875176a59d5c7b81</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_structure_information" sys_domain="global" view="4eb41793c32221009a08d27af3d3ae2b">3a754b5a334ce610875176a59d5c7b4f</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-04 06:52:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>building_square_foot</element>
+            <position>16</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-04 06:52:11</sys_created_on>
+            <sys_id>4aac2c4433342e10875176a59d5c7b81</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_structure_information" sys_domain="global" view="4eb41793c32221009a08d27af3d3ae2b">3a754b5a334ce610875176a59d5c7b4f</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-04 06:52:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>address_line_two</element>
+            <position>17</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-04 06:52:11</sys_created_on>
+            <sys_id>42ac2c4433342e10875176a59d5c7b82</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_structure_information" sys_domain="global" view="4eb41793c32221009a08d27af3d3ae2b">3a754b5a334ce610875176a59d5c7b4f</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-04 06:52:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>limit_and_deductible_suggestion</element>
+            <position>18</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-04 06:52:11</sys_created_on>
+            <sys_id>4aac2c4433342e10875176a59d5c7b82</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_structure_information" sys_domain="global" view="4eb41793c32221009a08d27af3d3ae2b">3a754b5a334ce610875176a59d5c7b4f</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-04 06:52:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_ltin2_uw_ai_structure_information</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-03-05 10:59:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3a754b5a334ce610875176a59d5c7b4f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ltin2_uw_ai_structure_information</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+            <sys_update_name>sys_ui_section_3a754b5a334ce610875176a59d5c7b4f</sys_update_name>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-03-05 10:59:08</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Test" name="test">4eb41793c32221009a08d27af3d3ae2b</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

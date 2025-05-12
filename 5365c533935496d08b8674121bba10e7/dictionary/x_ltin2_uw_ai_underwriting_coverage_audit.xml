@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c3ed439d936c92108b8674121bba106b" label="Underwriting Coverage Audit" max_length="40" name="x_ltin2_uw_ai_underwriting_coverage_audit" text_index="true" type="collection">
+        <element default="V0" label="Version" max_length="50" name="version" type="string"/>
+        <element choice="1" label="Coverage Type" max_length="50" name="coverage_type" type="choice">
+            <choice/>
+        </element>
+        <element label="Building" max_length="32" name="building" reference="x_ltin2_uw_ai_structure_information" type="reference"/>
+        <element label="Commerical Coverage Location" max_length="32" name="commerical_coverage_location" reference="x_ltin2_uw_ai_location_cat_perils" type="reference"/>
+        <element label="Coverage reference number" max_length="50" name="coverage_reference_number" type="string"/>
+        <element label="Waiting Period" max_length="50" name="waiting_period" type="string"/>
+        <element label="Customer ID" max_length="32" name="customer_id" reference="x_ltin2_uw_ai_customer_details" type="reference"/>
+        <element label="Co Insurance" max_length="50" name="co_insurance" type="string"/>
+        <element label="Deductible" max_length="50" name="deductible" type="string"/>
+        <element label="Source" max_length="50" name="source" type="string"/>
+        <element label="Premium" max_length="20" name="premium" type="currency"/>
+        <element label="Limits" max_length="50" name="limits" type="string"/>
+        <element label="Total Premium" max_length="20" name="total_premium" type="currency"/>
+        <element label="Product ID" max_length="32" name="product_id" reference="cmdb_model" type="reference"/>
+        <element choice="1" label="Coverage application" max_length="40" name="coverage_application" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Attachment" max_length="40" name="attachment" type="choice">
+            <choice/>
+        </element>
+        <element label="Coverage Premium" max_length="20" name="coverage_premium" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="100" name="name" type="string"/>
+        <element label="Taxes/Fees" max_length="20" name="taxes_fees" type="currency"/>
+        <element label="Total Limits" max_length="50" name="total_limits" type="string"/>
+        <element label="Schedule Modifier" max_length="50" name="schedule_modifier" type="string"/>
+        <element label="Quote Version ID" max_length="50" name="quote_version_id" type="string"/>
+        <element label="Adjusted Premium" max_length="20" name="adjusted_premium" type="currency"/>
+        <index name="index">
+            <element name="building"/>
+        </index>
+        <index name="index2">
+            <element name="commerical_coverage_location"/>
+        </index>
+        <index name="index3">
+            <element name="customer_id"/>
+        </index>
+        <index name="index4">
+            <element name="product_id"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action">
+    <sys_ux_form_action action="INSERT_OR_UPDATE">
+        <action_type>ui_action</action_type>
+        <active>true</active>
+        <declarative_action/>
+        <description/>
+        <name>Clarios 10 sep</name>
+        <specificity>20</specificity>
+        <sys_class_name>sys_ux_form_action</sys_class_name>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2024-10-10 13:37:04</sys_created_on>
+        <sys_id>b481335793851e108b8674121bba108e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Clarios 10 sep</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_ux_form_action_b481335793851e108b8674121bba108e</sys_update_name>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2024-10-10 13:37:04</sys_updated_on>
+        <table>incident</table>
+        <ui_action display_value="Call User">3881335793851e108b8674121bba1088</ui_action>
+    </sys_ux_form_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=b481335793851e108b8674121bba108e"/>
+</record_update>

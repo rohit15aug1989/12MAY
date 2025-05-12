@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes>486f9b47ffb13010667053ea793bf11c</includes>
+        <macroponent display_value="test 1">63aae8f893d8ee108b8674121bba103c</macroponent>
+        <name>Update formFieldItems</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({api, event, helpers, imports}) {
+     const {
+        setFormFieldItems
+    } = imports['sn_playbook_exp.playbookActivityUIUtils']();
+    
+    setFormFieldItems(api, event);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-12 18:07:37</sys_created_on>
+        <sys_id>f7aae8f893d8ee108b8674121bba105f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Update formFieldItems</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_ux_client_script_f7aae8f893d8ee108b8674121bba105f</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-12 18:07:37</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

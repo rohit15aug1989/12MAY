@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="coverage_premium" label="Coverage Premium" language="en" table="x_ltin2_uw_ai_underwriting_coverage_audit">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>coverage_premium</element>
+            <help/>
+            <hint/>
+            <label>Coverage Premium</label>
+            <language>en</language>
+            <name>x_ltin2_uw_ai_underwriting_coverage_audit</name>
+            <plural>Coverage Premiums</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>raj</sys_created_by>
+            <sys_created_on>2024-09-09 09:44:55</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Coverage Premium</sys_name>
+            <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+            <sys_update_name>sys_documentation_x_ltin2_uw_ai_underwriting_coverage_audit_coverage_premium_en</sys_update_name>
+            <sys_updated_by>raj</sys_updated_by>
+            <sys_updated_on>2024-09-09 09:44:55</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

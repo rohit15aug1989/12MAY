@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_user_metadata">
+    <par_dashboard_user_metadata action="DELETE">
+        <background_color/>
+        <cache_expiration_time>0</cache_expiration_time>
+        <card_bg_image/>
+        <created_by_user display_value="Sanket Mohite">c815f0c5338b5a10875176a59d5c7b23</created_by_user>
+        <created_on>2025-04-01 10:21:40</created_on>
+        <dashboard display_value="Underwriter Workspace dashboard">11df31cf93e026108b8674121bba10ae</dashboard>
+        <edit_locked/>
+        <enable_data_cache>false</enable_data_cache>
+        <include_custom_insights>true</include_custom_insights>
+        <include_key_contributors>true</include_key_contributors>
+        <include_kpi_signals>true</include_kpi_signals>
+        <include_predictive_target>true</include_predictive_target>
+        <include_predictive_thresholds>true</include_predictive_thresholds>
+        <include_process_mining>true</include_process_mining>
+        <include_severity>true</include_severity>
+        <include_target>true</include_target>
+        <include_thresholds>true</include_thresholds>
+        <include_trends>true</include_trends>
+        <include_widget_notification>true</include_widget_notification>
+        <last_updated_on>2025-04-01 10:21:40</last_updated_on>
+        <po_project_id_list/>
+        <refresh_information>false</refresh_information>
+        <refresh_interval/>
+        <requested_by_user/>
+        <schedule_repetition>false</schedule_repetition>
+        <show_insights_panel>true</show_insights_panel>
+        <sys_class_name>par_dashboard_user_metadata</sys_class_name>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-04-01 10:21:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>19df31cf93e026108b8674121bba10b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>par_dashboard_user_metadata_19df31cf93e026108b8674121bba10b5</sys_update_name>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-04-01 10:21:40</sys_updated_on>
+        <updated_by_user display_value="Sanket Mohite">c815f0c5338b5a10875176a59d5c7b23</updated_by_user>
+        <use_custom_tab_colors>false</use_custom_tab_colors>
+    </par_dashboard_user_metadata>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</application>
+        <file_path/>
+        <instance_id>7838a3eddb96a7c049eac59705961973</instance_id>
+        <instance_name>ltidemo5</instance_name>
+        <name>par_dashboard_user_metadata_19df31cf93e026108b8674121bba10b5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_user_metadata"><par_dashboard_user_metadata action="INSERT_OR_UPDATE"><background_color/><cache_expiration_time>0</cache_expiration_time><card_bg_image/><created_by_user display_value="Sanket Mohite">c815f0c5338b5a10875176a59d5c7b23</created_by_user><created_on>2025-04-01 10:21:40</created_on><dashboard display_value="Underwriter Workspace dashboard">11df31cf93e026108b8674121bba10ae</dashboard><edit_locked/><enable_data_cache>false</enable_data_cache><include_custom_insights>true</include_custom_insights><include_key_contributors>true</include_key_contributors><include_kpi_signals>true</include_kpi_signals><include_predictive_target>true</include_predictive_target><include_predictive_thresholds>true</include_predictive_thresholds><include_process_mining>true</include_process_mining><include_severity>true</include_severity><include_target>true</include_target><include_thresholds>true</include_thresholds><include_trends>true</include_trends><include_widget_notification>true</include_widget_notification><last_updated_on>2025-04-01 10:21:40</last_updated_on><po_project_id_list/><refresh_information>false</refresh_information><refresh_interval/><requested_by_user/><schedule_repetition>false</schedule_repetition><show_insights_panel>true</show_insights_panel><sys_class_name>par_dashboard_user_metadata</sys_class_name><sys_created_by>sanket</sys_created_by><sys_created_on>2025-04-01 10:21:40</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>19df31cf93e026108b8674121bba10b5</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package><sys_policy/><sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope><sys_update_name>par_dashboard_user_metadata_19df31cf93e026108b8674121bba10b5</sys_update_name><sys_updated_by>sanket</sys_updated_by><sys_updated_on>2025-04-01 10:21:40</sys_updated_on><updated_by_user display_value="Sanket Mohite">c815f0c5338b5a10875176a59d5c7b23</updated_by_user><use_custom_tab_colors>false</use_custom_tab_colors></par_dashboard_user_metadata></record_update>]]></payload>
+        <payload_hash>1003874584</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>e6c5ddab93f312d08b8674121bba10fd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-04-01 10:21:40</sys_created_on>
+        <sys_id>91df31cf93e026108b8674121bba10b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195f0defc070000001</sys_recorded_at>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-04-01 10:21:40</sys_updated_on>
+        <type>PAR Dashboard Metadata</type>
+        <update_guid>15df31cf93e02610cb7308fe41ef7db8</update_guid>
+        <update_guid_history>15df31cf93e02610cb7308fe41ef7db8:1003874584</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">c070c203932426108b8674121bba10d5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-04-01 10:24:19</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_user_metadata">par_dashboard_user_metadata</sys_db_object>
+        <sys_id>607f55438a17442499df435d764167c4</sys_id>
+        <sys_metadata>19df31cf93e026108b8674121bba10b5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_scope_delete display_value="">7c8d9985394b49b688ab893eea2dbef1</sys_scope_delete>
+        <sys_update_name>par_dashboard_user_metadata_19df31cf93e026108b8674121bba10b5</sys_update_name>
+        <sys_update_version display_value="par_dashboard_user_metadata_19df31cf93e026108b8674121bba10b5">91df31cf93e026108b8674121bba10b9</sys_update_version>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-04-01 10:24:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_formatter">
+    <sys_ui_formatter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <angular_module/>
+        <formatter>process_flow.xml</formatter>
+        <name>Process Flow</name>
+        <seismic_component/>
+        <sys_class_name>sys_ui_formatter</sys_class_name>
+        <sys_created_by>subham.agarwal</sys_created_by>
+        <sys_created_on>2024-09-06 08:01:52</sys_created_on>
+        <sys_id>93be571493ec9ad08b8674121bba101d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Process Flow</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_ui_formatter_93be571493ec9ad08b8674121bba101d</sys_update_name>
+        <sys_updated_by>subham.agarwal</sys_updated_by>
+        <sys_updated_on>2024-09-06 08:01:52</sys_updated_on>
+        <table>x_ltin2_uw_ai_fso_uw_case</table>
+        <type>formatter</type>
+    </sys_ui_formatter>
+</record_update>

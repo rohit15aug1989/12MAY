@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2a89fdee33709690875176a59d5c7b0b" extends="task" label="NOW Intelligence" max_length="40" name="x_ltin2_uw_ai_now_intelligence" type="collection"/>
+</database>

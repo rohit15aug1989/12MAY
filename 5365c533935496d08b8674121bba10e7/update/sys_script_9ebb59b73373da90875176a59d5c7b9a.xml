@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_ltin2_uw_ai_fso_uw_case</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Total location level coverages </name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[//  gr.addQuery('fso_case', current.fso_case);
+//  gr.query();
+// while (gr.next()) {
+//   totalPremiumcoverage += parseFloat(gr.premium);
+//    var taxrate = gs.getProperty('x_ltin2_uw_ai.Tax Rate');
+//   var taxed_premium = (totalPremiumcoverage) * (taxrate);
+
+// }    
+//    var br = new GlideRecord('x_ltin2_uw_ai_fso_uw_case');
+//     br.addQuery('sys_id', current.fso_case);
+//     br.query();
+//     if(br.next()) {
+// 	br.total_premium = totalPremiumcoverage;
+//     br.taxed_premium = taxed_premium;
+//     br.adjusted_premium = ((totalPremiumcoverage) + (taxed_premium));
+
+//     }
+// 	br.update();
+
+(function executeRule(current, previous) {
+
+    var total = 0;
+ var gr = new GlideRecord('x_ltin2_uw_ai_underwriting_coverage');
+
+ gr.addEncodedQuery("attachment=Location Level Coverages")
+ gr.query()
+
+ while (gr.next()) {
+
+
+
+     total = parseFloat(total) + parseFloat(gr.premium);
+
+
+
+
+     gs.info(total)
+
+
+
+ }
+ current.u_currency_5 = total
+
+    gs.info(total)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-02-25 08:52:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9ebb59b73373da90875176a59d5c7b9a</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Total location level coverages </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_script_9ebb59b73373da90875176a59d5c7b9a</sys_update_name>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-02-25 12:24:36</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=9ebb59b73373da90875176a59d5c7b9a"/>
+</record_update>

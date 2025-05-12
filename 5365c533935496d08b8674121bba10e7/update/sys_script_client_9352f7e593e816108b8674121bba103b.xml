@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Hide for Stage</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    var stg = g_form.getValue('stage');
+    //Type appropriate comment here, and begin script below
+    if (stg == 'new') {
+        //var relatedlistname = 'REL:212f8b0c93e05ad08b8674121bba100b';
+        //g_form.hideRelatedList(relatedlistname);
+		g_form.hideRelatedLists();
+		//g_form.hideRelatedList('x_ltin2_uw_ai_structure_information.case');
+        g_form.setSectionDisplay('clearance_appetitecheck', false);
+        g_form.setSectionDisplay('initial_rate', false);
+        g_form.setSectionDisplay('policy_details', false);
+        g_form.setSectionDisplay('notes', false);
+    } else if (stg == 'clearance') {
+        g_form.hideRelatedList('REL:212f8b0c93e05ad08b8674121bba100b');
+		g_form.hideRelatedList('x_ltin2_uw_ai_structure_information.case');
+        // g_form.setSectionDisplay('clearance_appetitecheck',false);
+        g_form.setSectionDisplay('initial_rate', false);
+        g_form.setSectionDisplay('policy_details', false);
+        g_form.setSectionDisplay('notes', false);
+    }else if(stg == 'initial_rate'){
+		g_form.hideRelatedList('REL:212f8b0c93e05ad08b8674121bba100b');
+		g_form.hideRelatedList('x_ltin2_uw_ai_structure_information.case');
+        // g_form.setSectionDisplay('clearance_appetitecheck',false);
+       // g_form.setSectionDisplay('initial_rate', false);
+        g_form.setSectionDisplay('policy_details', false);
+        g_form.setSectionDisplay('notes', false);
+	}else if(stg=='underwriting'){
+		//g_form.hideRelatedList('REL:212f8b0c93e05ad08b8674121bba100b');
+		g_form.hideRelatedList('x_ltin2_uw_ai_structure_information.case');
+        // g_form.setSectionDisplay('clearance_appetitecheck',false);
+       // g_form.setSectionDisplay('initial_rate', false);
+        g_form.setSectionDisplay('policy_details', false);
+        g_form.setSectionDisplay('notes', false);
+	}else if(stg == 'quote'){
+		//g_form.hideRelatedList('REL:212f8b0c93e05ad08b8674121bba100b');
+		g_form.showRelatedList('x_ltin2_uw_ai_structure_information.case');
+        // g_form.setSectionDisplay('clearance_appetitecheck',false);
+       // g_form.setSectionDisplay('initial_rate', false);
+        g_form.setSectionDisplay('policy_details', false);
+        g_form.setSectionDisplay('notes', false);
+	}else if(stg=='issued'){
+		//g_form.hideRelatedList('REL:212f8b0c93e05ad08b8674121bba100b');
+        // g_form.setSectionDisplay('clearance_appetitecheck',false);
+       // g_form.setSectionDisplay('initial_rate', false);
+       // g_form.setSectionDisplay('policy_details', false);
+        g_form.setSectionDisplay('notes', false);
+	}
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2024-09-10 07:02:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9352f7e593e816108b8674121bba103b</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Hide for Stage</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_script_client_9352f7e593e816108b8674121bba103b</sys_update_name>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-02-04 08:44:52</sys_updated_on>
+        <table>x_ltin2_uw_ai_fso_uw_case</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

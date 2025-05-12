@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="093c13f6330d6214875176a59d5c7bcf" sys_domain="global" table="var__m_sys_pd_activity_type_prop_003cd3b6330d6214875176a59d5c7bac" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-25 18:58:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dd3c53f6330d6214875176a59d5c7b0e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="var__m_sys_pd_activity_type_prop_003cd3b6330d6214875176a59d5c7bac" name="var__m_sys_pd_activity_type_prop_003cd3b6330d6214875176a59d5c7bac" sys_domain="global" view="Default view">093c13f6330d6214875176a59d5c7bcf</sys_ui_form>
+            <sys_ui_section caption="Associated Record" display_value="Associated Record" name="var__m_sys_pd_activity_type_prop_003cd3b6330d6214875176a59d5c7bac" sys_domain="global" view="Default view">553c53f6330d6214875176a59d5c7b0c</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-25 18:58:10</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-25 18:58:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>193c53f6330d6214875176a59d5c7b0b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="var__m_sys_pd_activity_type_prop_003cd3b6330d6214875176a59d5c7bac" name="var__m_sys_pd_activity_type_prop_003cd3b6330d6214875176a59d5c7bac" sys_domain="global" view="Default view">093c13f6330d6214875176a59d5c7bcf</sys_ui_form>
+            <sys_ui_section caption="Details" display_value="Details" name="var__m_sys_pd_activity_type_prop_003cd3b6330d6214875176a59d5c7bac" sys_domain="global" view="Default view">993c53f6330d6214875176a59d5c7b05</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-25 18:58:10</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-25 18:58:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d53c53f6330d6214875176a59d5c7b1d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="var__m_sys_pd_activity_type_prop_003cd3b6330d6214875176a59d5c7bac" name="var__m_sys_pd_activity_type_prop_003cd3b6330d6214875176a59d5c7bac" sys_domain="global" view="Default view">093c13f6330d6214875176a59d5c7bcf</sys_ui_form>
+            <sys_ui_section caption="Form" display_value="Form" name="var__m_sys_pd_activity_type_prop_003cd3b6330d6214875176a59d5c7bac" sys_domain="global" view="Default view">953c53f6330d6214875176a59d5c7b0f</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-25 18:58:10</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-25 18:58:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>513c53f6330d6214875176a59d5c7b22</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="var__m_sys_pd_activity_type_prop_003cd3b6330d6214875176a59d5c7bac" name="var__m_sys_pd_activity_type_prop_003cd3b6330d6214875176a59d5c7bac" sys_domain="global" view="Default view">093c13f6330d6214875176a59d5c7bcf</sys_ui_form>
+            <sys_ui_section caption="Attachments" display_value="Attachments" name="var__m_sys_pd_activity_type_prop_003cd3b6330d6214875176a59d5c7bac" sys_domain="global" view="Default view">d53c53f6330d6214875176a59d5c7b20</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-25 18:58:10</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-25 18:58:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>113c53f6330d6214875176a59d5c7b20</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="var__m_sys_pd_activity_type_prop_003cd3b6330d6214875176a59d5c7bac" name="var__m_sys_pd_activity_type_prop_003cd3b6330d6214875176a59d5c7bac" sys_domain="global" view="Default view">093c13f6330d6214875176a59d5c7bcf</sys_ui_form>
+            <sys_ui_section caption="Features" display_value="Features" name="var__m_sys_pd_activity_type_prop_003cd3b6330d6214875176a59d5c7bac" sys_domain="global" view="Default view">9d3c53f6330d6214875176a59d5c7b1d</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-25 18:58:10</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>var__m_sys_pd_activity_type_prop_003cd3b6330d6214875176a59d5c7bac</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-04-25 18:58:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>093c13f6330d6214875176a59d5c7bcf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>var__m_sys_pd_activity_type_prop_003cd3b6330d6214875176a59d5c7bac</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+            <sys_update_name>sys_ui_form_sections_093c13f6330d6214875176a59d5c7bcf</sys_update_name>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-04-25 18:58:09</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_agent_config">
+    <sn_aia_agent_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <agent display_value="Incident Analyzer">e358fc2493002ad08b8674121bba1033</agent>
+        <proficiency>- The agent is an expert at analyzing issues, capable of handling task analysis regardless of incident, case, or problem. The agent is adept at asking additional required information from the caller to resolve tasks effectively.
+- The agent follows a detailed action plan to track issues and their resolution updates through journal entries. It understands the issue, searches for potential solutions, and formulates questions to gather necessary information from the caller.
+- The agent uses the 'Get Incident Details' tool to fetch details of an incident, including short description, description, caller, and state, ensuring accurate information is collected before moving forward.
+- The agent utilizes the 'Get Similar Incidents' tool to identify incidents similar to the current task, using them as a reference to understand general procedures and potential solutions.
+- The agent employs the 'Get Similar Knowledge Articles' tool to retrieve relevant articles based on the task's short description, using them as a reference to inform the resolution process.
+- The agent uses the 'Update Comments of Incident' tool to document the approved questions in the incident's comments, ensuring that all necessary information is captured for resolving the task.
+- The agent generates a numbered list of questions based on similar tasks and knowledge articles, refines them through user feedback, and ensures they are approved before updating the incident comments.</proficiency>
+        <sys_class_name>sn_aia_agent_config</sys_class_name>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2025-02-27 17:29:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>923565e493842ad08b8674121bba1035</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sn_aia_agent_config_923565e493842ad08b8674121bba1035</sys_update_name>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2025-02-28 11:51:51</sys_updated_on>
+    </sn_aia_agent_config>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_gen_ai_skill_config">
+    <sys_gen_ai_skill_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <channels/>
+        <discoverable>true</discoverable>
+        <hint>UW case summary</hint>
+        <skill_id display_value="this use case gathers the information for a FSO case record along with the location, building and coverage  detail and generates a suggestion and summary for the cases in sections.">328799729320a2108b8674121bba10e6</skill_id>
+        <supervision/>
+        <sys_class_name>sys_gen_ai_skill_config</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-31 12:47:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8f8751b29320a2108b8674121bba1031</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UW case summary</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_gen_ai_skill_config_8f8751b29320a2108b8674121bba1031</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-31 12:47:11</sys_updated_on>
+        <use_knowledge_graph>false</use_knowledge_graph>
+        <visible>true</visible>
+    </sys_gen_ai_skill_config>
+</record_update>

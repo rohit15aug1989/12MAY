@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_one_extend_capability">
+    <sys_one_extend_capability action="DELETE">
+        <active>true</active>
+        <description>this skill takes the FSO underwriting case record as an input and generates a summary for the case</description>
+        <external>true</external>
+        <metadata>{}</metadata>
+        <name>FSO cas summarization test skill</name>
+        <short_description/>
+        <sys_class_name>sys_one_extend_capability</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-26 03:38:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>40f92dc5932422d08b8674121bba1040</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>FSO cas summarization test skill</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_one_extend_capability_40f92dc5932422d08b8674121bba1040</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-27 09:58:53</sys_updated_on>
+        <type>skill</type>
+    </sys_one_extend_capability>
+    <sys_translated_text action="DELETE" query="documentkey=40f92dc5932422d08b8674121bba1040"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</application>
+        <file_path/>
+        <instance_id>7838a3eddb96a7c049eac59705961973</instance_id>
+        <instance_name>ltidemo5</instance_name>
+        <name>sys_one_extend_capability_40f92dc5932422d08b8674121bba1040</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_one_extend_capability"><sys_one_extend_capability action="INSERT_OR_UPDATE"><active>true</active><description>this skill takes the FSO underwriting case record as an input and generates a summary for the case</description><external>true</external><metadata>{}</metadata><name>FSO cas summarization test skill</name><short_description/><sys_class_name>sys_one_extend_capability</sys_class_name><sys_created_by>rohit</sys_created_by><sys_created_on>2025-03-26 03:38:09</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>40f92dc5932422d08b8674121bba1040</sys_id><sys_mod_count>2</sys_mod_count><sys_name>FSO cas summarization test skill</sys_name><sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package><sys_policy/><sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope><sys_update_name>sys_one_extend_capability_40f92dc5932422d08b8674121bba1040</sys_update_name><sys_updated_by>rohit</sys_updated_by><sys_updated_on>2025-03-27 09:58:53</sys_updated_on><type>skill</type></sys_one_extend_capability><sys_translated_text action="delete_multiple" query="documentkey=40f92dc5932422d08b8674121bba1040"/></record_update>]]></payload>
+        <payload_hash>-433140421</payload_hash>
+        <record_name>FSO cas summarization test skill</record_name>
+        <reverted_from/>
+        <source>53ea92d9338fda10875176a59d5c7bc9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-27 09:58:53</sys_created_on>
+        <sys_id>36aa8ced9364e2d08b8674121bba1013</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195d70a564a0000001</sys_recorded_at>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-27 09:58:53</sys_updated_on>
+        <type>OneExtend Capability</type>
+        <update_guid>7aaa8cedc864e2d09df337f47e5e1512</update_guid>
+        <update_guid_history>7aaa8cedc864e2d09df337f47e5e1512:-433140421,4a8ae509012422d08697c3f9b28959f1:1774820422,0cf92dc57d2422d0b88e387eabf65a42:-2058059447</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-28 07:22:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_one_extend_capability">sys_one_extend_capability</sys_db_object>
+        <sys_id>15b1f5a108124dba8376d42eef3c1fe1</sys_id>
+        <sys_metadata>40f92dc5932422d08b8674121bba1040</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FSO cas summarization test skill</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_scope_delete display_value="">7c8d9985394b49b688ab893eea2dbef1</sys_scope_delete>
+        <sys_update_name>sys_one_extend_capability_40f92dc5932422d08b8674121bba1040</sys_update_name>
+        <sys_update_version display_value="sys_one_extend_capability_40f92dc5932422d08b8674121bba1040">36aa8ced9364e2d08b8674121bba1013</sys_update_version>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-28 07:22:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

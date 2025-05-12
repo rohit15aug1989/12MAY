@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_one_extend_eval_attribute">
+    <sys_one_extend_eval_attribute action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <capability display_value="Dummy">7ba60247339e5610875176a59d5c7b63</capability>
+        <capability_attribute display_value="response">48b60287339e5610875176a59d5c7bb6</capability_attribute>
+        <data_type>string</data_type>
+        <label>Golden Response</label>
+        <name>response</name>
+        <sys_class_name>sys_one_extend_eval_attribute</sys_class_name>
+        <sys_created_by>Koushal.Sagar</sys_created_by>
+        <sys_created_on>2024-12-10 14:30:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>8cb60287339e5610875176a59d5c7bb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Golden Response</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_one_extend_eval_attribute_8cb60287339e5610875176a59d5c7bb8</sys_update_name>
+        <sys_updated_by>Koushal.Sagar</sys_updated_by>
+        <sys_updated_on>2024-12-10 14:30:20</sys_updated_on>
+        <template/>
+        <template_script><![CDATA[(function getValue(response) {
+   // response would give the response from capability 
+})(response);]]></template_script>
+    </sys_one_extend_eval_attribute>
+</record_update>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="guards_watchmen" label="Guards/Watchmen" language="en" table="x_ltin2_uw_ai_structure_information">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>guards_watchmen</element>
+            <help/>
+            <hint/>
+            <label>Guards/Watchmen</label>
+            <language>en</language>
+            <name>x_ltin2_uw_ai_structure_information</name>
+            <plural>Guards/Watchmens</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>raj</sys_created_by>
+            <sys_created_on>2024-09-04 21:44:30</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Guards/Watchmen</sys_name>
+            <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+            <sys_update_name>sys_documentation_x_ltin2_uw_ai_structure_information_guards_watchmen_en</sys_update_name>
+            <sys_updated_by>raj</sys_updated_by>
+            <sys_updated_on>2024-09-04 21:44:30</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_tool">
+    <sn_aia_tool action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>gather all the information from different agents and present it to the user</description>
+        <input_schema>[]</input_schema>
+        <name>Summarize</name>
+        <record_type>custom</record_type>
+        <script><![CDATA[undefined]]></script>
+        <sys_class_name>sn_aia_tool</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-27 05:14:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>fa89039d936ca2d08b8674121bba10eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Summarize</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sn_aia_tool_fa89039d936ca2d08b8674121bba10eb</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-27 05:14:21</sys_updated_on>
+        <target_document>1d8ba13e773302103f075cea5b5a9931</target_document>
+        <target_document_table>sys_one_extend_capability</target_document_table>
+        <type>capability</type>
+    </sn_aia_tool>
+</record_update>

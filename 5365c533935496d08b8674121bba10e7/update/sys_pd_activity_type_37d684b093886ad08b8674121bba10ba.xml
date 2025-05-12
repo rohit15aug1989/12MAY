@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_activity_type">
+    <sys_pd_activity_type action="INSERT_OR_UPDATE">
+        <color>#D9F4F9</color>
+        <default_activity_ui display_value="quote">05e6ccb093886ad08b8674121bba10ac</default_activity_ui>
+        <icon display_value="document-outline">document_outline</icon>
+        <name>Activity UI layout for Quote e</name>
+        <sys_class_name>sys_pd_activity_type</sys_class_name>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-02-28 05:15:27</sys_created_on>
+        <sys_id>37d684b093886ad08b8674121bba10ba</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Activity UI layout for Quote e</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_pd_activity_type_37d684b093886ad08b8674121bba10ba</sys_update_name>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-02-28 05:19:53</sys_updated_on>
+    </sys_pd_activity_type>
+</record_update>

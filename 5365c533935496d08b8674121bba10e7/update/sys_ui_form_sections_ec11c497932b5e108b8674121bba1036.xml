@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="ec11c497932b5e108b8674121bba1036" sys_domain="global" table="sn_ins_policy_b2c_base" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-02-11 02:43:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6011c497932b5e108b8674121bba106d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_ins_policy_b2c_base" name="sn_ins_policy_b2c_base" sys_domain="global" view="Default view">ec11c497932b5e108b8674121bba1036</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="sn_ins_policy_b2c_base" sys_domain="global" view="Default view">a411c497932b5e108b8674121bba1051</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-02-11 02:43:32</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-02-11 02:43:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e011c497932b5e108b8674121bba1049</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_ins_policy_b2c_base" name="sn_ins_policy_b2c_base" sys_domain="global" view="Default view">ec11c497932b5e108b8674121bba1036</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="sn_ins_policy_b2c_base" sys_domain="global" view="Default view">e011c497932b5e108b8674121bba1041</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-02-11 02:43:32</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-02-11 02:43:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6c11c497932b5e108b8674121bba1040</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_ins_policy_b2c_base" name="sn_ins_policy_b2c_base" sys_domain="global" view="Default view">ec11c497932b5e108b8674121bba1036</sys_ui_form>
+            <sys_ui_section caption="Related Records" display_value="Related Records" name="sn_ins_policy_b2c_base" sys_domain="global" view="Default view">e411c497932b5e108b8674121bba1039</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-02-11 02:43:32</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-02-11 02:43:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2011c497932b5e108b8674121bba1051</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_ins_policy_b2c_base" name="sn_ins_policy_b2c_base" sys_domain="global" view="Default view">ec11c497932b5e108b8674121bba1036</sys_ui_form>
+            <sys_ui_section caption="Closure Information" display_value="Closure Information" name="sn_ins_policy_b2c_base" sys_domain="global" view="Default view">6811c497932b5e108b8674121bba1049</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-02-11 02:43:32</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>sn_ins_policy_b2c_base</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-02-11 02:43:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ec11c497932b5e108b8674121bba1036</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sn_ins_policy_b2c_base</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+            <sys_update_name>sys_ui_form_sections_ec11c497932b5e108b8674121bba1036</sys_update_name>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-02-11 02:43:32</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

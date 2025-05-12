@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_one_extend_capability">
+    <sys_one_extend_capability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <external>true</external>
+        <metadata>{}</metadata>
+        <name>Location summary</name>
+        <short_description/>
+        <sys_class_name>sys_one_extend_capability</sys_class_name>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-03-26 03:52:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>082d61c933a862d0875176a59d5c7bbc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Location summary</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_one_extend_capability_082d61c933a862d0875176a59d5c7bbc</sys_update_name>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-03-27 06:21:27</sys_updated_on>
+        <type>skill</type>
+    </sys_one_extend_capability>
+    <sys_translated_text action="delete_multiple" query="documentkey=082d61c933a862d0875176a59d5c7bbc"/>
+</record_update>

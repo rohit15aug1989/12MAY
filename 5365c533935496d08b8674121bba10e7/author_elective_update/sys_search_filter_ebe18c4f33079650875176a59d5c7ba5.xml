@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="DELETE">
+        <active>true</active>
+        <ais_search_source display_value="Now Assist Q&amp;A Genius Results">63e18c4f33079650875176a59d5c7b95</ais_search_source>
+        <label>Knowledge</label>
+        <name>Now Assist Q&amp;A Genius Results</name>
+        <order>100</order>
+        <search_context_config display_value="Now Assist in Virtual Agent - 1">dfe18c4f33079650875176a59d5c7b6e</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>abhi</sys_created_by>
+        <sys_created_on>2025-01-16 11:37:25</sys_created_on>
+        <sys_id>ebe18c4f33079650875176a59d5c7ba5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Now Assist Q&amp;A Genius Results</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_search_filter_ebe18c4f33079650875176a59d5c7ba5</sys_update_name>
+        <sys_updated_by>abhi</sys_updated_by>
+        <sys_updated_on>2025-01-16 11:37:25</sys_updated_on>
+    </sys_search_filter>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</application>
+        <file_path/>
+        <instance_id>7838a3eddb96a7c049eac59705961973</instance_id>
+        <instance_name>ltidemo5</instance_name>
+        <name>sys_search_filter_ebe18c4f33079650875176a59d5c7ba5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter"><sys_search_filter action="INSERT_OR_UPDATE"><active>true</active><ais_search_source display_value="Now Assist Q&amp;A Genius Results">63e18c4f33079650875176a59d5c7b95</ais_search_source><label>Knowledge</label><name>Now Assist Q&amp;A Genius Results</name><order>100</order><search_context_config display_value="Now Assist in Virtual Agent - 1">dfe18c4f33079650875176a59d5c7b6e</search_context_config><sys_class_name>sys_search_filter</sys_class_name><sys_created_by>abhi</sys_created_by><sys_created_on>2025-01-16 11:37:25</sys_created_on><sys_id>ebe18c4f33079650875176a59d5c7ba5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Now Assist Q&amp;A Genius Results</sys_name><sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package><sys_policy/><sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope><sys_update_name>sys_search_filter_ebe18c4f33079650875176a59d5c7ba5</sys_update_name><sys_updated_by>abhi</sys_updated_by><sys_updated_on>2025-01-16 11:37:25</sys_updated_on></sys_search_filter></record_update>]]></payload>
+        <payload_hash>1989667772</payload_hash>
+        <record_name>Now Assist Q&amp;A Genius Results</record_name>
+        <reverted_from/>
+        <source>97b8a15233439250875176a59d5c7ba3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>abhi</sys_created_by>
+        <sys_created_on>2025-01-16 11:37:25</sys_created_on>
+        <sys_id>63e18c4f33079650875176a59d5c7ba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1946ee761a00000001</sys_recorded_at>
+        <sys_updated_by>abhi</sys_updated_by>
+        <sys_updated_on>2025-01-16 11:37:25</sys_updated_on>
+        <type>Navigation Tab</type>
+        <update_guid>e3e18c4f13079650da2852d7bbb017a7</update_guid>
+        <update_guid_history>e3e18c4f13079650da2852d7bbb017a7:1989667772</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>abhi</sys_created_by>
+        <sys_created_on>2025-04-28 20:15:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_search_filter">sys_search_filter</sys_db_object>
+        <sys_id>8d0218f836a64ae2af3f8b33c6967804</sys_id>
+        <sys_metadata>ebe18c4f33079650875176a59d5c7ba5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Now Assist Q&amp;A Genius Results</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_scope_delete display_value="">7c8d9985394b49b688ab893eea2dbef1</sys_scope_delete>
+        <sys_update_name>sys_search_filter_ebe18c4f33079650875176a59d5c7ba5</sys_update_name>
+        <sys_update_version display_value="sys_search_filter_ebe18c4f33079650875176a59d5c7ba5">63e18c4f33079650875176a59d5c7ba8</sys_update_version>
+        <sys_updated_by>abhi</sys_updated_by>
+        <sys_updated_on>2025-04-28 20:15:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

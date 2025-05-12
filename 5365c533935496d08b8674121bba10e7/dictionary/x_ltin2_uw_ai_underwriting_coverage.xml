@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3dd2250c93e41ad08b8674121bba10f7" extends="sn_bom_line" label="Underwriting Coverage" max_length="40" name="x_ltin2_uw_ai_underwriting_coverage" text_index="true" type="collection">
+        <element label="Total Premium" max_length="20" name="total_premium" type="currency"/>
+        <element active="false" default="javascript:global.getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Coverage Number" max_length="50" name="coverage_number" type="string" use_dynamic_default="true"/>
+        <element label="Total Building level premium" max_length="40" name="u_integer_1" type="decimal"/>
+        <element label="Total Policy level premium" max_length="40" name="u_integer_2" type="integer"/>
+        <element choice="3" default="policy" label="Attachment" max_length="40" name="attachment" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Policy Level Coverages" sequence="1" value="Policy Level Coverages"/>
+                <element inactive_on_update="false" label="Building Level Coverages" sequence="3" value="Building Level Coverages"/>
+                <element inactive_on_update="false" label="Location Level Coverages" sequence="2" value="Location Level Coverages"/>
+            </choice>
+        </element>
+        <element label="Deductible" max_length="50" name="deductible" type="string"/>
+        <element active="false" label="Propensity to bind" max_length="50" name="propensity_to_bind" type="string"/>
+        <element label="Building" max_length="32" name="building" reference="x_ltin2_uw_ai_structure_information" type="reference"/>
+        <element default="0.5" label="Premium Rate %" max_length="15" name="premium_rate" type="decimal"/>
+        <element label="Total Limits" max_length="50" name="total_limits" type="integer"/>
+        <element default="1" label="Schedule Modifier" max_length="50" name="schedule_modifier" type="string"/>
+        <element label="Product ID" max_length="32" name="product_id" reference="sys_user" type="reference"/>
+        <element label="Taxes/Fees" max_length="20" name="taxes_fees" type="currency"/>
+        <element label="Coverage Policy UW" max_length="32" name="coverage_policy_uw" reference="x_ltin2_uw_ai_commercial_insurance" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Endorsement" max_length="100" name="endorsement" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Loss Cause" max_length="40" name="loss_cause" type="string"/>
+        <element attributes="text-align: center;" label="Premium" max_length="20" name="premium" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Subjectivities" max_length="100" name="subjectivities" type="string"/>
+        <element label="Co Insurance" max_length="50" name="co_insurance" type="string"/>
+        <element label="FSO UW Case" max_length="32" name="fso_case" reference="x_ltin2_uw_ai_fso_uw_case" type="reference"/>
+        <element label="Quote Version ID" max_length="50" name="quote_version_id" type="string"/>
+        <element attributes="omit_sys_original=true" label="Total Policy level premium" max_length="20" name="u_currency_1" read_only="true" type="currency"/>
+        <element label="Limits" max_length="50" name="limits" type="string"/>
+        <element label="Customer ID" max_length="32" name="customer_id" reference="x_ltin2_uw_ai_customer_details" type="reference"/>
+        <element label="Adjusted Premium" max_length="20" name="adjusted_premium" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,ignore_filter_on_new=true,ts_weight=50" default="javascript:global.getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="number" read_only="true" type="string" use_dynamic_default="true"/>
+        <element label="Total location level premium" max_length="40" name="u_integer_3" read_only="true" type="integer"/>
+        <element choice="1" label="Coverage application" max_length="40" name="coverage_application" type="choice">
+            <choice/>
+        </element>
+        <element label="Taxed Premium" max_length="20" name="coverage_premium" type="currency"/>
+        <element choice="1" dependent="attachment" dependent_on_field="attachment" label="Coverage Type" max_length="40" name="coverage_type" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Location Level Coverages" inactive_on_update="false" label="Outdoor Tree Shrubs" sequence="13" value="Outdoor Tree Shrubs"/>
+                <element dependent_value="Location Level Coverages" inactive_on_update="false" label="Hurricane" sequence="11" value="hurricane"/>
+                <element dependent_value="Building Level Coverages" inactive_on_update="false" label="Business Personal Property" sequence="3" value="Business Personal Property"/>
+                <element dependent_value="Building Level Coverages" inactive_on_update="false" label="Mfg. or Lab Equipment" sequence="5" value="Mfg. or Lab Equipment"/>
+                <element dependent_value="Location Level Coverages" inactive_on_update="false" label="Earthquake" sequence="9" value="Earthquake"/>
+                <element dependent_value="Building Level Coverages" inactive_on_update="false" label="Furniture &amp; Fixtures" value="Furniture &amp; Fixtures"/>
+                <element dependent_value="Building Level Coverages" inactive_on_update="false" label="Building" sequence="0" value="building"/>
+                <element dependent_value="Location Level Coverages" inactive_on_update="false" label="Accounts Receivables" sequence="5" value="Accounts"/>
+                <element dependent_value="Location Level Coverages" inactive_on_update="false" label="Windstorm" sequence="12" value="windstorm"/>
+                <element dependent_value="Building Level Coverages" inactive_on_update="false" label="Business Interruption" sequence="2" value="business_interruption"/>
+                <element dependent_value="Policy Level Coverages" inactive_on_update="false" label="Deferred payments" sequence="1" value="deferred"/>
+                <element dependent_value="Policy Level Coverages" inactive_on_update="false" label="Arson and Theft Reward" sequence="1" value="arson"/>
+                <element dependent_value="Policy Level Coverages" inactive_on_update="false" label="Newly Acquired Building - EDP" sequence="1" value="newly_acquired"/>
+                <element dependent_value="Policy Level Coverages" inactive_on_update="false" label="Hazardous Substance" sequence="1" value="hazardous"/>
+                <element dependent_value="Policy Level Coverages" inactive_on_update="false" label="Emergency tenant evacuation expenses" sequence="1" value="emergency"/>
+                <element dependent_value="Building Level Coverages" inactive_on_update="false" label="Computer Hardware, Servers" value="Computer Hardware, Servers"/>
+                <element dependent_value="Building Level Coverages" inactive_on_update="false" label="Tenants Improvments" sequence="4" value="Tenants Improvments"/>
+                <element dependent_value="Location Level Coverages" inactive_on_update="false" label="Non Owned detached trailer" sequence="8" value="non_owned"/>
+                <element dependent_value="Building Level Coverages" inactive_on_update="false" label="BPP" sequence="8" value="BPP"/>
+                <element dependent_value="Building Level Coverages" inactive_on_update="false" label="Business and Personal Property" sequence="1" value="business_property"/>
+                <element dependent_value="Location Level Coverages" inactive_on_update="false" label="Outdoor Signs" sequence="6" value="outdoor"/>
+                <element dependent_value="Policy Level Coverages" inactive_on_update="false" label="Paved or Concrete Surfaces" sequence="1" value="paved"/>
+                <element dependent_value="Building Level Coverages" inactive_on_update="false" label="Computer Hardware, Servers" sequence="6" value="Computer Hardware, Servers"/>
+                <element dependent_value="Building Level Coverages" inactive_on_update="false" label="Furniture &amp; Fixtures" sequence="7" value="Furniture &amp; Fixtures"/>
+                <element dependent_value="Location Level Coverages" inactive_on_update="false" label="Plants or lawn" sequence="7" value="Plants or lawn"/>
+                <element dependent_value="Location Level Coverages" inactive_on_update="false" label="Flood" sequence="10" value="flood"/>
+            </choice>
+        </element>
+        <element label="Location" max_length="32" name="commerical_coverage_location" reference="x_ltin2_uw_ai_location_cat_perils" type="reference"/>
+        <element label="Waiting Period" max_length="50" name="waiting_period" type="string"/>
+        <element attributes="encode_utf8=false" label="Coverage Building" max_length="32" name="coverage_building" reference="x_ltin2_uw_ai_structure_information" type="reference"/>
+        <index name="index">
+            <element name="building"/>
+        </index>
+        <index name="index2">
+            <element name="commerical_coverage_location"/>
+        </index>
+        <index name="index3">
+            <element name="coverage_building"/>
+        </index>
+        <index name="index4">
+            <element name="coverage_policy_uw"/>
+        </index>
+        <index name="index5">
+            <element name="customer_id"/>
+        </index>
+        <index name="index6">
+            <element name="fso_case"/>
+        </index>
+        <index name="index7">
+            <element name="product_id"/>
+        </index>
+    </element>
+</database>

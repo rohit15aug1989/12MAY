@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_nowassist_skill_config_var_set">
+    <sn_nowassist_skill_config_var_set action="INSERT_OR_UPDATE">
+        <config_type display_value="Record Summarize Template">aa67a3fd1b743110f9ddb888cc4bcb99</config_type>
+        <description>Choose tables and fields to create prompt that will determine where to pull data from.</description>
+        <hide_step>false</hide_step>
+        <name>Choose input</name>
+        <order>200</order>
+        <parent/>
+        <screen_id>17b178b2435802106b5f90cfd7b8f235</screen_id>
+        <screen_table>sys_ux_macroponent</screen_table>
+        <skill_config display_value="FSO case summarization 2">35b3f37093e4ee908b8674121bba10b5</skill_config>
+        <step_completed>false</step_completed>
+        <sys_class_name>sn_nowassist_skill_config_var_set</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-25 19:01:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>82b3f37093e4ee908b8674121bba10c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Choose input</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sn_nowassist_skill_config_var_set_82b3f37093e4ee908b8674121bba10c1</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-25 19:01:39</sys_updated_on>
+        <title>Choose input data</title>
+        <vars/>
+    </sn_nowassist_skill_config_var_set>
+    <sys_translated_text action="delete_multiple" query="documentkey=82b3f37093e4ee908b8674121bba10c1"/>
+    <sys_variable_value action="delete_multiple" query="document_key=82b3f37093e4ee908b8674121bba10c1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sn_nowassist_skill_config_var_set</document>
+        <document_key>82b3f37093e4ee908b8674121bba10c1</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-25 19:01:39</sys_created_on>
+        <sys_id>02b3f37093e4ee908b8674121bba10c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-25 19:01:39</sys_updated_on>
+        <value>short_description,description,work_notes,comments,priority</value>
+        <variable display_value="Input fields">04a7e7fd1b743110f9ddb888cc4bcbe2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sn_nowassist_skill_config_var_set</document>
+        <document_key>82b3f37093e4ee908b8674121bba10c1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-25 19:01:39</sys_created_on>
+        <sys_id>0ab3f37093e4ee908b8674121bba10c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-25 19:01:39</sys_updated_on>
+        <value/>
+        <variable display_value="Selected headers">20377b6993c90210aa5730f16489189d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sn_nowassist_skill_config_var_set</document>
+        <document_key>82b3f37093e4ee908b8674121bba10c1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-25 19:01:39</sys_created_on>
+        <sys_id>0eb3f37093e4ee908b8674121bba10c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-25 19:01:39</sys_updated_on>
+        <value/>
+        <variable display_value="Related lists configuration">a8f6720c9771b1507cba7e0e6253afbc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sn_nowassist_skill_config_var_set</document>
+        <document_key>82b3f37093e4ee908b8674121bba10c1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-25 19:01:39</sys_created_on>
+        <sys_id>42b3f37093e4ee908b8674121bba10c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-25 19:01:39</sys_updated_on>
+        <value>{"short_description":"Short description of incident, provides quick info about the issue","description":"Description of incident, provides detail info about the issue","work_notes":"Internal triaging notes","comments":"Notes shared with requester","priority":"Severity of incident based on urgency and impact"}</value>
+        <variable display_value="Input Field Description">8b9891e443f886106b5f90cfd7b8f2f6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sn_nowassist_skill_config_var_set</document>
+        <document_key>82b3f37093e4ee908b8674121bba10c1</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-25 19:01:39</sys_created_on>
+        <sys_id>46b3f37093e4ee908b8674121bba10c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-25 19:01:39</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Enable recursive execution">0ec3cf551b27351084278596dc4bcbb3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sn_nowassist_skill_config_var_set</document>
+        <document_key>82b3f37093e4ee908b8674121bba10c1</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-25 19:01:39</sys_created_on>
+        <sys_id>4ab3f37093e4ee908b8674121bba10c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-25 19:01:39</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="Input table">ee7727fd1b743110f9ddb888cc4bcb57</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sn_nowassist_skill_config_var_set</document>
+        <document_key>82b3f37093e4ee908b8674121bba10c1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-25 19:01:39</sys_created_on>
+        <sys_id>4eb3f37093e4ee908b8674121bba10c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-25 19:01:39</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Include Emails">90fe3a34a3a402107458f3ed341e61c7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sn_nowassist_skill_config_var_set</document>
+        <document_key>82b3f37093e4ee908b8674121bba10c1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-25 19:01:39</sys_created_on>
+        <sys_id>82b3f37093e4ee908b8674121bba10c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-25 19:01:39</sys_updated_on>
+        <value/>
+        <variable display_value="Mandatory headers">3d577f6993c90210aa5730f16489182c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sn_nowassist_skill_config_var_set</document>
+        <document_key>82b3f37093e4ee908b8674121bba10c1</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-25 19:01:39</sys_created_on>
+        <sys_id>86b3f37093e4ee908b8674121bba10c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-25 19:01:39</sys_updated_on>
+        <value>work_notes</value>
+        <variable display_value="Summary output field">d4578e061b707110f9ddb888cc4bcb26</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sn_nowassist_skill_config_var_set</document>
+        <document_key>82b3f37093e4ee908b8674121bba10c1</document_key>
+        <order>160</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-25 19:01:39</sys_created_on>
+        <sys_id>8ab3f37093e4ee908b8674121bba10c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-25 19:01:39</sys_updated_on>
+        <value/>
+        <variable display_value="Recursive config filters">9bf307951b27351084278596dc4bcbc7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sn_nowassist_skill_config_var_set</document>
+        <document_key>82b3f37093e4ee908b8674121bba10c1</document_key>
+        <order>40</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-25 19:01:39</sys_created_on>
+        <sys_id>8eb3f37093e4ee908b8674121bba10c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-25 19:01:39</sys_updated_on>
+        <value/>
+        <variable display_value="Prompt filter">6c18e3311bb43110f9ddb888cc4bcb63</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sn_nowassist_skill_config_var_set</document>
+        <document_key>82b3f37093e4ee908b8674121bba10c1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-25 19:01:39</sys_created_on>
+        <sys_id>c2b3f37093e4ee908b8674121bba10c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-25 19:01:39</sys_updated_on>
+        <value/>
+        <variable display_value="Relationships Configuration">40f56fd193a412107b8e7cf54489189b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sn_nowassist_skill_config_var_set</document>
+        <document_key>82b3f37093e4ee908b8674121bba10c1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-25 19:01:39</sys_created_on>
+        <sys_id>cab3f37093e4ee908b8674121bba10c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-25 19:01:39</sys_updated_on>
+        <value/>
+        <variable display_value="Definition filters">6d85ff11977971107cba7e0e6253afc1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sn_nowassist_skill_config_var_set</document>
+        <document_key>82b3f37093e4ee908b8674121bba10c1</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-25 19:01:39</sys_created_on>
+        <sys_id>ceb3f37093e4ee908b8674121bba10c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-25 19:01:39</sys_updated_on>
+        <value>state!=8^EQ</value>
+        <variable display_value="Condition">cbd7affd1b743110f9ddb888cc4bcb6d</variable>
+    </sys_variable_value>
+</record_update>

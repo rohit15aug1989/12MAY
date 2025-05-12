@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_activity_type">
+    <sys_pd_activity_type action="INSERT_OR_UPDATE">
+        <color>#D9F4F9</color>
+        <default_activity_ui display_value="Test UI for UW location ">dc4ddded3390a650875176a59d5c7b2d</default_activity_ui>
+        <icon display_value="document-outline">document_outline</icon>
+        <name>UW_Underwriting_Location </name>
+        <sys_class_name>sys_pd_activity_type</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-15 05:43:56</sys_created_on>
+        <sys_id>573d91ed3390a650875176a59d5c7bfd</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>UW_Underwriting_Location </sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_pd_activity_type_573d91ed3390a650875176a59d5c7bfd</sys_update_name>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-04-09 11:18:54</sys_updated_on>
+    </sys_pd_activity_type>
+</record_update>

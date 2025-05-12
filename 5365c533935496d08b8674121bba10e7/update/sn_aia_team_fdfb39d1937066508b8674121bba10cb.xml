@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_team">
+    <sn_aia_team action="INSERT_OR_UPDATE">
+        <description>test</description>
+        <name>test AI Agent APS</name>
+        <sys_class_name>sn_aia_team</sys_class_name>
+        <sys_created_by>aditya</sys_created_by>
+        <sys_created_on>2025-04-08 09:51:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>fdfb39d1937066508b8674121bba10cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test AI Agent APS</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sn_aia_team_fdfb39d1937066508b8674121bba10cb</sys_update_name>
+        <sys_updated_by>aditya</sys_updated_by>
+        <sys_updated_on>2025-04-08 09:51:06</sys_updated_on>
+    </sn_aia_team>
+</record_update>

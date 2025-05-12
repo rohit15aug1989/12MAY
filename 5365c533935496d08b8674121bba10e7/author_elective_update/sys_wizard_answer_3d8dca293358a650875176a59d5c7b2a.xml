@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>rr</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>rr</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">1022cf181b11021067a655361a4bcbe1</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-03-15 09:14:54</sys_created_on>
+        <sys_id>3d8dca293358a650875176a59d5c7b2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>rr</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_wizard_answer_3d8dca293358a650875176a59d5c7b2a</sys_update_name>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-03-15 09:14:54</sys_updated_on>
+        <table/>
+        <target_url>x_ltin2_uw_ai_rr.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</application>
+        <file_path/>
+        <instance_id>7838a3eddb96a7c049eac59705961973</instance_id>
+        <instance_name>ltidemo5</instance_name>
+        <name>sys_wizard_answer_3d8dca293358a650875176a59d5c7b2a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>rr</answer><button_label/><dependent_value/><element/><name>rr</name><next_question/><order>100</order><payload_name/><question display_value="Task" name="Task">1022cf181b11021067a655361a4bcbe1</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>sanket</sys_created_by><sys_created_on>2025-03-15 09:14:54</sys_created_on><sys_id>3d8dca293358a650875176a59d5c7b2a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>rr</sys_name><sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package><sys_policy/><sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope><sys_update_name>sys_wizard_answer_3d8dca293358a650875176a59d5c7b2a</sys_update_name><sys_updated_by>sanket</sys_updated_by><sys_updated_on>2025-03-15 09:14:54</sys_updated_on><table/><target_url>x_ltin2_uw_ai_rr.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>2018947305</payload_hash>
+        <record_name>rr</record_name>
+        <reverted_from/>
+        <source>7ef85b21932312108b8674121bba1082</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2025-02-06 07:57:29</sys_created_on>
+        <sys_id>c4997cb49320ae908b8674121bba102b</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>194da4392280000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Answer</type>
+        <update_guid>84997cb4f420ae9093220ff5d398872b</update_guid>
+        <update_guid_history>84997cb4f420ae9093220ff5d398872b:2018947305</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-03-25 05:28:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>3e514cab56c34bcf95c5a7fbdc4aabc1</sys_id>
+        <sys_metadata>3d8dca293358a650875176a59d5c7b2a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>rr</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_parent display_value="Task">1022cf181b11021067a655361a4bcbe1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_scope_delete display_value="">7c8d9985394b49b688ab893eea2dbef1</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_3d8dca293358a650875176a59d5c7b2a</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_3d8dca293358a650875176a59d5c7b2a">c4997cb49320ae908b8674121bba102b</sys_update_version>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-03-25 05:28:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

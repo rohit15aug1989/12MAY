@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_ltin2_uw_ai.UnderWriterCoverageUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>UnderWriterCoverageUtils</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var UnderWriterCoverageUtils = Class.create();
+UnderWriterCoverageUtils.prototype = {
+    initialize: function() {},
+    sumcoveragePremium: function(caseSysID) {
+        var buildingcoverage = 0;
+        var businessprop = 0;
+        var businessinter = 0;
+        var businesspp = 0;
+        var tenetasimp = 0;
+        var mfglab = 0;
+        var camphar = 0;
+        var furniture = 0;
+
+        var bldgr = new GlideRecord('x_ltin2_uw_ai_underwriting_coverage');
+        bldgr.addEncodedQuery('attachment=Building Level Coverages^fso_case=' + caseSysID);
+        bldgr.query();
+        //gs.info("bb123" + bldgr.getRowCount());
+        while (bldgr.next()) {
+            //gs.info("bb123 Inside Loop");
+            if (bldgr.coverage_type == 'building') {
+                buildingcoverage += parseFloat(bldgr.premium);
+            } else if (bldgr.coverage_type == 'business_property') {
+                businessprop += parseFloat(bldgr.premium);
+            } else if (bldgr.coverage_type == 'business_interruption') {
+                businessinter += parseFloat(bldgr.premium);
+            } else if (bldgr.coverage_type == 'Business Personal Property') {
+                businesspp += parseFloat(bldgr.premium);
+            } else if (bldgr.coverage_type == 'Tenants Improvments') {
+                tenetasimp += parseFloat(bldgr.premium);
+            } else if (bldgr.coverage_type == 'Mfg. or Lab Equipment') {
+                mfglab += parseFloat(bldgr.premium);
+            } else if (bldgr.coverage_type == 'Computer Hardware, Servers') {
+                camphar += parseFloat(bldgr.premium);
+            } else if (bldgr.coverage_type == 'Furniture & Fixtures') {
+                furniture += parseFloat(bldgr.premium);
+            }
+        }
+        var newcov = new GlideRecord('x_ltin2_uw_ai_building_cumulative_premium');
+        if (buildingcoverage > 0) {
+            newcov.initialize();
+            newcov.fso_underwriting_case = caseSysID;
+            newcov.coverage_type = 'Building';
+            newcov.attachment = 'Building Level Coverages';
+            newcov.premium = buildingcoverage;
+            newcov.insert();
+        }
+        if (businessprop > 0) {
+            newcov.initialize();
+            newcov.fso_underwriting_case = caseSysID;
+            newcov.coverage_type = 'business_personal_property';
+            newcov.attachment = 'Building Level Coverages';
+            newcov.premium = businessprop;
+            newcov.insert();
+        }
+        if (businessinter > 0) {
+            newcov.initialize();
+            newcov.fso_underwriting_case = caseSysID;
+            newcov.coverage_type = 'business_interruption';
+            newcov.attachment = 'Building Level Coverages';
+            newcov.premium = businessinter;
+            newcov.insert();
+        }
+        if (businesspp > 0) {
+            newcov.initialize();
+            newcov.fso_underwriting_case = caseSysID;
+            newcov.coverage_type = 'business_and_personal_property';
+            newcov.attachment = 'Business Personal Property';
+            newcov.premium = businesspp;
+            newcov.insert();
+        }
+        if (tenetasimp > 0) {
+            newcov.initialize();
+            newcov.fso_underwriting_case = caseSysID;
+            newcov.coverage_type = 'Tenants Improvments';
+            newcov.attachment = 'Building Level Coverages';
+            newcov.premium = tenetasimp;
+            newcov.insert();
+        }
+        if (mfglab > 0) {
+            newcov.initialize();
+            newcov.fso_underwriting_case = caseSysID;
+            newcov.coverage_type = 'Mfg or Lab Equipment';
+            newcov.attachment = 'Building Level Coverages';
+            newcov.premium = mfglab;
+            newcov.insert();
+        }
+        if (camphar > 0) {
+            newcov.initialize();
+            newcov.fso_underwriting_case = caseSysID;
+            newcov.coverage_type = 'Computer Hardware Servers';
+            newcov.attachment = 'Building Level Coverages';
+            newcov.premium = camphar;
+            newcov.insert();
+        }
+        if (furniture > 0) {
+            newcov.initialize();
+            newcov.fso_underwriting_case = caseSysID;
+            newcov.coverage_type = 'Furniture & Fixtures';
+            newcov.attachment = 'Building Level Coverages';
+            newcov.premium = furniture;
+            newcov.insert();
+        }
+    },
+
+    type: 'UnderWriterCoverageUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>abhi</sys_created_by>
+        <sys_created_on>2025-03-13 15:24:27</sys_created_on>
+        <sys_id>1eaec58993dc62508b8674121bba1008</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>UnderWriterCoverageUtils</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_script_include_1eaec58993dc62508b8674121bba1008</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-04-25 06:31:26</sys_updated_on>
+    </sys_script_include>
+</record_update>

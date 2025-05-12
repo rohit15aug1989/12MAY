@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style">
+    <sys_ui_style action="DELETE">
+        <alt/>
+        <element>premium</element>
+        <name>x_ltin2_uw_ai_underwriting_coverage</name>
+        <style>premium {&#13;
+    text-align: center; &#13;
+}</style>
+        <sys_class_name>sys_ui_style</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-17 09:13:47</sys_created_on>
+        <sys_id>d2cfd85e3398ea50875176a59d5c7b77</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_ltin2_uw_ai_underwriting_coverage</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_ui_style_d2cfd85e3398ea50875176a59d5c7b77</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-26 07:43:55</sys_updated_on>
+        <themed_style/>
+        <value>premium</value>
+    </sys_ui_style>
+    <sys_translated_text action="DELETE" query="documentkey=d2cfd85e3398ea50875176a59d5c7b77"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</application>
+        <file_path/>
+        <instance_id>7838a3eddb96a7c049eac59705961973</instance_id>
+        <instance_name>ltidemo5</instance_name>
+        <name>sys_ui_style_d2cfd85e3398ea50875176a59d5c7b77</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style"><sys_ui_style action="INSERT_OR_UPDATE"><alt/><element>premium</element><name>x_ltin2_uw_ai_underwriting_coverage</name><style>premium {&#13;
+    text-align: center; &#13;
+}</style><sys_class_name>sys_ui_style</sys_class_name><sys_created_by>rohit</sys_created_by><sys_created_on>2025-03-17 09:13:47</sys_created_on><sys_id>d2cfd85e3398ea50875176a59d5c7b77</sys_id><sys_mod_count>2</sys_mod_count><sys_name>x_ltin2_uw_ai_underwriting_coverage</sys_name><sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package><sys_policy/><sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope><sys_update_name>sys_ui_style_d2cfd85e3398ea50875176a59d5c7b77</sys_update_name><sys_updated_by>rohit</sys_updated_by><sys_updated_on>2025-03-26 07:43:55</sys_updated_on><themed_style/><value>premium</value></sys_ui_style><sys_translated_text action="delete_multiple" query="documentkey=d2cfd85e3398ea50875176a59d5c7b77"/></record_update>]]></payload>
+        <payload_hash>1405615158</payload_hash>
+        <record_name>x_ltin2_uw_ai_underwriting_coverage</record_name>
+        <reverted_from/>
+        <source>53ea92d9338fda10875176a59d5c7bc9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-26 07:43:55</sys_created_on>
+        <sys_id>083262c193e822d08b8674121bba1024</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195d168698f0000001</sys_recorded_at>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-26 07:43:55</sys_updated_on>
+        <type>Style</type>
+        <update_guid>883262c1d8e822d01eeec61a1252c023</update_guid>
+        <update_guid_history>883262c1d8e822d01eeec61a1252c023:1405615158,b88020de6698ea5058c4e2f0566d5e2c:-125098773,3870249e1698ea502a1b9009bae5f487:-1391615499</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-04-01 07:07:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_style">sys_ui_style</sys_db_object>
+        <sys_id>de57857058cd47ec9a9cf0daced22904</sys_id>
+        <sys_metadata>d2cfd85e3398ea50875176a59d5c7b77</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_ltin2_uw_ai_underwriting_coverage</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_parent display_value="Underwriting Coverage">3dd2250c93e41ad08b8674121bba10f7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_scope_delete display_value="">7c8d9985394b49b688ab893eea2dbef1</sys_scope_delete>
+        <sys_update_name>sys_ui_style_d2cfd85e3398ea50875176a59d5c7b77</sys_update_name>
+        <sys_update_version display_value="sys_ui_style_d2cfd85e3398ea50875176a59d5c7b77">083262c193e822d08b8674121bba1024</sys_update_version>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-04-01 07:07:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

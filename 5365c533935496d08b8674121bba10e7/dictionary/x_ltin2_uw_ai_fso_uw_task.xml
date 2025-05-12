@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="a1a437d89360dad08b8674121bba10dd" extends="sn_bom_task" label="FSO Underwriting Task" max_length="40" name="x_ltin2_uw_ai_fso_uw_task" text_index="true" type="collection">
+        <element label="Clearance" max_length="40" name="clearance" type="boolean"/>
+    </element>
+</database>

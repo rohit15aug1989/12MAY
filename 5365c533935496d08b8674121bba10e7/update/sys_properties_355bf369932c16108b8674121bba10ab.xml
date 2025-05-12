@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_ltin2_uw_ai.SampleAIInput</name>
+        <read_roles/>
+        <suffix>SampleAIInput</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>ashish.sharma</sys_created_by>
+        <sys_created_on>2024-09-10 07:20:00</sys_created_on>
+        <sys_id>355bf369932c16108b8674121bba10ab</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_ltin2_uw_ai.SampleAIInput</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_properties_355bf369932c16108b8674121bba10ab</sys_update_name>
+        <sys_updated_by>ashish.sharma</sys_updated_by>
+        <sys_updated_on>2024-09-13 11:17:16</sys_updated_on>
+        <type>string</type>
+        <value>{&#13;
+    "locations": [&#13;
+        {&#13;
+            "location1": {&#13;
+                "coverages": {&#13;
+                    "buildingLevelCoverages": [&#13;
+                        {&#13;
+                            "subjectofinsurance/coverageinformation": "Building",&#13;
+                            "limit": 552849,&#13;
+                            "coinsurance%": 80,&#13;
+                            "valuation": "RCV",&#13;
+                            "causeofloss": "Basic",&#13;
+                            "inflationguard%": 8,&#13;
+                            "deductible": 1000,&#13;
+                            "blanket": "",&#13;
+                            "businessincomeextraexpense": "selected",&#13;
+                            "valuereportinginformation": "selected",&#13;
+                            "spoilagecoverage(y/n)": "Y",&#13;
+                            "descriptionofpropertycovered": "Refrigerator goods",&#13;
+                            "descriptionofpropertycoveredlimits($)": 5000,&#13;
+                            "descriptionofpropertycovereddeductible": 1000,&#13;
+                            "sinkholecovergae(requiredinfl)": "ACCEPT COVERAGE",&#13;
+                            "sinkholecovergaelimit($)": 40000,&#13;
+                            "type": "BUILDING",&#13;
+                            "buildingNumber": 1,&#13;
+                            "locationNumber": 1&#13;
+                        },&#13;
+                        {&#13;
+                            "subjectofinsurance/coverageinformation": "BPP",&#13;
+                            "limit": "58803",&#13;
+                            "valuation": "",&#13;
+                            "causeofloss": "",&#13;
+                            "inflationguard%": "",&#13;
+                            "deductible": "10000",&#13;
+                            "blanket": "",&#13;
+                            "businessincomeextraexpense": "",&#13;
+                            "valuereportinginformation": "",&#13;
+                            "spoilagecoverage(y/n)": "",&#13;
+                            "descriptionofpropertycovered": "",&#13;
+                            "descriptionofpropertycoveredlimits($)": "",&#13;
+                            "descriptionofpropertycovereddeductible": "",&#13;
+                            "sinkholecovergae(requiredinfl)": "",&#13;
+                            "sinkholecovergaelimit($)": "",&#13;
+                            "type": "BUILDING",&#13;
+                            "buildingNumber": 1,&#13;
+                            "locationNumber": 1&#13;
+                        }&#13;
+                    ],&#13;
+                    "locationLevelCoverages": [],&#13;
+                    "policyLevelCoverages": []&#13;
+                },&#13;
+                "location#": 1,&#13;
+                "building#": 1,&#13;
+                "locationstreetaddress1": "1724 Norma Len",&#13;
+                "locationstreetaddress2": "STI apartment ",&#13;
+                "locationcity": "Shreveport",&#13;
+                "locationstate": "LA",&#13;
+                "locationzip": 71101,&#13;
+                "latitude": "",&#13;
+                "longitude": "",&#13;
+                "constructiontype": "JOISTED MASONRY",&#13;
+                "distancetohydrant(ft)": "",&#13;
+                "distancetofirestat(mi)": "",&#13;
+                "firedistrict": "",&#13;
+                "code#": "",&#13;
+                "protclass": "",&#13;
+                "#ofstories": 2,&#13;
+                "#ofbasements": "",&#13;
+                "yrbuilt": 2024,&#13;
+                "totalarea": "6125",&#13;
+                "wiringyr": 2005,&#13;
+                "roofingyr": 2020,&#13;
+                "plumbingyr": 1998,&#13;
+                "heatingyr": 1986,&#13;
+                "otheryr": 1999,&#13;
+                "bldgcodegrade": "",&#13;
+                "taxcode": "N",&#13;
+                "rooftype": "Asphalt",&#13;
+                "primaryheatboiler": "selected",&#13;
+                "primaryheatsolidfuel": "",&#13;
+                "ifboiler,isinsuranceplacedelsewhere?": "N",&#13;
+                "secondaryheatboiler": "",&#13;
+                "secondaryheatsolidfuel": "selected",&#13;
+                "rightexposure&amp;distance": "Street",&#13;
+                "leftexposure&amp;distance": "Street",&#13;
+                "frontexposure&amp;distance": "Residential- 100ft",&#13;
+                "rearexposure&amp;distance": "Parking Lot",&#13;
+                "burglaralarmtype": "Central",&#13;
+                "certificate#": "",&#13;
+                "expirationdate": "",&#13;
+                "centralstation": "N",&#13;
+                "withkeys": "Y",&#13;
+                "localgong": "N",&#13;
+                "burglaralarminstalledandservicedby": "",&#13;
+                "extent": "",&#13;
+                "grdae": "",&#13;
+                "#guards/watchmen": "Yes",&#13;
+                "clockhourly": "Y",&#13;
+                "premisesfireprotection(sprinklers,standpipes,co2/chemicalsystems)": "Sprinklers",&#13;
+                "%sprnk": "80%",&#13;
+                "firealarmmanufacturer": "Seimens"&#13;
+            }&#13;
+        }&#13;
+    ]&#13;
+}</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=355bf369932c16108b8674121bba10ab"/>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_one_extend_resource_param_value">
+    <sys_one_extend_resource_param_value action="INSERT_OR_UPDATE">
+        <resource_mapping display_value="Correctness Metric">e09f1ef793fce6908b8674121bba108f</resource_mapping>
+        <resource_param_name>configId</resource_param_name>
+        <resource_param_value>c834087d7f5202100a03b6257d866503</resource_param_value>
+        <sys_class_name>sys_one_extend_resource_param_value</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-04-16 06:51:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>e49f1ef793fce6908b8674121bba109b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_one_extend_resource_param_value_e49f1ef793fce6908b8674121bba109b</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-04-16 06:51:29</sys_updated_on>
+    </sys_one_extend_resource_param_value>
+</record_update>

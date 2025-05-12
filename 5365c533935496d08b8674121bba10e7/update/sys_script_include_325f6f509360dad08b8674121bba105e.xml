@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_ltin2_uw_ai.initialRateStateTransition</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>initialRateStateTransition</name>
+        <sandbox_callable>true</sandbox_callable>
+        <script><![CDATA[var initialRateStateTransition = Class.create();
+initialRateStateTransition.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	 movetoIntRate: function() {
+
+        var caseRecord = this.getParameter('sysparm_case');
+		var underwriterCase = new GlideRecord('x_ltin2_uw_ai_fso_uw_case');
+        underwriterCase.get(caseRecord);
+
+		var customerID = underwriterCase.customer_id.sys_id;
+		underwriterCase.stage = 'initial_rate';
+		//underwriterCase.clearance_decision = true;
+		//underwriterCase.decision_date = new GlideDate();
+        underwriterCase.update();
+
+        // var location1 = new GlideRecord('x_ltin2_fso_underw_commerical_location');
+        // location1.addQuery('customer_id', customerID);
+        //  location1.orderByDesc('sys_created_on');
+        //  location1.setLimit(3);
+        //  location1.query();
+        // while (location1.next()) {
+        //     gs.info("hazardhub: Location ID: " + location1.location_number);
+
+		// 	if(location1.longitude && location1.latitude){
+
+        //     //REST call start checkpoint
+        //     try {
+        //         var r = new sn_ws.RESTMessageV2('x_ltin2_fso_underw.HazardHub Risk Assessment', 'Get Risk score via Geo point');
+        //         r.setStringParameterNoEscape('longitude', location1.longitude.getDisplayValue());
+        //         r.setStringParameterNoEscape('latitude', location1.latitude.getDisplayValue());
+        //         r.setStringParameterNoEscape('auth_token', 'D43nn6nAHhXP7DjpeJ6j');
+
+        //         var response = r.execute();
+        //         var responseBody = response.getBody();
+        //         var httpStatus = response.getStatusCode();
+        //     } catch (ex) {
+        //         var message = ex.message;
+        //     }
+
+        //     //REST call end checkpoint
+        //     responseBody = JSON.parse(responseBody);
+
+        //     gs.info("hazardhub: Status Code: " + httpStatus);
+        //     gs.info("hazardhub: wildfire description: " + responseBody.enhanced_wildfire.wildfire_perimeter_risk.desc);
+
+        //     var wildfire_desc = responseBody.enhanced_wildfire.wildfire_perimeter_risk.desc;
+        //     var wildfire_score = responseBody.enhanced_wildfire.wildfire_perimeter_risk.score;
+
+
+        //     if (httpStatus == '200') {
+
+        //         var CATPerils = new GlideRecord('x_ltin2_fso_underw_commerical_risk_information');
+        //         CATPerils.addQuery('commerical_location', location1.sys_id);
+        //         CATPerils.query();
+        //         if (CATPerils.next()) {
+
+        //             if (wildfire_desc) {
+        //                 CATPerils.wild_fire = true;
+        //                 CATPerils.wild_fire_score = wildfire_score;
+        //                 CATPerils.wild_fire_zone = wildfire_desc;
+        //                 CATPerils.update();
+        //             }
+
+        //         } else {
+        //             if (wildfire_desc) {
+        //                 var hold = new GlideRecord('x_ltin2_fso_underw_commerical_risk_information');
+        //                 hold.initialize();
+        //                 hold.commerical_location = location1.sys_id;
+        //                 hold.wild_fire = true;
+        //                 hold.wild_fire_score = wildfire_score;
+        //                 hold.wild_fire_zone = wildfire_desc;
+        //                 hold.insert();
+        //             }
+        //         }
+        //     }
+		// }
+        // }
+
+
+    },
+
+    type: 'initialRateStateTransition'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>subham.agarwal</sys_created_by>
+        <sys_created_on>2024-09-06 09:14:54</sys_created_on>
+        <sys_id>325f6f509360dad08b8674121bba105e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>initialRateStateTransition</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_script_include_325f6f509360dad08b8674121bba105e</sys_update_name>
+        <sys_updated_by>subham.agarwal</sys_updated_by>
+        <sys_updated_on>2024-09-06 09:32:37</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>325f6f509360dad08b8674121bba105e</id>
+        <sys_created_by>subham.agarwal</sys_created_by>
+        <sys_created_on>2024-09-06 09:14:53</sys_created_on>
+        <sys_id>b47f6f509360dad08b8674121bba1068</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subham.agarwal</sys_updated_by>
+        <sys_updated_on>2024-09-06 09:14:53</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

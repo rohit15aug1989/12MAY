@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_playbook_experience_action_assignment_map">
+    <sys_playbook_experience_action_assignment_map action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Activity for Initail Rate Premium Summary">57707d409358aa108b8674121bba1091</activity_definition>
+        <declarative_action_assignment display_value="next">b05caa7e933f9a908b8674121bba10a3</declarative_action_assignment>
+        <playbook_experience display_value="Global Playbook Experience">98e09a560f2200102920c912d4767e1a</playbook_experience>
+        <sys_class_name>sys_playbook_experience_action_assignment_map</sys_class_name>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-04-22 14:15:08</sys_created_on>
+        <sys_id>e99ebabd330d6ad0875176a59d5c7bd0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_playbook_experience_action_assignment_map_e99ebabd330d6ad0875176a59d5c7bd0</sys_update_name>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-04-22 14:15:08</sys_updated_on>
+    </sys_playbook_experience_action_assignment_map>
+</record_update>

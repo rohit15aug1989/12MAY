@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_generative_ai_config">
+    <sys_generative_ai_config action="DELETE">
+        <active>false</active>
+        <additional_configurations>{"skill_config_id":"e3ff7d8a33e46ad0875176a59d5c7bb9"}</additional_configurations>
+        <ai_suggested>false</ai_suggested>
+        <definition>dfff7d8a33e46ad0875176a59d5c7b94</definition>
+        <definition_table>sys_one_extend_capability_definition</definition_table>
+        <max_tokens>500</max_tokens>
+        <min_word_count>-1</min_word_count>
+        <model>gpt-4-turbo</model>
+        <name>AI-generated prompt</name>
+        <parent display_value="OneExtend Capability Definition: Get UW case summary (Azure OpenAI - Chat Completions)">e3ff7d8a33e46ad0875176a59d5c7ba0</parent>
+        <prompt>## Role
+You are a case summarization expert. Your task is to gather information from the UW case and create a summary for that case.
+
+## Context
+The UW case that needs to be summarized: ' {{fso_underwriting_case}} '
+The locations in the submission are : ' {{Getlocationdetails.rag_results}}  '
+The address for each location are : ' {{fso_underwriting_case.location.consumer.street}} 
+
+## Instructions
+1. Review the UW case provided in the context, taking note of the key details and events.
+2. Show the number of location in the submission with the city for each location.
+3. Create a summary including the clearance decision, appetite decision
+4. do not show the sysid of the record
+5. show the appetite decision: ' {{fso_underwriting_case.appetite_decision}} '
+6. show the clearance decision : ' {{fso_underwriting_case.clearance_decision}} '
+7. No yapping and do not use flowery language 
+
+## Output
+The output should be a summary of the UW case, location, buildings and coverages related to the case. The summary should be elaborated, long and should focus on all the information in the case record, locations records, building and coverages record. It should include all the necessary details or redundant information. Output should also include location information related with the case  record.</prompt>
+        <prompt_template_role>user</prompt_template_role>
+        <request_tokens>7442</request_tokens>
+        <show_in_prompt_library>false</show_in_prompt_library>
+        <state>draft</state>
+        <sys_class_name>sys_generative_ai_config</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-29 08:00:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3db28ece33e46ad0875176a59d5c7bf7</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>dfff7d8a33e46ad0875176a59d5c7b94</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_generative_ai_config_3db28ece33e46ad0875176a59d5c7bf7</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-31 09:06:04</sys_updated_on>
+        <temperature>0.2</temperature>
+        <version>2</version>
+    </sys_generative_ai_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</application>
+        <file_path/>
+        <instance_id>7838a3eddb96a7c049eac59705961973</instance_id>
+        <instance_name>ltidemo5</instance_name>
+        <name>sys_generative_ai_config_3db28ece33e46ad0875176a59d5c7bf7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_generative_ai_config"><sys_generative_ai_config action="INSERT_OR_UPDATE"><active>false</active><additional_configurations>{"skill_config_id":"e3ff7d8a33e46ad0875176a59d5c7bb9"}</additional_configurations><ai_suggested>false</ai_suggested><definition>dfff7d8a33e46ad0875176a59d5c7b94</definition><definition_table>sys_one_extend_capability_definition</definition_table><max_tokens>500</max_tokens><min_word_count>-1</min_word_count><model>gpt-4-turbo</model><name>AI-generated prompt</name><parent display_value="OneExtend Capability Definition: Get UW case summary (Azure OpenAI - Chat Completions)">e3ff7d8a33e46ad0875176a59d5c7ba0</parent><prompt>## Role
+You are a case summarization expert. Your task is to gather information from the UW case and create a summary for that case.
+
+## Context
+The UW case that needs to be summarized: ' {{fso_underwriting_case}} '
+The locations in the submission are : ' {{Getlocationdetails.rag_results}}  '
+The address for each location are : ' {{fso_underwriting_case.location.consumer.street}} 
+
+## Instructions
+1. Review the UW case provided in the context, taking note of the key details and events.
+2. Show the number of location in the submission with the city for each location.
+3. Create a summary including the clearance decision, appetite decision
+4. do not show the sysid of the record
+5. show the appetite decision: ' {{fso_underwriting_case.appetite_decision}} '
+6. show the clearance decision : ' {{fso_underwriting_case.clearance_decision}} '
+7. No yapping and do not use flowery language 
+
+## Output
+The output should be a summary of the UW case, location, buildings and coverages related to the case. The summary should be elaborated, long and should focus on all the information in the case record, locations records, building and coverages record. It should include all the necessary details or redundant information. Output should also include location information related with the case  record.</prompt><prompt_template_role>user</prompt_template_role><request_tokens>7442</request_tokens><show_in_prompt_library>false</show_in_prompt_library><state>draft</state><sys_class_name>sys_generative_ai_config</sys_class_name><sys_created_by>rohit</sys_created_by><sys_created_on>2025-03-29 08:00:20</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3db28ece33e46ad0875176a59d5c7bf7</sys_id><sys_mod_count>15</sys_mod_count><sys_name>dfff7d8a33e46ad0875176a59d5c7b94</sys_name><sys_overrides/><sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package><sys_policy/><sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope><sys_update_name>sys_generative_ai_config_3db28ece33e46ad0875176a59d5c7bf7</sys_update_name><sys_updated_by>rohit</sys_updated_by><sys_updated_on>2025-03-31 09:06:04</sys_updated_on><temperature>0.2</temperature><version>2</version></sys_generative_ai_config></record_update>]]></payload>
+        <payload_hash>-855798014</payload_hash>
+        <record_name>dfff7d8a33e46ad0875176a59d5c7b94</record_name>
+        <reverted_from/>
+        <source>53ea92d9338fda10875176a59d5c7bc9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-31 09:06:04</sys_created_on>
+        <sys_id>84f4a87a33a8a210875176a59d5c7b87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195eb7369990000001</sys_recorded_at>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-31 09:06:04</sys_updated_on>
+        <type>Generative AI Configuration</type>
+        <update_guid>c8f4a87ab8a8a2104ff976345c29b986</update_guid>
+        <update_guid_history>c8f4a87ab8a8a2104ff976345c29b986:-855798014,976360b2ffa8a210032ead391bb2677f:1587824542,032360b224a8a21017780131e29a8768:-337910921,ab72e432d6a8a210d99e49cbd2265189:1095467532,a042e4fea068a2108b171a638044646c:1736237946,58b1a4feda68a210ebb39bd5c49344d8:1750607674,2971e0bee168a2109900fa780a0094ad:-1697846978,89fbd8360c68a21029d07cbf25c4a64d:1548723563,75450246eb286ad057cf0ca78167f307:270082600,bbf40ec2f9286ad03b73865258c4ef84:-998461715,fe848ac2fd286ad0701c68c749664bdd:-1810312408,a974ce828a286ad0e762d2589838fea0:-998461715,8bf30a4223286ad00e1ab920f5a7f42d:1602474871,4b43c60295286ad099a1f95e89c17751:1833838133,4eb286020d286ad0efa8f9ed101832a4:-2101009509,0ab28602a9286ad058fbde42b215d69d:-586265331</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-04-01 18:40:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_generative_ai_config">sys_generative_ai_config</sys_db_object>
+        <sys_id>00ece596cc174a6a8004fb2bd4194b24</sys_id>
+        <sys_metadata>3db28ece33e46ad0875176a59d5c7bf7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>dfff7d8a33e46ad0875176a59d5c7b94</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_scope_delete display_value="">7c8d9985394b49b688ab893eea2dbef1</sys_scope_delete>
+        <sys_update_name>sys_generative_ai_config_3db28ece33e46ad0875176a59d5c7bf7</sys_update_name>
+        <sys_update_version display_value="sys_generative_ai_config_3db28ece33e46ad0875176a59d5c7bf7">84f4a87a33a8a210875176a59d5c7b87</sys_update_version>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-04-01 18:40:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

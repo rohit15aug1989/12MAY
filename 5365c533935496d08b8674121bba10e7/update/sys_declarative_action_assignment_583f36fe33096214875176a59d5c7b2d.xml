@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_declarative_action_assignment">
+    <sys_declarative_action_assignment action="INSERT_OR_UPDATE">
+        <action/>
+        <action_attributes/>
+        <action_name>get_quote_test</action_name>
+        <action_payload/>
+        <action_type>type</action_type>
+        <active>true</active>
+        <button_type>primary</button_type>
+        <client_action/>
+        <client_conditions/>
+        <client_conditions_on_fields/>
+        <client_script><![CDATA[function onClick() { }]]></client_script>
+        <confirmation_message/>
+        <confirmation_required>false</confirmation_required>
+        <create_access>false</create_access>
+        <declarative_action_render_mode display_value="Button">928532675b4000101a6d7c1bf481c7db</declarative_action_render_mode>
+        <declarative_action_type>server_script</declarative_action_type>
+        <delete_access>false</delete_access>
+        <dependency/>
+        <description/>
+        <design_icon/>
+        <dynamic_record_condition/>
+        <dynamic_script_condition/>
+        <enable_dynamic_evaluation>false</enable_dynamic_evaluation>
+        <enable_for_all_experiences>false</enable_for_all_experiences>
+        <enabled>true</enabled>
+        <experience_restricted>false</experience_restricted>
+        <field_name/>
+        <field_type>glide_date</field_type>
+        <form_fields_required>false</form_fields_required>
+        <form_position/>
+        <group/>
+        <group_by>false</group_by>
+        <icon/>
+        <label>Get Quote</label>
+        <model display_value="Playbook Card">ca57d12e730333004a905ee515f6a7b2</model>
+        <model_conditions/>
+        <model_field_required/>
+        <order>0</order>
+        <payload_map/>
+        <read_access>false</read_access>
+        <record_conditions/>
+        <record_selection_required>false</record_selection_required>
+        <required_roles/>
+        <required_translations/>
+        <required_user_role_names/>
+        <requires_value>false</requires_value>
+        <script_condition/>
+        <scripted_client_condition/>
+        <server_script><![CDATA[//gs.addErrorMessage("message is dipslaying")
+// var count = 1
+ 
+ 
+var policyversionGR = new GlideRecord("x_ltin2_uw_ai_policyversions");
+policyversionGR.orderByDesc('versions');
+policyversionGR.query();
+var nextVersion = 'Version 1';
+if (policyversionGR.next()) {
+ 
+    var lastVersion = policyversionGR.versions.toString();
+    var lastVersionNumber = parseInt(lastVersion.replace('Version ', ' '));
+ 
+    if (lastVersion > 3) {
+        gs.info('record');
+ 
+    }
+ 
+ 
+ 
+    nextVersion = 'Version ' + (lastVersionNumber + 1);
+}
+ 
+ 
+var uWGR = new GlideRecord("x_ltin2_uw_ai_underwriting_coverage");
+uWGR.addQuery('fso_case.number','CS0002872');
+uWGR.query();
+while (uWGR.next()) {
+    var pversion = new GlideRecord("x_ltin2_uw_ai_policyversions");
+    pversion.initialize();
+    pversion.versions = nextVersion.toString();
+    pversion.deductible = uWGR.deductible.replace('$', '').trim();
+    pversion.limit = uWGR.limits.replace('$', '').trim();
+    pversion.premium = uWGR.premium;
+    pversion.attachment = uWGR.attachment;
+    pversion.coverage_type = uWGR.coverage_type;
+    pversion.buildings = uWGR.building.sys_id;
+    pversion.locations = uWGR.commerical_coverage_location.sys_id;
+    pversion.fso_underwriting_case = uWGR.fso_case.sys_id;
+    pversion.insert();
+}
+ 
+ 
+ 
+var fsogr = new GlideRecord('x_ltin2_uw_ai_fso_uw_case');
+fsogr.addQuery('number','CS0002872');
+fsogr.query();
+if(fsogr.next()){
+var gr4 = new GlideRecord("x_ltin2_uw_ai_versionid");
+gr4.initialize();
+gr4.version = nextVersion.toString();
+gr4.u_total_premium = fsogr.total_premium.getCurrencyValue();
+gr4.u_taxes_surcharges = fsogr.taxes_surcharges.getCurrencyValue();
+gr4.u_gross_premium = fsogr.gross_premium.getCurrencyValue();
+gr4.fso_underwriting_case = uWGR.fso_case.sys_id;
+gr4.insert();
+gs.addInfoMessage( nextVersion + " is created ");
+ 
+}
+]]></server_script>
+        <specificity>1</specificity>
+        <sys_class_name>sys_declarative_action_assignment</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-04-25 16:52:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>583f36fe33096214875176a59d5c7b2d</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_name>get_quote_test</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_declarative_action_assignment_583f36fe33096214875176a59d5c7b2d</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-05-12 06:33:12</sys_updated_on>
+        <table>global</table>
+        <tooltip/>
+        <ui_component/>
+        <view/>
+        <workspace/>
+        <write_access>false</write_access>
+    </sys_declarative_action_assignment>
+    <sys_translated_text action="delete_multiple" query="documentkey=583f36fe33096214875176a59d5c7b2d"/>
+</record_update>

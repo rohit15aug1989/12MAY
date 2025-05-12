@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_generative_ai_config">
+    <sys_generative_ai_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <additional_configurations>{"skill_config_id":"e3ff7d8a33e46ad0875176a59d5c7bb9"}</additional_configurations>
+        <ai_suggested>false</ai_suggested>
+        <definition>dfff7d8a33e46ad0875176a59d5c7b94</definition>
+        <definition_table>sys_one_extend_capability_definition</definition_table>
+        <max_tokens>500</max_tokens>
+        <min_word_count>-1</min_word_count>
+        <model>gpt-4-turbo</model>
+        <name>AI-generated prompt</name>
+        <parent/>
+        <prompt>## Role
+You are a case summarization expert. Your task is to gather information from the UW case and create a summary for that case.
+
+## Context
+The UW case that needs to be summarized: ' {{fso_underwriting_case}} '
+
+## Instructions
+1. Review the UW case provided in the context, taking note of the key details and events.
+2. Identify the main issue or problem presented in the case, highlighting the main points discussed.
+3. Create a summary including the clearance decision, appetite decision
+## Output
+The output should be a brief summary of the UW case. The summary should be concise, typically no more than a few sentences long, and should focus on the most important information. It should not include unnecessary details or redundant information.
+ </prompt>
+        <prompt_template_role>user</prompt_template_role>
+        <request_tokens>7442</request_tokens>
+        <show_in_prompt_library>true</show_in_prompt_library>
+        <state>published</state>
+        <sys_class_name>sys_generative_ai_config</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-29 07:48:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e3ff7d8a33e46ad0875176a59d5c7ba0</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>dfff7d8a33e46ad0875176a59d5c7b94</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_generative_ai_config_e3ff7d8a33e46ad0875176a59d5c7ba0</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-29 07:58:07</sys_updated_on>
+        <temperature>0.2</temperature>
+        <version>1</version>
+    </sys_generative_ai_config>
+</record_update>

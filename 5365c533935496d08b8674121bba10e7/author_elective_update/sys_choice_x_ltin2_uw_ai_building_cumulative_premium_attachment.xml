@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="attachment" table="x_ltin2_uw_ai_building_cumulative_premium" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>attachment</element>
+            <name>x_ltin2_uw_ai_building_cumulative_premium</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-12 06:40:03</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>attachment</sys_name>
+            <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+            <sys_update_name>sys_choice_x_ltin2_uw_ai_building_cumulative_premium_attachment</sys_update_name>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-12 06:40:03</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>attachment</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>building</label>
+            <language>en</language>
+            <name>x_ltin2_uw_ai_building_cumulative_premium</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-12 06:40:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-12 06:40:03</sys_updated_on>
+            <value>building</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

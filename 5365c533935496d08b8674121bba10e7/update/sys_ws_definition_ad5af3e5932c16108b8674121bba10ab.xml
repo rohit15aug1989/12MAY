@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_definition">
+    <sys_ws_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <base_uri>/api/x_ltin2_uw_ai/ai_enrichment</base_uri>
+        <consumes>application/json</consumes>
+        <consumes_customized>true</consumes_customized>
+        <default_version>v1</default_version>
+        <doc_link/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <is_versioned>true</is_versioned>
+        <name>aiCaseEnrichment</name>
+        <namespace>x_ltin2_uw_ai</namespace>
+        <produces>application/json</produces>
+        <produces_customized>true</produces_customized>
+        <service_id>ai_enrichment</service_id>
+        <short_description/>
+        <sys_class_name>sys_ws_definition</sys_class_name>
+        <sys_created_by>ashish.sharma</sys_created_by>
+        <sys_created_on>2024-09-10 07:15:12</sys_created_on>
+        <sys_id>ad5af3e5932c16108b8674121bba10ab</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>aiCaseEnrichment</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_ws_definition_ad5af3e5932c16108b8674121bba10ab</sys_update_name>
+        <sys_updated_by>ashish.sharma</sys_updated_by>
+        <sys_updated_on>2024-09-11 08:45:55</sys_updated_on>
+    </sys_ws_definition>
+</record_update>

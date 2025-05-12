@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_playbook_experience_activity_ui">
+    <sys_playbook_experience_activity_ui action="INSERT_OR_UPDATE">
+        <experience_type display_value="UW_Clearance">ea2e213b93b792d08b8674121bba107f</experience_type>
+        <macroponent display_value="Activity UI for clearance stage">b72ea13b93b792d08b8674121bba10ee</macroponent>
+        <name>Activity UI for clearance stage</name>
+        <playbook_experience display_value="Global Playbook Experience">98e09a560f2200102920c912d4767e1a</playbook_experience>
+        <screen display_value="Activity UI for clearance stage">7b2ea13b93b792d08b8674121bba10f1</screen>
+        <sys_class_name>sys_playbook_experience_activity_ui</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-02-25 10:12:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>732ea13b93b792d08b8674121bba10ee</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Activity UI for clearance stage</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_playbook_experience_activity_ui_732ea13b93b792d08b8674121bba10ee</sys_update_name>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-02-27 13:48:27</sys_updated_on>
+        <ui_template display_value="Default">0f3d316cff313010667053ea793bf150</ui_template>
+    </sys_playbook_experience_activity_ui>
+</record_update>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_one_extend_resource_mapping">
+    <sys_one_extend_resource_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability_condition/>
+        <applicability_condition_expression/>
+        <applicability_condition_table/>
+        <applicability_failed_policy/>
+        <applicability_script><![CDATA[(function(currentInputs, context) {
+    /* @param {Object} currentInputs - Inputs provided for the current step.*/
+    /* @param {Object} context - Execution context, which may include:*/
+    /*						   - Previous tool outputs/inputs (e.g., context['ToolName.attributeName'] or context.getValue('ToolName.attributeName')).*/
+    /*						   - Additional context information (e.g., context.getAllValues()).*/
+    /* @returns {Boolean} - Return 'true' if the condition is met; otherwise 'false'.*/
+    return true;
+})(currentInputs, context);]]></applicability_script>
+        <applicability_type/>
+        <depends_on_list/>
+        <error_handler_script><![CDATA[(function handleError() {  
+	// customize condition logic here,  
+	return ;
+})();]]></error_handler_script>
+        <error_policy/>
+        <metadata>{"diagramInstanceId":"502d25c933a862d0875176a59d5c7b3c"}</metadata>
+        <parent_capability display_value="Location summary">082d61c933a862d0875176a59d5c7bbc</parent_capability>
+        <resource_capability display_value="Location summary">082d61c933a862d0875176a59d5c7bbc</resource_capability>
+        <resource_name>test skill of addition</resource_name>
+        <sys_class_name>sys_one_extend_resource_mapping</sys_class_name>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-03-26 03:52:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>d42d25c933a862d0875176a59d5c7b3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test skill of addition</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_one_extend_resource_mapping_d42d25c933a862d0875176a59d5c7b3f</sys_update_name>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-03-26 03:52:06</sys_updated_on>
+    </sys_one_extend_resource_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=d42d25c933a862d0875176a59d5c7b3f"/>
+</record_update>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4bc9752233b09690875176a59d5c7b04" label="NOW Intelligence" max_length="40" name="x_ltin2_uw_ai_now_intelligence2" type="collection">
+        <element label="Question" max_length="255" name="question" type="string_full_utf8"/>
+        <element label="NOW Response" max_length="8000" name="now_response" type="string"/>
+    </element>
+</database>

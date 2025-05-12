@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_one_extend_capability_definition">
+    <sys_one_extend_capability_definition action="DELETE">
+        <advanced>false</advanced>
+        <api>deac015e877121104f1c8f59dabb35cd</api>
+        <api_type>sys_script_include</api_type>
+        <capability display_value="FSO cas summarization test skill">40f92dc5932422d08b8674121bba1040</capability>
+        <category display_value="Other">04c489f3532121106b38ddeeff7b1215</category>
+        <connection display_value="sn_aha_spoke.Aha_">9bb3fb44c3d6201021f5e81aa840dd3b</connection>
+        <description/>
+        <filter_properties/>
+        <metadata/>
+        <name>FSO cas summarization test skill (Azure OpenAI - Completions)</name>
+        <order>0</order>
+        <postprocessor><![CDATA[(function(outputs) {     	/* write code here to transform definition output to capability output.*/     	     	outputs = JSON.parse(outputs);     	     	return outputs;     })(outputs);]]></postprocessor>
+        <preprocessor><![CDATA[(function(inputs) {     	/* write code here to transform capability input to definition input.*/     	     	inputs = JSON.parse(inputs);     	     	return inputs;     })(inputs);]]></preprocessor>
+        <sys_class_name>sys_one_extend_capability_definition</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-26 14:54:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>62a4c45593e462d08b8674121bba10c1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>FSO cas summarization test skill (Azure OpenAI - Completions)</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_one_extend_capability_definition_62a4c45593e462d08b8674121bba10c1</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-28 07:19:21</sys_updated_on>
+        <truncate_strategy display_value="Default Truncation Strategy">2b99e1137fb20210f465c3b76d86650d</truncate_strategy>
+    </sys_one_extend_capability_definition>
+    <sys_translated_text action="DELETE" query="documentkey=62a4c45593e462d08b8674121bba10c1"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</application>
+        <file_path/>
+        <instance_id>7838a3eddb96a7c049eac59705961973</instance_id>
+        <instance_name>ltidemo5</instance_name>
+        <name>sys_one_extend_capability_definition_62a4c45593e462d08b8674121bba10c1</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_one_extend_capability_definition"&gt;&lt;sys_one_extend_capability_definition action="INSERT_OR_UPDATE"&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;api&gt;deac015e877121104f1c8f59dabb35cd&lt;/api&gt;&lt;api_type&gt;sys_script_include&lt;/api_type&gt;&lt;capability display_value="FSO cas summarization test skill"&gt;40f92dc5932422d08b8674121bba1040&lt;/capability&gt;&lt;category display_value="Other"&gt;04c489f3532121106b38ddeeff7b1215&lt;/category&gt;&lt;connection display_value="sn_aha_spoke.Aha_"&gt;9bb3fb44c3d6201021f5e81aa840dd3b&lt;/connection&gt;&lt;description/&gt;&lt;filter_properties/&gt;&lt;metadata/&gt;&lt;name&gt;FSO cas summarization test skill (Azure OpenAI - Completions)&lt;/name&gt;&lt;order&gt;0&lt;/order&gt;&lt;postprocessor&gt;&lt;![CDATA[(function(outputs) {     	/* write code here to transform definition output to capability output.*/     	     	outputs = JSON.parse(outputs);     	     	return outputs;     })(outputs);]]&gt;&lt;/postprocessor&gt;&lt;preprocessor&gt;&lt;![CDATA[(function(inputs) {     	/* write code here to transform capability input to definition input.*/     	     	inputs = JSON.parse(inputs);     	     	return inputs;     })(inputs);]]&gt;&lt;/preprocessor&gt;&lt;sys_class_name&gt;sys_one_extend_capability_definition&lt;/sys_class_name&gt;&lt;sys_created_by&gt;rohit&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-26 14:54:10&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;62a4c45593e462d08b8674121bba10c1&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;FSO cas summarization test skill (Azure OpenAI - Completions)&lt;/sys_name&gt;&lt;sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai"&gt;5365c533935496d08b8674121bba10e7&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="underwriter.ai"&gt;5365c533935496d08b8674121bba10e7&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_one_extend_capability_definition_62a4c45593e462d08b8674121bba10c1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;rohit&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-28 07:19:21&lt;/sys_updated_on&gt;&lt;truncate_strategy display_value="Default Truncation Strategy"&gt;2b99e1137fb20210f465c3b76d86650d&lt;/truncate_strategy&gt;&lt;/sys_one_extend_capability_definition&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=62a4c45593e462d08b8674121bba10c1"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-710674018</payload_hash>
+        <record_name>FSO cas summarization test skill (Azure OpenAI - Completions)</record_name>
+        <reverted_from/>
+        <source>53ea92d9338fda10875176a59d5c7bc9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-28 07:19:21</sys_created_on>
+        <sys_id>f3bfac7d33eca6d0875176a59d5c7bf9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195db9ea22a0000001</sys_recorded_at>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-28 07:19:21</sys_updated_on>
+        <type>OneExtend Capability Definition</type>
+        <update_guid>3bbfac7d14eca6d0902e10ffd951f6f8</update_guid>
+        <update_guid_history>3bbfac7d14eca6d0902e10ffd951f6f8:-710674018,b29decb14aeca6d060bffa53165049cd:-2144012151,638d60f1ebeca6d020d2c232586c8662:-2110888205,76a4c455dce462d011b81e1f69d319ca:1224052727</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-28 07:21:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_one_extend_capability_definition">sys_one_extend_capability_definition</sys_db_object>
+        <sys_id>72e14addc04f47268331985b683d1384</sys_id>
+        <sys_metadata>62a4c45593e462d08b8674121bba10c1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FSO cas summarization test skill (Azure OpenAI - Completions)</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_scope_delete display_value="">7c8d9985394b49b688ab893eea2dbef1</sys_scope_delete>
+        <sys_update_name>sys_one_extend_capability_definition_62a4c45593e462d08b8674121bba10c1</sys_update_name>
+        <sys_update_version display_value="sys_one_extend_capability_definition_62a4c45593e462d08b8674121bba10c1">f3bfac7d33eca6d0875176a59d5c7bf9</sys_update_version>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-28 07:21:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

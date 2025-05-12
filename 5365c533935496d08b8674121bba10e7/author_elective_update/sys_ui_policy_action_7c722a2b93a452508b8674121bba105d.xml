@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>adjusted_premium</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>raj</sys_created_by>
+        <sys_created_on>2024-09-16 05:58:55</sys_created_on>
+        <sys_id>7c722a2b93a452508b8674121bba105d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>adjusted_premium</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_ui_policy_action_7c722a2b93a452508b8674121bba105d</sys_update_name>
+        <sys_updated_by>raj</sys_updated_by>
+        <sys_updated_on>2024-09-16 05:58:55</sys_updated_on>
+        <table>x_ltin2_uw_ai_fso_uw_case</table>
+        <ui_policy display_value="Make Initial Rate fields Read only in Initial rate Underwriting Quote and Issues stages">7b30626793a452508b8674121bba10dd</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=7c722a2b93a452508b8674121bba105d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</application>
+        <file_path/>
+        <instance_id>7838a3eddb96a7c049eac59705961973</instance_id>
+        <instance_name>ltidemo5</instance_name>
+        <name>sys_ui_policy_action_7c722a2b93a452508b8674121bba105d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>adjusted_premium</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>raj</sys_created_by><sys_created_on>2024-09-16 05:58:55</sys_created_on><sys_id>7c722a2b93a452508b8674121bba105d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>adjusted_premium</sys_name><sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package><sys_policy/><sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope><sys_update_name>sys_ui_policy_action_7c722a2b93a452508b8674121bba105d</sys_update_name><sys_updated_by>raj</sys_updated_by><sys_updated_on>2024-09-16 05:58:55</sys_updated_on><table>x_ltin2_uw_ai_fso_uw_case</table><ui_policy display_value="Make Initial Rate fields Read only in Initial rate Underwriting Quote and Issues stages">7b30626793a452508b8674121bba10dd</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=7c722a2b93a452508b8674121bba105d"/></record_update>]]></payload>
+        <payload_hash>-649133612</payload_hash>
+        <record_name>adjusted_premium</record_name>
+        <reverted_from/>
+        <source>ad1efe1493e89ad08b8674121bba10b8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>raj</sys_created_by>
+        <sys_created_on>2024-09-16 05:58:55</sys_created_on>
+        <sys_id>f372e62b93a452508b8674121bba1034</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191f969a3ed0000001</sys_recorded_at>
+        <sys_updated_by>raj</sys_updated_by>
+        <sys_updated_on>2024-09-16 05:58:55</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>f772e62bd0a452503c3b6ae97ce83f33</update_guid>
+        <update_guid_history>f772e62bd0a452503c3b6ae97ce83f33:-649133612</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>raj</sys_created_by>
+        <sys_created_on>2025-04-20 07:54:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>22fb0693c85644ee8871639c68f061b1</sys_id>
+        <sys_metadata>7c722a2b93a452508b8674121bba105d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>adjusted_premium</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_parent display_value="Make Initial Rate fields Read only in Initial rate Underwriting Quote and Issues stages">7b30626793a452508b8674121bba10dd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_scope_delete display_value="">7c8d9985394b49b688ab893eea2dbef1</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_7c722a2b93a452508b8674121bba105d</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_7c722a2b93a452508b8674121bba105d">f372e62b93a452508b8674121bba1034</sys_update_version>
+        <sys_updated_by>raj</sys_updated_by>
+        <sys_updated_on>2025-04-20 07:54:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

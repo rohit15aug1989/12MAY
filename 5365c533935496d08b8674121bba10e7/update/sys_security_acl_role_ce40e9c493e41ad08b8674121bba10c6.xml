@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>raj</sys_created_by>
+        <sys_created_on>2024-09-05 04:10:54</sys_created_on>
+        <sys_id>ce40e9c493e41ad08b8674121bba10c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_ltin2_uw_ai_commercial_insurance.x_ltin2_uw_ai.commercial_insurance_user</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_security_acl display_value="x_ltin2_uw_ai_commercial_insurance">0a40e9c493e41ad08b8674121bba10c0</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_ce40e9c493e41ad08b8674121bba10c6</sys_update_name>
+        <sys_updated_by>raj</sys_updated_by>
+        <sys_updated_on>2024-09-05 04:10:54</sys_updated_on>
+        <sys_user_role display_value="x_ltin2_uw_ai.commercial_insurance_user" name="x_ltin2_uw_ai.commercial_insurance_user">3d40ad8493e41ad08b8674121bba10bc</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

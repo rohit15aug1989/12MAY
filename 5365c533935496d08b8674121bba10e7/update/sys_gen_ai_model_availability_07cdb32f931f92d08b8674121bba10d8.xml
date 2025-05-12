@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_gen_ai_model_availability">
+    <sys_gen_ai_model_availability action="INSERT_OR_UPDATE">
+        <available>true</available>
+        <model>gpt-4o</model>
+        <sys_class_name>sys_gen_ai_model_availability</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-01-31 05:30:29</sys_created_on>
+        <sys_id>07cdb32f931f92d08b8674121bba10d8</sys_id>
+        <sys_mod_count>46</sys_mod_count>
+        <sys_name>gpt-4o</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_gen_ai_model_availability_07cdb32f931f92d08b8674121bba10d8</sys_update_name>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2025-05-11 16:33:14</sys_updated_on>
+    </sys_gen_ai_model_availability>
+</record_update>

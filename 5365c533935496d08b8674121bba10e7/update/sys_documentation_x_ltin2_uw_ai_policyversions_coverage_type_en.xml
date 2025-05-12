@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="coverage_type" label="Coverage Type" language="en" table="x_ltin2_uw_ai_policyversions">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>coverage_type</element>
+            <help/>
+            <hint/>
+            <label>Coverage Type</label>
+            <language>en</language>
+            <name>x_ltin2_uw_ai_policyversions</name>
+            <plural>Coverage Types</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-15 05:51:36</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Coverage Type</sys_name>
+            <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+            <sys_update_name>sys_documentation_x_ltin2_uw_ai_policyversions_coverage_type_en</sys_update_name>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-15 05:51:36</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

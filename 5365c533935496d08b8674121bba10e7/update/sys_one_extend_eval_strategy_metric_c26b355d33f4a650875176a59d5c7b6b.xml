@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_one_extend_eval_strategy_metric">
+    <sys_one_extend_eval_strategy_metric action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <definition display_value="Faithfulness Metric (Azure OpenAI GPT-4)">a5d3dae1a3d20210883c25d1d71e6108</definition>
+        <eval_strategy display_value="Default">496b7191937066508b8674121bba10ff</eval_strategy>
+        <gen_ai_config display_value="OneExtend Capability Definition: Faithfulness Metric (Azure OpenAI GPT-4)">aa55d2e5a3d20210883c25d1d71e6102</gen_ai_config>
+        <metric_name>Faithfulness Metric</metric_name>
+        <sys_class_name>sys_one_extend_eval_strategy_metric</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-04-08 09:48:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>c26b355d33f4a650875176a59d5c7b6b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Faithfulness Metric</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_one_extend_eval_strategy_metric_c26b355d33f4a650875176a59d5c7b6b</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-04-08 09:48:39</sys_updated_on>
+    </sys_one_extend_eval_strategy_metric>
+</record_update>

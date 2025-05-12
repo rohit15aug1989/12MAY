@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name/>
+        <order>100</order>
+        <roles/>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-02-06 03:47:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>80af96e133ef1a10875176a59d5c7b0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_app_application_80af96e133ef1a10875176a59d5c7b0c</sys_update_name>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-02-06 03:47:12</sys_updated_on>
+        <title>test</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</application>
+        <file_path/>
+        <instance_id>7838a3eddb96a7c049eac59705961973</instance_id>
+        <instance_name>ltidemo5</instance_name>
+        <name>sys_app_application_80af96e133ef1a10875176a59d5c7b0c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name/><order>100</order><roles/><sys_class_name>sys_app_application</sys_class_name><sys_created_by>sanket</sys_created_by><sys_created_on>2025-02-06 03:47:12</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>80af96e133ef1a10875176a59d5c7b0c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>test</sys_name><sys_overrides/><sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package><sys_policy/><sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope><sys_update_name>sys_app_application_80af96e133ef1a10875176a59d5c7b0c</sys_update_name><sys_updated_by>sanket</sys_updated_by><sys_updated_on>2025-02-06 03:47:12</sys_updated_on><title>test</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>462341380</payload_hash>
+        <record_name>test</record_name>
+        <reverted_from/>
+        <source>1fda9b8c931b1e508b8674121bba106e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-02-06 03:47:12</sys_created_on>
+        <sys_id>ecbfd6e133ef1a10875176a59d5c7bd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194d95e6f950000001</sys_recorded_at>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-02-06 03:47:12</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>60bfd6e128ef1a1035f9bfc9e3b6cad3</update_guid>
+        <update_guid_history>60bfd6e128ef1a1035f9bfc9e3b6cad3:462341380</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="test">ff143cc693f0aa508b8674121bba1085</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-04-10 12:32:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>28b85e96d1cc4ca2b3dbbccc65d03d04</sys_id>
+        <sys_metadata>80af96e133ef1a10875176a59d5c7b0c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_scope_delete display_value="">7c8d9985394b49b688ab893eea2dbef1</sys_scope_delete>
+        <sys_update_name>sys_app_application_80af96e133ef1a10875176a59d5c7b0c</sys_update_name>
+        <sys_update_version display_value="sys_app_application_80af96e133ef1a10875176a59d5c7b0c">ecbfd6e133ef1a10875176a59d5c7bd3</sys_update_version>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-04-10 12:32:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

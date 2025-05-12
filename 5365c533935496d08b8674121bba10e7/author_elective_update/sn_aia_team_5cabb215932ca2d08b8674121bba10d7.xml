@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_team">
+    <sn_aia_team action="DELETE">
+        <description>use case for FSO UW submission summarization</description>
+        <name>FSO UW.AI</name>
+        <sys_class_name>sn_aia_team</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-27 04:13:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>5cabb215932ca2d08b8674121bba10d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FSO UW.AI</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sn_aia_team_5cabb215932ca2d08b8674121bba10d7</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-27 04:13:34</sys_updated_on>
+    </sn_aia_team>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</application>
+        <file_path/>
+        <instance_id>7838a3eddb96a7c049eac59705961973</instance_id>
+        <instance_name>ltidemo5</instance_name>
+        <name>sn_aia_team_5cabb215932ca2d08b8674121bba10d7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_team"><sn_aia_team action="INSERT_OR_UPDATE"><description>use case for FSO UW submission summarization</description><name>FSO UW.AI</name><sys_class_name>sn_aia_team</sys_class_name><sys_created_by>rohit</sys_created_by><sys_created_on>2025-03-27 04:13:34</sys_created_on><sys_domain>global</sys_domain><sys_id>5cabb215932ca2d08b8674121bba10d7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>FSO UW.AI</sys_name><sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package><sys_policy/><sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope><sys_update_name>sn_aia_team_5cabb215932ca2d08b8674121bba10d7</sys_update_name><sys_updated_by>rohit</sys_updated_by><sys_updated_on>2025-03-27 04:13:34</sys_updated_on></sn_aia_team></record_update>]]></payload>
+        <payload_hash>-772870019</payload_hash>
+        <record_name>FSO UW.AI</record_name>
+        <reverted_from/>
+        <source>53ea92d9338fda10875176a59d5c7bc9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-27 04:13:34</sys_created_on>
+        <sys_id>d0abb215932ca2d08b8674121bba10da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195d5ce2e720000001</sys_recorded_at>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-27 04:13:34</sys_updated_on>
+        <type>Team</type>
+        <update_guid>54abb215a22ca2d0f38965a53e18abd9</update_guid>
+        <update_guid_history>54abb215a22ca2d0f38965a53e18abd9:-772870019</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="FSO UW.AI">ea6234353320e6d0875176a59d5c7b25</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-28 07:31:00</sys_created_on>
+        <sys_db_object display_value="" name="sn_aia_team">sn_aia_team</sys_db_object>
+        <sys_id>2d63b38c88514eb2bfe8abb6975584c4</sys_id>
+        <sys_metadata>5cabb215932ca2d08b8674121bba10d7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FSO UW.AI</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_scope_delete display_value="">7c8d9985394b49b688ab893eea2dbef1</sys_scope_delete>
+        <sys_update_name>sn_aia_team_5cabb215932ca2d08b8674121bba10d7</sys_update_name>
+        <sys_update_version display_value="sn_aia_team_5cabb215932ca2d08b8674121bba10d7">d0abb215932ca2d08b8674121bba10da</sys_update_version>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-28 07:31:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

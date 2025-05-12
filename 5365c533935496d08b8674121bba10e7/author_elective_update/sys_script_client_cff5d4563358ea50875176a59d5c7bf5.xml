@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>FSO field allignment</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   g_form.getElement('cumulative_building_level').style.textAlign = 'left'; // Change to 'left' or 'right' as needed
+   g_form.getElement('cumulative_business_personal_property').style.textAlign = 'center';
+   g_form.getElement('cumulative_business_personal_property').style.textAlign = 'center';
+   g_form.getElement('cumulative_tenants_improvments').style.textAlign = 'center';
+   g_form.getElement('cumulative_mfg_or_lab_equipment').style.textAlign = 'center';
+   g_form.getElement('furniture_fixtures').style.textAlign = 'center';
+   g_form.getElement('computer_hardware_servers').style.textAlign = 'center';left
+   g_form.getElement('business_interruption').style.textAlign = 'center';
+   g_form.getElement('total_premium').style.textAlign = 'right';
+   g_form.getElement('taxed_premium').style.textAlign = 'right';
+   g_form.getElement('adjusted_premium').style.textAlign = 'center';
+   g_form.getElement('u_currency_2').style.textAlign = 'center';
+
+
+
+
+   
+
+
+   
+
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-17 08:35:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cff5d4563358ea50875176a59d5c7bf5</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>FSO field allignment</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_script_client_cff5d4563358ea50875176a59d5c7bf5</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-17 08:56:33</sys_updated_on>
+        <table>x_ltin2_uw_ai_fso_uw_case</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</application>
+        <file_path/>
+        <instance_id>7838a3eddb96a7c049eac59705961973</instance_id>
+        <instance_name>ltidemo5</instance_name>
+        <name>sys_script_client_cff5d4563358ea50875176a59d5c7bf5</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;FSO field allignment&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   g_form.getElement('cumulative_building_level').style.textAlign = 'left'; // Change to 'left' or 'right' as needed
+   g_form.getElement('cumulative_business_personal_property').style.textAlign = 'center';
+   g_form.getElement('cumulative_business_personal_property').style.textAlign = 'center';
+   g_form.getElement('cumulative_tenants_improvments').style.textAlign = 'center';
+   g_form.getElement('cumulative_mfg_or_lab_equipment').style.textAlign = 'center';
+   g_form.getElement('furniture_fixtures').style.textAlign = 'center';
+   g_form.getElement('computer_hardware_servers').style.textAlign = 'center';left
+   g_form.getElement('business_interruption').style.textAlign = 'center';
+   g_form.getElement('total_premium').style.textAlign = 'right';
+   g_form.getElement('taxed_premium').style.textAlign = 'right';
+   g_form.getElement('adjusted_premium').style.textAlign = 'center';
+   g_form.getElement('u_currency_2').style.textAlign = 'center';
+
+
+
+
+   
+
+
+   
+
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;rohit&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-17 08:35:48&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;cff5d4563358ea50875176a59d5c7bf5&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;FSO field allignment&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai"&gt;5365c533935496d08b8674121bba10e7&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="underwriter.ai"&gt;5365c533935496d08b8674121bba10e7&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_cff5d4563358ea50875176a59d5c7bf5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;rohit&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-17 08:56:33&lt;/sys_updated_on&gt;&lt;table&gt;x_ltin2_uw_ai_fso_uw_case&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-410761289</payload_hash>
+        <record_name>FSO field allignment</record_name>
+        <reverted_from/>
+        <source>53ea92d9338fda10875176a59d5c7bc9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-17 08:56:33</sys_created_on>
+        <sys_id>548c1c923398ea50875176a59d5c7b3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195a351aa4f0000001</sys_recorded_at>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-17 08:56:33</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>988c1c92b498ea50e60f028021955139</update_guid>
+        <update_guid_history>988c1c92b498ea50e60f028021955139:-410761289,e34c5492be98ea50fa442c5f98005a2e:1452847593,2bcb98128a98ea50c6e1478e07403bf7:-2032591858,50c8949a8e58ea50955161a6a980b275:-1500583701,b448945a8958ea5040f71f9c465b3b5e:1164852617,dcc7d41a2b58ea50288a97001e17c67b:-506170466</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-17 09:08:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>49ea73c528854064a05b9f4732098510</sys_id>
+        <sys_metadata>cff5d4563358ea50875176a59d5c7bf5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FSO field allignment</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_parent display_value="FSO Underwriting Case">c9a2f4d8936c5ad08b8674121bba1065</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_scope_delete display_value="">7c8d9985394b49b688ab893eea2dbef1</sys_scope_delete>
+        <sys_update_name>sys_script_client_cff5d4563358ea50875176a59d5c7bf5</sys_update_name>
+        <sys_update_version display_value="sys_script_client_cff5d4563358ea50875176a59d5c7bf5">548c1c923398ea50875176a59d5c7b3a</sys_update_version>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-17 09:08:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

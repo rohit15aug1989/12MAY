@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="record_fields" label="Record fields" language="en" table="var__m_sys_pd_activity_type_prop_9e7702ac335cae10875176a59d5c7b2e">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>record_fields</element>
+            <help/>
+            <hint/>
+            <label>Record fields</label>
+            <language>en</language>
+            <name>var__m_sys_pd_activity_type_prop_9e7702ac335cae10875176a59d5c7b2e</name>
+            <plural>Record fields</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-03-12 06:14:33</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Record fields</sys_name>
+            <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_pd_activity_type_prop_9e7702ac335cae10875176a59d5c7b2e_record_fields_en</sys_update_name>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-03-12 06:14:33</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

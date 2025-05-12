@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="SRP Record copy">fb7bebe6937856908b8674121bba1072</macroponent>
+        <name>Related List handler</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({ api, event, helpers, imports }) {
+
+    const eventName = event.name;
+    let RLData = api.data.record.relatedLists;
+    let RLConfig = api.data.related_list_configuration.output;
+
+    if (!RLConfig) {
+        return;
+    }
+
+    const getRLTabs = () => {
+        const result = [];
+        RLConfig.forEach((rlConfig) => {
+            let rlTab = {};
+            rlTab.label = rlConfig.label;
+            rlTab.id = rlConfig.id;
+            rlTab.selectedTabIndex = api.context.props.selectedTabIndex;
+            rlTab.relatedListsData = filterRL(rlConfig);
+            if (rlTab.relatedListsData && rlTab.relatedListsData.length > 0){
+                // added extra logic to select specific related list (needed by ITOM)
+                const paramsString = api.context.props.extraParams;
+                const paramsObj = paramsString?.split('/');
+                if (paramsObj && paramsObj.length){
+                    const i = paramsObj.indexOf('subTabIndex');
+                    if (i > -1){
+                        rlTab.subTabIndex = paramsObj[i+1];
+                    }
+                }
+                result.push(rlTab);
+            }
+        });
+
+        api.setState("RelatedRecordTabs", result);
+    };
+
+    const filterRL = (rlConfig) => {
+        const inclusionList = rlConfig.inclusionList;
+        const exclusionList = rlConfig.exclusionList;
+        let filteredRL = RLData;
+
+        if(!RLData){
+            return [];
+        }
+
+        if (inclusionList && inclusionList.length != 0) {
+            filteredRL = filteredRL.filter((item) => {
+                return inclusionList.indexOf(item.relatedListName) != -1;
+            });
+        }
+
+        if (exclusionList && exclusionList.length != 0) {
+            filteredRL = filteredRL.filter((item) => {
+                return exclusionList.indexOf(item.relatedListName) == -1;
+            });
+        }
+
+        return filteredRL;
+    };
+
+    switch (eventName) {
+        case 'DATA_FETCH_SUCCEEDED':
+            if (event.elementId === 'related_list_configuration')
+                getRLTabs();
+            break;
+
+        case 'CTRL_RECORD#MACROPONENT_PROPERTY_CHANGED':
+            if (event.payload && event.payload.name === 'relatedLists')
+                getRLTabs();
+            break;
+
+        default:
+            break;
+    }
+
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2024-09-25 18:59:39</sys_created_on>
+        <sys_id>408bafe6937856908b8674121bba1039</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Related List handler</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_ux_client_script_408bafe6937856908b8674121bba1039</sys_update_name>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2024-09-25 18:59:39</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Notes" section_id="b8c8f6d893a89ad08b8674121bba107c" sys_domain="global" table="x_ltin2_uw_ai_fso_uw_case" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>watch_list</element>
+            <position>0</position>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-09 16:45:31</sys_created_on>
+            <sys_id>8753bc299328d2108b8674121bba1035</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="Default view">b8c8f6d893a89ad08b8674121bba107c</sys_ui_section>
+            <sys_updated_by>subham.agarwal</sys_updated_by>
+            <sys_updated_on>2024-09-09 16:45:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>1</position>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-09 16:45:31</sys_created_on>
+            <sys_id>8f53bc299328d2108b8674121bba1035</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="Default view">b8c8f6d893a89ad08b8674121bba107c</sys_ui_section>
+            <sys_updated_by>subham.agarwal</sys_updated_by>
+            <sys_updated_on>2024-09-09 16:45:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>2</position>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-09 16:45:31</sys_created_on>
+            <sys_id>8753bc299328d2108b8674121bba1036</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="Default view">b8c8f6d893a89ad08b8674121bba107c</sys_ui_section>
+            <sys_updated_by>subham.agarwal</sys_updated_by>
+            <sys_updated_on>2024-09-09 16:45:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>3</position>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-09 16:45:31</sys_created_on>
+            <sys_id>8f53bc299328d2108b8674121bba1036</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="Default view">b8c8f6d893a89ad08b8674121bba107c</sys_ui_section>
+            <sys_updated_by>subham.agarwal</sys_updated_by>
+            <sys_updated_on>2024-09-09 16:45:31</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes_list</element>
+            <position>4</position>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-09 16:45:31</sys_created_on>
+            <sys_id>4b53bc299328d2108b8674121bba1037</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="Default view">b8c8f6d893a89ad08b8674121bba107c</sys_ui_section>
+            <sys_updated_by>subham.agarwal</sys_updated_by>
+            <sys_updated_on>2024-09-09 16:45:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Notes</caption>
+            <header>false</header>
+            <name>x_ltin2_uw_ai_fso_uw_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-06 05:15:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b8c8f6d893a89ad08b8674121bba107c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ltin2_uw_ai_fso_uw_case</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+            <sys_update_name>sys_ui_section_b8c8f6d893a89ad08b8674121bba107c</sys_update_name>
+            <sys_updated_by>subham.agarwal</sys_updated_by>
+            <sys_updated_on>2024-09-06 05:15:57</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</application>
+        <file_path/>
+        <instance_id>7838a3eddb96a7c049eac59705961973</instance_id>
+        <instance_name>ltidemo5</instance_name>
+        <name>sys_ui_section_b8c8f6d893a89ad08b8674121bba107c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Notes" section_id="b8c8f6d893a89ad08b8674121bba107c" sys_domain="global" table="x_ltin2_uw_ai_fso_uw_case" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>watch_list</element><position>0</position><sys_created_by>subham.agarwal</sys_created_by><sys_created_on>2024-09-09 16:45:31</sys_created_on><sys_id>8753bc299328d2108b8674121bba1035</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Notes" display_value="Notes" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="Default view">b8c8f6d893a89ad08b8674121bba107c</sys_ui_section><sys_updated_by>subham.agarwal</sys_updated_by><sys_updated_on>2024-09-09 16:45:31</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>work_notes</element><position>1</position><sys_created_by>subham.agarwal</sys_created_by><sys_created_on>2024-09-09 16:45:31</sys_created_on><sys_id>8f53bc299328d2108b8674121bba1035</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Notes" display_value="Notes" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="Default view">b8c8f6d893a89ad08b8674121bba107c</sys_ui_section><sys_updated_by>subham.agarwal</sys_updated_by><sys_updated_on>2024-09-09 16:45:31</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>comments</element><position>2</position><sys_created_by>subham.agarwal</sys_created_by><sys_created_on>2024-09-09 16:45:31</sys_created_on><sys_id>8753bc299328d2108b8674121bba1036</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Notes" display_value="Notes" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="Default view">b8c8f6d893a89ad08b8674121bba107c</sys_ui_section><sys_updated_by>subham.agarwal</sys_updated_by><sys_updated_on>2024-09-09 16:45:31</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>activity.xml</element><position>3</position><sys_created_by>subham.agarwal</sys_created_by><sys_created_on>2024-09-09 16:45:31</sys_created_on><sys_id>8f53bc299328d2108b8674121bba1036</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter><sys_ui_section caption="Notes" display_value="Notes" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="Default view">b8c8f6d893a89ad08b8674121bba107c</sys_ui_section><sys_updated_by>subham.agarwal</sys_updated_by><sys_updated_on>2024-09-09 16:45:31</sys_updated_on><sys_user/><type>formatter</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>work_notes_list</element><position>4</position><sys_created_by>subham.agarwal</sys_created_by><sys_created_on>2024-09-09 16:45:31</sys_created_on><sys_id>4b53bc299328d2108b8674121bba1037</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Notes" display_value="Notes" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="Default view">b8c8f6d893a89ad08b8674121bba107c</sys_ui_section><sys_updated_by>subham.agarwal</sys_updated_by><sys_updated_on>2024-09-09 16:45:31</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Notes</caption><header>false</header><name>x_ltin2_uw_ai_fso_uw_case</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>subham.agarwal</sys_created_by><sys_created_on>2024-09-06 05:15:57</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b8c8f6d893a89ad08b8674121bba107c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_ltin2_uw_ai_fso_uw_case</sys_name><sys_overrides/><sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package><sys_policy/><sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope><sys_update_name>sys_ui_section_b8c8f6d893a89ad08b8674121bba107c</sys_update_name><sys_updated_by>subham.agarwal</sys_updated_by><sys_updated_on>2024-09-06 05:15:57</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1350068071</payload_hash>
+        <record_name>FSO Underwriting Case</record_name>
+        <reverted_from/>
+        <source>e29ccf1c932c9ad08b8674121bba1073</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>subham.agarwal</sys_created_by>
+        <sys_created_on>2024-09-09 16:45:31</sys_created_on>
+        <sys_id>0f53bc299328d2108b8674121bba1039</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191d7ad18880000001</sys_recorded_at>
+        <sys_updated_by>subham.agarwal</sys_updated_by>
+        <sys_updated_on>2024-09-09 16:45:31</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>c353bc299928d21002a0da2642e57e39</update_guid>
+        <update_guid_history>c353bc299928d21002a0da2642e57e39:1350068071,0543b8291228d210bb33757a4560a3be:-1506005551,03f2b029bd28d21043c2b6a4b0e721e8:1372129913,1ebf2e1965a89210fcc4cae7ca15bd89:-1777257131,f4c8f6d8cda89ad08ff46a6e0ea78a83:1804324279</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>subham.agarwal</sys_created_by>
+        <sys_created_on>2025-03-21 11:31:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>2d802bdc953345d48e14450089b38890</sys_id>
+        <sys_metadata>b8c8f6d893a89ad08b8674121bba107c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Notes</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_parent display_value="FSO Underwriting Case">c9a2f4d8936c5ad08b8674121bba1065</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_scope_delete display_value="">7c8d9985394b49b688ab893eea2dbef1</sys_scope_delete>
+        <sys_update_name>sys_ui_section_b8c8f6d893a89ad08b8674121bba107c</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_b8c8f6d893a89ad08b8674121bba107c">0f53bc299328d2108b8674121bba1039</sys_update_version>
+        <sys_updated_by>subham.agarwal</sys_updated_by>
+        <sys_updated_on>2025-03-21 11:31:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

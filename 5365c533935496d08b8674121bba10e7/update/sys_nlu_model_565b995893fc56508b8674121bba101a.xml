@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_nlu_model">
+    <sys_nlu_model action="INSERT_OR_UPDATE">
+        <category>virtual_agent</category>
+        <confidence_threshold>0.6</confidence_threshold>
+        <description/>
+        <display_name>Canvas AI</display_name>
+        <ignore_punctuation/>
+        <language>en</language>
+        <last_translated_on/>
+        <model_domain/>
+        <name>ml_x_ltin2_x_ltin2_uw_ai_global_565b995893fc56508b8674121bba101a</name>
+        <oob>false</oob>
+        <primary_model/>
+        <state>Draft</state>
+        <sys_class_name>sys_nlu_model</sys_class_name>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2024-09-18 08:43:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>565b995893fc56508b8674121bba101a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Canvas AI</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_nlu_model_565b995893fc56508b8674121bba101a</sys_update_name>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:43:31</sys_updated_on>
+        <threshold_type>automatic</threshold_type>
+        <vocabulary_needs_review>false</vocabulary_needs_review>
+    </sys_nlu_model>
+</record_update>

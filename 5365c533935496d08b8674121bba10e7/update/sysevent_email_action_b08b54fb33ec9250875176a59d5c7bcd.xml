@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_ltin2_uw_ai_fso_uw_case</collection>
+        <condition table="x_ltin2_uw_ai_fso_uw_case">stageVALCHANGES^stage!=new^EQ<item endquery="false" field="stage" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item display_value="New" endquery="false" field="stage" goto="false" newquery="false" operator="!=" or="false" value="new"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p style="text-align: center;"><span style="font-size: 24px; font-weight: 600; color: rgb(24, 26, 31);">Case stage has changed to ${stage}</span></p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;"><span style="font-size: 10pt; font-weight: 600; color: rgb(24, 26, 31);">The stage for ${number} has changed to ${stage} .&nbsp;</span></p>
+<p style="text-align: left;"><span style="font-size: 10pt; font-weight: 600; color: rgb(24, 26, 31);">About the Case:</span></p>
+<p style="text-align: left;"><span style="font-size: 10pt; color: rgb(24, 26, 31);">Short description: ${short_description}</span></p>
+<p style="text-align: left;"><span style="font-size: 10pt; color: rgb(24, 26, 31);">Customer ID Name: ${customer_id.name}</span></p>
+<p style="text-align: left;"><span style="font-size: 10pt; color: rgb(24, 26, 31);">Priority: ${priority}</span></p>
+<p style="text-align: left;"><span style="font-size: 10pt; font-weight: 600; color: rgb(24, 26, 31);">Thank you,<br>Service Desk Team </span></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>UW Case Stage Update</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>opened_by</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>UW Case: ${number} stage changed  to  - ${stage}</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>subham.agarwal</sys_created_by>
+        <sys_created_on>2024-09-16 14:49:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b08b54fb33ec9250875176a59d5c7bcd</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>UW Case Stage Update</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sysevent_email_action_b08b54fb33ec9250875176a59d5c7bcd</sys_update_name>
+        <sys_updated_by>abhi</sys_updated_by>
+        <sys_updated_on>2024-09-28 11:12:10</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="UnderWriter">9d31ee5c33f0d650875176a59d5c7bd1</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

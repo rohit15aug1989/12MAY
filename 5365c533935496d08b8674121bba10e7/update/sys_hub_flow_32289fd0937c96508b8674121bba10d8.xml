@@ -1,0 +1,1029 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=1275000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>update_clarios_summary</internal_name>
+        <label_cache>[{"name":"Updated_1.current.sys_id","label":"Trigger - Record Updated➛Incident Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"incident","column_name":"sys_id","usedInstances":{"6b3a01e8-324b-4d51-90e1-5c03c8eb421a":["conditions"]}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference","usedInstances":{"25503f68-0c95-4b13-ad08-d30a230d89ae":["record"],"51fed4a1-fcce-49a1-a7ec-4a446289ef15":["record"]},"attributes":{}}]</label_cache>
+        <master_snapshot>26d9df94937c96508b8674121bba1089</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Update Clarios Summary</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>376ad318937c96508b8674121bba1063</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2024-09-18 17:48:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>32289fd0937c96508b8674121bba10d8</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Update Clarios Summary</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_hub_flow_32289fd0937c96508b8674121bba10d8</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-02-13 11:19:35</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=32289fd0937c96508b8674121bba10d8"/>
+    <sys_variable_value action="delete_multiple" query="document_key=32289fd0937c96508b8674121bba10d8"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="incident">work_notesVALCHANGES^ORcommentsVALCHANGES<item endquery="false" field="work_notes" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="false" field="comments" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>false</on_insert>
+        <on_update>true</on_update>
+        <published_version/>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2024-09-18 17:58:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>376ad318937c96508b8674121bba1063</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2024-09-18 17:58:46</sys_updated_on>
+        <table>incident</table>
+        <trigger_definition/>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>32289fd0937c96508b8674121bba10d8</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2024-09-18 18:10:09</sys_created_on>
+        <sys_id>2a0dd35c937c96508b8674121bba10d0</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-02-13 11:19:36</sys_updated_on>
+        <trigger display_value="">376ad318937c96508b8674121bba1063</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=32289fd0937c96508b8674121bba10d8^sys_idNOT IN2a0dd35c937c96508b8674121bba10d0"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=32289fd0937c96508b8674121bba10d8"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=32289fd0937c96508b8674121bba10d8^sys_idNOT IN7e289fd0937c96508b8674121bba10d8"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>32289fd0937c96508b8674121bba10d8</id>
+        <name>Update Clarios Summary</name>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2024-09-18 17:48:52</sys_created_on>
+        <sys_id>7e289fd0937c96508b8674121bba10d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2024-09-18 17:48:52</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=7e289fd0937c96508b8674121bba10d8"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=32289fd0937c96508b8674121bba10d8^sys_idNOT IN41d99b94937c96508b8674121bba1043,4dd99f94937c96508b8674121bba10cf,c5d99f94937c96508b8674121bba10cc"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Update Clarios Summary">32289fd0937c96508b8674121bba10d8</model>
+        <model_id>32289fd0937c96508b8674121bba10d8</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_32289fd0937c96508b8674121bba10d8</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2024-09-18 17:56:06</sys_created_on>
+        <sys_id>41d99b94937c96508b8674121bba1043</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2024-09-18 17:56:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=41d99b94937c96508b8674121bba1043"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Update Clarios Summary">32289fd0937c96508b8674121bba10d8</model>
+        <model_id>32289fd0937c96508b8674121bba10d8</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_32289fd0937c96508b8674121bba10d8</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2024-09-18 17:56:07</sys_created_on>
+        <sys_id>4dd99f94937c96508b8674121bba10cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2024-09-18 17:56:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4dd99f94937c96508b8674121bba10cf"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDCollection</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>e80cdf0fc330301021f5e81aa840dd3e</scope_name>
+        <serialized_content>{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-17 08:17:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1d0e064587e745507cc54226dabb3585</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Roadmunk Spoke" source="sn_roadmunk_spoke">e80cdf0fc330301021f5e81aa840dd3e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Roadmunk Spoke">e80cdf0fc330301021f5e81aa840dd3e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-17 12:31:17</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Update Clarios Summary">32289fd0937c96508b8674121bba10d8</model>
+        <model_id>32289fd0937c96508b8674121bba10d8</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_32289fd0937c96508b8674121bba10d8</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2024-09-18 17:56:07</sys_created_on>
+        <sys_id>c5d99f94937c96508b8674121bba10cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2024-09-18 17:56:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c5d99f94937c96508b8674121bba10cc"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=32289fd0937c96508b8674121bba10d8"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=32289fd0937c96508b8674121bba10d8"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=32289fd0937c96508b8674121bba10d8^sys_idNOT INc9d99f94937c96508b8674121bba10d5"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Update Clarios Summary">32289fd0937c96508b8674121bba10d8</flow>
+        <name>Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2024-09-18 17:56:07</sys_created_on>
+        <sys_id>c9d99f94937c96508b8674121bba10d5</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2024-09-18 17:58:41</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=32289fd0937c96508b8674121bba10d8^sys_idNOT IN5a9c571c937c96508b8674121bba104a,969c571c937c96508b8674121bba1049"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Update Clarios Summary">32289fd0937c96508b8674121bba10d8</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2024-09-18 18:08:13</sys_created_on>
+        <sys_id>5a9c571c937c96508b8674121bba104a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_updated_by>Perianayagam.Adaikalaraj@ltimindtree.com</sys_updated_by>
+        <sys_updated_on>2025-01-30 04:40:53</sys_updated_on>
+        <ui_id>51fed4a1-fcce-49a1-a7ec-4a446289ef15</ui_id>
+        <values>H4sIAAAAAAAA/+VWy27bOBT9FUKrPFxZstNM61kFTYOZom2AZiabOCPQ5JXNKUWqfDhxDf/7XJKSYyRFmgLZBOOFJd4Xz7k8V9LVOhM8m2RHwIvybXnMxuV4PCqK0ZujcnY8npUjPqYAZTbIFG0AIw0wbTiul1T6YFiv/245dcCrMmfeGFBus0E/F7aVdHXZhaGFLYTk6M8mV9eDrKUGKzow2WR9z/VUSJLOQGLolx7TfYxu1YY118w3iKsSvfFjl3naecifp+jBpACnLAYZ3DpQHBBITaWFQdZQhSy1WWUTZzwaDFB+ruRqG7EQyiWiDb214jvufFSEuBqQGeuasF1WXYOSuT6ljl5gZea82fZLCwY29YRDTb1073ZtKeC8dUKrlOLoTPbZWvpGfU4dybYFds7DWwQBbeAZkCda9cVC33zpQZ4JFVvSUZSaUbldUeeMmHkX4KwzkBB73NC2FWpetUYvRUxGKE0+l7jIa6lvcE8r5iqnLODOsas0P0P7aTRfUiMCiU9YBpM3g8yu7DtJrb2jgj2svvmAJBHrKFSxC7EFVVRCSGZGtO4Et1pCB3wz6EQ/e/2YwtjbO0Ht1LwTvlBMxM490PqO59c0/wREveb/iif9Y4Sd7B/YPu7mks/J0Yn+9bOJ/s1LEn1H48Wr/mdaL0aPPk13lBTlbXd07ismEZ62lfVNQ81q6otizGv+Km0I/OEEPCnn12bjCQz62TgTILn9AaV+MKBBsA6qRPHecHROctk5t2+FZ5uQ8riIvxc0J/+Dl0OimGwB8wMNB+NjKdnwYKoODk4YnoElAfXwJNIggQbxFpkTtwBS8ypa9OxfYC4nF7EAabx1xACesSKURG3mJFQ8DwokyjczvAhLdF1bcGS2IoclEYq8N0Yb8gdKUYYtLiA1L4JZUiHj415HJVjSKYv4FoG1BqGGnGmWTzNCa5y/Hl5Ih1uK0wATRGOIXWjj8CAYSdPcB+Z40vM5mP7zL4+B4SQjL9z191CrY7atEozDqerMfa2qrCqp9dfKt1X6jsu7y402XyulUVH5HNwHjVlUvlfOrPZelfsYhbQY7A33Ijq2d/VPvIHrw/10sz8U80HEPvot/e8f/nxb1GeQ7jNuisRRmZYugW8HbrPZXP8Hxcn1A40LAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Update Clarios Summary">32289fd0937c96508b8674121bba10d8</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2024-09-18 18:08:12</sys_created_on>
+        <sys_id>969c571c937c96508b8674121bba1049</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_updated_by>Perianayagam.Adaikalaraj@ltimindtree.com</sys_updated_by>
+        <sys_updated_on>2025-01-30 04:40:53</sys_updated_on>
+        <ui_id>6b3a01e8-324b-4d51-90e1-5c03c8eb421a</ui_id>
+        <values>H4sIAAAAAAAA/+VY32/jKBD+Vyw/pzk7v5z07dQq0kp7W2nb3Ze9FcKAG3QEvIDbTaP87zcYO7ESN4l1qdTqHhkG+Gbm+wbsH+uQ0/A6pLNols1m42kSRcNhFE0mQ4LjNB1OSBqleBT2QomXDDwtTgWD4RMWhRtzSThl0oKJcpMLvPp+OEMWXFDNZHj942cvzLGGvSzT4fV6b+pcMAKnTIDrQ4VmD5xd5dshKue87XNzWfDFTyhNHZSoF7LflknKAEOGhWG9cIklxVbp1daiGaZ3UuwMCw4RXoehc/5t+AucO42cX8YgKsL83HaIqiR5c3aLLb63uiC20JUrWShOmPH5oCzDhbA3TZt3uMstV9Iv8WH71UoUS/nFpyPcblDXBCyFARAsd4E65FUY2f1CPX+tUc65LHNSTQpFsNiOsLWap4V1eNYhE2wJG6ElznMuH1Gu1RMvFwOWZf9RwKCfCfUMhxr+KPuYOOB9yCvuz8F+W5q/Y81dFH/BNrAYAHEBDEG+hEYVukzlEyKiMOWExtL4vcJNLzQrcyOwMbvIIeXoV+Fw+zxUESOfNLeEaJ7bP2GLJ1YFt+nVehgfpeBsRzmiJOUOhWmIAtAgTv8uYDFdr7/lECyjKO6TQkN+bd/PbzaHoumwsqOoTkdUi+qmGVJbmJW8Dmyf2zao5BVfTF6jKPpIAoPD35++uivGp+CEbGJ6lGR0xyejtEU+lw3dHOqhM8/PgFDz/M4xM0hXr6GqaJ5xJmjbLTJ3E3u3yOD/eYu8S5IDIIp89bgUXJZPAgD6VuwfH6VeGu/xrKRX485wNmzIoQZwYFXw0lkJZ8CplXAPZwcPHk8LxLrfl5TZ7/W1sRLA8GICGA4uI4D1NsxtIltyXr8CXTVr/xfnj/f9gYKNBfGmTWCdzoy7njnYHAp42EnBTbL5mdtXOHfh5+Iriuy9ZQtYwNLqPOT1i545fWR2d3rtRZV9xuKftvmKcaguVBneGzw946NfP2nj6ckztITK8RxeyJoRIIdBWDOUqUJSVL2Nd0Rylcy4NrZyPmw0XxnoRwYKhBnYBQtK72Dr3fEiPh1HncpPWVAHUp1mAggkKAMJtoF0C7tL0xpd8HF66aY1x1yU1YDPnrxRTqa10q80rhOFPMKIM7vamaDii4L6722vTQKt7e8E1g/xDX351kQYTkcDPEmGcRxFcUSTaJok8XSSZhOcjLKdRhEykkA3hZ0zoApsj2pq1HWODvuPb6ldG80ZqGoK3irpPq0HiQ0cLKhvUMM6DbxqKKlSgmG511Ee4J74Y17hr/g6fndd5UP8USr4w36mvak112/1bij4N8l/FeyTo9iURYNpTMnVNImTq1FGJ1czisdXeJaOkyFlZJRd8inw819yTlwelxUAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=32289fd0937c96508b8674121bba10d8"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=32289fd0937c96508b8674121bba10d8"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=32289fd0937c96508b8674121bba10d8"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=32289fd0937c96508b8674121bba10d8"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_32289fd0937c96508b8674121bba10d8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2024-09-18 17:56:07</sys_created_on>
+        <sys_id>01d99f94937c96508b8674121bba10cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2024-09-18 17:56:07</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_32289fd0937c96508b8674121bba10d8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2024-09-18 17:56:07</sys_created_on>
+        <sys_id>41d99f94937c96508b8674121bba10d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2024-09-18 17:56:07</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_32289fd0937c96508b8674121bba10d8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2024-09-18 17:56:07</sys_created_on>
+        <sys_id>89d99f94937c96508b8674121bba10cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2024-09-18 17:56:07</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_32289fd0937c96508b8674121bba10d8"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_32289fd0937c96508b8674121bba10d8"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>update_clarios_summary</internal_name>
+        <label_cache>[{"name":"Updated_1.current.sys_id","label":"Trigger - Record Updated➛Incident Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"incident","column_name":"sys_id","usedInstances":{"6b3a01e8-324b-4d51-90e1-5c03c8eb421a":["conditions"]}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference","usedInstances":{"25503f68-0c95-4b13-ad08-d30a230d89ae":["record"],"51fed4a1-fcce-49a1-a7ec-4a446289ef15":["record"]},"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Update Clarios Summary</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Update Clarios Summary">32289fd0937c96508b8674121bba10d8</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2024-09-18 17:56:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>26d9df94937c96508b8674121bba1089</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2024-09-18 18:10:08</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=26d9df94937c96508b8674121bba1089"/>
+    <sys_variable_value action="delete_multiple" query="document_key=26d9df94937c96508b8674121bba1089"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=26d9df94937c96508b8674121bba1089"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=26d9df94937c96508b8674121bba1089^sys_idNOT INa2d9df94937c96508b8674121bba108a"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>26d9df94937c96508b8674121bba1089</id>
+        <name>Update Clarios Summary</name>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2024-09-18 17:56:13</sys_created_on>
+        <sys_id>a2d9df94937c96508b8674121bba108a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2024-09-18 17:56:13</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=a2d9df94937c96508b8674121bba108a"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=26d9df94937c96508b8674121bba1089^sys_idNOT IN6ad9df94937c96508b8674121bba109e,a6d9df94937c96508b8674121bba108b,e2d9df94937c96508b8674121bba10a6"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDCollection</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>e80cdf0fc330301021f5e81aa840dd3e</scope_name>
+        <serialized_content>{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-17 08:17:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1d0e064587e745507cc54226dabb3585</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Roadmunk Spoke" source="sn_roadmunk_spoke">e80cdf0fc330301021f5e81aa840dd3e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Roadmunk Spoke">e80cdf0fc330301021f5e81aa840dd3e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-17 12:31:17</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Update Clarios Summary">26d9df94937c96508b8674121bba1089</model>
+        <model_id>26d9df94937c96508b8674121bba1089</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_26d9df94937c96508b8674121bba1089</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2024-09-18 17:56:13</sys_created_on>
+        <sys_id>6ad9df94937c96508b8674121bba109e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2024-09-18 17:58:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6ad9df94937c96508b8674121bba109e"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Update Clarios Summary">26d9df94937c96508b8674121bba1089</model>
+        <model_id>26d9df94937c96508b8674121bba1089</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_26d9df94937c96508b8674121bba1089</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2024-09-18 17:56:13</sys_created_on>
+        <sys_id>a6d9df94937c96508b8674121bba108b</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2024-09-18 18:10:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a6d9df94937c96508b8674121bba108b"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Update Clarios Summary">26d9df94937c96508b8674121bba1089</model>
+        <model_id>26d9df94937c96508b8674121bba1089</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_26d9df94937c96508b8674121bba1089</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2024-09-18 17:56:13</sys_created_on>
+        <sys_id>e2d9df94937c96508b8674121bba10a6</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2024-09-18 18:10:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e2d9df94937c96508b8674121bba10a6"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=26d9df94937c96508b8674121bba1089"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=26d9df94937c96508b8674121bba1089"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=26d9df94937c96508b8674121bba1089^sys_idNOT IN66d9df94937c96508b8674121bba10ca"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Update Clarios Summary">26d9df94937c96508b8674121bba1089</flow>
+        <name>Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2024-09-18 17:56:13</sys_created_on>
+        <sys_id>66d9df94937c96508b8674121bba10ca</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2024-09-18 17:58:46</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=26d9df94937c96508b8674121bba1089^sys_idNOT IN279c971c937c96508b8674121bba100e,a39c971c937c96508b8674121bba100d"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Update Clarios Summary">26d9df94937c96508b8674121bba1089</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2024-09-18 18:08:18</sys_created_on>
+        <sys_id>279c971c937c96508b8674121bba100e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2024-09-18 18:10:08</sys_updated_on>
+        <ui_id>51fed4a1-fcce-49a1-a7ec-4a446289ef15</ui_id>
+        <values>H4sIAAAAAAAA/+VWW2/bNhT+K4SecnFlyU6z1nsK6gbb0DVAs+UlzgSaPLK5UqRGUk48w/99hxc5RrKlKZCXYH6wxHPj9x1+R9L1JhM8m2QnwIvyfXnKxuV4PCqK0buTcn46npcjPqYAZTbIFG0AIw0wbTiuV1R23rDZ/N5y6oBXZc46Y0C57Rb9XNhW0vVVCkMLWwrJ0Z9Nrm8GWUsNVnRgssnmgeu5kCSdg8TQLz2mhxjduvVrrlnXIK5K9MZPKXOaPOTnKXowycMpi0EGdw4UBwRSU2lhkDVUIUtt1tnEmQ4NBii/UHK9i1gK5SLRht5Z8TfufFL4uBqQGUtN2C1/o3MJ09ik6Kqn1NFLrM5cZ3Y904KBjX3hUNNOug/7thhw0TqhVUxxvnDK1rJr1OfYlWxXYO9MOgsVh9Zz9egjtfpyqW+/9EDPhQptSTSlZlTuVtQ5I+ad83A2GUgIfW5o2wq1qFqjVyIkI5QmX0hc5LXUt7inFQuVU+Zx59hZmp+jfRrMV9QIT+JXLIPJ20Fm1/aDpNbeU8E+Vn91HkkklihUoQuhBVVQg09mRrTuDLdaQQK+HSThz98+pTL2/l5UezXvxS8UE6Fzj/S+5/k+3T8DUa/7IKH/QJik/8j2aT+XfI6OJPy3Lyb8d69N+InKq1f+t/RejJ58qu6pKUjc7mm9q5hEeNpWtmsaatazrijGvOZv4obAH0/Bs3K+bz6ewaCfj3MBktt/odQPBzQI1kEVKT4YkOQkV8m5ezu82JSUp0X4vbJZ+R+8JCLFaPOYH+nYG59KyYZHM3V0dMbwDCzxqIdngQbxNEhnkTlxSyA1r4JFz/8E5nJyGQqQprOOGMAzVoSSoM+c+IoXXoVEdc0cL8ISXdcWHJmvyXFJhCIfjdGG/IRylH6LS4jNC2BWVMjw2NdBCZakaSVdi8Bag1B9zizLZxmhNc5gD8+nwx3FiYAJojHELrVxeBCMxInuA3M86cUCTP8pmIdAf5KBF+76o6+VmO2qeONwppK5r1WVVSW1/lp1bRW/6fJ0udXma6U0KipfgPtFYxaVH5Uz64M35SFGIS0GB8ODgI4dXP8RbuDm+DDeHA7FYhCwj36I/4fH394W9eml+4KbInFUpqUr4LuB2263N/8AKDaR6ZkLAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Update Clarios Summary">26d9df94937c96508b8674121bba1089</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2024-09-18 18:08:18</sys_created_on>
+        <sys_id>a39c971c937c96508b8674121bba100d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2024-09-18 18:08:18</sys_updated_on>
+        <ui_id>6b3a01e8-324b-4d51-90e1-5c03c8eb421a</ui_id>
+        <values>H4sIAAAAAAAA/+VY32/iOBD+V6I8Uy7hV6BvpyKklfa20ra7L3sry7GdYp2xs7bTLkX87zeOE0CQAtGB1OoePTO2v5n5vonhxyrkNLwN6SSaZJPJcJxEUb8fRaNRn+A4TfsjkkYpHoSdUOIFg0iLU8Fg+YxF4dZcEk6ZtGCi3OQCL78fesicC6qZDG9//OyEOdZwlmU6vF3tuc4FI3DKBIQ+Vmj2wNllvlmi0udtn3e3BV+8Q2nqoESdkP22TFIGGDIsDOuECywptkovNxbNML2XYmuYc8jwNgxd8G/DX+HeceTiMgZZEeZ9m2V589QXyruyKbb4weqC2EJX4WSuOGHG14SyDBfC3u3afMB9brmSfotP3e9WoljIL74k4eaAui9gKQxDlOUuWYe+SiV7mKuXrzXSGZdlXSqnUASLzQpbq3laWIdnFTLBFnAQWuA85/IJ5Vo983IzYFl0nwQsuplQL3Cp4U+yi4kD3oXa4u4M7NPS/B1r7rL4C46BzQCIC2AJ8m00qtBlOZ8REYUpHRpL488K153QLM2dwMZsM4eyo1+Fw+3rUGWMfNHcFqJ5bv+EI55Zldy6U2tieJSGky3tiJKUOxRmRxiABnH6dwGb6Wr1LYdkGUVxlxQa6mu73r9eHwqnxc6WwjqdUS2su92UmtKsJHZg+9x0QCWx+GISG0TRRxMZXP7+NNZeNb4EJ6QT06NEo1tOGaUt8rXc0c6hJlpz/QwINdfvHTuDdPkWqorqGWeCNn1NZs6x9zXp/X+/Ju+S6ACIIt9BLgWX5fMAgF5LAcOj9EvjPa6VFNv5djgbNuRQBziwKnhtrYYz4NRqeIC7g0ePpwFiPfdLyuzP/NpYiaB/MRH0e5cTwWqT6qaYDXWvX4Wuo3X8q4vH+/FAw50N8bpJZK3ujNve2VsfirjfSsW7hPOe6Ru8u/DT8Q1Vdq45BuawtboPeQ2jF06fmN3eXkdRZV+w+KfJXwkT1Y0q07vCMzQ++mso3XmG8gwtoHM8h9eyZgTIYRDWDGWqkBRV7+QtkVwnM66NrYIPh81XBvqRgQJxBnbOgjI62ES3/CCfzqMu5acsqBOpbjMBJBKUiQSbRNql3WZwDS74UL3G4JphLsqOwM+gfKelTGul3xheJ5p5hBVnTrYzQcUXBfXfR1+TDBpH4AmsH+I39eXHE2E4HfTwKOnHcRTFEU2icZLE41GajXAyyLY6RchIAhMVTs6AKnA8qqlR9zk6nEF+rLYdNmegqik4VdL91O4lNnCwoL9BDes08GqopEoJhuXeVHmEb8Ufswp/xdfhu5wsH+JfpoI/7lfbmxrrfa33Q8G/Sf6rYJ8czcYs6o1jSm7GSZzcDDI6uplQPLzBk3SY9Ckjg+yST4Kf/wKnqjVHrxUAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=26d9df94937c96508b8674121bba1089"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=26d9df94937c96508b8674121bba1089"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=26d9df94937c96508b8674121bba1089"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=26d9df94937c96508b8674121bba1089"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_26d9df94937c96508b8674121bba1089</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2024-09-18 17:56:13</sys_created_on>
+        <sys_id>6ed9df94937c96508b8674121bba109b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2024-09-18 17:56:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_26d9df94937c96508b8674121bba1089</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2024-09-18 17:56:13</sys_created_on>
+        <sys_id>aed9df94937c96508b8674121bba10aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2024-09-18 17:56:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_26d9df94937c96508b8674121bba1089</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2024-09-18 17:56:13</sys_created_on>
+        <sys_id>e6d9df94937c96508b8674121bba10a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2024-09-18 17:56:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_26d9df94937c96508b8674121bba1089"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_26d9df94937c96508b8674121bba1089"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>32289fd0937c96508b8674121bba10d8</sys_id>
+        <latest_snapshot>26d9df94937c96508b8674121bba1089</latest_snapshot>
+        <compiler_build>glide-yokohama-12-18-2024__patch0-01-14-2025_01-22-2025_0439.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=32289fd0937c96508b8674121bba10d8^sys_idNOT IN6ed9df94937c96508b8674121bba10d3"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerUniqueChange</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"6ed9df94937c96508b8674121bba10d3","name":"plan","plan_signature":null}}</plan>
+        <plan_id>32289fd0937c96508b8674121bba10d8</plan_id>
+        <snapshot>18be580b932fda108b8674121bba10d5</snapshot>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2024-09-18 17:56:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6ed9df94937c96508b8674121bba10d3</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2024-09-18 18:08:19</sys_updated_on>
+        <trigger display_value="">376ad318937c96508b8674121bba1063</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=32289fd0937c96508b8674121bba10d8"/>
+</record_update>

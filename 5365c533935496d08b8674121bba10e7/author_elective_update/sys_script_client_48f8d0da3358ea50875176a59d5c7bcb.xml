@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>change coverage table field allignment</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   g_form.getElement('premium').style.textAlign = 'right'; 
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-17 08:42:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>48f8d0da3358ea50875176a59d5c7bcb</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>change coverage table field allignment</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_script_client_48f8d0da3358ea50875176a59d5c7bcb</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-17 08:51:23</sys_updated_on>
+        <table>x_ltin2_uw_ai_underwriting_coverage</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</application>
+        <file_path/>
+        <instance_id>7838a3eddb96a7c049eac59705961973</instance_id>
+        <instance_name>ltidemo5</instance_name>
+        <name>sys_script_client_48f8d0da3358ea50875176a59d5c7bcb</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;change coverage table field allignment&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   g_form.getElement('premium').style.textAlign = 'right'; 
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;rohit&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-17 08:42:47&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;48f8d0da3358ea50875176a59d5c7bcb&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;change coverage table field allignment&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai"&gt;5365c533935496d08b8674121bba10e7&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="underwriter.ai"&gt;5365c533935496d08b8674121bba10e7&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_48f8d0da3358ea50875176a59d5c7bcb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;rohit&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-17 08:51:23&lt;/sys_updated_on&gt;&lt;table&gt;x_ltin2_uw_ai_underwriting_coverage&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>388824764</payload_hash>
+        <record_name>change coverage table field allignment</record_name>
+        <reverted_from/>
+        <source>53ea92d9338fda10875176a59d5c7bc9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-17 08:51:23</sys_created_on>
+        <sys_id>f05b10123398ea50875176a59d5c7ba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195a34cf2610000001</sys_recorded_at>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-17 08:51:23</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>385b10123e98ea50d7f1ce5e1b86b4a6</update_guid>
+        <update_guid_history>385b10123e98ea50d7f1ce5e1b86b4a6:388824764,0c3b5cde9958ea5014c054d833cede80:-1924680715,9f1b98deea58ea5046e41c5956569aba:1362959471,7f0b54de6858ea50276c52e417289d01:-1924680715,3659d0daff58ea50e4d38061256bb517:-1949481245</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-17 09:08:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>5e058a662fc242c09c9f7c741eadc400</sys_id>
+        <sys_metadata>48f8d0da3358ea50875176a59d5c7bcb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>change coverage table field allignment</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_parent display_value="Underwriting Coverage">3dd2250c93e41ad08b8674121bba10f7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_scope_delete display_value="">7c8d9985394b49b688ab893eea2dbef1</sys_scope_delete>
+        <sys_update_name>sys_script_client_48f8d0da3358ea50875176a59d5c7bcb</sys_update_name>
+        <sys_update_version display_value="sys_script_client_48f8d0da3358ea50875176a59d5c7bcb">f05b10123398ea50875176a59d5c7ba7</sys_update_version>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-17 09:08:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

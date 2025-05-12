@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Details" section_id="544ddded3390a650875176a59d5c7b22" sys_domain="global" table="var__m_sys_pd_activity_type_prop_573d91ed3390a650875176a59d5c7bfd" version="3" view="process_automation_designer">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>title</element>
+            <position>0</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-03-15 05:44:00</sys_created_on>
+            <sys_id>d44ddded3390a650875176a59d5c7b23</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Details" display_value="Details" name="var__m_sys_pd_activity_type_prop_573d91ed3390a650875176a59d5c7bfd" sys_domain="global" view="e26d6d1b070010107af8d9630ad3006d">544ddded3390a650875176a59d5c7b22</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-03-15 05:44:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>1</position>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-03-15 05:44:00</sys_created_on>
+            <sys_id>dc4ddded3390a650875176a59d5c7b22</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Details" display_value="Details" name="var__m_sys_pd_activity_type_prop_573d91ed3390a650875176a59d5c7bfd" sys_domain="global" view="e26d6d1b070010107af8d9630ad3006d">544ddded3390a650875176a59d5c7b22</sys_ui_section>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-03-15 05:44:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Details</caption>
+            <header>false</header>
+            <name>var__m_sys_pd_activity_type_prop_573d91ed3390a650875176a59d5c7bfd</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-03-15 05:44:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>544ddded3390a650875176a59d5c7b22</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>var__m_sys_pd_activity_type_prop_573d91ed3390a650875176a59d5c7bfd</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+            <sys_update_name>sys_ui_section_544ddded3390a650875176a59d5c7b22</sys_update_name>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-03-15 05:44:00</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Process Automation Designer" name="process_automation_designer">e26d6d1b070010107af8d9630ad3006d</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

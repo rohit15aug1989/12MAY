@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_ltin2_uw_ai.getversionsids</api_name>
+        <batch_exclude>false</batch_exclude>
+        <description/>
+        <mutates_server_data>false</mutates_server_data>
+        <name>getversionsids</name>
+        <output_schema/>
+        <private>true</private>
+        <props/>
+        <required_translations>[ ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[ function transform (input){
+   /* var uniqueValues = [];
+    var seenValues = {};
+    
+    var gr = new GlideRecord('x_ltin2_uw_ai_policyversions');
+    gr.addQuery(vessionid, '!=', ''); // Ignore empty values
+	gr.addQuery('fso_underwriting_case',CS0002872);
+    gr.query();
+
+    while (gr.next()) {
+        var fieldValue = gr.getValue(vessionid);
+        if (!seenValues[fieldValue]) {
+            seenValues[fieldValue] = true;
+            uniqueValues.push(fieldValue);
+        }
+    }*/
+
+    return 'unique';
+}
+]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-19 15:09:29</sys_created_on>
+        <sys_id>3ef48c8333146290875176a59d5c7b8e</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>getversionsids</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_3ef48c8333146290875176a59d5c7b8e</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-20 04:54:51</sys_updated_on>
+    </sys_ux_data_broker_transform>
+    <sys_translated_text action="delete_multiple" query="documentkey=3ef48c8333146290875176a59d5c7b8e"/>
+</record_update>

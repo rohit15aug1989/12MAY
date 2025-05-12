@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_one_extend_definition_config">
+    <sys_one_extend_definition_config action="DELETE">
+        <active>false</active>
+        <capability display_value="FSO cas summarization test skill">40f92dc5932422d08b8674121bba1040</capability>
+        <default>false</default>
+        <definition display_value="FSO cas summarization test skill (Azure OpenAI - Completions)">62a4c45593e462d08b8674121bba10c1</definition>
+        <enable_large_input_support>false</enable_large_input_support>
+        <sys_class_name>sys_one_extend_definition_config</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-28 07:09:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6f8decb133eca6d0875176a59d5c7b6c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_one_extend_definition_config_6f8decb133eca6d0875176a59d5c7b6c</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-28 07:18:12</sys_updated_on>
+    </sys_one_extend_definition_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</application>
+        <file_path/>
+        <instance_id>7838a3eddb96a7c049eac59705961973</instance_id>
+        <instance_name>ltidemo5</instance_name>
+        <name>sys_one_extend_definition_config_6f8decb133eca6d0875176a59d5c7b6c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_one_extend_definition_config"><sys_one_extend_definition_config action="INSERT_OR_UPDATE"><active>false</active><capability display_value="FSO cas summarization test skill">40f92dc5932422d08b8674121bba1040</capability><default>false</default><definition display_value="FSO cas summarization test skill (Azure OpenAI - Completions)">62a4c45593e462d08b8674121bba10c1</definition><enable_large_input_support>false</enable_large_input_support><sys_class_name>sys_one_extend_definition_config</sys_class_name><sys_created_by>rohit</sys_created_by><sys_created_on>2025-03-28 07:09:47</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6f8decb133eca6d0875176a59d5c7b6c</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package><sys_policy/><sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope><sys_update_name>sys_one_extend_definition_config_6f8decb133eca6d0875176a59d5c7b6c</sys_update_name><sys_updated_by>rohit</sys_updated_by><sys_updated_on>2025-03-28 07:18:12</sys_updated_on></sys_one_extend_definition_config></record_update>]]></payload>
+        <payload_hash>1121406889</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>53ea92d9338fda10875176a59d5c7bc9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-28 07:18:12</sys_created_on>
+        <sys_id>0b7f647d33eca6d0875176a59d5c7b1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195db9d963c0000001</sys_recorded_at>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-28 07:18:12</sys_updated_on>
+        <type>OneExtend Definition Config</type>
+        <update_guid>4f7f647d32eca6d0032b695919c4321b</update_guid>
+        <update_guid_history>4f7f647d32eca6d0032b695919c4321b:1121406889,278d60f138eca6d09ceed27db0b0bb60:-599618648</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-28 07:18:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_one_extend_definition_config">sys_one_extend_definition_config</sys_db_object>
+        <sys_id>1f493a2c8e60456c89a23e09191a76c1</sys_id>
+        <sys_metadata>6f8decb133eca6d0875176a59d5c7b6c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_scope_delete display_value="">7c8d9985394b49b688ab893eea2dbef1</sys_scope_delete>
+        <sys_update_name>sys_one_extend_definition_config_6f8decb133eca6d0875176a59d5c7b6c</sys_update_name>
+        <sys_update_version display_value="sys_one_extend_definition_config_6f8decb133eca6d0875176a59d5c7b6c">0b7f647d33eca6d0875176a59d5c7b1c</sys_update_version>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-28 07:18:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

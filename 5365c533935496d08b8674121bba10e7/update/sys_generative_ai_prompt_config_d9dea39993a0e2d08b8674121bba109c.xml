@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_generative_ai_prompt_config">
+    <sys_generative_ai_prompt_config action="INSERT_OR_UPDATE">
+        <ai_config display_value="">d1deef5993a0e2d08b8674121bba1098</ai_config>
+        <definition display_value="">62a4c45593e462d08b8674121bba10c1</definition>
+        <filter_properties>{}</filter_properties>
+        <filter_type>default</filter_type>
+        <is_default>true</is_default>
+        <order>0</order>
+        <sys_class_name>sys_generative_ai_prompt_config</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-27 07:57:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d9dea39993a0e2d08b8674121bba109c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>d1deef5993a0e2d08b8674121bba1098</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_generative_ai_prompt_config_d9dea39993a0e2d08b8674121bba109c</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-27 07:57:35</sys_updated_on>
+    </sys_generative_ai_prompt_config>
+</record_update>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_tool">
+    <sn_aia_tool action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Update incident with appropriate questions</description>
+        <input_schema>[{"name":"incident_number","description":"This is the input of the incident number"},{"name":"questions","description":"This is the input of questions to be added to comments"}]</input_schema>
+        <name>Update Comments of Incident</name>
+        <record_type>custom</record_type>
+        <script><![CDATA[(function(inputs) {
+// only string inputs are allowed 
+// return outputs object where the keys in it are understandable by LLM
+var inc=new GlideRecord('incident');
+inc.addQuery('number',inputs.incident_number);
+inc.query();
+if(inc.next()){
+    inc.comments=inputs.questions;
+    inc.state=3;
+    inc.hold_reason=1;
+    inc.update();
+}
+
+})(inputs);]]></script>
+        <sys_class_name>sn_aia_tool</sys_class_name>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2025-02-28 08:05:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>f2bd6cb4330c62d0875176a59d5c7b73</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Update Comments of Incident</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sn_aia_tool_f2bd6cb4330c62d0875176a59d5c7b73</sys_update_name>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2025-02-28 11:56:13</sys_updated_on>
+        <target_document/>
+        <target_document_table>undefined</target_document_table>
+        <type>script</type>
+    </sn_aia_tool>
+</record_update>

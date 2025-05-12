@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>intermediateFlowVersion=1.2,labelCacheCleanUpExecuted=true</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview>Create case</display_name_after_preview>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source>text2flow</generation_source>
+        <internal_name>create_case585</internal_name>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛Account Record","reference":"customer_account","reference_display":"Account","type":"reference","base_type":"reference","usedInstances":{"9c55696b-9d5c-2690-3f82-e1409411d8ec":["account_id"]},"attributes":{}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Create case</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>abhi</sys_created_by>
+        <sys_created_on>2025-03-21 11:27:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5c55696b935c26908b8674121bba10c9</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Create case</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_hub_flow_5c55696b935c26908b8674121bba10c9</sys_update_name>
+        <sys_updated_by>abhi</sys_updated_by>
+        <sys_updated_on>2025-03-21 11:27:17</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=5c55696b935c26908b8674121bba10c9"/>
+    <sys_variable_value action="delete_multiple" query="document_key=5c55696b935c26908b8674121bba10c9"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=5c55696b935c26908b8674121bba10c9"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=5c55696b935c26908b8674121bba10c9^sys_idNOT IN5455696b935c26908b8674121bba10ca"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>5c55696b935c26908b8674121bba10c9</id>
+        <name>Create case585</name>
+        <sys_created_by>abhi</sys_created_by>
+        <sys_created_on>2025-03-21 11:27:05</sys_created_on>
+        <sys_id>5455696b935c26908b8674121bba10ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>abhi</sys_updated_by>
+        <sys_updated_on>2025-03-21 11:27:05</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=5455696b935c26908b8674121bba10ca"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=5c55696b935c26908b8674121bba10c9^sys_idNOT IN1855696b935c26908b8674121bba10ef,2855a96b935c26908b8674121bba100d"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Create case">5c55696b935c26908b8674121bba10c9</model>
+        <model_id>5c55696b935c26908b8674121bba10c9</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_5c55696b935c26908b8674121bba10c9</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>abhi</sys_created_by>
+        <sys_created_on>2025-03-21 11:27:06</sys_created_on>
+        <sys_id>1855696b935c26908b8674121bba10ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>abhi</sys_updated_by>
+        <sys_updated_on>2025-03-21 11:27:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1855696b935c26908b8674121bba10ef"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Create case">5c55696b935c26908b8674121bba10c9</model>
+        <model_id>5c55696b935c26908b8674121bba10c9</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_5c55696b935c26908b8674121bba10c9</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>abhi</sys_created_by>
+        <sys_created_on>2025-03-21 11:27:06</sys_created_on>
+        <sys_id>2855a96b935c26908b8674121bba100d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>abhi</sys_updated_by>
+        <sys_updated_on>2025-03-21 11:27:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2855a96b935c26908b8674121bba100d"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=5c55696b935c26908b8674121bba10c9"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5c55696b935c26908b8674121bba10c9"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=5c55696b935c26908b8674121bba10c9^sys_idNOT INd055696b935c26908b8674121bba10ee"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment>whenever a new Account record is created</comment>
+        <display_text/>
+        <flow display_value="Create case">5c55696b935c26908b8674121bba10c9</flow>
+        <name>Created</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>abhi</sys_created_by>
+        <sys_created_on>2025-03-21 11:27:06</sys_created_on>
+        <sys_id>d055696b935c26908b8674121bba10ee</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>abhi</sys_updated_by>
+        <sys_updated_on>2025-03-21 11:27:10</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/+Va227jNhD9FUFPLeACutiWlbfUTtEAaVI43vYhCARKJG1hZcqVKGXdIP/eoSnJtCx5fUm6a+9LAPEynDOcOYek8/SqR8gnkX6lT5AfEb2jh4yThKFoslwQaOai2WNoLvowWRCGCePQAZ9zxDDicbLUr3iSkY5Ok3g+IfNFhDjMpShKoTFOMEn0K7Ojr6wUJmF6jqJMfAdZyuM5STwUBHEGxmGhMAUjy7+KEddVxwIlYIQLg6+Vq3ch+yw9CmZhhBPC9KunZ4CChXUaINciRmCbtmUZhjXomn7f9k0L24gYBsyqh6DmJ2+IhGi7U6dp97JjjZZ84SJYuArEVrgSgvADi5bViFm4Du2XNPwXlh0YYhwlACogsq/69IowyWY6Qhw9guWAZwkp4xGHAUllODChKIv4UG2TAx4WPIyZnCJRy9lxlM3ZvYyGXhkodwVashScWCdFAYM+zuKXcenlbyFbhaTojOIARdUX4jwJ/YwLf151Gkawo56MdBpnyQry+Gb4MB55f19Phr/fjL3xzeNkfDuc3Iz0t46eLtNhhNJ07SWEx/snE2voasp6EqCYEiThgl8HPMzLLH3rrAshyRiM9art2yoJGbPtcpDtd2EK308ApozTagWxQWXCjDOmxbDv8EcLsgSixLUy2ejtHE0LJPTPMttX0SnSMkeJ5809AO7NMt+D+E2nELSQLTLuOe7ANfuoJdudYCMiqwIUiaDrz29i20hEAq5kLP2Uql9/hGkasqkSswqjSOhtiBU6yHytDKiEmp4X1ueN8i0H7aI7w6iIZDuj8lpqHE5rpkmpT6hlOAK6adg+NQ3H6CGKbcMILIXWtpdv9YvXMlyluWHZqCLcRXJFyz4s130nlltX8a4aq0e/BKSywF4JnG9mf2HHemsi2+/HtRrn2weRfulY0TzaFOpd0N5ZKxDOEczAJcYP04KXGWFeSjgXdHCyGDAouJUJJNdUOFMUiSYiSONEu4/ZL7frcdojAT4Ct8+KNVWF2Ac0GEu0i0Ltx3xW10WB9Fdo30Aqqrhlz380qawVXL4ZyiOkknQHPZfagQPAQRxpl/jI7Fo95Dp9m7o1qawt3+7Y5YjlnsyTt3JYk0ztW9l5I0FUglUTvmOKp5ZBhWn7KzL94wblpANCYa/9fHCMs+d6dqBR/AJZcfqxwUfB52kSZwxvqQksoYVMW4/QfiqC//N5CYeqm5AkZDfezRHng/JkeVznVFnCiC2PEkabmr5LusSAq6MNwuj3XNcPkEWp03eIZdaEcb1wozeXI4d7lFXeVJdtl7XGlM2bMv2AG+S3d/AkmZA526wSsu8cOX8YMxxyKeF1xi+70hrrl/fj41khUFYtd+0oQuj3EcKkjQd9qhCCirTBDd4AeoMQ1I4PIQXjnB7Oi59Pjs3teYxJNFJzSpU3EeIXxHjq8dhDGHvKrhxdDBLtAS8ogDh5z2cU4QfxYqqeD0axBh0arKmFVCuCQLDmLzU+I0BvERAdrK8JZ87sWq2ejraRV/eKi8YthWHrMQWaV8jOC9j7vJPUyurUIyHBDur1bKf5rcStHwmbXPiKh5dzTDyYbfIm8tr5SnCY3brNxncCpVg2k2XPZ5ELRv1hB9oGL87xdLtZ0pEQ5S0hn0YhJmVf+/+LnER3hfWTjrp04AY902khukGvleiKxXc5xhtCodLcnWz6X469QueKlGuiu0+FbH77I/D3WwHP/wFS1ekIJiUAAA==</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=5c55696b935c26908b8674121bba10c9^sys_idNOT IN2855a96b935c26908b8674121bba1029"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment>creates a Case record with the following fields: AccountId: Set to the ID of the created Account recordDescription: Set to a text template with the message "A new account has been created"</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Create case">5c55696b935c26908b8674121bba10c9</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>abhi</sys_created_by>
+        <sys_created_on>2025-03-21 11:27:06</sys_created_on>
+        <sys_id>2855a96b935c26908b8674121bba1029</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_updated_by>abhi</sys_updated_by>
+        <sys_updated_on>2025-03-21 11:27:12</sys_updated_on>
+        <ui_id>9c55696b-9d5c-2690-3f82-e1409411d8ec</ui_id>
+        <values>H4sIAAAAAAAA/9VUy27bMBD8FYNnQZCt1jB8Cxz41CZAUviSpgJFrmwCFMnw4UQ18u9dirJipG6Coj20vnE5O5xZ7fjuQBRtgSyJp7WEqj9kZE9liEWnKhac1y1YB3YvGFSMuojgwhlJu80AXKWqoRYJPFiyPBC2E5JbUGR5d58RwRFWlB9nDVswVrJ5OSuK2eLDtJ6X9XTGSwrTGVJIWoNE6JeoZ3KV9JzT6DtztvbpHIG2PIoqMgJPHhQHVNNQ6SAjLVWcem07svQ2YMEC5ddKdiNiJ5RHQhKxT058x2cXRcQ1gPYYpLvxWA2zSeXmknp6i8zMBztA2U7jKF0aDIeGBulXp7UEuDZeaJVaeptDt5ahVVdpJGQkOH4KrASHIsBEn1H5YKO53enHm6PKtVD9SIZLqRmV44l6b0UdfNRzICChRaKqpcYIta2M1XvRN6OWNt9KPOSN1I/4qBNblVMWhec4VpqvsX7ZlzfUiujiM9JgM66Eqxyzwhy99Y+T54y4zq0kde7FIw63eghRYXI8eKvSeGJLT3SBD+9hsPGcjcvd77M7WWwU2jegzK+hKEp+wZgOyk9W+PVjdXIDD9jivxkrtBW+S7Dy59X/E6r38rKo38pLOT/Jy1qA5O4lK6PlY06gRdUeqjSCV1kZLieb4XLIy/Rv5WU6L/rff5SaZO4fC83vh0MoE7zLT/4mf5GW+x+TLy+bDAYAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=5c55696b935c26908b8674121bba10c9"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=5c55696b935c26908b8674121bba10c9"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=5c55696b935c26908b8674121bba10c9"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=5c55696b935c26908b8674121bba10c9"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_5c55696b935c26908b8674121bba10c9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>abhi</sys_created_by>
+        <sys_created_on>2025-03-21 11:27:06</sys_created_on>
+        <sys_id>6c55696b935c26908b8674121bba10f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>abhi</sys_updated_by>
+        <sys_updated_on>2025-03-21 11:27:06</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_5c55696b935c26908b8674121bba10c9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>abhi</sys_created_by>
+        <sys_created_on>2025-03-21 11:27:06</sys_created_on>
+        <sys_id>e855a96b935c26908b8674121bba100f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>abhi</sys_updated_by>
+        <sys_updated_on>2025-03-21 11:27:06</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_5c55696b935c26908b8674121bba10c9"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_5c55696b935c26908b8674121bba10c9"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=5c55696b935c26908b8674121bba10c9"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=5c55696b935c26908b8674121bba10c9"/>
+</record_update>

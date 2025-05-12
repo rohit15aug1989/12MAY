@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_activity_definition">
+    <sys_pd_activity_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <activity_type display_value=" UI layout for Initial rate final">37afc16493c02ad08b8674121bba1092</activity_type>
+        <badge/>
+        <category/>
+        <description/>
+        <experience_display_preferences>associated_table=advanced;associated_record=advanced;experience_status_table=advanced;experience_status_record=advanced;tagline=advanced;icon=advanced;title=advanced;description=advanced;pending_title=advanced;pending_description=advanced;record_fields=advanced;footer=advanced;form_view=advanced;form_fields=advanced;attachment_source=advanced;attachments_read_only=advanced;show_sla=advanced;show_checklist=advanced;is_automated=advanced;</experience_display_preferences>
+        <input_display_preferences>assigned_to=standard;assignment_group=standard;</input_display_preferences>
+        <inputs/>
+        <label>Activity Defination 3rd activity initial rate</label>
+        <name>activity_defination_3rd_activity</name>
+        <outputs/>
+        <required_roles/>
+        <source>cb18ceef1b230010affd0e55cc4bcbf2</source>
+        <source_type>sys_hub_flow</source_type>
+        <sys_class_name>sys_pd_activity_definition</sys_class_name>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-03-07 01:56:32</sys_created_on>
+        <sys_id>694cd7369380a2108b8674121bba10aa</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Activity Defination 3rd activity initial rate</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_pd_activity_definition_694cd7369380a2108b8674121bba10aa</sys_update_name>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-03-07 01:58:28</sys_updated_on>
+        <system_level>false</system_level>
+        <table>global</table>
+        <type_vals/>
+        <type_vals/>
+        <wait_for_completion>true</wait_for_completion>
+    </sys_pd_activity_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=694cd7369380a2108b8674121bba10aa"/>
+    <sys_variable_value action="delete_multiple" query="document_key=694cd7369380a2108b8674121bba10aa"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_input_cb18ceef1b230010affd0e55cc4bcbf2^id=694cd7369380a2108b8674121bba10aa"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_cb18ceef1b230010affd0e55cc4bcbf2^id=694cd7369380a2108b8674121bba10aa"/>
+    <sys_element_mapping action="delete_multiple" query="id=694cd7369380a2108b8674121bba10aa"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>associated_record</field>
+        <id>694cd7369380a2108b8674121bba10aa</id>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-03-07 01:57:26</sys_created_on>
+        <sys_id>dfac17769380a2108b8674121bba1030</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-03-07 01:57:26</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_37afc16493c02ad08b8674121bba1092</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>experience_status_record</field>
+        <id>694cd7369380a2108b8674121bba10aa</id>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-03-07 01:57:26</sys_created_on>
+        <sys_id>1bac17769380a2108b8674121bba1030</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-03-07 01:57:26</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_37afc16493c02ad08b8674121bba1092</table>
+        <value>{{vl.Manual Activity./end.record}}</value>
+    </sys_element_mapping>
+</record_update>

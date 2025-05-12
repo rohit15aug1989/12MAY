@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_generative_ai_config">
+    <sys_generative_ai_config action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <additional_configurations>{}</additional_configurations>
+        <ai_suggested>false</ai_suggested>
+        <definition>f5368b2293335a908b8674121bba1047</definition>
+        <definition_table>sys_one_extend_capability_definition</definition_table>
+        <max_tokens>2000</max_tokens>
+        <min_word_count>-1</min_word_count>
+        <model>llm_generic</model>
+        <name>PIR Report</name>
+        <parent/>
+        <prompt>You are a customer service representative. Summarize the below incident in a meaningful manner to generate MIM report
+The summary should sections "Issue", business impact, "Key Actions Taken", Resolution.
+Summarize below content in such way that it describes issue and points under Actions Taken: which describes in a best way what are the key actions taken on incident including information of users who has taken actions and also date &amp; time at which each key action has been performed in a detailed manner and also describe Resolution steps taken, also highlight business impact in meaningful words. Use below content for following details from the incident:
+Incident short description:{{incident.short_description}}
+Incident description:{{incident.description}}
+Incident resolution notes:{{incident.close_notes}}
+Incident business impact:{{incident.business_impact}}
+Incident Worknotes and comments:{{incident.u_clarios_summary}}</prompt>
+        <prompt_template_role>user</prompt_template_role>
+        <request_tokens>14134</request_tokens>
+        <show_in_prompt_library>false</show_in_prompt_library>
+        <state>draft</state>
+        <sys_class_name>sys_generative_ai_config</sys_class_name>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2025-02-21 19:25:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>71368b2293335a908b8674121bba106c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>f5368b2293335a908b8674121bba1047</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_generative_ai_config_71368b2293335a908b8674121bba106c</sys_update_name>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2025-02-21 19:25:07</sys_updated_on>
+        <temperature>0.2</temperature>
+        <version>1</version>
+    </sys_generative_ai_config>
+</record_update>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="deb7dd3533cd2ad0875176a59d5c7b12" sys_domain="global" table="var__m_sys_pd_activity_type_prop_21b7d93533cd2ad0875176a59d5c7be5" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-04-22 06:45:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>22b7dd3533cd2ad0875176a59d5c7b89</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="var__m_sys_pd_activity_type_prop_21b7d93533cd2ad0875176a59d5c7be5" name="var__m_sys_pd_activity_type_prop_21b7d93533cd2ad0875176a59d5c7be5" sys_domain="global" view="Default view">deb7dd3533cd2ad0875176a59d5c7b12</sys_ui_form>
+            <sys_ui_section caption="Associated Record" display_value="Associated Record" name="var__m_sys_pd_activity_type_prop_21b7d93533cd2ad0875176a59d5c7be5" sys_domain="global" view="Default view">eeb7dd3533cd2ad0875176a59d5c7b79</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-04-22 06:45:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-04-22 06:45:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eab7dd3533cd2ad0875176a59d5c7b75</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="var__m_sys_pd_activity_type_prop_21b7d93533cd2ad0875176a59d5c7be5" name="var__m_sys_pd_activity_type_prop_21b7d93533cd2ad0875176a59d5c7be5" sys_domain="global" view="Default view">deb7dd3533cd2ad0875176a59d5c7b12</sys_ui_form>
+            <sys_ui_section caption="Details" display_value="Details" name="var__m_sys_pd_activity_type_prop_21b7d93533cd2ad0875176a59d5c7be5" sys_domain="global" view="Default view">62b7dd3533cd2ad0875176a59d5c7b71</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-04-22 06:45:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-04-22 06:45:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6ab7dd3533cd2ad0875176a59d5c7b61</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="var__m_sys_pd_activity_type_prop_21b7d93533cd2ad0875176a59d5c7be5" name="var__m_sys_pd_activity_type_prop_21b7d93533cd2ad0875176a59d5c7be5" sys_domain="global" view="Default view">deb7dd3533cd2ad0875176a59d5c7b12</sys_ui_form>
+            <sys_ui_section caption="Form" display_value="Form" name="var__m_sys_pd_activity_type_prop_21b7d93533cd2ad0875176a59d5c7be5" sys_domain="global" view="Default view">eeb7dd3533cd2ad0875176a59d5c7b5f</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-04-22 06:45:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-04-22 06:45:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2eb7dd3533cd2ad0875176a59d5c7b77</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="var__m_sys_pd_activity_type_prop_21b7d93533cd2ad0875176a59d5c7be5" name="var__m_sys_pd_activity_type_prop_21b7d93533cd2ad0875176a59d5c7be5" sys_domain="global" view="Default view">deb7dd3533cd2ad0875176a59d5c7b12</sys_ui_form>
+            <sys_ui_section caption="Attachments" display_value="Attachments" name="var__m_sys_pd_activity_type_prop_21b7d93533cd2ad0875176a59d5c7be5" sys_domain="global" view="Default view">a2b7dd3533cd2ad0875176a59d5c7b76</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-04-22 06:45:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-04-22 06:45:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aab7dd3533cd2ad0875176a59d5c7b70</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="var__m_sys_pd_activity_type_prop_21b7d93533cd2ad0875176a59d5c7be5" name="var__m_sys_pd_activity_type_prop_21b7d93533cd2ad0875176a59d5c7be5" sys_domain="global" view="Default view">deb7dd3533cd2ad0875176a59d5c7b12</sys_ui_form>
+            <sys_ui_section caption="Features" display_value="Features" name="var__m_sys_pd_activity_type_prop_21b7d93533cd2ad0875176a59d5c7be5" sys_domain="global" view="Default view">62b7dd3533cd2ad0875176a59d5c7b62</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-04-22 06:45:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>var__m_sys_pd_activity_type_prop_21b7d93533cd2ad0875176a59d5c7be5</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-04-22 06:45:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>deb7dd3533cd2ad0875176a59d5c7b12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>var__m_sys_pd_activity_type_prop_21b7d93533cd2ad0875176a59d5c7be5</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+            <sys_update_name>sys_ui_form_sections_deb7dd3533cd2ad0875176a59d5c7b12</sys_update_name>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-04-22 06:45:25</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

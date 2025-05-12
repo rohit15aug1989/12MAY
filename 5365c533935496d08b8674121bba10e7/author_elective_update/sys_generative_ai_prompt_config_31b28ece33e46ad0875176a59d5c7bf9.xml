@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_generative_ai_prompt_config">
+    <sys_generative_ai_prompt_config action="DELETE">
+        <ai_config display_value="OneExtend Capability Definition: Get UW case summary (Azure OpenAI - Chat Completions)">3db28ece33e46ad0875176a59d5c7bf7</ai_config>
+        <definition display_value="Get UW case summary (Azure OpenAI - Chat Completions)">dfff7d8a33e46ad0875176a59d5c7b94</definition>
+        <filter_properties>{}</filter_properties>
+        <filter_type>default</filter_type>
+        <is_default>false</is_default>
+        <order>0</order>
+        <sys_class_name>sys_generative_ai_prompt_config</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-29 08:00:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>31b28ece33e46ad0875176a59d5c7bf9</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>3db28ece33e46ad0875176a59d5c7bf7</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_generative_ai_prompt_config_31b28ece33e46ad0875176a59d5c7bf9</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-31 09:25:12</sys_updated_on>
+    </sys_generative_ai_prompt_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</application>
+        <file_path/>
+        <instance_id>7838a3eddb96a7c049eac59705961973</instance_id>
+        <instance_name>ltidemo5</instance_name>
+        <name>sys_generative_ai_prompt_config_31b28ece33e46ad0875176a59d5c7bf9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_generative_ai_prompt_config"><sys_generative_ai_prompt_config action="INSERT_OR_UPDATE"><ai_config display_value="OneExtend Capability Definition: Get UW case summary (Azure OpenAI - Chat Completions)">3db28ece33e46ad0875176a59d5c7bf7</ai_config><definition display_value="Get UW case summary (Azure OpenAI - Chat Completions)">dfff7d8a33e46ad0875176a59d5c7b94</definition><filter_properties>{}</filter_properties><filter_type>default</filter_type><is_default>false</is_default><order>0</order><sys_class_name>sys_generative_ai_prompt_config</sys_class_name><sys_created_by>rohit</sys_created_by><sys_created_on>2025-03-29 08:00:20</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>31b28ece33e46ad0875176a59d5c7bf9</sys_id><sys_mod_count>3</sys_mod_count><sys_name>3db28ece33e46ad0875176a59d5c7bf7</sys_name><sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package><sys_policy/><sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope><sys_update_name>sys_generative_ai_prompt_config_31b28ece33e46ad0875176a59d5c7bf9</sys_update_name><sys_updated_by>rohit</sys_updated_by><sys_updated_on>2025-03-31 09:25:12</sys_updated_on></sys_generative_ai_prompt_config></record_update>]]></payload>
+        <payload_hash>793327674</payload_hash>
+        <record_name>3db28ece33e46ad0875176a59d5c7bf7</record_name>
+        <reverted_from/>
+        <source>53ea92d9338fda10875176a59d5c7bc9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-31 09:25:12</sys_created_on>
+        <sys_id>e459ac7233e8a210875176a59d5c7ba2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195eb84f0790000001</sys_recorded_at>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-31 09:25:12</sys_updated_on>
+        <type>Generative AI Prompt Config</type>
+        <update_guid>e859ac72d4e8a2103ffe93e9e3a762a1</update_guid>
+        <update_guid_history>e859ac72d4e8a2103ffe93e9e3a762a1:793327674,b6844ac214286ad0ef185be329b170b3:1822520135,4eb286028a286ad093c979b5a3fab9a0:793327674,f9b28602de286ad082b912a4f379ed9b:1717393658</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-04-01 18:40:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_generative_ai_prompt_config">sys_generative_ai_prompt_config</sys_db_object>
+        <sys_id>1343c0c582a44d558bdbd8a8d3736189</sys_id>
+        <sys_metadata>31b28ece33e46ad0875176a59d5c7bf9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>3db28ece33e46ad0875176a59d5c7bf7</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_scope_delete display_value="">7c8d9985394b49b688ab893eea2dbef1</sys_scope_delete>
+        <sys_update_name>sys_generative_ai_prompt_config_31b28ece33e46ad0875176a59d5c7bf9</sys_update_name>
+        <sys_update_version display_value="sys_generative_ai_prompt_config_31b28ece33e46ad0875176a59d5c7bf9">e459ac7233e8a210875176a59d5c7ba2</sys_update_version>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-04-01 18:40:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

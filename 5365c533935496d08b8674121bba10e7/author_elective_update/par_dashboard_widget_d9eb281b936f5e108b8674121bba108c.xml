@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">85eb281b936f5e108b8674121bba1044</canvas>
+        <component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component>
+        <component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","scoreSize":"lg","headingPosition":"top","sparklineStyle":"area","scoreIcon":"","iconStyle":"background","showScoreDate":false,"useRelativeScoreTime":true,"showScoreUpdateTime":false,"showZero":true,"colorConfig":{"type":"default"},"newReporting":false,"additionalGroupByConfig":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"FSO Underwriting Task","sourceType":"table","tableOrViewName":"x_ltin2_uw_ai_fso_uw_task","filterQuery":"active=true^assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4X2x0aW4yX3V3X2FpX2Zzb191d190YXNrMTcyNzE2MTYwNzAyMw==","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"contextMenuActions":[],"headerTitle":"My Open Tasks","headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"dataPassthrough":null,"metrics":[{"dataSource":"dGFibGV4X2x0aW4yX3V3X2FpX2Zzb191d190YXNrMTcyNzE2MTYwNzAyMw==","id":"ZEdGaWJHVjRYMngwYVc0eVgzVjNYMkZwWDJaemIxOTFkMTkwWVhOck1UY3lOekUyTVRZd056QXlNdz09MTcyNzE2MTYwOTE0NA==","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"componentId":"9fsr5nii","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":null,"hideDevSettings":false,"configPropModifiers":{},"filterConfigurations":"@state.parFilters","showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"id":"scoreSize","value":"lg","noDebounce":true,"propLabel":"Score size"}</component_props>
+        <h>10</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-02-11 05:50:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d9eb281b936f5e108b8674121bba108c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>par_dashboard_widget_d9eb281b936f5e108b8674121bba108c</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-02-11 05:50:38</sys_updated_on>
+        <visualization/>
+        <w>11</w>
+        <widget_props/>
+        <x>23</x>
+        <y>12</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</application>
+        <file_path/>
+        <instance_id>7838a3eddb96a7c049eac59705961973</instance_id>
+        <instance_name>ltidemo5</instance_name>
+        <name>par_dashboard_widget_d9eb281b936f5e108b8674121bba108c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">85eb281b936f5e108b8674121bba1044</canvas><component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component><component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","scoreSize":"lg","headingPosition":"top","sparklineStyle":"area","scoreIcon":"","iconStyle":"background","showScoreDate":false,"useRelativeScoreTime":true,"showScoreUpdateTime":false,"showZero":true,"colorConfig":{"type":"default"},"newReporting":false,"additionalGroupByConfig":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"FSO Underwriting Task","sourceType":"table","tableOrViewName":"x_ltin2_uw_ai_fso_uw_task","filterQuery":"active=true^assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4X2x0aW4yX3V3X2FpX2Zzb191d190YXNrMTcyNzE2MTYwNzAyMw==","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"contextMenuActions":[],"headerTitle":"My Open Tasks","headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"dataPassthrough":null,"metrics":[{"dataSource":"dGFibGV4X2x0aW4yX3V3X2FpX2Zzb191d190YXNrMTcyNzE2MTYwNzAyMw==","id":"ZEdGaWJHVjRYMngwYVc0eVgzVjNYMkZwWDJaemIxOTFkMTkwWVhOck1UY3lOekUyTVRZd056QXlNdz09MTcyNzE2MTYwOTE0NA==","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"componentId":"9fsr5nii","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":null,"hideDevSettings":false,"configPropModifiers":{},"filterConfigurations":"@state.parFilters","showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"id":"scoreSize","value":"lg","noDebounce":true,"propLabel":"Score size"}</component_props><h>10</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>rohit</sys_created_by><sys_created_on>2025-02-11 05:50:38</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d9eb281b936f5e108b8674121bba108c</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package><sys_policy/><sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope><sys_update_name>par_dashboard_widget_d9eb281b936f5e108b8674121bba108c</sys_update_name><sys_updated_by>rohit</sys_updated_by><sys_updated_on>2025-02-11 05:50:38</sys_updated_on><visualization/><w>11</w><widget_props/><x>23</x><y>12</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-70960746</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>53ea92d9338fda10875176a59d5c7bc9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-02-11 05:50:38</sys_created_on>
+        <sys_id>d5eb281b936f5e108b8674121bba108e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194f38f3d6b0000001</sys_recorded_at>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-02-11 05:50:38</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>99eb281b516f5e10853731fc25414a8d</update_guid>
+        <update_guid_history>99eb281b516f5e10853731fc25414a8d:-70960746</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">6a8f601393af5e108b8674121bba1032</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-02-11 06:06:33</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>5c66f3b651f74f95ba5bf535d6b77341</sys_id>
+        <sys_metadata>d9eb281b936f5e108b8674121bba108c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_scope_delete display_value="">7c8d9985394b49b688ab893eea2dbef1</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_d9eb281b936f5e108b8674121bba108c</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_d9eb281b936f5e108b8674121bba108c">d5eb281b936f5e108b8674121bba108e</sys_update_version>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-02-11 06:06:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

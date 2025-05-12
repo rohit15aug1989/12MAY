@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_usecase">
+    <sn_aia_usecase action="INSERT_OR_UPDATE">
+        <base_plan>This team can handle task requests that require solving, planning, analysis or resolution for a task (incident, case or problem), whether or not an identifier or description for the task is given. The team is also capable of retrieving relevant context and details related to the task given to you. Due to this, regardless of the amount of details provided about the task, the team are capable of asking required questions to caller and resolve it.
+
+Only one step is required to fulfill the given task:
+1. Analyse task &lt;task number&gt;
+
+There is no need to decompose this step further. Do not add anything to this subtask. Simply use the above subtask as is.</base_plan>
+        <description>Analyse a given task like incidents, cases, or problems and come up with various questions that are to be asked to end user to get additional information and provide resolution effectively</description>
+        <execution_mode>copilot</execution_mode>
+        <internal_name>global.x_ltin2_uw_ai.Additional Information Analysis for Inci</internal_name>
+        <name>Additional Information Analysis for Inci</name>
+        <record_type>custom</record_type>
+        <sys_class_name>sn_aia_usecase</sys_class_name>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2025-02-27 17:45:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>6608296c93842ad08b8674121bba10b8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Additional Information Analysis for Inci</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sn_aia_usecase_6608296c93842ad08b8674121bba10b8</sys_update_name>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2025-04-01 11:21:31</sys_updated_on>
+        <team display_value="Additional Information Analysis for Incident">ede8a96c93842ad08b8674121bba10b9</team>
+        <version>v1</version>
+    </sn_aia_usecase>
+</record_update>

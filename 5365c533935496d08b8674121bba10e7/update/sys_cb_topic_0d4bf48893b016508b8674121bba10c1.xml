@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <context_profiles/>
+        <description/>
+        <dialog_acts_enabled>false</dialog_acts_enabled>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <foundational>false</foundational>
+        <graph>{
+  "graph_api_version": "1.0.68",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "bf9ba0d274064a2eac9e29c87f4d5c76": {
+          "id": "bf9ba0d274064a2eac9e29c87f4d5c76",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "249329a32c114e74a03c6ea5352edfd9": {
+          "id": "249329a32c114e74a03c6ea5352edfd9",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "BYE"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          }
+        },
+        "be718ef676194e319716eb0c871824d1": {
+          "id": "be718ef676194e319716eb0c871824d1",
+          "stepType": "TextPrompt",
+          "name": "Ask me the question",
+          "prompt": {
+            "value": "(function execute() {   \n    if(vaVars.canvasAnswer=='...'||vaVars.canvasAnswer==''){\n        return \"Hi \"+vaInputs.user.name+\", Please ask me your question\";\n    }\n    else{\nreturn vaVars.canvasAnswer;\n    }\n})()\n",
+            "mode": "script"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "d2ed0a68978e4e28be7b2ed10ed38210",
+          "detailDescription": "",
+          "inputType": {
+            "format": "Text",
+            "script": ""
+          },
+          "requestFeedback": true
+        },
+        "80edea84877547b293e677382c054142": {
+          "id": "80edea84877547b293e677382c054142",
+          "name": "Rest Message",
+          "script": "(function execute() {    \n    try { \n        var com=vaInputs.ask_me_the_question.toString();        \n    var jquery=new x_ltin2_uw_ai.Underwrite().getAI(com.toLowerCase());    \n    var text = \"Assume you an Underwriter in a large commercial insurance. Rephrase the following, categorizing them into different sections that would be of interest to an underwriter. Rephrase in a professional language but not in simple bullets, add a brief narration. and always generate a response that is unique from previous one.\" + jquery;\n    var restMessage = new sn_ws.RESTMessageV2('GPT4','Underwrite API');\n\trestMessage.setStringParameter('content',JSON.stringify(text));\n        var response = restMessage.execute();\n    var res = JSON.parse(response.getBody());\n   vaVars.canvasAnswer= res.choices[0].message.content; \n   \n    }\ncatch(ex) {\n var message = ex.message;\n}\n})()\n\n\n",
+          "stepType": "ScriptAction",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "8b57f0f06389425c9559b85d34cf97d1": {
+          "id": "8b57f0f06389425c9559b85d34cf97d1",
+          "stepType": "Decision",
+          "name": "Decision"
+        }
+      },
+      "edges": [
+        {
+          "id": "b4457c1a28724497acbd78d8635d723b",
+          "edgeType": "Edge",
+          "source": "bf9ba0d274064a2eac9e29c87f4d5c76",
+          "target": "be718ef676194e319716eb0c871824d1",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "048c877212dc4be593186334209e2338",
+          "edgeType": "Edge",
+          "source": "be718ef676194e319716eb0c871824d1",
+          "target": "80edea84877547b293e677382c054142",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "3049650365ee427cbf340ebe5fc7c652",
+          "edgeType": "Edge",
+          "source": "80edea84877547b293e677382c054142",
+          "target": "8b57f0f06389425c9559b85d34cf97d1",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "491105a779fc464f8ea64a86cc9f3eb6",
+          "edgeType": "Branch",
+          "source": "8b57f0f06389425c9559b85d34cf97d1",
+          "target": "249329a32c114e74a03c6ea5352edfd9",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.ask_me_the_question=bye^ORvaInputs.ask_me_the_question=BYE",
+            "mode": "query"
+          },
+          "label": "Always"
+        },
+        {
+          "id": "4be6e9d294e14db38c323c814cf107ec",
+          "edgeType": "Branch",
+          "source": "8b57f0f06389425c9559b85d34cf97d1",
+          "target": "be718ef676194e319716eb0c871824d1",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "query",
+            "value": ""
+          },
+          "label": "Always"
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "d2ed0a68978e4e28be7b2ed10ed38210": {
+      "id": "d2ed0a68978e4e28be7b2ed10ed38210",
+      "name": "ask_me_the_question",
+      "label": "Ask Me The Question",
+      "varType": "string",
+      "secure": false,
+      "category": "vaInputs",
+      "encryptionHashFunction": "SHA-256",
+      "encryptionSalt": {
+        "value": "MTcyNjU3MzUzMDY2NiBWQSBEZXNpZ25lciBpcyBhd2Vzb21l",
+        "mode": "simple"
+      },
+      "nodeId": "be718ef676194e319716eb0c871824d1",
+      "isHidden": false
+    },
+    "7bcb54c9fe8c4fc78f19575abb4a7d96": {
+      "id": "7bcb54c9fe8c4fc78f19575abb4a7d96",
+      "value": {
+        "mode": "simple",
+        "value": "'...'"
+      },
+      "name": "canvasAnswer",
+      "label": "canvasAnswer",
+      "varType": "script",
+      "category": "vaVars"
+    }
+  }
+}</graph>
+        <key_phrases>Canvas AI</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <model_type>nlu_keyword</model_type>
+        <modify_confirmation_enabled>false</modify_confirmation_enabled>
+        <name>Canvas AI</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <root_topic_id/>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>s.saikiran</sys_created_by>
+        <sys_created_on>2024-09-17 11:44:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>0d4bf48893b016508b8674121bba10c1</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Canvas AI</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_cb_topic_0d4bf48893b016508b8674121bba10c1</sys_update_name>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:41:26</sys_updated_on>
+        <title>Canvas AI</title>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+    </sys_cb_topic>
+    <sys_translated_text action="delete_multiple" query="documentkey=0d4bf48893b016508b8674121bba10c1"/>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_ns_skill_config_var_set_ui">
+    <sn_ns_skill_config_var_set_ui action="INSERT_OR_UPDATE">
+        <advanced_script/>
+        <description>Add the name of the skill and a description.</description>
+        <hide_step>false</hide_step>
+        <name>General details</name>
+        <screen_id/>
+        <screen_table>sys_ux_macroponent</screen_table>
+        <sys_class_name>sn_ns_skill_config_var_set_ui</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-25 19:01:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>16b3f37093e4ee908b8674121bba10ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>General details</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sn_ns_skill_config_var_set_ui_16b3f37093e4ee908b8674121bba10ee</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-25 19:01:40</sys_updated_on>
+        <title>General details</title>
+        <var_set display_value="General details">92b3f37093e4ee908b8674121bba10eb</var_set>
+    </sn_ns_skill_config_var_set_ui>
+    <sys_translated_text action="delete_multiple" query="documentkey=16b3f37093e4ee908b8674121bba10ee"/>
+</record_update>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_one_extend_resource_edge">
+    <sys_one_extend_resource_edge action="DELETE">
+        <active>true</active>
+        <applicability_condition_expression/>
+        <applicability_failed_policy/>
+        <applicability_script><![CDATA[(function(currentInputs, context) {  
+	/* @param {Object} currentInputs - Inputs provided for the current step.*/  
+	/* @param {Object} context - Execution context, which may include:*/     
+	/*         - Previous tool outputs/inputs (e.g., context['ToolName.attributeName'] or context.getValue('ToolName.attributeName')).*/     
+	/*         - Additional context information (e.g., context.getAllValues()).*/  
+	/* @returns {Boolean} - Return 'true' if the condition is met; otherwise 'false'.*/  
+	return true;
+  })(currentInputs, context);]]></applicability_script>
+        <applicability_type/>
+        <error_handler_script><![CDATA[(function handleError() {  
+	// customize condition logic here,  
+	return ;
+})();]]></error_handler_script>
+        <error_policy/>
+        <from_resource display_value="UWflow">a2d10a8e33e46ad0875176a59d5c7b0f</from_resource>
+        <internal_name>UWflow__Get UW case summary</internal_name>
+        <name>edge</name>
+        <order>0</order>
+        <sys_class_name>sys_one_extend_resource_edge</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-29 07:56:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>aad10a8e33e46ad0875176a59d5c7b27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>edge</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_one_extend_resource_edge_aad10a8e33e46ad0875176a59d5c7b27</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-29 07:56:33</sys_updated_on>
+        <to_resource display_value="Get UW case summary">abff7d8a33e46ad0875176a59d5c7bc5</to_resource>
+    </sys_one_extend_resource_edge>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</application>
+        <file_path/>
+        <instance_id>7838a3eddb96a7c049eac59705961973</instance_id>
+        <instance_name>ltidemo5</instance_name>
+        <name>sys_one_extend_resource_edge_aad10a8e33e46ad0875176a59d5c7b27</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_one_extend_resource_edge"&gt;&lt;sys_one_extend_resource_edge action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applicability_condition_expression/&gt;&lt;applicability_failed_policy/&gt;&lt;applicability_script&gt;&lt;![CDATA[(function(currentInputs, context) {  
+	/* @param {Object} currentInputs - Inputs provided for the current step.*/  
+	/* @param {Object} context - Execution context, which may include:*/     
+	/*         - Previous tool outputs/inputs (e.g., context['ToolName.attributeName'] or context.getValue('ToolName.attributeName')).*/     
+	/*         - Additional context information (e.g., context.getAllValues()).*/  
+	/* @returns {Boolean} - Return 'true' if the condition is met; otherwise 'false'.*/  
+	return true;
+  })(currentInputs, context);]]&gt;&lt;/applicability_script&gt;&lt;applicability_type/&gt;&lt;error_handler_script&gt;&lt;![CDATA[(function handleError() {  
+	// customize condition logic here,  
+	return ;
+})();]]&gt;&lt;/error_handler_script&gt;&lt;error_policy/&gt;&lt;from_resource display_value="UWflow"&gt;a2d10a8e33e46ad0875176a59d5c7b0f&lt;/from_resource&gt;&lt;internal_name&gt;UWflow__Get UW case summary&lt;/internal_name&gt;&lt;name&gt;edge&lt;/name&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_one_extend_resource_edge&lt;/sys_class_name&gt;&lt;sys_created_by&gt;rohit&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-29 07:56:33&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_id&gt;aad10a8e33e46ad0875176a59d5c7b27&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;edge&lt;/sys_name&gt;&lt;sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai"&gt;5365c533935496d08b8674121bba10e7&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="underwriter.ai"&gt;5365c533935496d08b8674121bba10e7&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_one_extend_resource_edge_aad10a8e33e46ad0875176a59d5c7b27&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;rohit&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-29 07:56:33&lt;/sys_updated_on&gt;&lt;to_resource display_value="Get UW case summary"&gt;abff7d8a33e46ad0875176a59d5c7bc5&lt;/to_resource&gt;&lt;/sys_one_extend_resource_edge&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1726413365</payload_hash>
+        <record_name>edge</record_name>
+        <reverted_from/>
+        <source>53ea92d9338fda10875176a59d5c7bc9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-29 07:56:33</sys_created_on>
+        <sys_id>a2d10a8e33e46ad0875176a59d5c7b2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195e0e70e5f0000001</sys_recorded_at>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-29 07:56:33</sys_updated_on>
+        <type>OneExtend Resource Edge</type>
+        <update_guid>26d10a8eeee46ad02cf08878633f282a</update_guid>
+        <update_guid_history>26d10a8eeee46ad02cf08878633f282a:1726413365</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-31 08:27:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_one_extend_resource_edge">sys_one_extend_resource_edge</sys_db_object>
+        <sys_id>0e7adaf161ab40ec86e9449fad599a31</sys_id>
+        <sys_metadata>aad10a8e33e46ad0875176a59d5c7b27</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>edge</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_scope_delete display_value="">7c8d9985394b49b688ab893eea2dbef1</sys_scope_delete>
+        <sys_update_name>sys_one_extend_resource_edge_aad10a8e33e46ad0875176a59d5c7b27</sys_update_name>
+        <sys_update_version display_value="sys_one_extend_resource_edge_aad10a8e33e46ad0875176a59d5c7b27">a2d10a8e33e46ad0875176a59d5c7b2b</sys_update_version>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-31 08:27:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

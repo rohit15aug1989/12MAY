@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_ltin2_uw_ai.UnderwriterAIUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>UnderwriterAIUtils</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var UnderwriterAIUtils = Class.create();
+UnderwriterAIUtils.prototype = {
+    initialize: function(payload) {
+
+        //Underwriter TABLES
+        this.CASE = 'x_ltin2_uw_ai_fso_uw_case';
+        this.CUSTOMER = 'x_ltin2_uw_ai_customer_details';
+        this.COVERAGE = 'x_ltin2_uw_ai_underwriting_coverage';
+        this.LOCATION = 'x_ltin2_uw_ai_location_cat_perils';
+        this.STRUCTURE = 'x_ltin2_uw_ai_structure_information';
+        this.POLICY = 'x_ltin2_uw_ai_commercial_insurance';
+
+        //Payload variables
+        const input = payload;
+
+        //Payload segregation
+        this.caseId = input.sysId;
+
+        this.clearanceStatus = input.clearanceStatus;
+        this.appetiteStatus = input.appetiteStatus;
+
+
+        this.customer = input.customer;
+        this.broker = input.producer;
+        const submission = input.submission;
+        this.locations = submission.locations;
+        this.lossHistory = submission.losshistory;
+        this.policyEffectiveDate = submission.policyeffectivedateorproposedeffectivedate;
+        this.policyExpirationDate = submission.policyexpirydateorproposedexpirationdate;
+
+
+        // TO BE MAPPED LATER POST TABLE CREATION
+        // this.additionalInterest = submission.additionalinterest;
+        // this.riskEvaluation = submission.riskevaluation;
+    },
+
+    process: function() {
+        try {
+            let customerID = this._updateCustomer(this.customer);
+            let brokerID = this._createBroker(this.broker);
+            let createLocationAndBuildingAndCoverages = this._createLocationAndBuildingAndCoverages(this.locations, this.lossHistory, customerID);
+            let updatedCasewithFlags = this._updateCase(this.clearanceStatus, this.appetiteStatus, this.caseId);
+            return this._response(createLocationAndBuildingAndCoverages && updatedCasewithFlags);
+        } catch (err) {
+            return this._response(false);
+        }
+
+    },
+
+    _updateCustomer: function(customer) {
+        try {
+            var grXL2UACD = new GlideRecord(this.CUSTOMER);
+            if (grXL2UACD.get('name', customer.customername)) {
+                grXL2UACD.setValue('sic', customer.sic);
+                grXL2UACD.setValue('naics', customer.naics);
+                grXL2UACD.setValue('fein', customer.feintaxid);
+                grXL2UACD.setValue('revenue', customer.revenue);
+                grXL2UACD.update();
+                return grXL2UACD.getValue('sys_id');
+            } else {
+                let address = customer.address;
+                grXL2UACD.setValue('name', customer.customername)
+                grXL2UACD.setValue('street', address.streetname);
+                grXL2UACD.setValue('city', address.city);
+                grXL2UACD.setValue('state', address.state);
+                grXL2UACD.setValue('zip', address.zipcode);
+                grXL2UACD.setValue('sic', customer.sic);
+                grXL2UACD.setValue('naic', customer.naics);
+                grXL2UACD.setValue('fein', customer.feintaxid);
+                grXL2UACD.setValue('revenue', customer.revenue);
+                return grXL2UACD.insert();
+            }
+        } catch (err) {
+            return false;
+        }
+    },
+
+    _createBroker: function(broker) {
+        try {
+            let address = broker.address;
+            let grXL2UACD = new GlideRecord(this.CUSTOMER);
+            grXL2UACD.newRecord();
+            grXL2UACD.setValue('broker', true);
+            grXL2UACD.setValue('email_address', broker.emailaddress);
+            grXL2UACD.setValue('name', broker.agencyname);
+            grXL2UACD.setValue('broker_code', broker.producercode);
+            grXL2UACD.setValue('contact_name', broker.producercontactname);
+            grXL2UACD.setValue('zip', address.zipcode);
+            grXL2UACD.setValue('city', address.city);
+            grXL2UACD.setValue('street', address.streetname);
+            grXL2UACD.setValue('state', address.state);
+            return grXL2UACD.insert();
+        } catch (err) {
+            return false;
+        }
+    },
+
+    _createLocationAndBuildingAndCoverages: function(locations, lossHistory, customerID) {
+        try {
+            locations.forEach((item) => {
+                let key = Object.keys(item);
+                let locationAndbuildingAndCoverage = item[key[0]];
+                let locationID = this._createLocations(locationAndbuildingAndCoverage);
+                let buildingID = this._createStructure(locationAndbuildingAndCoverage, lossHistory, customerID, locationID, this.caseId);
+                let coverages = this._createCoverages(locationAndbuildingAndCoverage.coverages, this.caseId, customerID, locationID, buildingID);
+            });
+            return true;
+        } catch (err) {
+            return false;
+        }
+    },
+
+    _createPolicy: function(start, end) {
+        try {
+            var grXL2UACI = new GlideRecord(this.POLICY);
+            grXL2UACI.initialize();
+            grXL2UACI.setValue('name', 'LTI Customer');
+            grXL2UACI.setValue('effective_date', start);
+            grXL2UACI.setValue('expiration_date', end);
+            return grXL2UACI.insert();
+        } catch (err) {
+            return false;
+        }
+    },
+
+    _createLocations: function(location) {
+        try {
+            var grXL2UALCP = new GlideRecord(this.LOCATION);
+            grXL2UALCP.initialize();
+            grXL2UALCP.setValue('location_name', location['locationcity'] + location['location#']);
+            grXL2UALCP.setValue('location_id', location['location#']);
+            grXL2UALCP.setValue('address_line_one', location.locationstreetaddress1);
+            grXL2UALCP.setValue('address_line_two', location.locationstreetaddress2);
+            grXL2UALCP.setValue('state', location.locationstate);
+            grXL2UALCP.setValue('city', location.locationcity);
+            grXL2UALCP.setValue('zip', location.locationzip);
+            grXL2UALCP.setValue('latitude', location.latitude);
+            grXL2UALCP.setValue('longitude', location.longitude);
+            grXL2UALCP.setValue('fso_uw_case', this.caseId);
+            return grXL2UALCP.insert();
+        } catch (err) {
+            return false;
+        }
+
+    },
+
+    _createStructure: function(building, lossHistory, customerID, locationID, caseID) {
+        try {
+            let grXL2UASI = new GlideRecord(this.STRUCTURE);
+            grXL2UASI.initialize();
+            grXL2UASI.setValue('building_number', building['building#']);
+            grXL2UASI.setValue('address_line_one', `${building['locationstreetaddress1']}, ${building['locationcity']}, ${building['locationstate']}`);
+            grXL2UASI.setValue('address_line_two', `${building['locationstreetaddress2']}, ${building['locationcity']}, ${building['locationstate']}`);
+            grXL2UASI.setValue('customer_id', customerID);
+            grXL2UASI.setValue('location_id', locationID);
+            grXL2UASI.setValue('construction_type', building.constructiontype);
+            grXL2UASI.setValue('distance_to_fire_station', building['distancetofirestat(mi)']);
+            grXL2UASI.setValue('number_of_floors', building['#ofstories']);
+            grXL2UASI.setValue('year_built', building.yrbuilt);
+            grXL2UASI.setValue('square_footage', building.totalarea);
+            grXL2UASI.setValue('premises_fire_protection', building['premisesfireprotection(sprinklers,standpipes,co2/chemicalsystems)']);
+            grXL2UASI.setValue('burglar_alarm_type', building.burglaralarmtype);
+            grXL2UASI.setValue('date_of_loss', lossHistory.lossdate);
+            grXL2UASI.setValue('policy_effective_date', lossHistory.effectivedate);
+            grXL2UASI.setValue('policy_expiration_date', lossHistory.expirationdate);
+            grXL2UASI.setValue('policy_number', lossHistory.policynumber);
+            grXL2UASI.setValue('decision_date', lossHistory.dateclosed);
+            grXL2UASI.setValue('claim_number', lossHistory.claimnumber);
+            grXL2UASI.setValue('claim_status', lossHistory.claimstatus);
+            grXL2UASI.setValue('fso_case', caseID);
+            return grXL2UASI.insert();
+        } catch (err) {
+            return false;
+        }
+    },
+
+    _createCoverages: function(coverages, caseID, customerID, locationID, buildingID) {
+        try {
+
+            let coverageTypes = Object.keys(coverages);
+            coverageTypes.forEach((coverageType) => {
+                let coverageData = coverages[coverageType];
+
+                if (coverageData.length != 0) {
+                    coverageData.forEach((item) => {
+                        let coverageType = item['type'];
+                        let grXL2UAUC = new GlideRecord(this.COVERAGE);
+                        grXL2UAUC.initialize();
+                        grXL2UAUC.setValue('attachment', coverageType);
+                        grXL2UAUC.setValue('limits', item.limit);
+                        grXL2UAUC.setValue('coverage_type', item.name);
+                        grXL2UAUC.setValue('fso_case', caseID);
+                        grXL2UAUC.setValue('customer_id', customerID);
+                        if (coverageType == 'Building Level Coverages') grXL2UAUC.setValue('building', buildingID);
+                        if (coverageType == 'Location Level Coverages') grXL2UAUC.setValue('commerical_coverage_location', locationID);
+
+                        grXL2UAUC.insert();
+                    });
+                }
+
+            });
+            return true;
+        } catch (err) {
+            return false;
+        }
+
+    },
+
+    _updateCase: function(clearanceStatus, appetiteStatus, caseID) {
+        try {
+            var grXL2UAFUC = new GlideRecord(this.CASE);
+            if (grXL2UAFUC.get(caseID)) {
+                grXL2UAFUC.setValue('appetite_decision', appetiteStatus);
+                grXL2UAFUC.setValue('clearance_decision', clearanceStatus);
+                grXL2UAFUC.setValue('decision_date', new GlideDateTime());
+                grXL2UAFUC.update();
+                return true;
+            }
+        } catch (err) {
+            return false;
+        }
+    },
+
+    _response: function(flag) {
+        let successMessage = {
+            'status': 201,
+            'message': 'Successfull'
+        };
+        let failureMessage = {
+            'status': 500,
+            'message': 'Failure'
+        };
+        return flag ? successMessage : failureMessage;
+
+    },
+
+    _createRecord: function(table, data) {
+        var tableGR = new GlideQuery(table)
+            .insert(JSON.parse(data))
+            .get();
+        gs.info(JSON.stringify(tableGR, null, 4));
+    },
+
+    type: 'UnderwriterAIUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>ashish.sharma</sys_created_by>
+        <sys_created_on>2024-09-10 07:26:51</sys_created_on>
+        <sys_id>daac372d932c16108b8674121bba1056</sys_id>
+        <sys_mod_count>166</sys_mod_count>
+        <sys_name>UnderwriterAIUtils</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_script_include_daac372d932c16108b8674121bba1056</sys_update_name>
+        <sys_updated_by>ashish.sharma</sys_updated_by>
+        <sys_updated_on>2024-09-27 07:16:18</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>daac372d932c16108b8674121bba1056</id>
+        <sys_created_by>ashish.sharma</sys_created_by>
+        <sys_created_on>2024-09-10 07:26:51</sys_created_on>
+        <sys_id>9d1d7f2d932c16108b8674121bba10b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ashish.sharma</sys_updated_by>
+        <sys_updated_on>2024-09-10 07:26:51</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

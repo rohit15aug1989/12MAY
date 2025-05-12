@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile">
+    <ais_search_profile action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>This is default AI Search profile for Underwriter Workspace</description>
+        <exclude_from_evaluation>false</exclude_from_evaluation>
+        <genius_result_assembly/>
+        <label>underwriter-workspace Search Profile</label>
+        <name>x_ltin2_uw_ai_ukczbgab_search_profile</name>
+        <publish_id>b82bc463-f119-4ceb-88e1-7e15969716cf</publish_id>
+        <qna_model_id>bert-qa-model-1.1.6</qna_model_id>
+        <state>PUBLISHED</state>
+        <sys_class_name>ais_search_profile</sys_class_name>
+        <sys_created_by>bapu</sys_created_by>
+        <sys_created_on>2024-09-10 06:50:41</sys_created_on>
+        <sys_id>afc4fbe17a205610ca9e6b91e22f319d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>underwriter-workspace Search Profile</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>ais_search_profile_afc4fbe17a205610ca9e6b91e22f319d</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-09-10 07:23:15</sys_updated_on>
+    </ais_search_profile>
+</record_update>

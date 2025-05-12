@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_generative_ai_config">
+    <sys_generative_ai_config action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <additional_configurations>{"skill_config_id":"42775d3993e456108b8674121bba103d"}</additional_configurations>
+        <ai_suggested>false</ai_suggested>
+        <definition>b9775d3993e456108b8674121bba101a</definition>
+        <definition_table>sys_one_extend_capability_definition</definition_table>
+        <max_tokens>2000</max_tokens>
+        <min_word_count>-1</min_word_count>
+        <model>llm_generic</model>
+        <name>PIR Report</name>
+        <parent display_value="OneExtend Capability Definition: Clarios 10 sep">43b583ee93ff1a908b8674121bba1027</parent>
+        <prompt>You are an intelligent expert tasked with analyzing a major incident. Generate a clear and detailed post-incident analysis report that includes the following content. Ensure the entire has proper html tags and report fits into 1000 tokens by highlighting only the most important information for each section and ignoring less critical details. No need to include the heading "Post Incident Analysis". Highlight each section below in **bold** formatted with HTML tags:
+
+1. **&lt;b&gt;Issue&lt;/b&gt;**: Describe the main issue.
+2. **&lt;b&gt;Business Impact&lt;/b&gt;**: Highlight the business impact caused by the incident.
+3. **&lt;b&gt;Key Actions&lt;/b&gt;**: Highlight these key actions in a table with borders including corresponding HTML tags. List the most important key actions taken by the user. If the date is the same across all actions, mention it only once and then highlight the specific times for each action. Avoid repeating the user and timestamp unnecessarily. Present key actions in a table with borders, including timestamp and agent information from incident worknotes and comments. For example, if "08-08-2025 user xyz performed action," then timestamp is "08-08-2025" and agent is the specified user name.
+```html
+&lt;table border="1"&gt;
+  &lt;tr&gt;
+    &lt;th&gt;&lt;b&gt;Agent&lt;/b&gt;&lt;/th&gt;
+    &lt;th&gt;&lt;b&gt;Action&lt;/b&gt;&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;user xyz&lt;/td&gt;
+    &lt;td&gt;&lt;li&gt;&lt;b&gt;08-08-2005&lt;/b&gt;-Action 1&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;08-08-2005&lt;/b&gt;-Action 1&lt;/li&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+```
+
+4. **&lt;b&gt;Resolution&lt;/b&gt;**: Provide a concise summary of the resolution in bullet points.
+5. **&lt;b&gt;Preventive Measures&lt;/b&gt;**: Suggest 2 important measures to be taken to prevent similar incidents in the future.
+
+Ensure the report is consolidated and not in JSON format. The LLM should intelligently select the most important actions to mention, covering all sections within 1000 tokens without truncation.
+
+Use below content for following details from the incident:
+Incident short description:{{incident.short_description}}
+Incident description:{{incident.description}}
+Incident resolution notes:{{incident.close_notes}}
+Incident business impact:{{incident.business_impact}}
+Incident Worknotes and comments:{{incident.u_clarios_summary}}</prompt>
+        <prompt_template_role>user</prompt_template_role>
+        <request_tokens>14134</request_tokens>
+        <show_in_prompt_library>true</show_in_prompt_library>
+        <state>archived</state>
+        <sys_class_name>sys_generative_ai_config</sys_class_name>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2025-02-23 14:20:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ab93d85b3373d690875176a59d5c7bdd</sys_id>
+        <sys_mod_count>44</sys_mod_count>
+        <sys_name>b9775d3993e456108b8674121bba101a</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_generative_ai_config_ab93d85b3373d690875176a59d5c7bdd</sys_update_name>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2025-02-26 10:00:33</sys_updated_on>
+        <temperature>0.2</temperature>
+        <version>4</version>
+    </sys_generative_ai_config>
+</record_update>

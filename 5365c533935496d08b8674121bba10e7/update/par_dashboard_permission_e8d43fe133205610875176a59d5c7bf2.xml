@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="Underwriter Workspace">2fc4fbe130205610089205f98d63c68a</dashboard>
+        <group/>
+        <owner>false</owner>
+        <role display_value="x_ltin2_uw_ai.commercial_insurance_user" name="x_ltin2_uw_ai.commercial_insurance_user">3d40ad8493e41ad08b8674121bba10bc</role>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>bapu</sys_created_by>
+        <sys_created_on>2024-09-10 06:50:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e8d43fe133205610875176a59d5c7bf2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2fc4fbe130205610089205f98d63c68a</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>par_dashboard_permission_e8d43fe133205610875176a59d5c7bf2</sys_update_name>
+        <sys_updated_by>bapu</sys_updated_by>
+        <sys_updated_on>2024-09-10 06:50:45</sys_updated_on>
+        <user/>
+    </par_dashboard_permission>
+</record_update>

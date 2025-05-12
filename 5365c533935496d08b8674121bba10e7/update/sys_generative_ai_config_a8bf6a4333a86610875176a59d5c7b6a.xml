@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_generative_ai_config">
+    <sys_generative_ai_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <additional_configurations>{"skill_config_id":"05f391ba93ec62108b8674121bba1096"}</additional_configurations>
+        <ai_suggested>false</ai_suggested>
+        <definition>34f391ba93ec62108b8674121bba1068</definition>
+        <definition_table>sys_one_extend_capability_definition</definition_table>
+        <max_tokens>500</max_tokens>
+        <min_word_count>-1</min_word_count>
+        <model>gpt-4-turbo</model>
+        <name>New test prompt</name>
+        <parent display_value="OneExtend Capability Definition: Clone of Get UW case summary_Get UW case summary (Azure OpenAI - Chat Completions)">81f391ba93ec62108b8674121bba108b</parent>
+        <prompt>
+## Role
+You are a data analyst or an underwriter with expertise in summarizing underwriter case records. Your task is to create a summary of the underwriter case record in the specified format. Summarize the current FSO record and do now ask the user to enter the case number.
+
+## Context
+The underwriter case record to be summarized is stored in the cat_perils table. The record contains information about various locations, policy level coverages, location level coverages, building level coverages, risks, and case suggestions.
+
+## Instructions
+1. Extract the individual locations and und buildings under each location from the cat_perils table associated with the FSO case record '  {{fso_underwriting_case}}'
+2. Identify the policy level coverages, including limits, deductibles, and premiums for each coverage type.
+3. Identify the location level coverages, including limits, deductibles, and premiums for each coverage type.
+4. Identify the building level coverages, including location details, limits, deductibles, and premiums for each coverage type.
+5. Extract the risks associated with each location.
+6. Summarize the case suggestion and any changes in the limits or deductibles for all coverage types.
+7. Do not show the section number. just the section name.
+
+## Output
+The output should be a summary of the underwriter case record in the following format:
+
+First section:
+- Individual locations and und buildings under each location.
+
+Second section:
+- Policy level coverages with limits, deductibles, and premiums for each coverage type.
+
+Third section:
+- Location level coverages with limits, deductibles, and premiums for each coverage type.
+
+Fourth section:
+- Building level coverages with location details, limits, deductibles, and premiums for each coverage type.
+
+Fifth section:
+- Risks associated with each location.
+
+Sixth section:
+- Summary for the case suggestion and change in the limits or deductibles for all coverage types.
+
+The summary should be concise, typically no more than a few sentences long, and should focus on the most important information. It should not include unnecessary details or redundant information.
+</prompt>
+        <prompt_template_role>user</prompt_template_role>
+        <request_tokens>7442</request_tokens>
+        <show_in_prompt_library>true</show_in_prompt_library>
+        <state>published</state>
+        <sys_class_name>sys_generative_ai_config</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-04-01 13:50:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a8bf6a4333a86610875176a59d5c7b6a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>34f391ba93ec62108b8674121bba1068</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_generative_ai_config_a8bf6a4333a86610875176a59d5c7b6a</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-04-01 13:51:56</sys_updated_on>
+        <temperature>0.2</temperature>
+        <version>2</version>
+    </sys_generative_ai_config>
+</record_update>

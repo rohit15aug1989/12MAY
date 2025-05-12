@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_nowassist_skill_family">
+    <sn_nowassist_skill_family action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <description/>
+        <image_url>images/custom-feature-image.svg</image_url>
+        <name>FSO case</name>
+        <order>100</order>
+        <parent display_value="Other">a5efaf1c93764210aa5730f16489186d</parent>
+        <preview_image>images/custom-feature-background-image.svg</preview_image>
+        <sub_title/>
+        <sys_class_name>sn_nowassist_skill_family</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-02-01 13:16:11</sys_created_on>
+        <sys_id>a6f1764833631210875176a59d5c7be3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FSO case</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sn_nowassist_skill_family_a6f1764833631210875176a59d5c7be3</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-02-01 13:16:11</sys_updated_on>
+        <type>feature</type>
+    </sn_nowassist_skill_family>
+    <sys_translated_text action="delete_multiple" query="documentkey=a6f1764833631210875176a59d5c7be3"/>
+</record_update>

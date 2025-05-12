@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="cert_element" version="2" view="RPT915ef251df01300068c383f36bf26310">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>cert_task</element>
+            <list_id display_value="cert_element" element="NULL" name="cert_element" parent="NULL" relationship="NULL" sys_domain="global" view="b1c00141937c9a508b8674121bba10ad">f5c00141937c9a508b8674121bba10ae</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>barla.praveenkumar</sys_created_by>
+            <sys_created_on>2024-09-20 14:42:53</sys_created_on>
+            <sys_id>71c00141937c9a508b8674121bba10af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>barla.praveenkumar</sys_updated_by>
+            <sys_updated_on>2024-09-20 14:42:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to.name</element>
+            <list_id display_value="cert_element" element="NULL" name="cert_element" parent="NULL" relationship="NULL" sys_domain="global" view="b1c00141937c9a508b8674121bba10ad">f5c00141937c9a508b8674121bba10ae</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>barla.praveenkumar</sys_created_by>
+            <sys_created_on>2024-09-20 14:42:53</sys_created_on>
+            <sys_id>75c00141937c9a508b8674121bba10af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>barla.praveenkumar</sys_updated_by>
+            <sys_updated_on>2024-09-20 14:42:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_on</element>
+            <list_id display_value="cert_element" element="NULL" name="cert_element" parent="NULL" relationship="NULL" sys_domain="global" view="b1c00141937c9a508b8674121bba10ad">f5c00141937c9a508b8674121bba10ae</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>barla.praveenkumar</sys_created_by>
+            <sys_created_on>2024-09-20 14:42:53</sys_created_on>
+            <sys_id>79c00141937c9a508b8674121bba10af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>barla.praveenkumar</sys_updated_by>
+            <sys_updated_on>2024-09-20 14:42:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="cert_element" element="NULL" name="cert_element" parent="NULL" relationship="NULL" sys_domain="global" view="b1c00141937c9a508b8674121bba10ad">f5c00141937c9a508b8674121bba10ae</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>barla.praveenkumar</sys_created_by>
+            <sys_created_on>2024-09-20 14:42:53</sys_created_on>
+            <sys_id>7dc00141937c9a508b8674121bba10af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>barla.praveenkumar</sys_updated_by>
+            <sys_updated_on>2024-09-20 14:42:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>comment</element>
+            <list_id display_value="cert_element" element="NULL" name="cert_element" parent="NULL" relationship="NULL" sys_domain="global" view="b1c00141937c9a508b8674121bba10ad">f5c00141937c9a508b8674121bba10ae</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>barla.praveenkumar</sys_created_by>
+            <sys_created_on>2024-09-20 14:42:53</sys_created_on>
+            <sys_id>71c00141937c9a508b8674121bba10b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>barla.praveenkumar</sys_updated_by>
+            <sys_updated_on>2024-09-20 14:42:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>cert_element</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>barla.praveenkumar</sys_created_by>
+            <sys_created_on>2024-09-20 14:42:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f5c00141937c9a508b8674121bba10ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cert_element</sys_name>
+            <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+            <sys_update_name>sys_ui_list_cert_element_RPT915ef251df01300068c383f36bf26310</sys_update_name>
+            <sys_updated_by>barla.praveenkumar</sys_updated_by>
+            <sys_updated_on>2024-09-20 14:42:53</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt915ef251df01300068c383f36bf26310" name="RPT915ef251df01300068c383f36bf26310">b1c00141937c9a508b8674121bba10ad</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

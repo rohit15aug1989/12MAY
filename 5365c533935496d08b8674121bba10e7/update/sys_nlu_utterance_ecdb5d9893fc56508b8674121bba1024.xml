@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="Canvas AI">265b9d5893fc56508b8674121bba1016</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <source>manual</source>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2024-09-18 08:45:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ecdb5d9893fc56508b8674121bba1024</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Canvas ai</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_nlu_utterance_ecdb5d9893fc56508b8674121bba1024</sys_update_name>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:45:35</sys_updated_on>
+        <utterance>Canvas ai</utterance>
+    </sys_nlu_utterance>
+</record_update>

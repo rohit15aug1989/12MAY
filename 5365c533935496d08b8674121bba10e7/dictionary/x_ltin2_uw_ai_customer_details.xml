@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e20cc680932c1ad08b8674121bba10d7" extends="core_company" label="Customer Details" max_length="40" name="x_ltin2_uw_ai_customer_details" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Broker City" max_length="100" name="broker_city" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Broker Phone" max_length="100" name="broker_phone" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Year Business Started" max_length="40" name="year_business_started" read_only="true" type="string"/>
+        <element label="Broker Code" max_length="50" name="broker_code" read_only="true" type="string"/>
+        <element label="Broker" max_length="40" name="broker" type="boolean"/>
+        <element label="FEIN" max_length="50" name="fein" read_only="true" type="string"/>
+        <element label="Customer Name" max_length="32" name="customer_name" reference="sys_user" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return current.customer_name.email;  // return the calculated value&#13;&#10;    &#13;&#10;})(current);" label="Email Address" max_length="50" name="email_address" reference="sys_user" type="string" virtual="true"/>
+        <element attributes="edge_encryption_enabled=true" label="D  B Number" max_length="40" name="d_b_number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Broker Zip" max_length="40" name="broker_zip" type="string"/>
+        <element label="address" max_length="500" name="address" type="string"/>
+        <element label="Agency name" max_length="50" name="agency_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Broker Country" max_length="40" name="broker_country" type="string"/>
+        <element label="Website Address" max_length="50" name="website_address" type="url"/>
+        <element attributes="edge_encryption_enabled=true" label="Broker State" max_length="100" name="broker_state" type="string"/>
+        <element label="Contact name" max_length="50" name="contact_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Entity Type" max_length="100" name="entity_type" read_only="true" type="string"/>
+        <element label="No. Of employee" max_length="40" name="no_of_employee" read_only="true" type="integer"/>
+        <element label="SIC" max_length="50" name="sic" read_only="true" type="string"/>
+        <element label="Revenue" max_length="50" name="revenue" read_only="true" type="string"/>
+        <element default="javascript:global.getNextObjNumberPadded();" display="true" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Customer ID" max_length="50" name="customer_id" type="string" unique="true" use_dynamic_default="true"/>
+        <element label="NAICS" max_length="50" name="naics" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Broker Name" max_length="40" name="broker_name" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Broker Street" max_length="100" name="broker_street" type="string"/>
+        <index name="index" unique="true">
+            <element name="customer_id"/>
+        </index>
+        <index name="index2">
+            <element name="customer_name"/>
+        </index>
+    </element>
+</database>

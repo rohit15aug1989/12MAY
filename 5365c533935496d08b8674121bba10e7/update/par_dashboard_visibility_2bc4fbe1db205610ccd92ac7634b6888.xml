@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_visibility">
+    <par_dashboard_visibility action="INSERT_OR_UPDATE">
+        <dashboard display_value="Underwriter Workspace">2fc4fbe130205610089205f98d63c68a</dashboard>
+        <experience display_value="Underwriter Workspace">63c4fbe159205610eff0ac16d24d109e</experience>
+        <sys_class_name>par_dashboard_visibility</sys_class_name>
+        <sys_created_by>bapu</sys_created_by>
+        <sys_created_on>2024-09-10 06:50:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2bc4fbe1db205610ccd92ac7634b6888</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>par_dashboard_visibility_2bc4fbe1db205610ccd92ac7634b6888</sys_update_name>
+        <sys_updated_by>bapu</sys_updated_by>
+        <sys_updated_on>2024-09-10 06:50:41</sys_updated_on>
+    </par_dashboard_visibility>
+</record_update>

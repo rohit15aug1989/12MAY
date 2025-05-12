@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Activity UI for initial rate">dff47e8833c46e90875176a59d5c7b6d</macroponent>
+        <name>rich_text_2/isHidden</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+  let user_roles = api.context.session.user.roles;
+  let visibility_condition = user_roles.includes("x_ltin2_uw_ai.underwriter_ui_builder");
+	return visibility_condition;
+}
+]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>abhi</sys_created_by>
+        <sys_created_on>2025-03-10 10:58:26</sys_created_on>
+        <sys_id>9db8600c3354aa10875176a59d5c7b6b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>rich_text_2/isHidden</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_ux_client_script_9db8600c3354aa10875176a59d5c7b6b</sys_update_name>
+        <sys_updated_by>abhi</sys_updated_by>
+        <sys_updated_on>2025-03-10 10:58:26</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</application>
+        <file_path/>
+        <instance_id>7838a3eddb96a7c049eac59705961973</instance_id>
+        <instance_name>ltidemo5</instance_name>
+        <name>sys_ux_client_script_9db8600c3354aa10875176a59d5c7b6b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="Activity UI for initial rate"&gt;dff47e8833c46e90875176a59d5c7b6d&lt;/macroponent&gt;&lt;name&gt;rich_text_2/isHidden&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+  let user_roles = api.context.session.user.roles;
+  let visibility_condition = user_roles.includes("x_ltin2_uw_ai.underwriter_ui_builder");
+	return visibility_condition;
+}
+]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;abhi&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-10 10:58:26&lt;/sys_created_on&gt;&lt;sys_id&gt;9db8600c3354aa10875176a59d5c7b6b&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;rich_text_2/isHidden&lt;/sys_name&gt;&lt;sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai"&gt;5365c533935496d08b8674121bba10e7&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="underwriter.ai"&gt;5365c533935496d08b8674121bba10e7&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_9db8600c3354aa10875176a59d5c7b6b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;abhi&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-10 10:58:26&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1056477960</payload_hash>
+        <record_name>rich_text_2/isHidden</record_name>
+        <reverted_from/>
+        <source>53ea92d9338fda10875176a59d5c7bc9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>abhi</sys_created_by>
+        <sys_created_on>2025-03-10 10:58:26</sys_created_on>
+        <sys_id>614530c433d4aa10875176a59d5c7bda</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1957fb4bd750000001</sys_recorded_at>
+        <sys_updated_by>abhi</sys_updated_by>
+        <sys_updated_on>2025-03-10 10:58:26</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>e14530c4a9d4aa100b406f5924f5c7d9</update_guid>
+        <update_guid_history>e14530c4a9d4aa100b406f5924f5c7d9:1056477960</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>abhi</sys_created_by>
+        <sys_created_on>2025-03-10 12:53:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>3d341c2fadb84ab889734b3414f90240</sys_id>
+        <sys_metadata>9db8600c3354aa10875176a59d5c7b6b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>rich_text_2/isHidden</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_scope_delete display_value="">7c8d9985394b49b688ab893eea2dbef1</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_9db8600c3354aa10875176a59d5c7b6b</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_9db8600c3354aa10875176a59d5c7b6b">614530c433d4aa10875176a59d5c7bda</sys_update_version>
+        <sys_updated_by>abhi</sys_updated_by>
+        <sys_updated_on>2025-03-10 12:53:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

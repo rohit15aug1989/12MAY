@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_one_extend_resource_attribute_mapping">
+    <sys_one_extend_resource_attribute_mapping action="INSERT_OR_UPDATE">
+        <attribute_value_script><![CDATA[(function execute(currentInputs, context) {
+ return new global.OneExtendEvaluationServiceUtil().getProcessedResponse(currentInputs); 
+})(currentInputs, context);]]></attribute_value_script>
+        <attribute_value_template/>
+        <attribute_value_type>script</attribute_value_type>
+        <from_resource_mapping/>
+        <resource_attribute_name display_value="processed_response">74a9ca6c7f4f02100a03b6257d866522</resource_attribute_name>
+        <resource_mapping display_value="Faithfulness Metric">c5008e8a33e46ad0875176a59d5c7be7</resource_mapping>
+        <sys_class_name>sys_one_extend_resource_attribute_mapping</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-03-29 07:48:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>cd008e8a33e46ad0875176a59d5c7bee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_one_extend_resource_attribute_mapping_cd008e8a33e46ad0875176a59d5c7bee</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-03-29 07:48:32</sys_updated_on>
+    </sys_one_extend_resource_attribute_mapping>
+</record_update>

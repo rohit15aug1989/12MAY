@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_generative_ai_prompt_config">
+    <sys_generative_ai_prompt_config action="INSERT_OR_UPDATE">
+        <ai_config display_value="OneExtend Capability Definition: Clone of Get UW case summary_Get UW case summary (Azure OpenAI - Chat Completions)">81f391ba93ec62108b8674121bba108b</ai_config>
+        <definition display_value="Clone of Get UW case summary_Get UW case summary (Azure OpenAI - Chat Completions)">34f391ba93ec62108b8674121bba1068</definition>
+        <filter_properties>{}</filter_properties>
+        <filter_type>default</filter_type>
+        <is_default>false</is_default>
+        <order>0</order>
+        <sys_class_name>sys_generative_ai_prompt_config</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-31 10:04:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>01f391ba93ec62108b8674121bba108c</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>81f391ba93ec62108b8674121bba108b</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_generative_ai_prompt_config_01f391ba93ec62108b8674121bba108c</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-04-01 13:51:09</sys_updated_on>
+    </sys_generative_ai_prompt_config>
+</record_update>

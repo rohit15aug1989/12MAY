@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_ltin2_uw_ai.policyversions_user</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>policyversions_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-03-15 05:51:33</sys_created_on>
+        <sys_id>3efe5de593d866508b8674121bba10a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_ltin2_uw_ai.policyversions_user</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_user_role_3efe5de593d866508b8674121bba10a3</sys_update_name>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-03-15 05:51:33</sys_updated_on>
+    </sys_user_role>
+</record_update>

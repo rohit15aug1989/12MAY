@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_ltin2_uw_ai_fso_uw_case</basic_apply_to>
+        <basic_query_from>x_ltin2_uw_ai_underwriting_coverage</basic_query_from>
+        <insert_callback/>
+        <name>Coverage Info</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+
+	// Add your code here, such as current.addQuery(field, value);
+	current.addEncodedQuery('fso_case='+parent.sys_id);
+
+})(current, parent);]]></query_with>
+        <reference_field/>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>raj</sys_created_by>
+        <sys_created_on>2024-09-16 06:23:31</sys_created_on>
+        <sys_id>18c726a393e452508b8674121bba10a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Coverage Info</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_relationship_18c726a393e452508b8674121bba10a1</sys_update_name>
+        <sys_updated_by>raj</sys_updated_by>
+        <sys_updated_on>2024-09-16 06:23:31</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=18c726a393e452508b8674121bba10a1"/>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>18c726a393e452508b8674121bba10a1</id>
+        <sys_created_by>raj</sys_created_by>
+        <sys_created_on>2024-09-16 06:23:30</sys_created_on>
+        <sys_id>bf182ea393e452508b8674121bba10a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj</sys_updated_by>
+        <sys_updated_on>2024-09-16 06:23:30</sys_updated_on>
+        <table>sys_relationship</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

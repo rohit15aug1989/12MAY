@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="e5c8264093ec1ad08b8674121bba1040" sys_domain="global" table="x_ltin2_uw_ai_commercial_insurance" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>0</position>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-05 10:40:07</sys_created_on>
+            <sys_id>e75936cc93205ad08b8674121bba1095</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_commercial_insurance" sys_domain="global" view="Default view">e5c8264093ec1ad08b8674121bba1040</sys_ui_section>
+            <sys_updated_by>subham.agarwal</sys_updated_by>
+            <sys_updated_on>2024-09-05 10:40:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>product</element>
+            <position>1</position>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-05 10:40:07</sys_created_on>
+            <sys_id>275936cc93205ad08b8674121bba1096</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_commercial_insurance" sys_domain="global" view="Default view">e5c8264093ec1ad08b8674121bba1040</sys_ui_section>
+            <sys_updated_by>subham.agarwal</sys_updated_by>
+            <sys_updated_on>2024-09-05 10:40:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>parent_sold_product</element>
+            <position>2</position>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-05 10:40:07</sys_created_on>
+            <sys_id>2f5936cc93205ad08b8674121bba1096</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_commercial_insurance" sys_domain="global" view="Default view">e5c8264093ec1ad08b8674121bba1040</sys_ui_section>
+            <sys_updated_by>subham.agarwal</sys_updated_by>
+            <sys_updated_on>2024-09-05 10:40:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>quantity</element>
+            <position>3</position>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-05 10:40:07</sys_created_on>
+            <sys_id>275936cc93205ad08b8674121bba1097</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_commercial_insurance" sys_domain="global" view="Default view">e5c8264093ec1ad08b8674121bba1040</sys_ui_section>
+            <sys_updated_by>subham.agarwal</sys_updated_by>
+            <sys_updated_on>2024-09-05 10:40:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>unit_price</element>
+            <position>4</position>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-05 10:40:07</sys_created_on>
+            <sys_id>2f5936cc93205ad08b8674121bba1097</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_commercial_insurance" sys_domain="global" view="Default view">e5c8264093ec1ad08b8674121bba1040</sys_ui_section>
+            <sys_updated_by>subham.agarwal</sys_updated_by>
+            <sys_updated_on>2024-09-05 10:40:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>unit_of_measurement</element>
+            <position>5</position>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-05 10:40:07</sys_created_on>
+            <sys_id>275936cc93205ad08b8674121bba1098</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_commercial_insurance" sys_domain="global" view="Default view">e5c8264093ec1ad08b8674121bba1040</sys_ui_section>
+            <sys_updated_by>subham.agarwal</sys_updated_by>
+            <sys_updated_on>2024-09-05 10:40:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-05 10:40:07</sys_created_on>
+            <sys_id>2f5936cc93205ad08b8674121bba1098</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_commercial_insurance" sys_domain="global" view="Default view">e5c8264093ec1ad08b8674121bba1040</sys_ui_section>
+            <sys_updated_by>subham.agarwal</sys_updated_by>
+            <sys_updated_on>2024-09-05 10:40:07</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>7</position>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-05 10:40:07</sys_created_on>
+            <sys_id>275936cc93205ad08b8674121bba1099</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_commercial_insurance" sys_domain="global" view="Default view">e5c8264093ec1ad08b8674121bba1040</sys_ui_section>
+            <sys_updated_by>subham.agarwal</sys_updated_by>
+            <sys_updated_on>2024-09-05 10:40:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>customer_id</element>
+            <position>8</position>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-05 10:40:07</sys_created_on>
+            <sys_id>2f5936cc93205ad08b8674121bba1099</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_commercial_insurance" sys_domain="global" view="Default view">e5c8264093ec1ad08b8674121bba1040</sys_ui_section>
+            <sys_updated_by>subham.agarwal</sys_updated_by>
+            <sys_updated_on>2024-09-05 10:40:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>account</element>
+            <position>9</position>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-05 10:40:07</sys_created_on>
+            <sys_id>275936cc93205ad08b8674121bba109a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_commercial_insurance" sys_domain="global" view="Default view">e5c8264093ec1ad08b8674121bba1040</sys_ui_section>
+            <sys_updated_by>subham.agarwal</sys_updated_by>
+            <sys_updated_on>2024-09-05 10:40:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contact</element>
+            <position>10</position>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-05 10:40:07</sys_created_on>
+            <sys_id>2f5936cc93205ad08b8674121bba109a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_commercial_insurance" sys_domain="global" view="Default view">e5c8264093ec1ad08b8674121bba1040</sys_ui_section>
+            <sys_updated_by>subham.agarwal</sys_updated_by>
+            <sys_updated_on>2024-09-05 10:40:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>consumer</element>
+            <position>11</position>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-05 10:40:07</sys_created_on>
+            <sys_id>275936cc93205ad08b8674121bba109b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_commercial_insurance" sys_domain="global" view="Default view">e5c8264093ec1ad08b8674121bba1040</sys_ui_section>
+            <sys_updated_by>subham.agarwal</sys_updated_by>
+            <sys_updated_on>2024-09-05 10:40:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>policy_term</element>
+            <position>12</position>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-05 10:40:07</sys_created_on>
+            <sys_id>2f5936cc93205ad08b8674121bba109b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_commercial_insurance" sys_domain="global" view="Default view">e5c8264093ec1ad08b8674121bba1040</sys_ui_section>
+            <sys_updated_by>subham.agarwal</sys_updated_by>
+            <sys_updated_on>2024-09-05 10:40:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>policy_issue_date</element>
+            <position>13</position>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-05 10:40:07</sys_created_on>
+            <sys_id>eb5936cc93205ad08b8674121bba10a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_commercial_insurance" sys_domain="global" view="Default view">e5c8264093ec1ad08b8674121bba1040</sys_ui_section>
+            <sys_updated_by>subham.agarwal</sys_updated_by>
+            <sys_updated_on>2024-09-05 10:40:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>policy_number</element>
+            <position>14</position>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-05 10:40:07</sys_created_on>
+            <sys_id>e35936cc93205ad08b8674121bba10a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_commercial_insurance" sys_domain="global" view="Default view">e5c8264093ec1ad08b8674121bba1040</sys_ui_section>
+            <sys_updated_by>subham.agarwal</sys_updated_by>
+            <sys_updated_on>2024-09-05 10:40:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_ltin2_uw_ai_commercial_insurance</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>subham.agarwal</sys_created_by>
+            <sys_created_on>2024-09-05 09:27:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e5c8264093ec1ad08b8674121bba1040</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ltin2_uw_ai_commercial_insurance</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+            <sys_update_name>sys_ui_section_e5c8264093ec1ad08b8674121bba1040</sys_update_name>
+            <sys_updated_by>subham.agarwal</sys_updated_by>
+            <sys_updated_on>2024-09-05 09:27:37</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

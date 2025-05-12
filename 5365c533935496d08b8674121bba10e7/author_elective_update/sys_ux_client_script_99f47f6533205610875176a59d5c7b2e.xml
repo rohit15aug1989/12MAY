@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="FSO Underwriting Case">15f47f6533205610875176a59d5c7b1e</macroponent>
+        <name>viewport_gph/initiallyCollapsed</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+	return api.context.props.userPrefs['workspace.showAgentAssist'] != 'true';
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>bapu</sys_created_by>
+        <sys_created_on>2024-09-10 06:51:21</sys_created_on>
+        <sys_id>99f47f6533205610875176a59d5c7b2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>viewport_gph/initiallyCollapsed</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_ux_client_script_99f47f6533205610875176a59d5c7b2e</sys_update_name>
+        <sys_updated_by>bapu</sys_updated_by>
+        <sys_updated_on>2024-09-10 06:51:21</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</application>
+        <file_path/>
+        <instance_id>7838a3eddb96a7c049eac59705961973</instance_id>
+        <instance_name>ltidemo5</instance_name>
+        <name>sys_ux_client_script_99f47f6533205610875176a59d5c7b2e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="FSO Underwriting Case"&gt;15f47f6533205610875176a59d5c7b1e&lt;/macroponent&gt;&lt;name&gt;viewport_gph/initiallyCollapsed&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+	return api.context.props.userPrefs['workspace.showAgentAssist'] != 'true';
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;bapu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-09-10 06:51:21&lt;/sys_created_on&gt;&lt;sys_id&gt;99f47f6533205610875176a59d5c7b2e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;viewport_gph/initiallyCollapsed&lt;/sys_name&gt;&lt;sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai"&gt;5365c533935496d08b8674121bba10e7&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="underwriter.ai"&gt;5365c533935496d08b8674121bba10e7&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_99f47f6533205610875176a59d5c7b2e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;bapu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-09-10 06:51:21&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>484558436</payload_hash>
+        <record_name>viewport_gph/initiallyCollapsed</record_name>
+        <reverted_from/>
+        <source>35efaba933ec1610875176a59d5c7b92</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>bapu</sys_created_by>
+        <sys_created_on>2024-09-10 06:51:21</sys_created_on>
+        <sys_id>d1f47f6533205610875176a59d5c7b31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191dab37c740000001</sys_recorded_at>
+        <sys_updated_by>bapu</sys_updated_by>
+        <sys_updated_on>2024-09-10 06:51:21</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>95f47f65a82056105e4ff70d05e2bb30</update_guid>
+        <update_guid_history>95f47f65a82056105e4ff70d05e2bb30:484558436</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>bapu</sys_created_by>
+        <sys_created_on>2025-02-24 12:00:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>0a608d178cf84e20abdb5c4b19d24040</sys_id>
+        <sys_metadata>99f47f6533205610875176a59d5c7b2e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>viewport_gph/initiallyCollapsed</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_scope_delete display_value="">7c8d9985394b49b688ab893eea2dbef1</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_99f47f6533205610875176a59d5c7b2e</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_99f47f6533205610875176a59d5c7b2e">d1f47f6533205610875176a59d5c7b31</sys_update_version>
+        <sys_updated_by>bapu</sys_updated_by>
+        <sys_updated_on>2025-02-24 12:00:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

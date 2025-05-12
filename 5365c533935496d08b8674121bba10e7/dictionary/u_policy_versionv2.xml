@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4dc829af3310a690875176a59d5c7b95" extends="x_ltin2_uw_ai_underwriting_coverage" label="Policy VersionV2" max_length="40" name="u_policy_versionv2" type="collection">
+        <element attributes="encode_utf8=false" label="Version" max_length="32" name="x_ltin2_uw_ai_version" reference="x_ltin2_uw_ai_versionid" type="reference"/>
+        <index name="index">
+            <element name="x_ltin2_uw_ai_version"/>
+        </index>
+    </element>
+</database>

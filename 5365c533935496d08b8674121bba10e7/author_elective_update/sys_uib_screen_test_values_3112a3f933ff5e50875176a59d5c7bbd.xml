@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="DELETE">
+        <macroponent_config/>
+        <screen display_value="test321">bd122fb933ff5e50875176a59d5c7b0f</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-02-19 13:31:27</sys_created_on>
+        <sys_id>3112a3f933ff5e50875176a59d5c7bbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_3112a3f933ff5e50875176a59d5c7bbd</sys_update_name>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-02-19 13:31:27</sys_updated_on>
+    </sys_uib_screen_test_values>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</application>
+        <file_path/>
+        <instance_id>7838a3eddb96a7c049eac59705961973</instance_id>
+        <instance_name>ltidemo5</instance_name>
+        <name>sys_uib_screen_test_values_3112a3f933ff5e50875176a59d5c7bbd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values"><sys_uib_screen_test_values action="INSERT_OR_UPDATE"><macroponent_config/><screen display_value="test321">bd122fb933ff5e50875176a59d5c7b0f</screen><sys_class_name>sys_uib_screen_test_values</sys_class_name><sys_created_by>sanket</sys_created_by><sys_created_on>2025-02-19 13:31:27</sys_created_on><sys_id>3112a3f933ff5e50875176a59d5c7bbd</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package><sys_policy/><sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope><sys_update_name>sys_uib_screen_test_values_3112a3f933ff5e50875176a59d5c7bbd</sys_update_name><sys_updated_by>sanket</sys_updated_by><sys_updated_on>2025-02-19 13:31:27</sys_updated_on></sys_uib_screen_test_values></record_update>]]></payload>
+        <payload_hash>1162858354</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>59cd0c8633279210875176a59d5c7b89</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-02-19 13:31:27</sys_created_on>
+        <sys_id>b512a3f933ff5e50875176a59d5c7bbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1951e6802950000001</sys_recorded_at>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-02-19 13:31:27</sys_updated_on>
+        <type>UIB Screen Test Values</type>
+        <update_guid>3912a3f9d7ff5e50460c8c762f089dbe</update_guid>
+        <update_guid_history>3912a3f9d7ff5e50460c8c762f089dbe:1162858354</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-02-19 13:35:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_uib_screen_test_values">sys_uib_screen_test_values</sys_db_object>
+        <sys_id>6fb9c58330fe4be88a36f8c591dd91e9</sys_id>
+        <sys_metadata>3112a3f933ff5e50875176a59d5c7bbd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_scope_delete display_value="">7c8d9985394b49b688ab893eea2dbef1</sys_scope_delete>
+        <sys_update_name>sys_uib_screen_test_values_3112a3f933ff5e50875176a59d5c7bbd</sys_update_name>
+        <sys_update_version display_value="sys_uib_screen_test_values_3112a3f933ff5e50875176a59d5c7bbd">b512a3f933ff5e50875176a59d5c7bbf</sys_update_version>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-02-19 13:35:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

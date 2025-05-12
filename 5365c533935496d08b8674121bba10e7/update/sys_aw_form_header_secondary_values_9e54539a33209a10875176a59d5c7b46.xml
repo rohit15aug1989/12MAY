@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_aw_form_header_secondary_values">
+    <sys_aw_form_header_secondary_values action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_ltin2_uw_ai_fso_uw_case">stage=issued^EQ<item display_value="Issued" endquery="false" field="stage" goto="false" newquery="false" operator="=" or="false" value="issued"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <field>insurance_policy.policy_number</field>
+        <form_header display_value="x_ltin2_uw_ai_fso_uw_case">f9e18e3d93e856108b8674121bba10f3</form_header>
+        <order>700</order>
+        <roles/>
+        <sys_class_name>sys_aw_form_header_secondary_values</sys_class_name>
+        <sys_created_by>bapu</sys_created_by>
+        <sys_created_on>2024-09-12 12:32:33</sys_created_on>
+        <sys_id>9e54539a33209a10875176a59d5c7b46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>insurance_policy.policy_number</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_aw_form_header_secondary_values_9e54539a33209a10875176a59d5c7b46</sys_update_name>
+        <sys_updated_by>bapu</sys_updated_by>
+        <sys_updated_on>2024-09-12 12:32:33</sys_updated_on>
+    </sys_aw_form_header_secondary_values>
+</record_update>

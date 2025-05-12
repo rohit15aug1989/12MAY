@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="d458dd4133ef1610875176a59d5c7bee" sys_domain="global" table="x_ltin2_uw_ai_fso_uw_case" version="3" view="test">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-02-04 09:18:38</sys_created_on>
+            <sys_id>8868518133ef1610875176a59d5c7ba5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="4eb41793c32221009a08d27af3d3ae2b">d458dd4133ef1610875176a59d5c7bee</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-02-04 09:18:38</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>1</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-02-04 09:18:38</sys_created_on>
+            <sys_id>8068518133ef1610875176a59d5c7ba6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="4eb41793c32221009a08d27af3d3ae2b">d458dd4133ef1610875176a59d5c7bee</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-02-04 09:18:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>product</element>
+            <position>2</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-02-04 09:18:38</sys_created_on>
+            <sys_id>8868518133ef1610875176a59d5c7ba6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="4eb41793c32221009a08d27af3d3ae2b">d458dd4133ef1610875176a59d5c7bee</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-02-04 09:18:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>insurance_policy</element>
+            <position>3</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-02-04 09:18:38</sys_created_on>
+            <sys_id>8068518133ef1610875176a59d5c7ba7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="4eb41793c32221009a08d27af3d3ae2b">d458dd4133ef1610875176a59d5c7bee</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-02-04 09:18:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>stage</element>
+            <position>4</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-02-04 09:18:38</sys_created_on>
+            <sys_id>8868518133ef1610875176a59d5c7ba7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="4eb41793c32221009a08d27af3d3ae2b">d458dd4133ef1610875176a59d5c7bee</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-02-04 09:18:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>task_duration</element>
+            <position>5</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-02-04 09:18:38</sys_created_on>
+            <sys_id>8068518133ef1610875176a59d5c7ba8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="4eb41793c32221009a08d27af3d3ae2b">d458dd4133ef1610875176a59d5c7bee</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-02-04 09:18:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>days_submission_to_quote</element>
+            <position>6</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-02-04 09:18:38</sys_created_on>
+            <sys_id>8868518133ef1610875176a59d5c7ba8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="4eb41793c32221009a08d27af3d3ae2b">d458dd4133ef1610875176a59d5c7bee</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-02-04 09:18:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>decision_date</element>
+            <position>7</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-02-04 09:18:38</sys_created_on>
+            <sys_id>8068518133ef1610875176a59d5c7ba9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="4eb41793c32221009a08d27af3d3ae2b">d458dd4133ef1610875176a59d5c7bee</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-02-04 09:18:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>effective_date</element>
+            <position>8</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-02-04 09:18:38</sys_created_on>
+            <sys_id>9868518133ef1610875176a59d5c7ba9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="4eb41793c32221009a08d27af3d3ae2b">d458dd4133ef1610875176a59d5c7bee</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-02-04 09:18:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contact_type</element>
+            <position>9</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-02-04 09:18:38</sys_created_on>
+            <sys_id>9068518133ef1610875176a59d5c7baa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="4eb41793c32221009a08d27af3d3ae2b">d458dd4133ef1610875176a59d5c7bee</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-02-04 09:18:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>10</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-02-04 09:18:38</sys_created_on>
+            <sys_id>9868518133ef1610875176a59d5c7baa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="4eb41793c32221009a08d27af3d3ae2b">d458dd4133ef1610875176a59d5c7bee</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-02-04 09:18:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>11</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-02-04 09:18:38</sys_created_on>
+            <sys_id>9068518133ef1610875176a59d5c7bab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="4eb41793c32221009a08d27af3d3ae2b">d458dd4133ef1610875176a59d5c7bee</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-02-04 09:18:38</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>customer_id</element>
+            <position>12</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-02-04 09:18:38</sys_created_on>
+            <sys_id>9868518133ef1610875176a59d5c7bab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="4eb41793c32221009a08d27af3d3ae2b">d458dd4133ef1610875176a59d5c7bee</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-02-04 09:18:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_at</element>
+            <position>13</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-02-04 09:18:38</sys_created_on>
+            <sys_id>9068518133ef1610875176a59d5c7bac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="4eb41793c32221009a08d27af3d3ae2b">d458dd4133ef1610875176a59d5c7bee</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-02-04 09:18:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_by</element>
+            <position>14</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-02-04 09:18:38</sys_created_on>
+            <sys_id>9868518133ef1610875176a59d5c7bac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="4eb41793c32221009a08d27af3d3ae2b">d458dd4133ef1610875176a59d5c7bee</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-02-04 09:18:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_updated_on</element>
+            <position>15</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-02-04 09:18:38</sys_created_on>
+            <sys_id>9068518133ef1610875176a59d5c7bad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="4eb41793c32221009a08d27af3d3ae2b">d458dd4133ef1610875176a59d5c7bee</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-02-04 09:18:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_updated_by</element>
+            <position>16</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-02-04 09:18:38</sys_created_on>
+            <sys_id>9868518133ef1610875176a59d5c7bad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="4eb41793c32221009a08d27af3d3ae2b">d458dd4133ef1610875176a59d5c7bee</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-02-04 09:18:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>17</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-02-04 09:18:38</sys_created_on>
+            <sys_id>9068518133ef1610875176a59d5c7bae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="4eb41793c32221009a08d27af3d3ae2b">d458dd4133ef1610875176a59d5c7bee</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-02-04 09:18:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>18</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-02-04 09:18:38</sys_created_on>
+            <sys_id>9868518133ef1610875176a59d5c7bae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="4eb41793c32221009a08d27af3d3ae2b">d458dd4133ef1610875176a59d5c7bee</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-02-04 09:18:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>covegare</element>
+            <position>19</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-02-04 09:18:38</sys_created_on>
+            <sys_id>9068518133ef1610875176a59d5c7baf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="4eb41793c32221009a08d27af3d3ae2b">d458dd4133ef1610875176a59d5c7bee</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-02-04 09:18:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>propensity_to_bind</element>
+            <position>20</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-02-04 09:18:38</sys_created_on>
+            <sys_id>9868518133ef1610875176a59d5c7baf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="4eb41793c32221009a08d27af3d3ae2b">d458dd4133ef1610875176a59d5c7bee</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-02-04 09:18:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>21</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-02-04 09:18:38</sys_created_on>
+            <sys_id>9068518133ef1610875176a59d5c7bb0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="4eb41793c32221009a08d27af3d3ae2b">d458dd4133ef1610875176a59d5c7bee</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-02-04 09:18:38</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>22</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-02-04 09:18:38</sys_created_on>
+            <sys_id>9868518133ef1610875176a59d5c7bb0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="4eb41793c32221009a08d27af3d3ae2b">d458dd4133ef1610875176a59d5c7bee</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-02-04 09:18:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cxs_table_search.xml</element>
+            <position>23</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-02-04 09:18:38</sys_created_on>
+            <sys_id>9068518133ef1610875176a59d5c7bb1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Contextual Search Results">11eb1622eb1121003623666cd206fe56</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_fso_uw_case" sys_domain="global" view="4eb41793c32221009a08d27af3d3ae2b">d458dd4133ef1610875176a59d5c7bee</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-02-04 09:18:38</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_ltin2_uw_ai_fso_uw_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-02-04 09:18:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d458dd4133ef1610875176a59d5c7bee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ltin2_uw_ai_fso_uw_case</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+            <sys_update_name>sys_ui_section_d458dd4133ef1610875176a59d5c7bee</sys_update_name>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-02-04 09:18:22</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Test" name="test">4eb41793c32221009a08d27af3d3ae2b</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

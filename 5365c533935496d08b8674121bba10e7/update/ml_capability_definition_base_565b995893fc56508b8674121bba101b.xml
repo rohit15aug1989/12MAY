@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="ml_capability_definition_base">
+    <ml_capability_definition_base action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <capability display_value="NLU">b4ddf73453c73300d1dcddeeff7b1288</capability>
+        <current_solution_version/>
+        <dataset_language>en</dataset_language>
+        <fields/>
+        <filter/>
+        <pretrained>false</pretrained>
+        <request_source>api</request_source>
+        <solution_label>565b995893fc56508b8674121bba101a</solution_label>
+        <solution_name>ml_x_ltin2_x_ltin2_uw_ai_global_565b995893fc56508b8674121bba101a</solution_name>
+        <solution_parameters/>
+        <solution_properties>{"authoringModel":{"dummyKey":"dummyValue"},"label":"565b995893fc56508b8674121bba101a","schedulingInfo":{"useCase":"Train NLU Solution"}}</solution_properties>
+        <stopwords>a6282a25533333008c5bddeeff7b12c3</stopwords>
+        <sys_class_name>ml_capability_definition_base</sys_class_name>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2024-09-18 08:43:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>565b995893fc56508b8674121bba101b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>565b995893fc56508b8674121bba101a</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>ml_capability_definition_base_565b995893fc56508b8674121bba101b</sys_update_name>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:43:31</sys_updated_on>
+        <table/>
+        <training_frequency>run_once</training_frequency>
+        <triggered_source>API</triggered_source>
+        <word_vector_corpus/>
+    </ml_capability_definition_base>
+</record_update>

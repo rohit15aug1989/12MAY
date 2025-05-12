@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>false</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>GetCoverageInsights</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   var ga = new GlideAjax('UnderwriteAnnotation');
+    ga.addParam('sysparm_name', 'getMsgCoverage');
+	ga.addParam('sysparm_case_id',g_scratchpad.case_id);
+    //ga.addParam('sysparm_stage', g_form.getValue('stage'));
+    ga.getXML(GetDFcabParse);
+
+    function GetDFcabParse(response) {
+        var answer = response.responseXML.documentElement.getAttribute("answer");
+		if(answer!='')
+        g_form.addInfoMessage(answer);
+	//	g_form.setValue('insights',answer);
+		//g_form.setValue('annotation_field',answer);
+		
+    }
+
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2024-09-27 16:03:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6ed5d55b33f0da90875176a59d5c7b2a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>GetCoverageInsights</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_script_client_6ed5d55b33f0da90875176a59d5c7b2a</sys_update_name>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2024-09-29 13:01:57</sys_updated_on>
+        <table>x_ltin2_uw_ai_underwriting_coverage</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view>workspace-underwriter-workspace-0</view>
+    </sys_script_client>
+</record_update>

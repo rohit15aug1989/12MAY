@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters">
+    <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE">
+        <name>latitude</name>
+        <rest_message_function display_value="Get Risk score via Geo point">91d085f533685610875176a59d5c7bf3</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
+        <sys_created_by>shubhasis</sys_created_by>
+        <sys_created_on>2024-09-10 12:24:21</sys_created_on>
+        <sys_id>9721493933685610875176a59d5c7b45</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>latitude</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_rest_message_fn_parameters_9721493933685610875176a59d5c7b45</sys_update_name>
+        <sys_updated_by>shubhasis</sys_updated_by>
+        <sys_updated_on>2024-09-10 12:24:47</sys_updated_on>
+        <type>string</type>
+        <value>47.58212356511573</value>
+    </sys_rest_message_fn_parameters>
+</record_update>

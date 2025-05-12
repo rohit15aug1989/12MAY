@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_visualization">
+    <par_visualization action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <certified>false</certified>
+        <description/>
+        <macroponent display_value="Vertical bar">23051643b7e03010097cb81cde11a910</macroponent>
+        <name>Incident [incident]</name>
+        <properties>{"showLegend":true,"showHeader":true,"showLegendValue":false,"showBorder":true,"bareBorder":false,"enableDrilldown":true,"dataSources":[{"isDatabaseView":false,"allowRealTime":false,"label":"Incident","sourceType":"table","tableOrViewName":"incident","filterQuery":"","id":"DATA_SOURCE_ID_0","dataCategories":["trend","group","simple"]}],"metrics":[{"dataSource":"DATA_SOURCE_ID_0","id":"METRIC_ID_0","aggregateFunction":"COUNT","axisId":"primary","numberFormat":{"abbreviationEnabled":true,"customFormat":true,"thousandSeparatorEnabled":true}}],"trendBy":null,"groupBy":[{"groupBy":[{"dataSource":"DATA_SOURCE_ID_0","groupByField":"category","isRange":false,"isChoice":true,"isPaBucket":false}],"maxNumberOfGroups":"20","numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":true,"hideZeroValues":false,"disableRanges":false}],"headingLevel":2,"description":"","showHeaderSeparator":false,"yAxisHidden":false,"xAxisWrapLabels":true,"xAxisTruncationType":"end","xAxisMaxLabelSize":100,"wrapTitle":true,"headerTitle":"Incident [incident]","filterConfigurations":[],"componentId":"keqduzks","showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"newReporting":false,"showSparkline":false,"filterPerMetric":[],"sortBy":"value","showDateRangeByDefault":false,"allowChangeDateRange":false,"configVersion":"23.0.0-ci-SNAPSHOT","showMaximumRange":false,"enableRealTimeUpdate":false,"applyDateRange":false,"scoreType":null,"allowAdditionalGroupByPerMetric":false,"colorConfig":{"type":"default"}}</properties>
+        <requested_by/>
+        <scheduled_count>0</scheduled_count>
+        <sys_class_name>par_visualization</sys_class_name>
+        <sys_created_by>vinitha</sys_created_by>
+        <sys_created_on>2025-02-24 11:29:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2d06b86393ffde908b8674121bba100e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Incident [incident]</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>par_visualization_2d06b86393ffde908b8674121bba100e</sys_update_name>
+        <sys_updated_by>vinitha</sys_updated_by>
+        <sys_updated_on>2025-02-24 11:29:04</sys_updated_on>
+        <type>Vertical bar</type>
+    </par_visualization>
+</record_update>

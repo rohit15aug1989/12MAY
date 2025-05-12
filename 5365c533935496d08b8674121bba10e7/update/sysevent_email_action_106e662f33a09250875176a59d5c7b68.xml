@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_ltin2_uw_ai_fso_uw_case</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>x_ltin2_uw_ai.new_uw_case</event_name>
+        <event_parm_1>true</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>event</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p><span style="font-family: verdana, geneva; font-size: 10pt;">Hello,</span></p>
+<p><span style="font-family: verdana, geneva; font-size: 10pt;">A New Business Submission has been received and a Case has been created: ${number}. We will keep you posted on further updates.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 600; font-size: 10pt; font-family: verdana, geneva;">About this Case:</span></p>
+<p><span style="font-size: 10pt; font-family: verdana, geneva;">Customer: ${customer_id.name}</span></p>
+<p><span style="font-size: 10pt; font-family: verdana, geneva;">Summary: ${short_description}</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 10pt; font-family: verdana, geneva;">We will reach out to you if there are further details required.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 10pt; font-family: verdana, geneva;"><strong>Thank You,</strong><br><strong>Underwriter Team</strong><br>[via Underwriter.ai]</span></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>UW New Case Creation</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Your Case for New Business Submission for Commercial Property Insurance : ${number} has been created</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>subham.agarwal</sys_created_by>
+        <sys_created_on>2024-09-16 06:53:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>106e662f33a09250875176a59d5c7b68</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>UW New Case Creation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sysevent_email_action_106e662f33a09250875176a59d5c7b68</sys_update_name>
+        <sys_updated_by>abhi</sys_updated_by>
+        <sys_updated_on>2024-09-18 13:49:17</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="UnderWriter">9d31ee5c33f0d650875176a59d5c7bd1</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>106e662f33a09250875176a59d5c7b68</id>
+        <sys_created_by>subham.agarwal</sys_created_by>
+        <sys_created_on>2024-09-16 07:02:54</sys_created_on>
+        <sys_id>81213aa333e09250875176a59d5c7b8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>subham.agarwal</sys_updated_by>
+        <sys_updated_on>2024-09-16 07:02:54</sys_updated_on>
+        <table>sysevent_email_action</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

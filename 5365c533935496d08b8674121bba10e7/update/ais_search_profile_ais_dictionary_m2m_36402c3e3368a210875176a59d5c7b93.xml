@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_dictionary_m2m">
+    <ais_search_profile_ais_dictionary_m2m action="INSERT_OR_UPDATE">
+        <dictionary display_value="sn_mab_api_mab_stop_word_dictionary">cb707b8253d2021054dfddeeff7b1280</dictionary>
+        <dictionary_reference_qualifier/>
+        <marked_for_deletion>false</marked_for_deletion>
+        <profile display_value="Search location details">5600e03e3368a210875176a59d5c7b9e</profile>
+        <sys_class_name>ais_search_profile_ais_dictionary_m2m</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-31 08:45:45</sys_created_on>
+        <sys_id>36402c3e3368a210875176a59d5c7b93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_mab_api_mab_stop_word_dictionary.Search location details</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>ais_search_profile_ais_dictionary_m2m_36402c3e3368a210875176a59d5c7b93</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-31 08:45:45</sys_updated_on>
+    </ais_search_profile_ais_dictionary_m2m>
+</record_update>

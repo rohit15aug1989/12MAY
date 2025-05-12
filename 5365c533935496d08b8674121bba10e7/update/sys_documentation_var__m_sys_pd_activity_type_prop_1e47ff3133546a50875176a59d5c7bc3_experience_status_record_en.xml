@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="experience_status_record" label="Experience Status Record" language="en" table="var__m_sys_pd_activity_type_prop_1e47ff3133546a50875176a59d5c7bc3">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>experience_status_record</element>
+            <help/>
+            <hint/>
+            <label>Experience Status Record</label>
+            <language>en</language>
+            <name>var__m_sys_pd_activity_type_prop_1e47ff3133546a50875176a59d5c7bc3</name>
+            <plural>Experience Status Record</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>rohit</sys_created_by>
+            <sys_created_on>2025-03-16 11:35:29</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Experience Status Record</sys_name>
+            <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_pd_activity_type_prop_1e47ff3133546a50875176a59d5c7bc3_experience_status_record_en</sys_update_name>
+            <sys_updated_by>rohit</sys_updated_by>
+            <sys_updated_on>2025-03-16 11:35:29</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

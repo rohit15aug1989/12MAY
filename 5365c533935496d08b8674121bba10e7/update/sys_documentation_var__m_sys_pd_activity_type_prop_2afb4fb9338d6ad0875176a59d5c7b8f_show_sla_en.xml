@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="show_sla" label="Show SLA" language="en" table="var__m_sys_pd_activity_type_prop_2afb4fb9338d6ad0875176a59d5c7b8f">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>show_sla</element>
+            <help/>
+            <hint/>
+            <label>Show SLA</label>
+            <language>en</language>
+            <name>var__m_sys_pd_activity_type_prop_2afb4fb9338d6ad0875176a59d5c7b8f</name>
+            <plural>Show SLA</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-04-22 15:13:24</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Show SLA</sys_name>
+            <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_pd_activity_type_prop_2afb4fb9338d6ad0875176a59d5c7b8f_show_sla_en</sys_update_name>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-04-22 15:13:24</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

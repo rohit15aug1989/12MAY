@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_generative_ai_config">
+    <sys_generative_ai_config action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <additional_configurations>{"skill_config_id":"35b3f37093e4ee908b8674121bba10b5"}</additional_configurations>
+        <ai_suggested>false</ai_suggested>
+        <definition>b943b4f6872c0210fa6ecbfc0ebb35d5</definition>
+        <definition_table>sys_one_extend_capability_definition</definition_table>
+        <max_tokens>1000</max_tokens>
+        <min_word_count>-1</min_word_count>
+        <model>llm_generic</model>
+        <name>New Test prompt</name>
+        <parent/>
+        <prompt>You are an insurance underwriter. You are optionally given PROPENSITY_INSIGHT,  {{tablename}}  {{tablename}}  {{priority}}  {{priority}} , PRIORITY, STATE and ACTIVITIES.
+
+{{short_description}}
+{{description}} {{other_fields}}  {{other_fields}} 
+{{priority}}
+{{state}}
+An array of activities from activity stream with created date, its type such as a comment or work note and if it's added by agent or customer and the text: {{activities}}
+Please consider information being sent in the email body in  activities for summary.
+{{other_fields.all_remaining_attributes}}
+{{relatedlists_data.all_remaining_attributes}}
+
+Based on the given input only, summarize the provided information and extract that into following sections:
+Issue - The Issue section should represent what the case is about. Return only a string for this section.
+Key Actions Taken - The Actions Taken section should provide a list of significant actions performed to investigate and resolve the case. Do not consider logs, alerts, attachments, stack traces, json outputs, unix shell outputs and source code in the given input text. Return only a list of strings for this section.
+Resolution - The Resolution section should highlight the action or actions only if absolutely sure the problem was resolved. Do not consider logs, alerts, attachments, stack traces, json outputs, unix shell outputs and source code in the given input text. Return only a string for this section.
+Only use the provided information. Do not reproduce details as is in the summary output, make sure to respond with a concise summary. Do not generate any information which is not provided. If you are not absolutely sure, return N/A. Please make sure the output JSON is fully minified without any new line characters or spaces. DO NOT GENERATE ANY EXPLANATION, REASONING, COMMENTARY OR DESCRIPTION ABOUT THE SUMMARY.
+Always generate the output in below JSON format.
+
+{&lt;section_name&gt;: &lt;section_details&gt;}</prompt>
+        <prompt_template_role>user</prompt_template_role>
+        <request_tokens>15134</request_tokens>
+        <show_in_prompt_library>false</show_in_prompt_library>
+        <state>finalized</state>
+        <sys_class_name>sys_generative_ai_config</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-25 19:03:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2534b3b093e4ee908b8674121bba10d9</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>b943b4f6872c0210fa6ecbfc0ebb35d5</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="UXC Generative AI" source="sn_uxc_gen_ai">1923d9ddd1d22110f877c76675ff5b9d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_generative_ai_config_2534b3b093e4ee908b8674121bba10d9</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-25 19:13:44</sys_updated_on>
+        <temperature>0.2</temperature>
+        <version>1</version>
+    </sys_generative_ai_config>
+</record_update>

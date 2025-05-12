@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_context_profile_skill">
+    <sys_cs_context_profile_skill action="DELETE">
+        <context_profile display_value="Default Now Assist Panel - Platform">e93cab98c7c03110b65579a988c260c4</context_profile>
+        <skill_id display_value="Get UW case summary">4f1419ba93ec62108b8674121bba107d</skill_id>
+        <sys_class_name>sys_cs_context_profile_skill</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-31 12:32:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>db1419ba93ec62108b8674121bba10e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_cs_context_profile_skill_db1419ba93ec62108b8674121bba10e1</sys_update_name>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-31 12:32:11</sys_updated_on>
+    </sys_cs_context_profile_skill>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</application>
+        <file_path/>
+        <instance_id>7838a3eddb96a7c049eac59705961973</instance_id>
+        <instance_name>ltidemo5</instance_name>
+        <name>sys_cs_context_profile_skill_db1419ba93ec62108b8674121bba10e1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_context_profile_skill"><sys_cs_context_profile_skill action="INSERT_OR_UPDATE"><context_profile display_value="Default Now Assist Panel - Platform">e93cab98c7c03110b65579a988c260c4</context_profile><skill_id display_value="Get UW case summary">4f1419ba93ec62108b8674121bba107d</skill_id><sys_class_name>sys_cs_context_profile_skill</sys_class_name><sys_created_by>rohit</sys_created_by><sys_created_on>2025-03-31 12:32:11</sys_created_on><sys_domain>global</sys_domain><sys_id>db1419ba93ec62108b8674121bba10e1</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package><sys_policy/><sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope><sys_update_name>sys_cs_context_profile_skill_db1419ba93ec62108b8674121bba10e1</sys_update_name><sys_updated_by>rohit</sys_updated_by><sys_updated_on>2025-03-31 12:32:11</sys_updated_on></sys_cs_context_profile_skill></record_update>]]></payload>
+        <payload_hash>1669349984</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>53ea92d9338fda10875176a59d5c7bc9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-31 12:32:11</sys_created_on>
+        <sys_id>971419ba93ec62108b8674121bba10e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195ec301db00000001</sys_recorded_at>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-03-31 12:32:11</sys_updated_on>
+        <type>Profile and Skill Mapping</type>
+        <update_guid>1b1419ba7dec6210826c446a737f98e3</update_guid>
+        <update_guid_history>1b1419ba7dec6210826c446a737f98e3:1669349984</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-04-01 18:20:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_cs_context_profile_skill">sys_cs_context_profile_skill</sys_db_object>
+        <sys_id>23076bd461e748dd8c5b834f8be68691</sys_id>
+        <sys_metadata>db1419ba93ec62108b8674121bba10e1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_scope_delete display_value="">7c8d9985394b49b688ab893eea2dbef1</sys_scope_delete>
+        <sys_update_name>sys_cs_context_profile_skill_db1419ba93ec62108b8674121bba10e1</sys_update_name>
+        <sys_update_version display_value="sys_cs_context_profile_skill_db1419ba93ec62108b8674121bba10e1">971419ba93ec62108b8674121bba10e4</sys_update_version>
+        <sys_updated_by>rohit</sys_updated_by>
+        <sys_updated_on>2025-04-01 18:20:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

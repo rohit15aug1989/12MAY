@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="4a31b1633390a690875176a59d5c7b08" sys_domain="global" table="x_ltin2_uw_ai_policy_version2" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-21 18:20:29</sys_created_on>
+            <sys_id>08f3cb6f335ca690875176a59d5c7b08</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-21 18:20:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fso_case</element>
+            <position>1</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-21 18:20:29</sys_created_on>
+            <sys_id>00f3cb6f335ca690875176a59d5c7b09</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-21 18:20:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>customer_id</element>
+            <position>2</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-21 18:20:29</sys_created_on>
+            <sys_id>08f3cb6f335ca690875176a59d5c7b09</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-21 18:20:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>co_insurance</element>
+            <position>3</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-21 18:20:29</sys_created_on>
+            <sys_id>00f3cb6f335ca690875176a59d5c7b0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-21 18:20:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-21 18:20:29</sys_created_on>
+            <sys_id>08f3cb6f335ca690875176a59d5c7b0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-21 18:20:29</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>attachment</element>
+            <position>5</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-21 18:20:29</sys_created_on>
+            <sys_id>00f3cb6f335ca690875176a59d5c7b0b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-21 18:20:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>commerical_coverage_location</element>
+            <position>6</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-21 18:20:29</sys_created_on>
+            <sys_id>ccf3cb6f335ca690875176a59d5c7b17</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-21 18:20:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>coverage_policy_uw</element>
+            <position>7</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-21 18:20:29</sys_created_on>
+            <sys_id>c4f3cb6f335ca690875176a59d5c7b18</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-21 18:20:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>building</element>
+            <position>8</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-21 18:20:29</sys_created_on>
+            <sys_id>ccf3cb6f335ca690875176a59d5c7b18</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-21 18:20:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>coverage_type</element>
+            <position>9</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-21 18:20:29</sys_created_on>
+            <sys_id>c4f3cb6f335ca690875176a59d5c7b19</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-21 18:20:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>10</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-21 18:20:29</sys_created_on>
+            <sys_id>ccf3cb6f335ca690875176a59d5c7b19</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-21 18:20:29</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>deductible</element>
+            <position>11</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-21 18:20:29</sys_created_on>
+            <sys_id>c4f3cb6f335ca690875176a59d5c7b1a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-21 18:20:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>limits</element>
+            <position>12</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-21 18:20:29</sys_created_on>
+            <sys_id>ccf3cb6f335ca690875176a59d5c7b1a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-21 18:20:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>schedule_modifier</element>
+            <position>13</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-21 18:20:29</sys_created_on>
+            <sys_id>c4f3cb6f335ca690875176a59d5c7b1b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-21 18:20:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>premium_rate</element>
+            <position>14</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-21 18:20:29</sys_created_on>
+            <sys_id>ccf3cb6f335ca690875176a59d5c7b1b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-21 18:20:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>premium</element>
+            <position>15</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-21 18:20:29</sys_created_on>
+            <sys_id>c4f3cb6f335ca690875176a59d5c7b1c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-21 18:20:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>versionss</element>
+            <position>16</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-21 18:20:29</sys_created_on>
+            <sys_id>ccf3cb6f335ca690875176a59d5c7b1c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-21 18:20:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>locationcopy</element>
+            <position>17</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-21 18:20:29</sys_created_on>
+            <sys_id>c4f3cb6f335ca690875176a59d5c7b1d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-21 18:20:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>defuctiblecopy</element>
+            <position>18</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-21 18:20:29</sys_created_on>
+            <sys_id>ccf3cb6f335ca690875176a59d5c7b1d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-21 18:20:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>coverage_type_copy</element>
+            <position>19</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-21 18:20:29</sys_created_on>
+            <sys_id>c4f3cb6f335ca690875176a59d5c7b1e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-21 18:20:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>attachmentcopy</element>
+            <position>20</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-21 18:20:29</sys_created_on>
+            <sys_id>ccf3cb6f335ca690875176a59d5c7b1e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-21 18:20:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>limitscopy</element>
+            <position>21</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-21 18:20:29</sys_created_on>
+            <sys_id>c4f3cb6f335ca690875176a59d5c7b1f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-21 18:20:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fso_uw_case_copy</element>
+            <position>22</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-21 18:20:29</sys_created_on>
+            <sys_id>ccf3cb6f335ca690875176a59d5c7b1f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-21 18:20:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>building_copy</element>
+            <position>23</position>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-21 18:20:29</sys_created_on>
+            <sys_id>c4f3cb6f335ca690875176a59d5c7b20</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-21 18:20:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_ltin2_uw_ai_policy_version2</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>sanket</sys_created_by>
+            <sys_created_on>2025-03-21 12:19:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4a31b1633390a690875176a59d5c7b08</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ltin2_uw_ai_policy_version2</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+            <sys_update_name>sys_ui_section_4a31b1633390a690875176a59d5c7b08</sys_update_name>
+            <sys_updated_by>sanket</sys_updated_by>
+            <sys_updated_on>2025-03-21 12:19:05</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</application>
+        <file_path/>
+        <instance_id>7838a3eddb96a7c049eac59705961973</instance_id>
+        <instance_name>ltidemo5</instance_name>
+        <name>sys_ui_section_4a31b1633390a690875176a59d5c7b08</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="4a31b1633390a690875176a59d5c7b08" sys_domain="global" table="x_ltin2_uw_ai_policy_version2" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>0</position><sys_created_by>sanket</sys_created_by><sys_created_on>2025-03-21 18:20:29</sys_created_on><sys_id>08f3cb6f335ca690875176a59d5c7b08</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section><sys_updated_by>sanket</sys_updated_by><sys_updated_on>2025-03-21 18:20:29</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>fso_case</element><position>1</position><sys_created_by>sanket</sys_created_by><sys_created_on>2025-03-21 18:20:29</sys_created_on><sys_id>00f3cb6f335ca690875176a59d5c7b09</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section><sys_updated_by>sanket</sys_updated_by><sys_updated_on>2025-03-21 18:20:29</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>customer_id</element><position>2</position><sys_created_by>sanket</sys_created_by><sys_created_on>2025-03-21 18:20:29</sys_created_on><sys_id>08f3cb6f335ca690875176a59d5c7b09</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section><sys_updated_by>sanket</sys_updated_by><sys_updated_on>2025-03-21 18:20:29</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>co_insurance</element><position>3</position><sys_created_by>sanket</sys_created_by><sys_created_on>2025-03-21 18:20:29</sys_created_on><sys_id>00f3cb6f335ca690875176a59d5c7b0a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section><sys_updated_by>sanket</sys_updated_by><sys_updated_on>2025-03-21 18:20:29</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>4</position><sys_created_by>sanket</sys_created_by><sys_created_on>2025-03-21 18:20:29</sys_created_on><sys_id>08f3cb6f335ca690875176a59d5c7b0a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section><sys_updated_by>sanket</sys_updated_by><sys_updated_on>2025-03-21 18:20:29</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>attachment</element><position>5</position><sys_created_by>sanket</sys_created_by><sys_created_on>2025-03-21 18:20:29</sys_created_on><sys_id>00f3cb6f335ca690875176a59d5c7b0b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section><sys_updated_by>sanket</sys_updated_by><sys_updated_on>2025-03-21 18:20:29</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>commerical_coverage_location</element><position>6</position><sys_created_by>sanket</sys_created_by><sys_created_on>2025-03-21 18:20:29</sys_created_on><sys_id>ccf3cb6f335ca690875176a59d5c7b17</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section><sys_updated_by>sanket</sys_updated_by><sys_updated_on>2025-03-21 18:20:29</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>coverage_policy_uw</element><position>7</position><sys_created_by>sanket</sys_created_by><sys_created_on>2025-03-21 18:20:29</sys_created_on><sys_id>c4f3cb6f335ca690875176a59d5c7b18</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section><sys_updated_by>sanket</sys_updated_by><sys_updated_on>2025-03-21 18:20:29</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>building</element><position>8</position><sys_created_by>sanket</sys_created_by><sys_created_on>2025-03-21 18:20:29</sys_created_on><sys_id>ccf3cb6f335ca690875176a59d5c7b18</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section><sys_updated_by>sanket</sys_updated_by><sys_updated_on>2025-03-21 18:20:29</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>coverage_type</element><position>9</position><sys_created_by>sanket</sys_created_by><sys_created_on>2025-03-21 18:20:29</sys_created_on><sys_id>c4f3cb6f335ca690875176a59d5c7b19</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section><sys_updated_by>sanket</sys_updated_by><sys_updated_on>2025-03-21 18:20:29</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>10</position><sys_created_by>sanket</sys_created_by><sys_created_on>2025-03-21 18:20:29</sys_created_on><sys_id>ccf3cb6f335ca690875176a59d5c7b19</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section><sys_updated_by>sanket</sys_updated_by><sys_updated_on>2025-03-21 18:20:29</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>deductible</element><position>11</position><sys_created_by>sanket</sys_created_by><sys_created_on>2025-03-21 18:20:29</sys_created_on><sys_id>c4f3cb6f335ca690875176a59d5c7b1a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section><sys_updated_by>sanket</sys_updated_by><sys_updated_on>2025-03-21 18:20:29</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>limits</element><position>12</position><sys_created_by>sanket</sys_created_by><sys_created_on>2025-03-21 18:20:29</sys_created_on><sys_id>ccf3cb6f335ca690875176a59d5c7b1a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section><sys_updated_by>sanket</sys_updated_by><sys_updated_on>2025-03-21 18:20:29</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>schedule_modifier</element><position>13</position><sys_created_by>sanket</sys_created_by><sys_created_on>2025-03-21 18:20:29</sys_created_on><sys_id>c4f3cb6f335ca690875176a59d5c7b1b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section><sys_updated_by>sanket</sys_updated_by><sys_updated_on>2025-03-21 18:20:29</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>premium_rate</element><position>14</position><sys_created_by>sanket</sys_created_by><sys_created_on>2025-03-21 18:20:29</sys_created_on><sys_id>ccf3cb6f335ca690875176a59d5c7b1b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section><sys_updated_by>sanket</sys_updated_by><sys_updated_on>2025-03-21 18:20:29</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>premium</element><position>15</position><sys_created_by>sanket</sys_created_by><sys_created_on>2025-03-21 18:20:29</sys_created_on><sys_id>c4f3cb6f335ca690875176a59d5c7b1c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section><sys_updated_by>sanket</sys_updated_by><sys_updated_on>2025-03-21 18:20:29</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>versionss</element><position>16</position><sys_created_by>sanket</sys_created_by><sys_created_on>2025-03-21 18:20:29</sys_created_on><sys_id>ccf3cb6f335ca690875176a59d5c7b1c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section><sys_updated_by>sanket</sys_updated_by><sys_updated_on>2025-03-21 18:20:29</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>locationcopy</element><position>17</position><sys_created_by>sanket</sys_created_by><sys_created_on>2025-03-21 18:20:29</sys_created_on><sys_id>c4f3cb6f335ca690875176a59d5c7b1d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section><sys_updated_by>sanket</sys_updated_by><sys_updated_on>2025-03-21 18:20:29</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>defuctiblecopy</element><position>18</position><sys_created_by>sanket</sys_created_by><sys_created_on>2025-03-21 18:20:29</sys_created_on><sys_id>ccf3cb6f335ca690875176a59d5c7b1d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section><sys_updated_by>sanket</sys_updated_by><sys_updated_on>2025-03-21 18:20:29</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>coverage_type_copy</element><position>19</position><sys_created_by>sanket</sys_created_by><sys_created_on>2025-03-21 18:20:29</sys_created_on><sys_id>c4f3cb6f335ca690875176a59d5c7b1e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section><sys_updated_by>sanket</sys_updated_by><sys_updated_on>2025-03-21 18:20:29</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>attachmentcopy</element><position>20</position><sys_created_by>sanket</sys_created_by><sys_created_on>2025-03-21 18:20:29</sys_created_on><sys_id>ccf3cb6f335ca690875176a59d5c7b1e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section><sys_updated_by>sanket</sys_updated_by><sys_updated_on>2025-03-21 18:20:29</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>limitscopy</element><position>21</position><sys_created_by>sanket</sys_created_by><sys_created_on>2025-03-21 18:20:29</sys_created_on><sys_id>c4f3cb6f335ca690875176a59d5c7b1f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section><sys_updated_by>sanket</sys_updated_by><sys_updated_on>2025-03-21 18:20:29</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>fso_uw_case_copy</element><position>22</position><sys_created_by>sanket</sys_created_by><sys_created_on>2025-03-21 18:20:29</sys_created_on><sys_id>ccf3cb6f335ca690875176a59d5c7b1f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section><sys_updated_by>sanket</sys_updated_by><sys_updated_on>2025-03-21 18:20:29</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>building_copy</element><position>23</position><sys_created_by>sanket</sys_created_by><sys_created_on>2025-03-21 18:20:29</sys_created_on><sys_id>c4f3cb6f335ca690875176a59d5c7b20</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_ltin2_uw_ai_policy_version2" sys_domain="global" view="Default view">4a31b1633390a690875176a59d5c7b08</sys_ui_section><sys_updated_by>sanket</sys_updated_by><sys_updated_on>2025-03-21 18:20:29</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_ltin2_uw_ai_policy_version2</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>sanket</sys_created_by><sys_created_on>2025-03-21 12:19:05</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4a31b1633390a690875176a59d5c7b08</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_ltin2_uw_ai_policy_version2</sys_name><sys_overrides/><sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package><sys_policy/><sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope><sys_update_name>sys_ui_section_4a31b1633390a690875176a59d5c7b08</sys_update_name><sys_updated_by>sanket</sys_updated_by><sys_updated_on>2025-03-21 12:19:05</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-1556384303</payload_hash>
+        <record_name>Policy Version2</record_name>
+        <reverted_from/>
+        <source>e6c5ddab93f312d08b8674121bba10fd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-03-21 18:20:29</sys_created_on>
+        <sys_id>8cf3cb6f335ca690875176a59d5c7b23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195b9ef682e0000001</sys_recorded_at>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-03-21 18:20:29</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>04f3cb6f365ca6906a2d281107ec3323</update_guid>
+        <update_guid_history>04f3cb6f365ca6906a2d281107ec3323:-1556384303,fd130feb3b5ca690f82ba1838e7c3034:-2126772640,1d4ff6a3825ca69091465c00ca6f49c2:-1649696414,1c2526a78658a690a4f243ab3d1039af:-398182968,c77f0e2b3e94a69012c85b1d7f1e1691:-1011332016,45fe46e7c394a690dd2c5a86c3d968ad:2037182531,4d82b527d090a6907cd9a51347223a60:73077887,8582b5277790a690e9cbb6663c2fcd2c:-1584074063</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2025-04-10 12:30:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>6210db61201440709ca6bb629dc1f8e4</sys_id>
+        <sys_metadata>4a31b1633390a690875176a59d5c7b08</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_ltin2_uw_ai_policy_version2</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_parent display_value="">1d3aad633350a690875176a59d5c7be9</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_scope_delete display_value="">7c8d9985394b49b688ab893eea2dbef1</sys_scope_delete>
+        <sys_update_name>sys_ui_section_4a31b1633390a690875176a59d5c7b08</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_4a31b1633390a690875176a59d5c7b08">8cf3cb6f335ca690875176a59d5c7b23</sys_update_version>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-04-10 12:30:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

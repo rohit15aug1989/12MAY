@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_activity_type">
+    <sys_pd_activity_type action="INSERT_OR_UPDATE">
+        <color>#D9F4F9</color>
+        <default_activity_ui display_value=" Ui for initial rate premium summary">3b39d1449394aa108b8674121bba1033</default_activity_ui>
+        <icon display_value="document-outline">document_outline</icon>
+        <name>UW_Initial_Rate_Premium_Summary</name>
+        <sys_class_name>sys_pd_activity_type</sys_class_name>
+        <sys_created_by>rohit</sys_created_by>
+        <sys_created_on>2025-03-10 13:35:31</sys_created_on>
+        <sys_id>da3959049394aa108b8674121bba10d8</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>UW_Initial_Rate_Premium_Summary</sys_name>
+        <sys_package display_value="underwriter.ai" source="x_ltin2_uw_ai">5365c533935496d08b8674121bba10e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="underwriter.ai">5365c533935496d08b8674121bba10e7</sys_scope>
+        <sys_update_name>sys_pd_activity_type_da3959049394aa108b8674121bba10d8</sys_update_name>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2025-04-09 11:17:39</sys_updated_on>
+    </sys_pd_activity_type>
+</record_update>
